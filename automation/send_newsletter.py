@@ -24,7 +24,8 @@ SENT = os.path.join(REPO, "newsletter", "sent")
 API = "https://api.buttondown.com/v1/emails"
 
 FOOTER = (
-    "\n\n---\n\n*Enjoyed this? It came from a map. Follow "
+    "\n\n---\n\n*You're reading **Lines & Legends**, the Forummapping newsletter — "
+    "the lines that move the world, and the legends behind them. Follow "
     "[@forummapping on X](https://x.com/forummapping) for daily history maps, "
     "and forward this email to a friend who loves history.*"
 )
