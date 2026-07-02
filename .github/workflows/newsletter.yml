@@ -1,0 +1,42 @@
+name: Newsletter
+
+on:
+  schedule:
+    # Every 3rd day of the month at 15:00 UTC ≈ 11am US Eastern
+    - cron: '0 15 */3 * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run (no actual send)'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Send newsletter
+        env:
+          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+        run: |
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            python automation/send_newsletter.py --dry-run
+          else
+            python automation/send_newsletter.py
+          fi
+      - name: Save queue state
+        run: |
+          git config user.name "forummapping-bot"
+          git config user.email "forummapping-bot@users.noreply.github.com"
+          git add -A newsletter/
+          git commit -m "newsletter sent $(date -u +%F)" || echo "nothing to commit"
+          git pull --rebase
+          git push
