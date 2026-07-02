@@ -1,0 +1,6 @@
+{
+ "fetched_at": "2000-01-01T00:00:00+00:00",
+ "window_days": 4,
+ "items": [],
+ "note": "placeholder - real data comes from the news-fetch GitHub workflow"
+}
