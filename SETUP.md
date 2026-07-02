@@ -21,7 +21,8 @@ The push uploads ~400 images, so it may take a few minutes.
 
 ## 3. Add your X API keys as secrets
 In the repo on github.com: **Settings → Secrets and variables → Actions → New repository secret**.
-Add these four (values are in `x_api_credentials.env` in your Forummapping folder):
+
+Yes — each one is added individually: click **New repository secret**, enter the name exactly as shown below, paste the matching value, click **Add secret**, then repeat until all four are in (values are in `x_api_credentials.env` in your Forummapping folder):
 
 | Secret name | Value from env file |
 |---|---|
