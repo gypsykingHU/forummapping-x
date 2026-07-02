@@ -33,3 +33,19 @@ jobs:
           git commit -m "weekly report $(date -u +%F)" || echo "nothing to commit"
           git pull --rebase
           git push
+
+      - name: Find latest report
+        run: echo "REPORT=$(ls -t reports/*.md | head -1)" >> $GITHUB_ENV
+
+      - name: Email report
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_APP_PASSWORD }}
+          from: Forummapping Bot
+          to: forummapping@gmail.com
+          subject: "Forummapping weekly report — ${{ github.run_started_at }}"
+          body: file://${{ env.REPORT }}
