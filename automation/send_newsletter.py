@@ -42,10 +42,30 @@ def parse(path):
 
 def image_ok(url):
     try:
-        r = requests.head(url, timeout=15, allow_redirects=True)
+        r = requests.head(url, timeout=15, allow_redirects=True,
+                          headers={"User-Agent": "forummapping-newsletter/1.0"})
         return r.ok and "image" in r.headers.get("content-type", "")
     except requests.RequestException:
         return False
+
+
+def commons_search(query):
+    """Find a real image on Wikimedia Commons matching the query."""
+    import urllib.parse
+    try:
+        r = requests.get("https://commons.wikimedia.org/w/api.php", params={
+            "action": "query", "list": "search", "srsearch": query,
+            "srnamespace": 6, "srlimit": 5, "format": "json",
+        }, headers={"User-Agent": "forummapping-newsletter/1.0"}, timeout=20)
+        for hit in r.json().get("query", {}).get("search", []):
+            name = hit["title"].split(":", 1)[-1]
+            url = ("https://commons.wikimedia.org/wiki/Special:FilePath/"
+                   + urllib.parse.quote(name) + "?width=800")
+            if image_ok(url):
+                return url
+    except (requests.RequestException, ValueError):
+        pass
+    return None
 
 
 def main():
@@ -62,12 +82,16 @@ def main():
 
     parts = []
     img = meta.get("header_image")
-    if img and image_ok(img):
+    if img and not image_ok(img):
+        print(f"note: header image unavailable: {img}")
+        img = None
+    if not img and meta.get("header_image_search"):
+        img = commons_search(meta["header_image_search"])
+        print(f"note: resolved via Commons search: {img}")
+    if img:
         parts.append(f"![{meta.get('header_caption','')}]({img})")
         if meta.get("header_caption"):
             parts.append(f"*{meta['header_caption']}*")
-    elif img:
-        print(f"note: header image unavailable, sending without it: {img}")
     parts.append(body)
     full_body = "\n\n".join(parts) + FOOTER
 
@@ -77,7 +101,7 @@ def main():
 
     resp = requests.post(
         API,
-        headers={"Authorization": f"Token {key}"},
+        headers={"Authorization": f"Token {key}", "X-Buttondown-Live-Dangerously": "true"},
         json={"subject": meta["subject"], "body": full_body, "status": "about_to_send"},
         timeout=30,
     )

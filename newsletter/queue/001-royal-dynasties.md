@@ -1,6 +1,7 @@
 ---
 subject: The Family Business That Ran Europe
 header_image: https://commons.wikimedia.org/wiki/Special:FilePath/Nine%20Sovereigns%20at%20Windsor%20for%20the%20funeral%20of%20King%20Edward%20VII.jpg?width=800
+header_image_search: Nine Sovereigns Windsor 1910 kings funeral Edward VII
 header_caption: Nine reigning European kings, photographed together at Windsor in May 1910 for the funeral of Edward VII.
 ---
 In May 1910, nine kings put on their dress uniforms and posed for a single photograph at Windsor Castle. They had gathered to bury one of their own — Edward VII of Britain — and the picture they left behind is one of the strangest documents of the twentieth century. Nearly every man in it was related to nearly every other. Within a decade, most of their thrones would be gone.

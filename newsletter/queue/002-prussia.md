@@ -1,6 +1,7 @@
 ---
 subject: How Prussia Ate Germany in 64 Years
 header_image: https://commons.wikimedia.org/wiki/Special:FilePath/Wernerprokla.jpg?width=800
+header_image_search: Anton von Werner proclamation German Empire Versailles
 header_caption: Anton von Werner's painting of the proclamation of the German Empire in the Hall of Mirrors at Versailles, January 18, 1871.
 ---
 In 1807, Prussia nearly ceased to exist. Napoleon had annihilated its famous army at Jena and Auerstedt, occupied Berlin, and imposed a peace that stripped away half its territory and capped its army at 42,000 men. Sixty-four years later, a Prussian king was proclaimed German Emperor in the Hall of Mirrors at Versailles — the palace of the French kings. How a broken medium-sized kingdom became the master of continental Europe is one of the most consequential stories of the modern age.
