@@ -1,0 +1,56 @@
+name: Feed poster
+
+on:
+  schedule:
+    # UTC times ≈ 8am, 12pm, 5pm, 8:30pm US Eastern (DST)
+    - cron: '0 12 * * *'
+    - cron: '0 16 * * *'
+    - cron: '0 21 * * *'
+    - cron: '30 0 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run (no actual post)'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: poster
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - run: pip install -r requirements.txt
+
+      - name: Post to X
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_KEY_SECRET: ${{ secrets.X_API_KEY_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+        run: |
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            python automation/post_to_x.py --dry-run
+          else
+            python automation/post_to_x.py
+          fi
+
+      - name: Save posting log
+        run: |
+          git config user.name "forummapping-bot"
+          git config user.email "forummapping-bot@users.noreply.github.com"
+          git pull --rebase
+          git add content_database.csv
+          git commit -m "log: post $(date -u +%F_%H:%M)" || echo "nothing to commit"
+          git push
