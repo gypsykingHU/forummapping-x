@@ -1,9 +1,9 @@
-name: Article poster
+name: Newsletter thread
 
-# NOTE: schedule disabled — X Articles are now published via the browser-based
-# scheduled task "forummapping-x-articles" (real Articles composer, Premium+).
-# This workflow remains as a manual long-post fallback: Actions -> Run workflow.
 on:
+  schedule:
+    # 03:00 UTC on days 5,8,11,... = ~36h after each newsletter (sends 15:00 UTC on days 3,6,9,...)
+    - cron: '0 3 5-31/3 * *'
   workflow_dispatch:
     inputs:
       dry_run:
@@ -19,7 +19,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  article:
+  thread:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -27,7 +27,7 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install -r requirements.txt
-      - name: Post article
+      - name: Post newsletter thread
         env:
           X_API_KEY: ${{ secrets.X_API_KEY }}
           X_API_KEY_SECRET: ${{ secrets.X_API_KEY_SECRET }}
@@ -35,16 +35,16 @@ jobs:
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
         run: |
           if [ "${{ inputs.dry_run }}" = "true" ]; then
-            python automation/post_article.py --dry-run
+            python automation/post_newsletter_thread.py --dry-run
           else
-            python automation/post_article.py
+            python automation/post_newsletter_thread.py
           fi
       - name: Save state
         run: |
           git config user.name "forummapping-bot"
           git config user.email "forummapping-bot@users.noreply.github.com"
-          mkdir -p state
-          git add -A state/ || true
-          git commit -m "article posted $(date -u +%F)" || echo "nothing to commit"
+          mkdir -p state newsletter_threads
+          git add -A state/ newsletter_threads/ || true
+          git commit -m "newsletter thread $(date -u +%F)" || echo "nothing to commit"
           git pull --rebase
           git push
