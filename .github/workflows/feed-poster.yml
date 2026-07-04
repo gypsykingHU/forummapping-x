@@ -2,11 +2,8 @@ name: Feed poster
 
 on:
   schedule:
-    # UTC times ≈ 8am, 12pm, 5pm, 8:30pm US Eastern (DST)
-    - cron: '0 12 * * *'
-    - cron: '0 16 * * *'
-    - cron: '0 21 * * *'
-    - cron: '30 0 * * *'
+    # Every 4 hours
+    - cron: '0 */4 * * *'
   workflow_dispatch:
     inputs:
       dry_run:

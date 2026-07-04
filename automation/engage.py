@@ -1,14 +1,13 @@
 #!/usr/bin/env python3
 """Forummapping engagement module.
 
-FOLLOWS — every run: browse the verified-follower list of the seed account
-(Amazing Maps), follow up to FOLLOWS_PER_RUN new people. Runs once daily,
-so up to 10 follows/day.
-COMMENTS — max MAX_COMMENTS_PER_DAY across all runs: browse the home feed,
-rank by engagement, reply where a genuinely relevant map exists.
+COMMENTS — max MAX_COMMENTS_PER_DAY: search X for popular niche posts
+(history/geography/geopolitics), rank by engagement, reply where a genuinely
+relevant map exists. Search-based, so it works without following anyone.
 
-To change intensity, edit FOLLOWS_PER_RUN / MAX_COMMENTS_PER_DAY below and
+To change intensity, edit MAX_COMMENTS_PER_DAY below and
 the cron schedule in .github/workflows/engagement.yml.
+(Following was removed per Milan's instruction, July 2026.)
 
 Usage:
   python3 automation/engage.py --dry-run
@@ -26,12 +25,17 @@ CREATE_POST = "https://api.x.com/2/tweets"
 MEDIA_UPLOAD = "https://api.x.com/2/media/upload"
 ME = "https://api.x.com/2/users/me"
 
-SEED_HANDLES = ["Amazing_Maps"]   # source accounts for follower browsing
-FOLLOWS_PER_RUN = 10              # one run per day = 10 follows/day
 MAX_COMMENTS_PER_DAY = 5
-FOLLOWER_PAGE = 10                # follower profiles fetched per run (billed per profile)
-TIMELINE_PAGE = 25                # feed posts fetched per run
+SEARCH_PAGE = 25                  # posts fetched per run ($0.005 each)
 MIN_MATCH_SCORE = 2
+MIN_LIKES = 20                    # only engage posts that already have traction
+
+QUERIES = [
+    '(history OR empire OR "old map" OR cartography) map lang:en -is:retweet -is:reply',
+    '("in 1914" OR "in 1939" OR habsburg OR ottoman OR prussia OR byzantine) lang:en -is:retweet -is:reply',
+    '(border OR borders OR territory) (dispute OR history OR changed) lang:en -is:retweet -is:reply',
+    '(geography OR linguistics OR dialects OR ethnic groups) europe lang:en -is:retweet -is:reply',
+]
 
 REPLY_TEMPLATES = [
     "Great post — we actually made a map on exactly this:",
@@ -80,23 +84,6 @@ def own_id(session):
     return uid
 
 
-def seed_ids(session):
-    """Resolve seed handles to ids once, then cache."""
-    cache = load_json("seeds.json", {})
-    changed = False
-    for h in SEED_HANDLES:
-        if h not in cache:
-            r = session.get(f"https://api.x.com/2/users/by/username/{h}")
-            if r.ok:
-                cache[h] = r.json()["data"]["id"]
-                changed = True
-            else:
-                print(f"seed lookup failed for @{h}: {r.status_code}")
-    if changed:
-        save_json("seeds.json", cache)
-    return [{"username": h, "id": i} for h, i in cache.items()]
-
-
 def upload_media(session, path):
     mime = mimetypes.guess_type(path)[0] or "image/png"
     with open(path, "rb") as f:
@@ -123,7 +110,6 @@ def main():
     dry = "--dry-run" in sys.argv
     session = oauth()
     uid = own_id(session)
-    followed = load_json("followed.json", [])
     engaged = load_json("engaged.json", [])
     today = datetime.date.today().isoformat()
     daily = load_json("daily.json", {})
@@ -131,17 +117,22 @@ def main():
         daily = {"date": today, "comments": 0}
     rows = list(csv.DictReader(open(DB_PATH)))
 
-    # ---------- COMMENTS (daily cap shared across runs) ----------
+    # ---------- COMMENTS (daily cap, search-based) ----------
     comments = 0
     if daily["comments"] < MAX_COMMENTS_PER_DAY:
-        r = session.get(f"https://api.x.com/2/users/{uid}/timelines/reverse_chronological", params={
-            "max_results": TIMELINE_PAGE,
+        query = QUERIES[datetime.date.today().toordinal() % len(QUERIES)]
+        r = session.get("https://api.x.com/2/tweets/search/recent", params={
+            "query": query,
+            "max_results": SEARCH_PAGE,
             "tweet.fields": "public_metrics,author_id",
         })
         if r.ok:
-            feed = [t for t in r.json().get("data", []) if t.get("author_id") != uid]
+            feed = [t for t in r.json().get("data", []) if t.get("author_id") != uid
+                    and t.get("public_metrics", {}).get("like_count", 0) >= MIN_LIKES]
             feed.sort(key=lambda t: t.get("public_metrics", {}).get("like_count", 0)
                       + 3 * t.get("public_metrics", {}).get("reply_count", 0), reverse=True)
+            if not feed:
+                print(f"note: search returned no posts with ≥{MIN_LIKES} likes for today's query")
             for post in feed:
                 if daily["comments"] + comments >= MAX_COMMENTS_PER_DAY:
                     break
@@ -169,51 +160,11 @@ def main():
         else:
             print(f"feed fetch failed {r.status_code}: {r.text[:150]}")
 
-    # ---------- FOLLOWS: verified followers of the seed account ----------
-    follows = 0
-    seeds = seed_ids(session)
-    if seeds:
-        cursors = load_json("pagination.json", {})
-        seed = seeds[datetime.datetime.now().hour // 4 % len(seeds)]
-        params = {"max_results": FOLLOWER_PAGE, "user.fields": "verified,username,public_metrics"}
-        if cursors.get(seed["id"]):
-            params["pagination_token"] = cursors[seed["id"]]
-        r = session.get(f"https://api.x.com/2/users/{seed['id']}/followers", params=params)
-        if r.ok:
-            payload = r.json()
-            nxt = payload.get("meta", {}).get("next_token")
-            cursors[seed["id"]] = nxt
-            if not dry:
-                save_json("pagination.json", cursors)
-            candidates = [u for u in payload.get("data", [])
-                          if u["id"] not in followed and u["id"] != uid]
-            candidates.sort(key=lambda u: not u.get("verified", False))  # verified first
-            for u in candidates:
-                if follows >= FOLLOWS_PER_RUN:
-                    break
-                if dry:
-                    print(f"WOULD FOLLOW @{u.get('username')} (verified follower of @{seed['username']})")
-                else:
-                    resp = session.post(f"https://api.x.com/2/users/{uid}/following",
-                                        json={"target_user_id": u["id"]})
-                    if not resp.ok:
-                        print(f"follow failed {resp.status_code}: {resp.text[:150]}")
-                        continue
-                    time.sleep(3)
-                followed.append(u["id"])
-                follows += 1
-            if follows < FOLLOWS_PER_RUN:
-                print(f"note: {follows} new accounts on this page of "
-                      f"@{seed['username']}'s followers — next run continues from the next page")
-        else:
-            print(f"follower fetch failed {r.status_code}: {r.text[:150]}")
-
     if not dry:
         daily["comments"] += comments
         save_json("daily.json", daily)
-        save_json("followed.json", followed)
         save_json("engaged.json", engaged[-2000:])
-    print(f"done: {comments} comments, {follows} follows")
+    print(f"done: {comments} comments")
 
 
 if __name__ == "__main__":

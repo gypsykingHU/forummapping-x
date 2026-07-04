@@ -1,13 +1,12 @@
-name: Thread poster
+name: Hourly pulse (facts + breaking news)
 
 on:
   schedule:
-    # Daily, 17:00 UTC ≈ 1pm US Eastern
-    - cron: '0 17 * * *'
+    - cron: '5 * * * *'   # every hour
   workflow_dispatch:
     inputs:
       dry_run:
-        description: 'Dry run (no actual post)'
+        description: 'Dry run (no actual posts)'
         type: boolean
         default: false
 
@@ -19,7 +18,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  thread:
+  pulse:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -27,23 +26,23 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install -r requirements.txt
-      - name: Post thread
+      - name: Post fact + news
         env:
           X_API_KEY: ${{ secrets.X_API_KEY }}
           X_API_KEY_SECRET: ${{ secrets.X_API_KEY_SECRET }}
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
         run: |
-          if [ "${{ inputs.dry_run }}" = "true" ]; then
-            python automation/post_thread.py --dry-run
-          else
-            python automation/post_thread.py
-          fi
-      - name: Save queue state
+          FLAG=""
+          if [ "${{ inputs.dry_run }}" = "true" ]; then FLAG="--dry-run"; fi
+          python automation/post_fact.py $FLAG
+          python automation/news_tweeter.py $FLAG
+      - name: Save state
         run: |
           git config user.name "forummapping-bot"
           git config user.email "forummapping-bot@users.noreply.github.com"
-          git add -A threads/
-          git commit -m "thread posted $(date -u +%F)" || echo "nothing to commit"
+          mkdir -p state
+          git add facts.csv state/ || true
+          git commit -m "pulse $(date -u +%F_%H:%M)" || echo "nothing to commit"
           git pull --rebase
           git push
