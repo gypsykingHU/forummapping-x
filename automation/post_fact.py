@@ -22,10 +22,10 @@ def oauth():
 
 
 def main():
-    # runs hourly via the pulse workflow, but only posts every 3rd hour (8/day)
+    # runs hourly via the pulse workflow, but only posts every 2nd hour (12/day)
     hour = datetime.datetime.now(datetime.timezone.utc).hour
-    if hour % 3 != 0 and "--force" not in sys.argv and "--dry-run" not in sys.argv:
-        print(f"hour {hour} — not a fact hour (every 3rd), skipping")
+    if hour % 2 != 0 and "--force" not in sys.argv and "--dry-run" not in sys.argv:
+        print(f"hour {hour} — not a fact hour (every 2nd), skipping")
         return
     with open(FACTS, newline="", encoding="utf-8") as f:
         reader = csv.DictReader(f)
