@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Forummapping breaking-news tweeter (hourly).
+"""Forummapping breaking-news tweeter.
 
-Fetches world/economy RSS feeds, filters to geopolitical/economic stories,
-and tweets every new item (deduped via state). No volume cap by design,
-but MAX_PER_RUN prevents burst-flooding if feeds hiccup.
+Runs inside the hourly pulse but only acts every 4th hour, and posts exactly
+ONE story per run (the freshest new geopolitical/economic item from the RSS
+feeds, deduped via state) — per Milan's spec: one breaking-news post every
+4 hours, not a burst.
 
 First run: seeds the dedupe state without tweeting (prevents a flood of
 old items when the module goes live).
@@ -37,7 +38,7 @@ KEYWORDS = re.compile(r"\b(" + "|".join([
     "prime minister", "president-elect", "government collapse", "no-confidence",
 ]) + r")", re.I)
 
-MAX_PER_DAY = 5
+MAX_PER_DAY = 6   # safety ceiling; the every-4th-hour gate is the real limit
 WINDOW_HOURS = 6
 DAILY_STATE = os.path.join(REPO, "state", "news_daily.json")
 
@@ -78,6 +79,11 @@ def collect():
 
 def main():
     dry = "--dry-run" in sys.argv
+    # pulse runs hourly; news posts only every 4th hour (one story per run)
+    hour = datetime.datetime.now(datetime.timezone.utc).hour
+    if hour % 4 != 0 and not dry and "--force" not in sys.argv:
+        print(f"hour {hour} — not a news hour (every 4th), skipping")
+        return
     try:
         seen = json.load(open(STATE))
     except (OSError, ValueError):
@@ -100,14 +106,11 @@ def main():
         daily = {}
     if daily.get("date") != today:
         daily = {"date": today, "count": 0}
-    quota = MAX_PER_DAY - daily["count"]
-    if quota <= 0:
-        print("daily news cap (5) reached")
-        return
 
-    fresh = [i for i in items if i["id"] not in seen][:quota]
+    # newest first, exactly one story per run
+    fresh = [i for i in reversed(items) if i["id"] not in seen][:1]
     if not fresh:
-        print("no new matching stories this hour")
+        print("no new matching stories this cycle")
         return
 
     session = None if dry else oauth()
