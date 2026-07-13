@@ -1,0 +1,27 @@
+{
+  "id": "018-corruption-perceptions-index",
+  "posts": [
+    {
+      "text": "Denmark and New Zealand score near-perfect on this map. Venezuela, Somalia and Syria score near zero.\n\nThe world's corruption, mapped — a thread 🧵🗺️\n\nData: Our World in Data (CC BY)",
+      "image": "owid-corruption-perception-index.png"
+    },
+    {
+      "text": "1/ The index averages over a dozen surveys of businesspeople and experts on how corrupt a country's public sector appears, scored 0 (highly corrupt) to 100 (very clean). It's perception, not a direct count — but it tracks closely with harder measures like bribery surveys."
+    },
+    {
+      "text": "2/ The cleanest cluster is unmistakable: Scandinavia, New Zealand, Singapore and a handful of small, wealthy, high-trust states consistently top the ranking year after year."
+    },
+    {
+      "text": "3/ The darkest band runs through conflict states and collapsed governments: Somalia, Syria, Venezuela, South Sudan — places where war or authoritarian collapse hollowed out the institutions that would normally check corruption."
+    },
+    {
+      "text": "4/ Notice the US and much of Western Europe sit in the middle-to-clean range, not the very top — wealth alone doesn't buy a clean score. Italy and Greece score notably lower than their Western European neighbors."
+    },
+    {
+      "text": "5/ China and Russia — both major powers — sit deep in the red zone, closer to much poorer states than to other G20 economies. The index doesn't track GDP; it tracks institutions."
+    },
+    {
+      "text": "6/ Empires used to compete for land. This map is a scoreboard for something quieter: whether a state's own rules actually apply to the people running it.\n\nFollow @forummapping for more maps like this."
+    }
+  ]
+}
