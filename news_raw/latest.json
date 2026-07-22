@@ -1,223 +1,188 @@
 {
- "fetched_at": "2026-07-19T07:40:19+00:00",
+ "fetched_at": "2026-07-22T07:55:25+00:00",
  "window_days": 4,
  "items": [
   {
    "outlet": "BBC World",
-   "title": "US and Iran exchange strikes after two US soldiers killed in Jordan",
-   "summary": "US forces target Iranian sites for the eighth night in a row, while Iran says it fired drones at the US military in Kuwait.",
-   "link": "https://www.bbc.co.uk/news/articles/cgk417jp83po?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-19T05:10:57+00:00"
+   "title": "Zelensky sacks Ukraine's top army commander after days of protests",
+   "summary": "Oleksandr Syrskyi is dismissed after backlash over the removal of popular Defence Minister Mykhailo Fedorov.",
+   "link": "https://www.bbc.co.uk/news/articles/cyvl35z3917o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-22T05:37:43+00:00"
   },
   {
    "outlet": "BBC World",
-   "title": "Andrew Tate and brother arrested in US after more charges laid against them in UK",
-   "summary": "The Crown Prosecution Service says it has requested their extradition from the US, while their lawyer says they are innocent.",
-   "link": "https://www.bbc.co.uk/news/articles/cwymly9yd33o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-19T02:17:07+00:00"
+   "title": "More warehouses of Russian online retailer Wildberries hit by Ukraine, officials say",
+   "summary": "Logistics hubs belonging to Wildberries in the Krasnodar and Stavropol regions were struck overnight on Tuesday.",
+   "link": "https://www.bbc.co.uk/news/articles/c36de9n4pxpo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-22T07:38:20+00:00"
   },
   {
    "outlet": "BBC World",
-   "title": "Russians turn to cash, putting more strain on slowing wartime economy",
-   "summary": "Russians have been hit by mobile internet shutdowns and more businesses are seeking to dodge tax after more than four years of war with Ukraine.",
-   "link": "https://www.bbc.co.uk/news/articles/cglj255jk8ko?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-18T23:59:26+00:00"
+   "title": "US renews strikes on Iran as Trump threatens to attack underground nuclear site",
+   "summary": "The US president's threat to target a key Iranian nuclear site came ahead of the 11th consecutive night of attacks.",
+   "link": "https://www.bbc.co.uk/news/articles/cdrv0p37k8jo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-22T03:05:08+00:00"
   },
   {
    "outlet": "BBC World",
-   "title": "Russian online retail warehouses hit by deadly Ukrainian strikes",
-   "summary": "Drones targeted Wildberries facilities near Moscow and in Tambov. Ukraine's leader called them \"major logistics facilities\" supplying \"sanctioned components\".",
-   "link": "https://www.bbc.co.uk/news/articles/clyxlm877p2o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-18T13:06:25+00:00"
+   "title": "France passes law banning under-15s from social media",
+   "summary": "The law will require social media platforms in France to verify all users age from January.",
+   "link": "https://www.bbc.co.uk/news/articles/cq56l9p4y93o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-22T03:50:55+00:00"
   },
   {
    "outlet": "BBC World",
-   "title": "Hungary's president agrees to stand down after parliament backs removal",
-   "summary": "Tamás Sulyok, seen as an Orbán loyalist, had until Saturday night to agree to end his term.",
-   "link": "https://www.bbc.co.uk/news/articles/cpd7q7eev7po?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-18T19:34:16+00:00"
+   "title": "Tokyo urges men to wear shorts to work, but some women say it's 'leg hair harassment'",
+   "summary": "The Tokyo Metropolitan Government wants workers to ditch the suit and tie for t-shirts, trainers - and shorts.",
+   "link": "https://www.bbc.co.uk/news/articles/cvgwp513jpvo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-21T22:26:19+00:00"
   },
   {
    "outlet": "BBC World",
-   "title": "New EU border system tripling time at passport control, airport boss says",
-   "summary": "Ryanair has also warned passengers travelling to Europe this summer to prepare for extended waits.",
-   "link": "https://www.bbc.co.uk/news/articles/ckg5gg6n9x3o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-19T01:47:59+00:00"
+   "title": "Michelin-starred restaurateur faces jail for using ants as dessert garnish",
+   "summary": "Officials say the restaurant in South Korea used some 49,000 ants in various dishes over four years.",
+   "link": "https://www.bbc.co.uk/news/articles/c62qw1qk95eo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-22T03:32:56+00:00"
   },
   {
    "outlet": "BBC World",
-   "title": "German politician resigns over surrogacy child controversy",
-   "summary": "Jens Spahn faced criticism over his use of a surrogate, a ban on which he previously backed.",
-   "link": "https://www.bbc.co.uk/news/articles/cq56e9n1ddzo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-18T15:23:31+00:00"
+   "title": "Iran war has cost US $37.5bn so far, Hegseth says, as Pentagon seeks billions more",
+   "summary": "The hearing was disrupted by protests and a shouting match as Hegseth testified at a pivotal time in the war.",
+   "link": "https://www.bbc.co.uk/news/articles/c70gek2kqyno?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-22T02:15:05+00:00"
   },
   {
    "outlet": "BBC World",
-   "title": "Space start-up launches India’s first commercial rocket designed for orbit",
-   "summary": "India's first space-tech unicorn Skyroot Aerospace successfully launched Vikram-1 on Saturday.",
-   "link": "https://www.bbc.co.uk/news/articles/clyekv7rld3o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-18T07:05:19+00:00"
+   "title": "Rebel Wilson cleared in defamation case brought by actress in her own film",
+   "summary": "Wilson was accused of defaming young Australian actress Charlotte MacInnes, but cleared by a Sydney court.",
+   "link": "https://www.bbc.co.uk/news/articles/c80nv4eevero?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-22T05:33:04+00:00"
   },
   {
    "outlet": "BBC World",
-   "title": "Laos says it can't determine cause of tourist deaths linked to methanol",
-   "summary": "Officials say they have no evidence of poisoning over the 2024 deaths because autopsies were not conducted.",
-   "link": "https://www.bbc.co.uk/news/articles/cdx8rj99endo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-18T11:10:20+00:00"
+   "title": "Gruesome images in D4vd hearing are 'worst nightmare' for teen girl's family",
+   "summary": "The court hears the singer ordered a body bag, chainsaws and an inflatable pool to dispose of the teen's body.",
+   "link": "https://www.bbc.co.uk/news/articles/c4g4lyze30vo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-22T02:33:11+00:00"
   },
   {
    "outlet": "BBC World",
-   "title": "Trump threatens new Canada tariffs over fires sending 'filthy' air into US cities",
-   "summary": "Canadian leader Mark Carney says both the US and Canada have an equal responsibility to fight climate change, which experts say are worsening wildfire conditions.",
-   "link": "https://www.bbc.co.uk/news/articles/cwyq93j34lgo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-18T17:29:50+00:00"
+   "title": "Lebanese army says troops deploying in 'pilot zone' after Israeli withdrawal",
+   "summary": "A US-brokered agreement should see Israeli troops pulling out of a small part of Lebanon occupied during their conflict with Hezbollah.",
+   "link": "https://www.bbc.co.uk/news/articles/cy8mynlmn55o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-21T18:07:34+00:00"
   },
   {
    "outlet": "BBC World",
-   "title": "Indian activist on hunger strike for 20 days forcibly taken to hospital",
-   "summary": "Cockroach Janta Party founder Abhijeet Dipke has now begun an indefinite fast in Sonam Wangchuk's place.",
-   "link": "https://www.bbc.co.uk/news/articles/cjej3dxxg2do?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-18T05:58:48+00:00"
+   "title": "Carney looking at 'all options' as Trump announces 50% tariffs on Canada",
+   "summary": "The duties mark a major escalation in trade tensions between the North American neighbours.",
+   "link": "https://www.bbc.co.uk/news/articles/cg4dzq3x3e1o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-21T17:33:22+00:00"
   },
   {
    "outlet": "BBC World",
-   "title": "Many Ukrainian soldiers outraged over removal of defence minister, troops tell BBC",
-   "summary": "Protests erupted in Ukraine on Thursday after Mykhailo Fedorov's removal - and now soldiers are also criticising the move.",
-   "link": "https://www.bbc.co.uk/news/articles/cvg8w4dpjkwo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-17T19:04:09+00:00"
+   "title": "Japan temperatures soar over 40C, marking first 'cruelly hot day'",
+   "summary": "The term was introduced in April by the weather agency to describe days when temperatures reach 40C.",
+   "link": "https://www.bbc.co.uk/news/articles/cp3rz07grngo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-22T07:00:24+00:00"
   },
   {
    "outlet": "BBC World",
-   "title": "White House defends Argentina team over Falklands banner",
-   "summary": "The comments could further fuel the row over the incident, which has seen Downing Street back calls for Fifa to investigate.",
-   "link": "https://www.bbc.co.uk/news/articles/cx2rmjk0740o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-17T22:12:54+00:00"
+   "title": "Dozens hurt in Bologna protests after man dies while being restrained by police",
+   "summary": "Thousands of people took to the streets demanding justice for a Moroccan-born man who died on Sunday.",
+   "link": "https://www.bbc.co.uk/news/articles/c86nwgw148xo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-21T12:48:37+00:00"
   },
   {
    "outlet": "BBC World",
-   "title": "One anti-war critic fined, another held as Russia clamps down on dissent",
-   "summary": "While Boris Nadezhdin is barred from running for parliament, blogger Ilya Remeslo is remanded in custody.",
-   "link": "https://www.bbc.co.uk/news/articles/cn0n3y6ewn4o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-17T20:00:54+00:00"
+   "title": "Two French firefighters die tackling blaze near Bordeaux airport",
+   "summary": "The blaze close to the parking lots at Bordeaux-Mérignac Airport is said to have originated from a brush fire.",
+   "link": "https://www.bbc.co.uk/news/articles/cy0j9yyed1lo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-21T16:44:30+00:00"
   },
   {
    "outlet": "BBC World",
-   "title": "EU proposes slowing down cuts to carbon emissions for businesses",
-   "summary": "Under the proposals, the EU plans to relax its emissions trading system to give companies more time to reduce their carbon output.",
-   "link": "https://www.bbc.co.uk/news/articles/ckgv0zd497zo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-17T18:34:04+00:00"
+   "title": "Israeli strikes in Gaza kill 12, including family of six, medics say",
+   "summary": "Firas al-Masri, his wife and their four children died in one attack, which the Israeli military says targeted a Hamas operative.",
+   "link": "https://www.bbc.co.uk/news/articles/c0qv0pdj18go?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-21T15:54:11+00:00"
   },
   {
    "outlet": "BBC World",
-   "title": "Magnitude 7.3 earthquake quake strikes off Mexico coast",
-   "summary": "The US Tsunami Warning Center has recorded waves 0.3m (1.1 feet) high in Puerto Madero and Chiapas in Mexico after the quake.",
-   "link": "https://www.bbc.co.uk/news/articles/cwyjv3815yxo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-17T18:12:54+00:00"
+   "title": "Meet the women breaking world records in lumberjack sports",
+   "summary": "The BBC finds out what is driving the sports' increasing popularity with women and what it takes to be the best.",
+   "link": "https://www.bbc.co.uk/news/articles/c6293zk14njo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-22T05:06:35+00:00"
   },
   {
    "outlet": "BBC World",
-   "title": "Trump alleges China meddled in 2020 election and questions voting security ahead of midterms",
-   "summary": "China said Trump's claims were fabricated and US Democrats said he was paving the way to undermine November's elections.",
-   "link": "https://www.bbc.co.uk/news/articles/cx2k9wvv5wyo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-17T11:37:00+00:00"
+   "title": "Why Iran is risking so much over the Strait of Hormuz",
+   "summary": "None of the choices facing Iran’s leaders offer a clear path to victory, as the conflict with the US continues.",
+   "link": "https://www.bbc.co.uk/news/articles/cwymx3eevpjo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-21T14:36:47+00:00"
   },
   {
    "outlet": "BBC World",
-   "title": "Trump Media to sell instant access to 'market-moving' social posts",
-   "summary": "Trump Media is launching a fast, paid feed to its most influential posts for Wall Street traders.",
-   "link": "https://www.bbc.co.uk/news/articles/c79gw4lj89eo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-17T07:25:31+00:00"
+   "title": "Why are thousands protesting for education reform in India?",
+   "summary": "Thousands of mostly young people tried to march on India's parliament to demand changes to how the education system is run.",
+   "link": "https://www.bbc.co.uk/news/articles/cedj9j911p8o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-21T10:01:59+00:00"
   },
   {
    "outlet": "BBC World",
-   "title": "Private jets flock to Montana - but locals can't afford the trailer park",
-   "summary": "Rents in Bozeman, Montana have skyrocketed as wealthy out-of-towners flock to the city to experience the American West.",
-   "link": "https://www.bbc.co.uk/news/articles/ckg92d8d40yo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-18T23:44:04+00:00"
+   "title": "‘All I think about is her’: Families demand answers as Nigeria's boat disasters keep happening",
+   "summary": "Hundreds of lives are lost each year in Nigeria as a result of boat accidents yet nothing seems to change.",
+   "link": "https://www.bbc.co.uk/news/articles/c309vzn676go?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-20T17:16:20+00:00"
   },
   {
    "outlet": "BBC World",
-   "title": "Why the World Cup half-time show may be a taste of things to come",
-   "summary": "The 2026 World Cup's spectacle is creating debate about the place of music in sport - and how it could infiltrate other tournaments.",
-   "link": "https://www.bbc.co.uk/news/articles/cwyr498vqqpo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-19T01:11:23+00:00"
+   "title": "Why WhatsApp usernames could upset Somalia's anti-terror fight",
+   "summary": "People will be able to chat without revealing their contact number once the new feature is rolled out.",
+   "link": "https://www.bbc.co.uk/news/articles/ce97zxdkeyyo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-21T23:46:35+00:00"
   },
   {
    "outlet": "BBC World",
-   "title": "Control, threats, disfiguring surgery: My life inside Jeffrey Epstein's 'cult'",
-   "summary": "\"Anya\" gives the BBC a rare account of how sex-criminal financier Epstein lured and abused his “assistants”.",
-   "link": "https://www.bbc.co.uk/news/articles/czek5wl6p2go?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-18T05:10:44+00:00"
+   "title": "Beluga whales relocated from closed Canadian marine park arrive in US",
+   "summary": "Six beluga whales have arrived in the US after being moved from a Canadian marine park that could no longer care for them.",
+   "link": "https://www.bbc.co.uk/news/videos/ckg4x8lpe50o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-22T05:03:42+00:00"
   },
   {
    "outlet": "BBC World",
-   "title": "What this desert city can teach the world about tackling heat deaths",
-   "summary": "Maricopa County in Arizona has some of the hottest temperatures, but it has reduced the number of heat-related deaths.",
-   "link": "https://www.bbc.co.uk/news/articles/cgl3lnpxy6no?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-17T23:56:08+00:00"
+   "title": "Watch Texas police officer pull man from burning car",
+   "summary": "Bodycam and dashcam footage shows a police officer rescue a man seconds before his car was engulfed in flames in Texas.",
+   "link": "https://www.bbc.co.uk/news/videos/clyej920j5po?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-21T13:01:09+00:00"
   },
   {
    "outlet": "BBC World",
-   "title": "Kim Jong Un was meant to be their only idol - then North Koreans discovered K-pop",
-   "summary": "Defectors tell the BBC that despite restrictions, K-pop has cut through in the stifling dictatorship.",
-   "link": "https://www.bbc.co.uk/news/articles/c0jygjezvlwo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-17T22:14:12+00:00"
+   "title": "Watch: Flooded towns and evacuations as Chile hit by heavy rain",
+   "summary": "A \"state of catastrophe\" has been declared in Coquimbo and Huasco following the downpour.",
+   "link": "https://www.bbc.co.uk/news/videos/cy9wq8j2p7qo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-21T11:21:47+00:00"
   },
   {
    "outlet": "BBC World",
-   "title": "He made history in Congress - then the Supreme Court changed its mind",
-   "summary": "Residents say they're afraid that if Shomari Figures loses his seat, their federal-funding could disappear with him.",
-   "link": "https://www.bbc.co.uk/news/articles/cn949jvjxplo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-18T01:35:33+00:00"
+   "title": "From hundreds to thousands: How India's 'cockroach' protest movement has grown",
+   "summary": "BBC's Azadeh Moshiri reports as thousands attempt to march to India's parliament in support of the Cockroach Janta Party's demand for education reforms.",
+   "link": "https://www.bbc.co.uk/news/videos/c0qvdywj97ko?at_medium=RSS&at_campaign=rss",
+   "published": "2026-07-20T08:41:22+00:00"
   },
   {
-   "outlet": "BBC World",
-   "title": "How these twins' rare growth disorder could provide the key to preventing cancer",
-   "summary": "Researchers have found that people with Laron syndrome have a lower incidence of cancer than the wider population.",
-   "link": "https://www.bbc.co.uk/news/articles/c8jnlmek8reo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-17T23:24:37+00:00"
+   "outlet": "The Guardian World",
+   "title": "Health worker monitored for Ebola in London hospital after working in DRC",
+   "summary": "UK resident was evacuated from Democratic Republic of the Congo where there is an outbreak of the diseaseA humanitarian worker is being monitored at a specialist hospital in London after potential exposure to the Ebola virus.The UK resident was medically evacuated from the Democratic Republic of the Congo (DRC) where the worker had been treating patients with the disease, the UK Health Security Agency (UKHSA) said. Continue reading...",
+   "link": "https://www.theguardian.com/world/2026/jul/21/health-worker-being-monitored-for-ebola-in-london-hospital-after-working-in-drc",
+   "published": "2026-07-21T22:39:00+00:00"
   },
   {
-   "outlet": "BBC World",
-   "title": "Brad Pitt's children are dropping their dad's surname - here's why I did the same",
-   "summary": "Hannah had used her mother's maiden name on her social media for years before she legally made the change.",
-   "link": "https://www.bbc.co.uk/news/articles/cx2ln9l60g5o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-18T01:48:16+00:00"
-  },
-  {
-   "outlet": "BBC World",
-   "title": "Helicopters dump water as huge Norway fire destroys homes",
-   "summary": "The blaze has destroyed more than 100 homes in Drammen and has spread to a nearby forest, authorities say.",
-   "link": "https://www.bbc.co.uk/news/videos/c4gj5944n4ko?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-18T07:13:07+00:00"
-  },
-  {
-   "outlet": "BBC World",
-   "title": "Bodycam footage shows airlift of girl stranded by Texas floods",
-   "summary": "Footage shows a rescuer reaching a family of three stranded by floods that destroyed their house in Uvalde county.",
-   "link": "https://www.bbc.co.uk/news/videos/c36d1n6g3x9o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-17T10:51:40+00:00"
-  },
-  {
-   "outlet": "BBC World",
-   "title": "Watch: What we know about newly discovered monkey species",
-   "summary": "New monkey species hailed as 'amazing discovery' by conservationist.",
-   "link": "https://www.bbc.co.uk/news/videos/cx25glwll79o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-16T14:50:05+00:00"
-  },
-  {
-   "outlet": "BBC World",
-   "title": "Watch: What to know as Genoa bridge disaster trial ends",
-   "summary": "More than 50 defendants have been on trial in Italy over the 2018 bridge collapse which killed 43 people.",
-   "link": "https://www.bbc.co.uk/news/videos/cgewd07ee3go?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-16T18:52:01+00:00"
-  },
-  {
-   "outlet": "BBC World",
-   "title": "Orange haze from Canada wildfires seen in Ontario and northern US",
-   "summary": "There are currently 838 wildfires actively burning across the country, according to the Canadian Interagency Forest Fire Centre.",
-   "link": "https://www.bbc.co.uk/news/videos/c62q3kw126xo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-07-16T00:33:23+00:00"
+   "outlet": "The Guardian World",
+   "title": "Healthy diet too expensive for one in three people globally, UN report finds",
+   "summary": "Global hunger declined for the third year in a row in 2025 but experts call for action to bring down costs of fruit, vegetables and dairy as report shows 2.69bn people can’t afford to eat wellOne in three people cannot afford to eat a healthy diet, a new report has found, prompting calls for urgent action on food affordability.There are 2.69 billion people unable to afford a diverse diet that meets their energy and nutrient needs, and it will take “immense” amounts of work to achieve the global ",
+   "link": "https://www.theguardian.com/global-development/2026/jul/21/healthy-diet-too-expensive-for-one-in-three-people-globally-un-report-finds",
+   "published": "2026-07-21T10:00:42+00:00"
   },
   {
    "outlet": "The Guardian World",
@@ -228,955 +193,892 @@
   },
   {
    "outlet": "The Guardian World",
-   "title": "‘We are preserving a tradition’: how Ghana’s sensationalist film posters became collectible art",
-   "summary": "Hand-painted works are often wildly unfaithful to the movies they portray – reinterpretations that sometimes resulted in threats, insults and even physical attacks from viewers who felt dupedSitting on his porch in Teshie near Accra, Heavy J dipped a brush into red oil paint and dabbed it carefully on to his canvas – a flour sack – adding blood to a knife being wielded by a man. Higher on the canvas, he had started on an outline of a skull.Heavy J was creating a poster, but not as you might have",
-   "link": "https://www.theguardian.com/world/2026/jul/18/ghana-sensationalist-film-posters-collectible-art",
-   "published": "2026-07-18T04:00:47+00:00"
+   "title": "Trump announces new tariffs on generic drugs to take effect in 2028 – as it happened",
+   "summary": "This live blog is now closed.Sign up for US Breaking News emailUS gas prices have continued to rise since the conflict with Iran resumed this month. According to the American Automobile Association (AAA), a gallon of fuel is now just over $4 –&nbsp;almost a dollar more than a year ago.It comes as Brent Crude, the international oil benchmark, is now up by almost 2% to $90.92 a barrel. Continue reading...",
+   "link": "https://www.theguardian.com/us-news/live/2026/jul/21/donald-trump-tariffs-canada-mark-carney-lebanon-republicans-gop-spending-bill-latest-news-updates",
+   "published": "2026-07-22T01:57:35+00:00"
   },
   {
    "outlet": "The Guardian World",
-   "title": "Seven Americans quarantining at Kenya Ebola facility after US travel ban, says aid group",
-   "summary": "Aid workers are first known people to quarantine at facility, which sparked huge opposition in Kenya Seven American aid workers who had been in Congo to fight the Ebola outbreak are quarantining at a new isolation facility in ⁠Kenya after the US government introduced travel ⁠restrictions, the head of a US charity ​employing them told Reuters.The aid workers are the first known people to quarantine at the facility, which has sparked huge opposition in Kenya and is at the heart of a legal case in ",
-   "link": "https://www.theguardian.com/us-news/2026/jul/17/ebola-us-aid-workers-kenya",
-   "published": "2026-07-17T12:17:14+00:00"
+   "title": "Canada cancels joint bridge-opening celebration with US amid trade tensions",
+   "summary": "The ribbon-cutting celebration of the Gordie Howe International Bridge is no longer taking place after Trump announced a 50% tariff on Canadian goodsA planned joint US-Canada ceremony Friday celebrating the opening of the Gordie Howe International Bridge connecting Detroit and Windsor, Ontario, is no longer expected to take place after Donald Trump announced a 50% tariff on most Canadian goods.In announcing the tariffs, the president accused Canada of unfairly discriminating against US automobil",
+   "link": "https://www.theguardian.com/us-news/2026/jul/21/gordie-howe-bridge-opening-celebration-canceled",
+   "published": "2026-07-22T00:58:40+00:00"
   },
   {
    "outlet": "The Guardian World",
-   "title": "UK aid cuts ‘reduce bilateral support to some African countries by 90%’",
-   "summary": "Critics say Foreign Office figures send ‘global message about the role the country wants to play on international stage’Labour’s foreign aid cuts mean reductions of as much as 90% in the bilateral support the UK will give to some African countries, Foreign Office figures show.The department’s annual report includes a long-awaited breakdown of how the reduction in the aid budget will affect individual countries for the next three years. Continue reading...",
-   "link": "https://www.theguardian.com/politics/2026/jul/16/uk-aid-cuts-bilateral-support-african-countries",
-   "published": "2026-07-16T15:20:58+00:00"
+   "title": "Spanish hotel chain ceases operations in Cuba under pressure from Washington",
+   "summary": "Meliá group says Donald Trump’s sanctions make it ‘impossible’ to keep any of its 34 sites openA Spanish hotel chain is to cease all operations in Cuba at the end of the week due to “major difficulties” in doing business on the island under growing pressure from Washington.The latest US sanctions make it “impossible, de facto and de jure, to maintain even minimal operational stability”, the Meliá group explained in a statement on Tuesday to the Spanish stock market regulator. Continue reading...",
+   "link": "https://www.theguardian.com/world/2026/jul/21/spanish-hotel-chain-ceases-operations-cuba-sanctions-trump",
+   "published": "2026-07-21T15:10:35+00:00"
   },
   {
    "outlet": "The Guardian World",
-   "title": "Uganda calls for travel restrictions to be lifted after last Ebola patient discharged",
-   "summary": "Country begins 42-day countdown to outbreak being declared officially over, as numbers continue to rise in neighbouring Democratic Republic of the CongoUganda has started lobbying countries to lift Ebola-related travel restrictions after discharging its last confirmed Ebola patient from hospital.The discharge of a Congolese national from the Mulago national referral hospital’s isolation centre in Kampala on Thursday triggered the start of a 42-day countdown required by the World Health Organizat",
-   "link": "https://www.theguardian.com/global-development/2026/jul/16/uganda-travel-restrictions-last-ebola-patient-discharged",
-   "published": "2026-07-16T11:33:27+00:00"
+   "title": "US claims of Cuba’s ‘unique threat’ jar with reality of hunger and blackouts",
+   "summary": "State department’s 100-page report is latest push in Trump administration campaign to bring down governmentThe US government’s latest allegations that Cuba is behind “many of the most significant upheavals in recent American political history” and that its leaders pose “a unique threat to American homeland security” have come as startling revelations to those living under the six-month-long US oil blockade in Havana, where desperate people search through piles of uncollected rubbish for food, or",
+   "link": "https://www.theguardian.com/world/2026/jul/21/us-state-department-report-cuba",
+   "published": "2026-07-21T13:33:35+00:00"
   },
   {
    "outlet": "The Guardian World",
-   "title": "Flash flood warnings strike north-east US amid wildfire smoke from Canada",
-   "summary": "Poor air quality from wildfires continues to plague New York City as several neighborhoods hit by thunderstormsSaturday is delivering a double dose of dangerous weather across the north-eastern US, with smoky skies from Canadian wildfires giving way to severe thunderstorms that have already triggered a flash flood warning as torrential rain pounds parts of the region.After a brief break on Friday, smoke from the wildfires moved back into New York City and surrounding communities on Saturday, sen",
-   "link": "https://www.theguardian.com/us-news/2026/jul/18/flash-flood-weather-north-east-us",
-   "published": "2026-07-18T19:11:13+00:00"
+   "title": "We received no alert, say leaders of First Nations communities razed by Canadian wildfires",
+   "summary": "Chiefs in Ontario say they were left to self-evacuate before homes burned to ground, after being told there was no imminent threatFast-moving wildfires have burned two First Nations communities in Canada to the ground, as members said they were left to self-evacuate without government help or emergency alerts.Thirteen communities in Ontario province have been ordered to evacuate because of wildfires, most of them First Nations. The Ontario premier, Doug Ford, told reporters on Monday that close ",
+   "link": "https://www.theguardian.com/world/2026/jul/21/first-nations-ontario-canada-wildfires-evacuations-government",
+   "published": "2026-07-21T11:45:30+00:00"
   },
   {
    "outlet": "The Guardian World",
-   "title": "Air quality warnings remain in place across US as wildfire smoke continues to swathe country",
-   "summary": "Rain could alleviate conditions in mid-Atlantic and north-east, with World Cup final expected to go ahead on SundayWarnings of dangerous conditions are expected to remain in place on Saturday across swathes of the US, amid uncertainty about where the heavy wildfire smoke swirling from the Canadian province of Ontario and the US state of Minnesota will head next.Some parts of the US mid-Atlantic and north-east regions will continue to endure poor air quality until Saturday afternoon, where there ",
-   "link": "https://www.theguardian.com/world/2026/jul/18/air-quality-warnings-canada-wildfires",
-   "published": "2026-07-18T14:13:36+00:00"
+   "title": "Japan records its first ‘cruelly hot day’ as cities swelter in 40-degree heat",
+   "summary": "In April Japan coined new term kokushobi for days above 40C as country advises workers to wear shorts to the office to cope with stifling heatJapan logged its first official kokushobi or “cruelly hot day” on Tuesday since the new term for when temperatures top 40 degrees Celsius was introduced in April. The Japan Meteorological Agency coined the new designation to warn the public of the heat dangers of days that were once freak weather events but have now become more common.The central Japan cit",
+   "link": "https://www.theguardian.com/world/2026/jul/22/japan-heat-kokushobi-cruelly-hot-40c-weather",
+   "published": "2026-07-22T03:48:04+00:00"
   },
   {
    "outlet": "The Guardian World",
-   "title": "Cuba edges toward breakdown as power cuts and US meddling push society to brink",
-   "summary": "As Cuba swelters under six-month oil blockade imposed by US, tempers are fraying and unrest is growingWhen Cuba’s national grid collapses, as it did for the third time in 10 days on Tuesday, a collective groan spreads across its cities and people wonder, again, whether the island’s antiquated electricity system may soon become unrecoverable.The 777-mile Caribbean island of 9.5 million people has been sweltering under a six-month-long oil blockade imposed by the US, part of a pressure campaign to",
-   "link": "https://www.theguardian.com/world/2026/jul/18/cuba-edges-toward-breakdown-as-power-cuts-and-us-meddling-push-society-to-brink",
-   "published": "2026-07-18T13:14:57+00:00"
+   "title": "Australia spent more than $9m for each asylum seeker held on Nauru last year – so why can’t they afford to buy food?",
+   "summary": "Many of the more than 100 people awaiting processing on the tiny Pacific island are skipping meals to make ends meet, a new survey has foundFollow our Australia news live blog for latest updatesGet our breaking news email, free app or daily news podcastMost refugees and asylum seekers held in Nauru’s detention centres say they cannot afford to buy enough food or access clean drinking water, despite the Australian government spending the equivalent of more than $9m per person last financial year.",
+   "link": "https://www.theguardian.com/world/2026/jul/20/nauru-asylum-seeker-living-conditions-food-allowance-offshore-processing",
+   "published": "2026-07-20T04:43:37+00:00"
   },
   {
    "outlet": "The Guardian World",
-   "title": "White House backs Argentina players over Falklands banner in World Cup semi-final",
-   "summary": "White House Fifa taskforce chief defends Argentina footballers, saying US believes in free speechThe White House has backed Argentina’s footballers who displayed a banner supporting their country’s claim to the Falkland Islands after their World Cup semi-final victory against England.After Argentina’s 2-1 win in a fractious match in Atlanta on Wednesday, some players held up a banner that said: “Las Malvinas son Argentinas” – using the country’s term for the South Atlantic islands. Continue read",
-   "link": "https://www.theguardian.com/football/2026/jul/18/white-house-backs-argentina-team-falklands-banner-world-cup-semi-final",
-   "published": "2026-07-18T10:54:07+00:00"
+   "title": "Australia news live: Victoria police report rise in antisemitic incidents since October 2023",
+   "summary": "Follow today’s news liveGet our breaking news email, free app or daily news podcastThe New South Wales premier, Chris Minns, says the state’s Labor party is under threat from One Nation and “we’ve got to fight for those votes”.Appearing on ABC Radio National this morning, Minns was asked if One Nation was a “racist party”. He said people who had concerns about the levels of immigration weren’t necessarily racist but some of the things Pauline Hanson had said were.Certainly some of the things Pau",
+   "link": "https://www.theguardian.com/australia-news/live/2026/jul/22/australia-news-live-penny-wong-asean-pacific-missile-pauline-hanson-one-nation-labor-conference-tax-anthony-albanese-antisemitism-royal-commission-ntwnfb",
+   "published": "2026-07-22T07:44:54+00:00"
   },
   {
    "outlet": "The Guardian World",
-   "title": "Cuban dissident artist Luis Manuel Otero Alcántara cleared to travel to US",
-   "summary": "Whereabouts of artist imprisoned after 2021 protests had been unknown following end of his prison term in JulyLuis Manuel Otero Alcántara, a prominent Cuban dissident artist whose whereabouts remained unknown after his prison sentence ended last week, has been given permission to travel to the US, according to his official Facebook page.Otero Alcántara, designated a prisoner of conscience by Amnesty International, was sentenced to five years in prison in 2022 for insulting national symbols, cont",
-   "link": "https://www.theguardian.com/world/2026/jul/17/cuban-dissident-artist-luis-manuel-otero-alcantara-cleared-to-travel-to-us",
-   "published": "2026-07-17T22:28:42+00:00"
+   "title": "People with secret ‘safe phones’ advised to turn off devices during national test of AusAlert emergency warning",
+   "summary": "Ten-second ‘siren’ to blare on most phones on Monday as part of national test despite reservations from some statesFollow our Australia news live blog for latest updatesGet our breaking news email, free app or daily news podcastAn unsilenceable siren will blare out of most phones in Australia on Monday afternoon for 10 seconds, with the federal government confirming a national test of the new AusAlert emergency alert system will go ahead, despite reservations from some state governments.Domestic",
+   "link": "https://www.theguardian.com/australia-news/2026/jul/22/people-with-secret-safe-phones-advised-to-turn-off-devices-during-national-test-of-ausalert-emergency-warning",
+   "published": "2026-07-22T05:54:00+00:00"
   },
   {
    "outlet": "The Guardian World",
-   "title": "Australia updates travel advice for Laos as charges announced over mass methanol poisoning",
-   "summary": "Distillery owner could face only three months in jail over alleged poisoning of Australian teenagersGet our breaking news email, free app or daily news podcastThe Australian government has increased its travel alert level for Laos, advising travellers to “exercise a high degree of caution” due to the risk of methanol poisoning.It comes as a distillery owner in Laos was charged after a mass methanol poisoning incident killed six foreign nationals, including the Australian backpackers Bianca Jones",
-   "link": "https://www.theguardian.com/australia-news/2026/jul/17/distillery-owner-could-face-only-three-months-in-jail-over-alleged-poisoning-australian-teenagers",
-   "published": "2026-07-17T21:36:05+00:00"
+   "title": "Brittany Higgins accuses Pauline Hanson of victim-blaming for calling domestic violence a ‘two-way street’",
+   "summary": "One Nation leader criticised by advocates after telling women being abused: ‘don’t put up with it’Follow our Australia news live blog for latest updatesGet our breaking news email, free app or daily news podcastPauline Hanson has described domestic violence as “wrong” but a “two-way street”, and that women being abused should not put up with it, drawing condemnation from advocates who have accused the One Nation leader of victim-blaming.On Wednesday, Hanson told radio station 4BC domestic violen",
+   "link": "https://www.theguardian.com/australia-news/2026/jul/22/brittany-higgins-pauline-hanson-domestic-violence-comments-ntwnfb",
+   "published": "2026-07-22T05:53:13+00:00"
   },
   {
    "outlet": "The Guardian World",
-   "title": "Biodiversity fears as human-bred hybrid fish integrate into Philippines lake",
-   "summary": "Escaped flowerhorn cichlids are causing concern for native species and about parasites capable of infecting humansEscaped ornamental aquarium fish have integrated into a local ecosystem in the Philippines, but scientists say they may be threatening the native biodiversity of the lake.Flowerhorn cichlids – human-bred hybrid fish prized for their bright-gold colour and prominent head humps – are believed to have escaped from breeding facilities into Lake Sampaloc, which sits in a volcanic crater, ",
-   "link": "https://www.theguardian.com/environment/2026/jul/17/biodiversity-fears-flowerhorn-cichlids-philippines-lake",
-   "published": "2026-07-17T14:00:31+00:00"
+   "title": "Alleged rape victim ‘could have done a lot better’ if she had made up claims against well-connected Melbourne man, court told",
+   "summary": "Prosecutor tells court that ‘gaps or inconsistencies’ in the woman’s account ‘enhances her credibility’, but the defence maintains she is lyingFollow our Australia news live blog for latest updatesGet our breaking news email, free app or daily news podcastA woman who accused a well-connected Melbourne man of rape “could have done a much better job” if she was inventing the story for money, a Melbourne court has heard.But the accused’s lawyer has described the prosecution’s case as a “horrendous ",
+   "link": "https://www.theguardian.com/australia-news/2026/jul/22/well-connected-melbourne-man-alleged-rape-court-ntwnfb",
+   "published": "2026-07-22T05:07:54+00:00"
   },
   {
    "outlet": "The Guardian World",
-   "title": "ICE arrests human rights lawyer who fled Chinese crackdown",
-   "summary": "Arrest in Pennsylvania of Wu Shaoping, who is awaiting asylum decision, raises fears of deportation and persecutionA Chinese human rights lawyer has been arrested by US Immigration and Customs Enforcement (ICE), raising concerns he could be deported to China where he would face persecution.Wu Shaoping fled China at the end of 2019 amid a crackdown on human rights lawyers. He travelled to the US on a tourist visa and made an asylum claim in 2020, for which he is still awaiting a decision. Continu",
-   "link": "https://www.theguardian.com/us-news/2026/jul/17/ice-arrests-human-rights-lawyer-wu-shaoping-fled-chinese-crackdown",
-   "published": "2026-07-17T09:20:57+00:00"
+   "title": "Rebel Wilson wins defamation case brought by co-star after bitter dispute",
+   "summary": "Judge finds Wilson did not defame Charlotte MacInnes, lead actor in Pitch Perfect star’s directorial debut The DebFollow our Australia news live blog for latest updatesGet our breaking news email, free app or daily news podcastAfter a blistering dispute that spanned continents and years, Hollywood A-lister Rebel Wilson has been found not to have defamed her co-star in a series of social media posts.The Pitch Perfect star was sued by Australian actor Charlotte MacInnes, who played the lead role i",
+   "link": "https://www.theguardian.com/australia-news/2026/jul/22/rebel-wilson-wins-defamation-case-charlotte-macinnes-ntwnfb",
+   "published": "2026-07-22T04:50:03+00:00"
   },
   {
    "outlet": "The Guardian World",
-   "title": "Weather tracker: Thunderstorms strike across Europe amid record heatwave",
-   "summary": "Storms are typical during intense heat but this week’s have been extreme. Plus, deadly monsoon rains in BangladeshHailstones the size of golf balls have been seen in French villages as, on top of the exceptional European heatwave, thunderstorms have struck across parts of Europe.While thunderstorms are typical during and after a period of extreme heat, the storms across countries such as France, Germany and Poland have been particularly severe, bringing flooding, strong winds and heavy showers w",
-   "link": "https://www.theguardian.com/environment/2026/jul/17/weather-tracker-thunderstorms-strike-across-europe-amid-record-heatwave",
-   "published": "2026-07-17T08:35:56+00:00"
+   "title": "EU bids to finalise new Russia sanctions amid discontent from some member states – Europe live",
+   "summary": "EU ambassadors head to Brussels aiming to sign off on 21st package of sanctions, after previous attempts ended without successUkraine’s president Volodymyr Zelenskyy praised the overnight attack on “logistics hubs involved in supplying the Russian army with drone component, navigation equipment and other gear.”“We are, quite justly, bringing the war back home – to Russia. Peace is needed, and Ukraine has presented the Russian side with every proposal. They must be forced to turn to diplomacy.” C",
+   "link": "https://www.theguardian.com/world/live/2026/jul/22/ukraine-war-russia-sanctions-europe-eu-latest-news-updates",
+   "published": "2026-07-22T07:35:11+00:00"
   },
   {
    "outlet": "The Guardian World",
-   "title": "China ‘strongly dissatisfied’ with nationalisation of British Steel",
-   "summary": "Move dealt ‘severe blow to Chinese companies’ confidence in investing in the UK’, says Ministry of CommerceChina’s government has said it is “strongly dissatisfied” with the decision to nationalise British Steel this week, 15 months after the UK government intervened to prevent the closure of its steelworks in Scunthorpe and the loss of 4,000 jobs.On Thursday, British Steel was brought under public ownership to protect “the future of steel production”, the government announced. Continue reading.",
-   "link": "https://www.theguardian.com/business/2026/jul/17/british-steel-nationalisation-china-strongly-dissatisfied",
-   "published": "2026-07-17T06:57:08+00:00"
+   "title": "​World largest meat company faces legal challenge over green credentials of $6bn global expansion",
+   "summary": "Greenpeace petitions Dutch courts to order JBS to disclose how its aims are compatible with responsibilities to climate and human rightsThe world’s biggest meat company, JBS, faces a landmark legal challenge to disclose how its $6bn (£4.5bn) global expansion plan is compatible with responsibilities to the climate, nature and human rights.Courts in the Netherlands, where JBS is headquartered, will assess the petition filed by Greenpeace for information on whether the company is compliant with Dut",
+   "link": "https://www.theguardian.com/environment/2026/jul/22/meat-multinational-faces-legal-challenge-over-green-credentials-of-6bn-global-expansion-plan",
+   "published": "2026-07-22T06:00:09+00:00"
   },
   {
    "outlet": "The Guardian World",
-   "title": "Victoria announces new social media ‘demasking’ powers for accounts accused of vilification",
-   "summary": "New laws would give Vcat power to force social and AI platforms to identify anonymous users in move premier says will protect childrenGet our breaking news email, free app or daily news podcastSocial media companies could be forced to identify anonymous accounts accused of online vilification, under new laws being proposed in Victoria.The Victorian premier, Jacinta Allan, announced a suite of social media reforms on Sunday, saying families needed new ways to protect their children online. Contin",
-   "link": "https://www.theguardian.com/australia-news/2026/jul/19/victoria-proposes-social-media-account-identification-powers",
-   "published": "2026-07-19T07:22:01+00:00"
+   "title": "Zelenskyy fires Ukraine’s army chief and offers Fedorov ‘prominent position’",
+   "summary": "After nationwide protests Oleksandr Syrskyi is to be replaced in reshuffle and popular defence minister returns to governmentVolodymyr Zelenskyy has fired Ukraine’s commander-in-chief Oleksandr Syrskyi and offered a “prominent position” to the defence minister he sacked last week in a move that sparked nationwide protests.In a late-night TV address, Zelenskyy said he was appointing Mykhailo Drapatyi, a popular and innovative general, as the new head of Ukraine’s armed forces. Drapatyi would over",
+   "link": "https://www.theguardian.com/world/2026/jul/21/zelenskyy-replaces-military-leader-and-brings-back-defence-minister-he-sacked",
+   "published": "2026-07-21T21:34:56+00:00"
   },
   {
    "outlet": "The Guardian World",
-   "title": "Terence Donovan, ‘larger-than-life’ actor and father of Jason, dies aged 90 – as it happened",
-   "summary": "This blog is now closedGet our breaking news email, free app or daily news podcastConservatives around world at war against ‘leftwing globalists’, Bridget McKenzie tells CPAC London eventPianist Jayson Gillham peforms joint concert for Palestinian familiesPianist Jayson Gillham has performed a concert for Palestinian families.Healing is a long road. For Palestinians, for Gazans, for the families in our care, carrying grief and worry that most of us can barely imagine, there is no quick remedy. B",
-   "link": "https://www.theguardian.com/australia-news/live/2026/jul/19/anthony-albanese-labor-angus-taylor-coalition-pauline-hanson-bridget-mckenzie-cpac-london-politics-reactions-ski-field-temperature-high-diesel-prices-surge-ntwnfb",
-   "published": "2026-07-19T05:32:35+00:00"
+   "title": "France becomes first EU country to ban social media access for under-15s",
+   "summary": "Parliament votes to stop children using apps such as TikTok in policy championed by Emmanuel MacronFrance’s parliament has approved a bill banning social media access for children under 15, making it the first EU country to bar children from apps such as TikTok.The president, Emmanuel Macron, has championed the ban as a key reform of his final term in office and pledged to enforce it by September. Continue reading...",
+   "link": "https://www.theguardian.com/world/2026/jul/21/france-ban-social-media-access-under-15s",
+   "published": "2026-07-21T19:14:04+00:00"
   },
   {
    "outlet": "The Guardian World",
-   "title": "Man dies after cross-border police pursuit ends in NSW northern rivers",
-   "summary": "Car chase began in Queensland after report of armed man on Gold Coast late on Saturday, police sayFollow our Australia news live blog for latest updatesGet our breaking news email, free app or daily news podcastNew South Wales police have declared a “critical incident” after a man died following a police pursuit in the northern rivers area, hours after the same man allegedly evaded Queensland police while armed with a gun.The 25-year-old from Queensland was found unconscious at the wheel of a ve",
-   "link": "https://www.theguardian.com/australia-news/2026/jul/19/man-dies-after-queensland-nsw-police-car-chase-ntwnfb",
-   "published": "2026-07-19T02:46:04+00:00"
+   "title": "Airbus to test folding wings for next generation of bestselling planes",
+   "summary": "Such technology solves problem of longer, thinner, energy-saving wings not fitting in airports around the worldAirbus has said it will test folding wings for the next generation of its bestselling planes, as the world’s largest planemaker races to work out the shape of future commercial aircraft by the end of the decade.Longer, thinner wings made of light but strong composite materials offer the promise of energy savings but present a problem for manufacturers because they will not fit in airpor",
+   "link": "https://www.theguardian.com/business/2026/jul/21/airbus-to-test-folding-wings-for-next-generation-of-bestselling-planes",
+   "published": "2026-07-21T17:50:50+00:00"
   },
   {
    "outlet": "The Guardian World",
-   "title": "Conservatives around world at war against ‘leftwing globalists’, Bridget McKenzie tells CPAC London event",
-   "summary": "Nationals senator echoes comments by Pauline Hanson as Labor criticises One Nation leader’s divisive stanceFollow our Australia news live blog for latest updatesGet our breaking news email, free app or daily news podcastThe National party’s Senate leader, Bridget McKenzie, has used an appearance at a conference of the populist right in London to declare that conservatives are “in a war” against mass immigration, “leftwing globalists” and “woke” institutions, and to urge rightwing movements acros",
-   "link": "https://www.theguardian.com/australia-news/2026/jul/19/bridget-mckenzie-cpac-london-national-party-pauline-hanson-one-nation-ntwnfb",
-   "published": "2026-07-18T23:37:48+00:00"
+   "title": "Middle East crisis live: US renews strikes on Iran as Trump threatens to attack nuclear site ‘very heavily’",
+   "summary": "US military completes 11th night of strikes as attacks overshadow diplomatic efforts in Pakistan to salvage interim ceasefire dealHouthis threaten attacks on shipping tankers if they use Saudi ports on Red SeaWhat is Pickaxe Mountain, Iran’s underground nuclear facility?Yemen’s Iranian-aligned Houthis have warned shipping companies that their tankers risk being attacked if they use Saudi Arabian ports, as the militia moved quickly to enforce a blockade announced the previous day.The Houthi warni",
+   "link": "https://www.theguardian.com/world/live/2026/jul/22/middle-east-us-iran-war-trump-houthis-strait-of-hormuz-nuclear-pickaxe-mountain-latest-news-updates",
+   "published": "2026-07-22T07:40:05+00:00"
   },
   {
    "outlet": "The Guardian World",
-   "title": "Pauline Hanson tells London CPAC crowd she is ‘sick of hearing about white privilege’ and ‘fears for England’",
-   "summary": "Reform UK leader Nigel Farage compares One Nation leader’s polling rise to Donald Trump’s victory in the USFollow our Australia news live blog for latest updatesGet our breaking news email, free app or daily news podcastPauline Hanson has told a political conference in London that Australia is following Britain down a path of cultural decline, blaming mass immigration, multiculturalism, Islam, net zero policies and “woke” ideology such as support for trans rights.The One Nation leader has been i",
-   "link": "https://www.theguardian.com/australia-news/2026/jul/18/pauline-hanson-barnaby-joyce-rift-rumours-tommy-robinson-podcast-cpac-ntwnfb",
-   "published": "2026-07-18T22:54:06+00:00"
+   "title": "Mamdani urges US government to arrest Netanyahu if Israeli PM visits US",
+   "summary": "New York mayor admits he does not have authority to arrest Netanyahu, adding Israeli PM is ‘architect of a horrific genocide’Zohran Mamdani, the New York City mayor, acknowledged on Tuesday he does not have the authority to arrest Benjamin Netanyahu, but urged US federal authorities to do so if the Israeli prime minister visits the US later this year.“Benjamin Netanyahu is a war criminal, the architect of a horrific genocide against the Palestinian people,” Mamdani said in a video posted to soci",
+   "link": "https://www.theguardian.com/us-news/2026/jul/21/mamdani-benjamin-netanyahu-arrest-authority",
+   "published": "2026-07-22T06:41:51+00:00"
   },
   {
    "outlet": "The Guardian World",
-   "title": "Dozens of Russian missiles pound Kyiv in major attack",
-   "summary": "At least one death with authorities reporting fires and damage to offices and homes, while Ukraine’s forces earlier hit logistics warehouses in RussiaRussia has carried out one of its biggest ever ballistic missile attacks on Kyiv, launching a five-hour raid that left at least one person dead and seven injured, with fires and damage across the city.Ukrainian officials said the capital was hit with about 40 Iskander-M and hypersonic Zircon missiles. Residents heard an air raid siren sound at 1.30",
-   "link": "https://www.theguardian.com/world/2026/jul/19/dozens-of-russian-missiles-pound-kyiv-ukraine-in-major-attack",
-   "published": "2026-07-19T05:49:10+00:00"
+   "title": "Wednesday briefing: How Trump’s Iran gamble has produced a crisis reshaping the global order",
+   "summary": "In today’s newsletter: ​A White House operating without expertise, strategy or restraint ​is stuck in a conflict with no easy way out, which is sending economic shockwaves far beyond its own bordersGood morning. Within two hours of entering No 10 on Monday afternoon, Andy Burnham had his first call with Donald Trump. After chit-chatting about the football (both agreed England had an “excellent tournament”) and Manchester (our new prime minister invited the president to visit the city Trump once ",
+   "link": "https://www.theguardian.com/world/2026/jul/22/wednesday-briefing-how-trumps-iran-gamble-has-produced-a-crisis-reshaping-the-global-order",
+   "published": "2026-07-22T05:45:49+00:00"
   },
   {
    "outlet": "The Guardian World",
-   "title": "Andrew and Tristan Tate arrested in Miami on UK charges of rape and sex trafficking",
-   "summary": "Britain to seek extradition over alleged sexual exploitation, ‘extreme pornography’ and assault and indecent images of a childAndrew and Tristan Tate, brothers who are social media influencers, were arrested on UK charges by federal authorities Saturday in Miami, the US Marshals Service said.They were arrested on an extradition request from British authorities, according to a person familiar with the matter, who spoke on the condition of anonymity because they were not authorised to publicly dis",
-   "link": "https://www.theguardian.com/news/2026/jul/18/andrew-tristan-tate-arrested-miami",
-   "published": "2026-07-18T23:57:34+00:00"
+   "title": "Iran’s foreign minister describes moment of attack that killed Khamenei",
+   "summary": "Abbas Araghchi says he has kept on the move since being pulled from rubble after strike on first day of warIran’s foreign minister, Abbas Araghchi, has described how he was pulled from the rubble of a leadership compound after the US-Israeli airstrike that killed the country’s supreme leader, Ali Khamenei, on the first day of the war, and has survived since by constantly moving around the capital, Tehran, by car.In an interview with the Iranian journalist Javad Mogouyi, Araghchi confirmed Israel",
+   "link": "https://www.theguardian.com/world/2026/jul/22/iran-foreign-minister-abbas-aragchi-attack-killed-khamenei",
+   "published": "2026-07-22T05:00:07+00:00"
   },
   {
    "outlet": "The Guardian World",
-   "title": "Hungary’s president agrees to stand down after law change ends his term",
-   "summary": "Tamás Sulyok signed the constitutional amendment that cited ‘serious loss of confidence’ in him as leader Hungary’s president, Tamás Sulyok, has agreed to step down after signing a constitutional amendment passed by the ruling Tisza party of the prime minister, Péter Magyar.The amendment will end Sulyok’s term immediately, citing society’s “serious loss of confidence” in a leader elected in early 2024 by lawmakers from the former prime minister Viktor Orbán’s nationalist Fidesz party. Continue r",
-   "link": "https://www.theguardian.com/world/2026/jul/18/hungarys-president-agrees-to-stand-down-after-law-change-ends-his-term",
-   "published": "2026-07-18T22:17:51+00:00"
+   "title": "Hegseth estimates rising cost of Iran war now at $37.5bn – as it happened",
+   "summary": "This blog is now closed. Read our latest full report here.Lebanon’s president, Joseph Aoun, is due to meet Donald Trump for the first time today as he wraps up a four-day visit to Washington.The meeting coincides with ongoing US-mediated talks between Lebanon and Israel. The two sides announced a “framework agreement” on 26 June which stipulates the withdrawal of Israeli forces from southern Lebanon as well as the disarmament of Hezbollah. Continue reading...",
+   "link": "https://www.theguardian.com/world/live/2026/jul/21/us-iran-war-live-updates-strait-of-hormuz-attacks-houthis-blockade-red-sea-middle-east-crisis-latest-news",
+   "published": "2026-07-22T03:09:47+00:00"
   },
   {
    "outlet": "The Guardian World",
-   "title": "Germany’s CDU parliamentary leader resigns after using surrogacy to become parent",
-   "summary": "Jens Spahn had criticised ‘rented wombs’ and his party is strongly opposed to surrogacy, which is banned in GermanyA senior German politician and ally of the chancellor, Friedrich Merz, has resigned as parliamentary group leader of the Christian Democrat (CDU) party after he and his husband used a surrogate mother to become parents, a practice he has criticised in the past and his party is vehemently opposed to.Surrogacy is banned in Germany, a policy Jens Spahn refused to relax when he was heal",
-   "link": "https://www.theguardian.com/world/2026/jul/18/germany-cdu-party-chair-resigns-surrogacy-jens-spahn",
-   "published": "2026-07-18T15:09:33+00:00"
+   "title": "India’s Rahul Gandhi briefly detained as cockroach protests rock Delhi",
+   "summary": "Opposition leader taken away after accusing Narendra Modi of ‘destroying the future of India’s youth’ in solidarity with cockroach movementIndian police briefly detained the opposition leader, Rahul Gandhi, during protests on Tuesday calling for the resignation of the prime minister, Narendra Modi, in solidarity with the new youth-led “cockroach” movement.Gandhi, the leader of India’s Congress party, was forcefully removed by police as he staged a sit-in outside Modi’s house on Tuesday afternoon",
+   "link": "https://www.theguardian.com/world/2026/jul/22/india-cockroach-janta-party-cjp-protests-rahul-gandhi-detained",
+   "published": "2026-07-22T07:36:38+00:00"
   },
   {
    "outlet": "The Guardian World",
-   "title": "Dismissal of Ukraine’s defence minister highlights wider issues for Zelenskyy",
-   "summary": "Mykhailo Fedorov, celebrated by many for innovative, tech-driven approach, was sidelined for military old guardVolodomyr Zelenskyy’s abrupt dismissal of Ukraine’s youthful and innovative defence minister, Mykhailo Fedorov, at precisely the moment Kyiv appeared to be gaining advantages in several spheres of its war with Russia has exposed, not for the first time, a troubling flaw in the president’s leadership.The move, which has startled senior European officials and caused consternation, and dem",
-   "link": "https://www.theguardian.com/world/2026/jul/17/dismissal-ukraine-defence-minister-mykhailo-fedorov-volodomyr-zelenskyy",
-   "published": "2026-07-18T14:26:22+00:00"
+   "title": "India’s Cockroach movement protesters show no sign of backing down",
+   "summary": "Thousands of people again on the streets of Delhi calling for education reforms despite police violence on MondayTaru had come to the protest prepared this time. In one hand was an anti-government poster and in the other was a bicycle helmet. “We need to have protection in case Delhi police beat us up again,” said the 25-year-old, who stood among her friends. “We are not scared of them and we won’t run away, no matter what they do. We’ll stay here till they listen.”On Tuesday, central Delhi stil",
+   "link": "https://www.theguardian.com/world/2026/jul/21/india-cockroach-movement-protesters-delhi",
+   "published": "2026-07-21T16:13:04+00:00"
   },
   {
    "outlet": "The Guardian World",
-   "title": "Two US troops killed and one missing in Jordan after Iranian attacks",
-   "summary": "Sirens sound in Bahrain and Kuwait accuses Tehran of targeting civilian sites and infrastructure as Iran strikes US alliesThe US retaliated against Iran’s Revolutionary Guard (IRGC) after two American troops were killed and one was missing in Jordan when Tehran launched a wave of attacks against US allies in the Middle East.Iran’s attacks came as the renewal of US strikes on Iran entered a second week and fighting escalated over the strait of Hormuz. Continue reading...",
-   "link": "https://www.theguardian.com/world/2026/jul/18/iran-attacks-us-allies-in-middle-east-in-second-week-of-renewed-conflict",
-   "published": "2026-07-19T04:41:49+00:00"
+   "title": "Rescuers in Afghanistan search for missing and dead after flash floods destroy homes",
+   "summary": "National disaster agency confirms ‘severe financial and human losses’ in eastern province of NuristanRescue crews in Afghanistan are searching for survivors and bodies among the rubble of houses destroyed by devastating flash floods that authorities said had killed nearly two dozen people and left more than 100 people missing.The Afghanistan national disaster management authority said on Tuesday that 23 people had died, 80 had been injured and more than 100 were missing after floods struck the e",
+   "link": "https://www.theguardian.com/world/2026/jul/20/deadly-floods-nuristan-afghanistan",
+   "published": "2026-07-21T10:09:22+00:00"
   },
   {
    "outlet": "The Guardian World",
-   "title": "Why is Trump risking midterm disaster by resuming the unpopular Iran war?",
-   "summary": "Less than a month after hailing a ceasefire, Trump resumed strikes on Iran, a move experts warn could prolong the war and hurt Republicans before the midtermsFor half a century, Donald Trump has performed a public high-wire act based on high-stakes risks and shattering time-honored norms to get what he wants.The approach has paid off handsomely, helping him survive multiple bankruptcies to reach billionaire status and numerous legal and political scandals to be elected US president twice. Contin",
-   "link": "https://www.theguardian.com/world/2026/jul/18/trump-iran-war-political-midterm-risk",
-   "published": "2026-07-18T09:00:02+00:00"
+   "title": "Tens of thousands of Cockroach movement protesters defy police with Delhi march",
+   "summary": "Youth-led group calls on education minister to quit in one of India’s largest anti-government rallies in yearsTens of thousands of protesters have defied police orders and descended on Delhi to demand the resignation of India’s education minister in one of the largest anti-government demonstrations in years.A huge crowd, largely made up of students and gen Z-ers, filled the streets in the heart of India’s capital from early Monday morning shouting anti-government slogans. Hundreds had already ca",
+   "link": "https://www.theguardian.com/world/2026/jul/20/cockroach-janta-party-protest-march-sonam-wangchuk-india-parliament",
+   "published": "2026-07-20T14:01:14+00:00"
   },
   {
    "outlet": "The Guardian World",
-   "title": "US launches seventh night of Iran strikes as Hormuz conflict escalates",
-   "summary": "Central Command says attacks were designed to ‘continue degrading Iranian military capabilities’The US military said it had launched a seventh consecutive night of strikes on Iran on Friday night as fighting escalated over the strait of Hormuz.US Central Command, in a post on X, said the strikes, which began at 7pm GMT, were designed to “continue degrading Iranian military capabilities”. Continue reading...",
-   "link": "https://www.theguardian.com/world/2026/jul/17/us-launches-seventh-night-of-iran-strikes-as-hormuz-conflict-escalates",
-   "published": "2026-07-18T06:03:13+00:00"
+   "title": "‘When I get home, my whole body aches’: extreme heat saps health and wages of India’s poorest workers",
+   "summary": "Exclusive: Outdoor workers losing up to 9% of income as weather becomes ‘poverty multiplier’, research saysExtreme heat is pushing some of India’s poorest workers further into poverty, with income losses of up to 9% for outdoor workers, new research has found.Analysis done by the International Institute for Environment and Development (IIED), and shared exclusively with the Guardian, found that extreme heat is acting as a “poverty multiplier” for hundreds of millions of workers in India’s inform",
+   "link": "https://www.theguardian.com/environment/2026/jul/20/extreme-heat-india-outdoor-workers-poverty",
+   "published": "2026-07-20T03:00:44+00:00"
   },
   {
    "outlet": "The Guardian World",
-   "title": "Israeli ministers announce plans for new illegal settlements in Gaza and West Bank",
-   "summary": "Defence minister seeks three ‘Nahal’ outposts in Gaza as top commander says Israel now controls 65% of the strip, violating Trump ceasefire dealIsrael’s defence and finance ministers announced plans for three illegal settlements in Gaza and more than $400m (£300m) in funding to expand construction in the occupied West Bank, as Israel’s military commander for the region celebrated violent outposts as his “security partners”.With national elections scheduled for 27 October, Benjamin Netanyahu’s fa",
-   "link": "https://www.theguardian.com/world/2026/jul/18/israel-plan-new-illegal-settlements-gaza-west-bank-occupied-palestine",
-   "published": "2026-07-18T06:00:50+00:00"
+   "title": "Burnham announces bus fares across England to be capped at £2",
+   "summary": "Measure to cost more than £500m, with money allocated to allow devolved nations to do the sameSingle bus fares across England will be capped at £2 from January, Andy Burnham has announced, as he continues a cost of living blitz in his first week as prime minister.The nationwide cap is currently set at £3 until the end of March 2027, although some areas – including London and Greater Manchester, where Burnham set a £2 limit as mayor – have lower top rates for single tickets. Continue reading...",
+   "link": "https://www.theguardian.com/uk-news/2026/jul/22/burnham-announces-bus-fares-across-england-to-be-capped-at-2",
+   "published": "2026-07-22T07:19:44+00:00"
   },
   {
    "outlet": "The Guardian World",
-   "title": "Israeli strike on Gaza funeral killed at least seven people, hospital says",
-   "summary": "Another 22 reportedly injured while mourning Palestinian killed in Israeli attack earlier in the dayAn Israeli strike on a funeral in the Gaza Strip has killed at least seven people and injured another 22, according to a local hospital.There was no immediate comment from the Israeli military. Continue reading...",
-   "link": "https://www.theguardian.com/world/2026/jul/17/israeli-strike-gaza-funeral-multiple-deaths",
-   "published": "2026-07-17T16:06:37+00:00"
+   "title": "UK inflation falls by more than expected to 2.6% in lift for Andy Burnham",
+   "summary": "Annual June figure comes after new PM pledges to reduce cost of living and improve economyBusiness live – latest updatesUK inflation dropped by more than expected in June to 2.6%, in a boost for Andy Burnham’s plans to reduce the cost of living.The new prime minister has pledged to bring down the cost of living to give households more disposable income and improve the outlook for the economy, announcing a winter VAT cut on electricity bills and lowering the cap on bus fares in England. Continue ",
+   "link": "https://www.theguardian.com/business/2026/jul/22/uk-inflation-falls-andy-burnham-cost-of-living-plans",
+   "published": "2026-07-22T06:01:49+00:00"
   },
   {
    "outlet": "The Guardian World",
-   "title": "More than 500 feared dead after reports of two shipwrecks off Myanmar, UN says",
-   "summary": "Vessels believed to have departed from Myanmar in late June, with mostly Muslim Rohingya minority onboardThe United Nations has said more than 500 people are feared dead after reports of two large shipwrecks off Myanmar since late June.The UN’s International Organization for Migration (IOM) and its refugee agency UNHCR voiced alarm in a joint statement at reports “that two boats carrying more than 500 people may have capsized off the coast of Myanmar in recent days”. Continue reading...",
-   "link": "https://www.theguardian.com/world/2026/jul/16/hundreds-of-refugees-feared-dead-after-two-suspected-shipwrecks-off-myanmar-un",
-   "published": "2026-07-16T07:22:41+00:00"
+   "title": "How could Britain look under proportional representation? See the results for your area",
+   "summary": "These visualisations from exclusive polling modelling show how the UK parliament could change under different voting systemsNew analysis produced exclusively for the Guardian reveals how different voting systems would return wildly different seat totals in the UK parliament based on current polling.While the current first past the post (FPTP) system could leave Reform UK just 30 seats short of a majority based on recent polls, the modelling shows how proportional systems would be likely to give ",
+   "link": "https://www.theguardian.com/politics/ng-interactive/2026/jul/22/how-britain-would-look-proportional-representation-local-mp",
+   "published": "2026-07-22T06:00:07+00:00"
   },
   {
    "outlet": "The Guardian World",
-   "title": "Bank of England to stop accepting bonds linked to coal for key loans",
-   "summary": "Campaigners hope move will force commercial banks to rethink holding assets linked to the fossil fuelClimate campaigners have declared a victory after the Bank of England said it would no longer accept bonds linked to one of the most polluting industries on the planet for key loan arrangements.The ban, which comes into force in October, marks a fresh crackdown on thermal coal, which is burned in power plants to create electricity, and has long been a target of green policy activists. Continue re",
-   "link": "https://www.theguardian.com/business/2026/jul/19/bank-of-england-bonds-coal-loans-assets",
-   "published": "2026-07-19T05:00:17+00:00"
+   "title": "Lack of defibrillators could put 16m at risk of death by cardiac arrest in England and Wales",
+   "summary": "Exclusive: Research shows millions live more than a 1km round trip from 24/7 accessible deviceMore than 16 million people in England and Wales risk dying from a cardiac arrest because they live farther than a 1km round trip from the nearest 24/7 defibrillator, according to exclusive research. Analysis of publicly available defibrillators by the Heart Restart campaign found that in England and Wales alone, 35 million people – more than half the population – do not live within the recommended thre",
+   "link": "https://www.theguardian.com/society/2026/jul/22/lack-defibrillators-risk-dying-of-cardiac-arrest-england-wales",
+   "published": "2026-07-22T05:00:06+00:00"
   },
   {
    "outlet": "The Guardian World",
-   "title": "Burnham to scrap Starmer’s digital ID scheme in ‘reset of priorities’",
-   "summary": "Incoming PM will reallocate unspecified resources from unpopular plan to helping with cost of livingAndy Burnham is expected to scrap Keir Starmer’s plans for digital ID cards in a “reset of priorities” when he enters Downing Street on Monday.The new Labour leader plans to redirect the resources earmarked for the scheme towards tackling the cost of living, his team indicated on Saturday. Continue reading...",
-   "link": "https://www.theguardian.com/politics/2026/jul/18/burnham-to-scrap-starmers-digital-id-scheme-in-reset-of-priorities",
-   "published": "2026-07-18T20:00:08+00:00"
+   "title": "‘A great thrill’: baby puffin is first one seen on Dorset coast in three decades",
+   "summary": "Puffling excites volunteers trying to save the last known regular nesting site on mainland of southern EnglandFor years, volunteers have craned their necks and tested their patience to peer into the crevices of the cliffs hoping for a glimpse of fluffy joy.Finally it all paid off as a puffling – baby puffin – poked its way into the sunshine, becoming the first to be spotted on the coast of Dorset in southern England for three decades. Continue reading...",
+   "link": "https://www.theguardian.com/environment/2026/jul/22/baby-puffin-first-dorset-coast-three-decades",
+   "published": "2026-07-22T04:00:06+00:00"
   },
   {
    "outlet": "The Guardian World",
-   "title": "Scores of carers overpaid more than £20,000 last year despite reforms",
-   "summary": "DWP brought in measures to tackle carer’s allowance scandal yet in 2025-26 there were 32,559 overpaymentsScores of unpaid carers were hit with demands to repay sums of more than £20,000 and hundreds more put at risk of prosecution last year as a result of official failures in what appear to be continuing problems with carer’s allowance.New figures showed carers were asked to repay £33m in 2025-26 as a result of 32,559 overpayments, despite the introduction of measures over a year ago designed sp",
-   "link": "https://www.theguardian.com/society/2026/jul/18/scores-of-carers-overpaid-more-than-20000-last-year-despite-reforms",
-   "published": "2026-07-18T15:00:00+00:00"
+   "title": "Trump ally wins Republican primary for Arizona governor, setting up race against Katie Hobbs",
+   "summary": "The victory for Andy Biggs, who was a central figure in the effort to overturn Trump’s 2020 election defeat, sets up a high-stakes contest in the battleground stateArizona voters on Tuesday chose their nominees for governor, Congress and other top offices, setting up a fall campaign that will test whether Republicans can reverse some of the Trump-era losses they suffered in a premier battleground state.Andy Biggs, the hard-right congressman endorsed by Donald Trump, easily won the Republican nom",
+   "link": "https://www.theguardian.com/us-news/2026/jul/22/arizona-republican-primary-andy-biggs-katie-hobbs",
+   "published": "2026-07-22T03:17:10+00:00"
   },
   {
    "outlet": "The Guardian World",
-   "title": "UK tech advocates alarmed by Burnham plan to scrap technology department",
-   "summary": "MPs and industry experts say potential reorganisation will waste time at critical moment for AI and economic growthAndy Burnham’s plan to scrap the government’s technology department has triggered an angry backlash from MPs, Whitehall officials and tech experts.The incoming prime minister has asked officials to draw up plans to abolish the Department for Science, Innovation and Technology as part of a wider Whitehall shake-up. Continue reading...",
-   "link": "https://www.theguardian.com/politics/2026/jul/18/burnham-plan-to-scrap-technology-department-triggers-backlash",
-   "published": "2026-07-18T13:42:43+00:00"
+   "title": "House passes spending bill to head off government shutdown before midterms",
+   "summary": "Measure authorizes spending until 4 December as Republicans seek to avoid volatile issue in election seasonThe US House of Representatives on Tuesday approved a stopgap measure to head off a government shutdown until early December, with its Republican leaders seeking to defuse a volatile issue in the run-up to the November midterm elections.The continuing resolution authorizing government spending until 4 December passed by a vote of 220-205, roughly along party lines. It next heads to the Sena",
+   "link": "https://www.theguardian.com/us-news/2026/jul/22/house-passes-spending-bill",
+   "published": "2026-07-22T02:31:39+00:00"
   },
   {
    "outlet": "The Guardian World",
-   "title": "What will Keir Starmer do next?",
-   "summary": "Outgoing PM has joked about cookery classes and cutting hedges, but does the international stage beckon?As his time in Downing Street comes to an end, Keir Starmer has been joking with friends about what he might do after he stands down as prime minister.He has teased that he might take a cookery course. “He needs it, he only makes two meals,” one friend said. Another not entirely serious suggestion was cutting his father-in-law’s hedge in the expectation that if he did well, he could graduate t",
-   "link": "https://www.theguardian.com/politics/2026/jul/18/what-will-keir-starmer-do-next",
-   "published": "2026-07-18T11:00:02+00:00"
+   "title": "US military identifies third service member killed in Iranian attack on Jordan base",
+   "summary": "Sgt Angel S Pampersad also believed to be dead in attack that killed two others, raising death toll to 18 troops since start of Iran warThe US military has confirmed that a third service member is believed to be dead in Friday’s attack on a base in Jordan and identified them as Sgt Angel S Rampersad, 28, of New York.The confirmation brings the death toll to 18 US service members killed since the war began. Continue reading...",
+   "link": "https://www.theguardian.com/us-news/2026/jul/21/us-military-third-service-member-jordan-attack",
+   "published": "2026-07-22T02:10:30+00:00"
   },
   {
    "outlet": "The Guardian World",
-   "title": "One week, two killings: Trump’s immigration crackdown turns deadly – again",
-   "summary": "The fatal shootings of two men, both killed in their vehicles by ICE agents, have rekindled anger over the US’s militarized deportation pushLorenzo Salgado Araujo, 52, was driving to work with his brother and two other passengers in Houston, Texas, when immigration agents began tailing his car. They pulled him over and fired a fatal shot through the open passenger-side window.Six days later in Biddeford, Maine, Joan Sebastián Durán Guerrero, 26, was driving around his neighborhood when agents st",
-   "link": "https://www.theguardian.com/news/ng-interactive/2026/jul/19/ice-killings-immigration-crackdown",
-   "published": "2026-07-19T05:00:17+00:00"
+   "title": "Tropical Storm Bertha expected to weaken as it moves toward US",
+   "summary": "Storm warnings stretch from Florida to Louisiana as Bertha brings heavy rain, flooding risk and possible tornadoesTropical Storm Bertha strengthened in the Gulf of Mexico on Tuesday but was expected to weaken this week as it chugs closer to the US, potentially bringing coastal flooding and heavy rain from the Florida Panhandle to Louisiana.Those areas along the northern Gulf coast were under a tropical storm warning through Wednesday and could see rain and flooding into Thursday morning, the Mia",
+   "link": "https://www.theguardian.com/us-news/2026/jul/21/storm-bertha-gulf-mexico",
+   "published": "2026-07-22T01:37:45+00:00"
   },
   {
    "outlet": "The Guardian World",
-   "title": "Cyclospora: iceberg lettuce recalled in 27 states and more products may follow",
-   "summary": "Taylor Farms does not specify where products were served or sold, as US braces for weeks more of outbreakTaylor Farms recalled potentially contaminated shredded iceberg lettuce in 27 states on Friday, including lettuce distributed as recently as Thursday, as cases of cyclosporiasis continue rising in the US.The US is likely to see at least another two weeks of possible cases, since infections may have happened in recent days. And the expanding outbreak investigation could point to other products",
-   "link": "https://www.theguardian.com/us-news/2026/jul/18/cyclospora-iceberg-lettuce-recall",
-   "published": "2026-07-18T21:25:14+00:00"
-  },
-  {
-   "outlet": "The Guardian World",
-   "title": "Republican lawmaker Ralph Norman to join race to succeed Lindsey Graham in South Carolina",
-   "summary": "Congressman to run for seat despite Donald Trump backing Graham’s sister, Darline, should she choose to runThe Republican representative Ralph Norman, ⁠of South Carolina, has announced he will join the race to succeed the late senator Lindsey Graham, despite Donald Trump backing Graham’s sister, Darline, should she choose to run.Announcing the launch of his bid on Saturday, Norman wrote on X: “I’m running to represent the people of South Carolina in the US Senate because we need a fighter who wi",
-   "link": "https://www.theguardian.com/us-news/2026/jul/18/us-house-ralph-norman-south-carolina-lindsey-graham",
-   "published": "2026-07-18T19:14:03+00:00"
-  },
-  {
-   "outlet": "The Guardian World",
-   "title": "North Dakota men who discover they were switched as newborns sue hospital",
-   "summary": "Kyle Bylin and Jeremy Morrison uncovered the truth after Bylin received an at-home DNA test as a Christmas giftA DNA discovery has led two families to accuse a North Dakota hospital of changing the course of their lives after learning two newborns were allegedly switched at birth nearly four decades ago.Kyle Bylin uncovered the truth after receiving an at-home DNA test during a Christmas gift exchange. The test connected him with his biological aunt through a genealogy platform, prompting her ne",
-   "link": "https://www.theguardian.com/us-news/2026/jul/18/north-dakota-newborns-switched",
-   "published": "2026-07-18T16:23:09+00:00"
-  },
-  {
-   "outlet": "The Guardian World",
-   "title": "Memphis rallies for progressive Democrat after four fatal shootings by taskforce: ‘fight of our lives’",
-   "summary": "Alexandria Ocasio-Cortez, Ayanna Pressley and Summer Lee join rally to support Justin Pearson’s bid for CongressMore than a thousand people rallied for Justin Pearson, a Democratic state representative running for Congress, in the wake of four fatal shootings by members of Donald Trump’s Memphis Safe Task Force over the last two months.Crowds packed New Direction Christian church in the city’s Hickory Hill neighborhood in support of Pearson, who is running in the now-fractured ninth congressiona",
-   "link": "https://www.theguardian.com/us-news/2026/jul/17/justin-pearson-memphis-rally-progressive-democrat-aoc",
-   "published": "2026-07-18T16:22:16+00:00"
+   "title": "Appeals court reverses decision that released pro-Palestinian Columbia activist Mohsen Mahdawi",
+   "summary": "The second circuit overturned the previous decision, saying the judge overstepped authority by intervening before it moved through the immigration court systemA federal appeals panel has reversed a lower court decision ordering the release of pro-Palestinian activist Mohsen Mahdawi, opening the door to the re-arrest of a student protest organizer whom the Trump administration has spent more than a year trying to deport.Tuesday’s ruling from the second US circuit court of appeals in New York City",
+   "link": "https://www.theguardian.com/us-news/2026/jul/21/appeals-court-reversed-mohsen-mahdawi-release",
+   "published": "2026-07-22T01:27:39+00:00"
   },
   {
    "outlet": "Al Jazeera",
-   "title": "Israel demolishes Palestinian home in Masafer Yatta",
-   "summary": "Israel demolishes Palestinian home in Masafer Yatta",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/7/19/israel-demolishes-palestinian-home-in-masafer-yatta?traffic_source=rss",
-   "published": "2026-07-19T07:30:54+00:00"
+   "title": "Air defences activate in Iran and flames rise from US attacks",
+   "summary": "Explosions could be heard over Tehran as the US army said it had completed its 11th consecutive day of strikes on Iran.",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/7/22/air-defences-activate-in-iran-and-flames-rise-from-us-attacks?traffic_source=rss",
+   "published": "2026-07-22T07:28:29+00:00"
   },
   {
    "outlet": "Al Jazeera",
-   "title": "Russia launches largest ballistic missile attack on Kyiv since start of war",
-   "summary": "Ukraine is particularly vulnerable to ballistic missile attacks due to a shortage of Patriot air defence munitions.",
-   "link": "https://www.aljazeera.com/news/2026/7/19/russia-launches-largest-ballistic-missile-attack-on-kyiv-since-start-of-war?traffic_source=rss",
-   "published": "2026-07-19T07:28:08+00:00"
+   "title": "Algeria: Toxic colonisation",
+   "summary": "The French army’s illegal use of chemical weapons in Algeria’s war of independence, as revealed by testimony and documents.",
+   "link": "https://www.aljazeera.com/video/featured-documentaries/2026/7/22/algeria-toxic-colonisation?traffic_source=rss",
+   "published": "2026-07-22T07:23:42+00:00"
   },
   {
    "outlet": "Al Jazeera",
-   "title": "Spain vs Argentina FIFA World Cup final: Team news, prediction and lineups",
-   "summary": "Stars Lionel Messi and Lamine Yamal clash at the biggest match of the biggest World Cup in history.",
-   "link": "https://www.aljazeera.com/sports/2026/7/19/spain-vs-argentina-fifa-world-cup-final-messi-yamal-prediction-time-lineups-team-news?traffic_source=rss",
-   "published": "2026-07-19T07:15:31+00:00"
+   "title": "India opposition leader Gandhi freed after detention at student-led protest",
+   "summary": "Demands from young people and Cockroach Janta Party pose one of the biggest challenges to PM Modi&#039;s government.",
+   "link": "https://www.aljazeera.com/news/2026/7/22/india-opposition-leader-gandhi-freed-after-detention-at-student-led-protest?traffic_source=rss",
+   "published": "2026-07-22T07:20:38+00:00"
   },
   {
    "outlet": "Al Jazeera",
-   "title": "The number one health issue in Palestine is the Israeli occupation",
-   "summary": "In both Gaza and the West Bank, Israeli policies are devastating Palestinian health with deadly consequences.",
-   "link": "https://www.aljazeera.com/opinions/2026/7/19/the-number-one-health-issue-in-palestine-is-the-israeli-occupation?traffic_source=rss",
-   "published": "2026-07-19T07:15:19+00:00"
+   "title": "Iran toll in Hormuz would set ‘dangerous precedent’ says Rubio",
+   "summary": "Iran toll in Hormuz would set &#039;dangerous precedent&#039; says Rubio",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/7/22/iran-toll-in-hormuz-would-set-dangerous-precedent-says-rubio?traffic_source=rss",
+   "published": "2026-07-22T07:10:36+00:00"
   },
   {
    "outlet": "Al Jazeera",
-   "title": "US bombs Iran for eighth-straight night",
-   "summary": "The US has launched a new wave of strikes on Iran after two American soldiers were killed by Iranian strikes in Jordan.",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/7/19/us-bombs-iran-for-eighth-straight-night?traffic_source=rss",
-   "published": "2026-07-19T05:08:20+00:00"
+   "title": "Can Pakistan-administered Kashmir’s election overcome a violent summer?",
+   "summary": "After months of protests and a crackdown, Pakistan-administered Kashmir heads into elections clouded by uncertainty.",
+   "link": "https://www.aljazeera.com/features/2026/7/22/can-pakistan-administered-kashmirs-election-overcome-a-violent-summer?traffic_source=rss",
+   "published": "2026-07-22T06:13:11+00:00"
   },
   {
    "outlet": "Al Jazeera",
-   "title": "Moment Iranian missiles hit airbase in Jordan killing US soldiers",
-   "summary": "A video captures the moment an Iranian missile struck Jordan’s Muwaffaq Salti Airbase, killing two US service members.",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/7/19/moment-iranian-missiles-hit-airbase-in-jordan-killing-us-soldiers?traffic_source=rss",
-   "published": "2026-07-19T04:36:47+00:00"
+   "title": "Goats of football: Indian village holds tournament with an indigenous twist",
+   "summary": "In a remote district surrounded by forests and hills, teams from tribal villages compete for football glory - and goats.",
+   "link": "https://www.aljazeera.com/news/2026/7/22/goats-of-football-indian-village-holds-tournament-with-an-indigenous-twist?traffic_source=rss",
+   "published": "2026-07-22T05:19:05+00:00"
   },
   {
    "outlet": "Al Jazeera",
-   "title": "At least one killed as Russian ballistic missiles hit Kyiv",
-   "summary": "Russian missiles struck Kyiv and the surrounding region early on Sunday, killing at least one person and injuring nine.",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/7/19/at-least-one-killed-as-russian-ballistic-missiles-hit-kyiv?traffic_source=rss",
-   "published": "2026-07-19T04:32:28+00:00"
+   "title": "US expands strikes on 11th straight night of attacks",
+   "summary": "The US military’s 11th consecutive night of strikes extended to Iranian provinces not previously hit.",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/7/22/us-expands-strikes-on-11th-straight-night-of-attacks?traffic_source=rss",
+   "published": "2026-07-22T05:05:25+00:00"
   },
   {
    "outlet": "Al Jazeera",
-   "title": "US hits Iran for eighth consecutive night, Iran returns fire on Gulf bases",
-   "summary": "Sirik and Hajiabad areas in Iran&#039;s Hormozgan province targeted as US says revenge for killing of two soldiers.",
-   "link": "https://www.aljazeera.com/news/2026/7/19/us-launches-eighth-consecutive-night-of-attacks-on-iran?traffic_source=rss",
-   "published": "2026-07-19T04:16:08+00:00"
+   "title": "Hegseth called a ‘failure’ over Iran as he reveals $37b cost of war",
+   "summary": "US Defense Secretary Pete Hegseth gets into a heated exchange after being called a failed leader by Michigan Senator.",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/7/22/hegseth-called-a-failure-over-iran-as-he-reveals-37b-cost-of-war?traffic_source=rss",
+   "published": "2026-07-22T05:02:51+00:00"
   },
   {
    "outlet": "Al Jazeera",
-   "title": "Somalia races to save Radio Mogadishu’s fading archive",
-   "summary": "A small team is working to digitise decades of Somali history in the country&#039;s main public radio station.",
-   "link": "https://www.aljazeera.com/news/2026/7/19/somalia-races-to-save-radio-mogadishus-fading-archive?traffic_source=rss",
-   "published": "2026-07-19T03:38:03+00:00"
+   "title": "Guyana ferry capsize death toll rises to 53 as survivors describe terror",
+   "summary": "A ferry capsized in Guyana over the weekend, killing at least 53 people.",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/7/22/guyana-ferry-capsize-death-toll-rises-to-53-as-survivors-describe-terror?traffic_source=rss",
+   "published": "2026-07-22T04:47:35+00:00"
   },
   {
    "outlet": "Al Jazeera",
-   "title": "Tate brothers arrested in Miami on rape and sex trafficking charges",
-   "summary": "Controversial influencers Andrew and Tristan Tate have been arrested in Miami onrape and sex trafficking charges.",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/7/19/tate-brothers-arrested-in-miami-on-rape-and-sex-trafficking-charges-2?traffic_source=rss",
-   "published": "2026-07-19T03:36:44+00:00"
+   "title": "Mamdani: Netanyahu is a war criminal, but New York cannot arrest him",
+   "summary": "NYC Mayor Zohran Mamdani releases a video statement calling for Israeli PM Netanyahu to face trial for war crimes.",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/7/22/aje-onl-nf_new-yorks-mayor-calls-netanyahu-a-war-criminal-210726?traffic_source=rss",
+   "published": "2026-07-22T04:07:58+00:00"
   },
   {
    "outlet": "Al Jazeera",
-   "title": "FIFA World Cup 2026 sees major increase in goals from outside the box",
-   "summary": "A trend of teams defending deep has enticed forwards to take shots from outside the penalty area, Jurgen Klinsmann says.",
-   "link": "https://www.aljazeera.com/sports/2026/7/19/fifa-world-cup-2026-sees-major-increase-in-goals-from-outside-the-box?traffic_source=rss",
-   "published": "2026-07-19T03:34:40+00:00"
+   "title": "Palestine weekly: Ahead of elections, Israel doubles down on attacks",
+   "summary": "Gaza mourns as families are buried after Israeli attacks leave dozens dead, including children and displaced families.",
+   "link": "https://www.aljazeera.com/news/2026/7/22/palestine-weekly-ahead-of-elections-israel-doubles-down-on-attacks?traffic_source=rss",
+   "published": "2026-07-22T03:46:11+00:00"
   },
   {
    "outlet": "Al Jazeera",
-   "title": "‘Spanish style’ wins over New York’s die-hard World Cup fans ahead of final",
-   "summary": "La Roja&#039;s World Cup success has built a new coalition of loyal and recently converted Spanish fans across New York City.",
-   "link": "https://www.aljazeera.com/sports/2026/7/19/spanish-style-wins-over-new-yorks-die-hard-world-cup-fans-ahead-of-final?traffic_source=rss",
-   "published": "2026-07-19T03:02:22+00:00"
+   "title": "More than 140 dead, missing on refugee boat stranded off Mauritania",
+   "summary": "Boat carrying migrants and refugees from Africa ran out of fuel, leading to a tragedy with 143 dead and 38 rescued.",
+   "link": "https://www.aljazeera.com/news/2026/7/22/more-than-140-dead-missing-on-refugee-boat-stranded-off-mauritania?traffic_source=rss",
+   "published": "2026-07-22T03:45:36+00:00"
   },
   {
    "outlet": "Al Jazeera",
-   "title": "Palestinian teenage footballer dies after Israeli settler attack",
-   "summary": "Palestinian teenage footballer, Fadi al-Naasan, has died a week after being shot by Israeli forces.",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/7/19/palestinian-teenage-footballer-dies-after-israeli-settler-attack?traffic_source=rss",
-   "published": "2026-07-19T02:57:31+00:00"
+   "title": "France becomes first EU country to officially ban social media for children",
+   "summary": "France will ban social media for under-15s from September 1, following the UK and Australia’s moves toward blanket bans.",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/7/22/france-becomes-first-eu-country-to-officially-ban-social-media-for-children?traffic_source=rss",
+   "published": "2026-07-22T03:34:11+00:00"
   },
   {
    "outlet": "Al Jazeera",
-   "title": "Tate brothers arrested in Miami as UK adds rape, trafficking charges",
-   "summary": "Andrew and his brother Tristan were arrested in the US on Saturday, and the UK is seeking their extradition.",
-   "link": "https://www.aljazeera.com/news/2026/7/19/tate-brothers-arrested-in-miami-as-uk-adds-rape-trafficking-charges?traffic_source=rss",
-   "published": "2026-07-19T02:05:41+00:00"
+   "title": "How armed group alliances are reshaping Mali’s conflict and the wider Sahel",
+   "summary": "A deadly attack near Anefis exposes the growing challenges facing Mali&#039;s military leaders.",
+   "link": "https://www.aljazeera.com/news/2026/7/22/how-armed-group-alliances-are-reshaping-malis-conflict-and-the-wider-sahel?traffic_source=rss",
+   "published": "2026-07-22T02:39:13+00:00"
   },
   {
    "outlet": "Al Jazeera",
-   "title": "WNBA coach Brondello suspended over inappropriate comment at Angel Reese",
-   "summary": "Brondello suspended for a game after calling Reese a &#039;protected species&#039; in Toronto Tempo&#039;s game against Atlanta Dream.",
-   "link": "https://www.aljazeera.com/sports/2026/7/19/wnba-coach-brondello-suspended-over-inappropriate-comment-at-angel-reese?traffic_source=rss",
-   "published": "2026-07-19T01:57:39+00:00"
+   "title": "‘Unprecedented’: OpenAI says AI models autonomously hacked another company",
+   "summary": "OpenAI says an autonomous agent bypassed controls and hacked Hugging Face servers during a cybersecurity test.",
+   "link": "https://www.aljazeera.com/news/2026/7/22/unprecedented-openai-says-ai-models-autonomously-hacked-another-company?traffic_source=rss",
+   "published": "2026-07-22T02:36:55+00:00"
   },
   {
    "outlet": "Al Jazeera",
-   "title": "FIFA admits hydration breaks may not continue after World Cup criticism",
-   "summary": "FIFA will analyse the impact of hydration breaks after the World Cup, says Arsene Wenger a day before the final.",
-   "link": "https://www.aljazeera.com/news/2026/7/19/fifa-admits-hydration-breaks-may-not-continue-after-world-cup-criticism?traffic_source=rss",
-   "published": "2026-07-19T01:40:12+00:00"
+   "title": "US targets China in move to ban military-grade drone imports",
+   "summary": "Proposed rules would have US regulator block the entry of swarm-capable drones, mainly from China.",
+   "link": "https://www.aljazeera.com/news/2026/7/22/us-targets-china-in-move-to-ban-military-grade-drone-imports?traffic_source=rss",
+   "published": "2026-07-22T02:21:57+00:00"
   },
   {
    "outlet": "Al Jazeera",
-   "title": "Argentina fans flood NYC’s Times Square before World Cup final",
-   "summary": "Hundreds of Argentina fans packed New York City’s Times Square hours before Sunday&#039;s World Cup final.",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/7/19/argentina-fans-flood-nycs-times-square-before-world-cup-final?traffic_source=rss",
-   "published": "2026-07-19T01:20:48+00:00"
+   "title": "US says more than 1,400 infected by parasitic Cyclospora illness outbreak",
+   "summary": "US officials claim evidence points to lettuce grown in Mexico, which Mexico&#039;s Health Ministry disputes.",
+   "link": "https://www.aljazeera.com/news/2026/7/22/us-says-more-than-1400-infected-by-parasitic-cyclospora-illness-outbreak?traffic_source=rss",
+   "published": "2026-07-22T02:01:28+00:00"
   },
   {
    "outlet": "Al Jazeera",
-   "title": "Exiled Cuban artist Otero Alcantara has arrived in US, Rubio confirms",
-   "summary": "Otero Alcantara is part of the San Isidro Movement, which has long been the target of Cuban repression.",
-   "link": "https://www.aljazeera.com/news/2026/7/19/exiled-cuban-artist-otero-alcantara-has-arrived-in-us-rubio-confirms?traffic_source=rss",
-   "published": "2026-07-19T00:52:18+00:00"
+   "title": "Desperate families search rubble weeks after Venezuela earthquakes",
+   "summary": "Families in Venezuela search through the rubble of their homes, weeks after the 7.2 and 7.5 magnitude earthquakes hit.",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/7/22/desperate-families-search-rubble-weeks-after-venezuela-earthquakes?traffic_source=rss",
+   "published": "2026-07-22T01:45:35+00:00"
   },
   {
    "outlet": "Al Jazeera",
-   "title": "A giant cake for Venezuelan quake child survivors as death toll passes 5000",
-   "summary": "Volunteers made a giant cake to cheer up around 3,000 Venezuelan children displaced by last month&#039;s powerful twin quakes",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/7/19/a-giant-cake-for-venezuelan-quake-child-survivors-as-death-toll-passes-5000?traffic_source=rss",
-   "published": "2026-07-19T00:39:42+00:00"
+   "title": "Former Biden official can’t see ‘pilot zones’ scheme working in Lebanon",
+   "summary": "Gavito: Israel will likely keep pushing limits in Lebanon, making a full withdrawal unlikely amid security concerns.",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/7/22/aje-onl-nf_gavito-cant-see-pilot-zones-working-in-lebanon-210726?traffic_source=rss",
+   "published": "2026-07-22T01:21:29+00:00"
   },
   {
    "outlet": "Al Jazeera",
-   "title": "Netanyahu declares support for Argentina ahead of World Cup final",
-   "summary": "Argentina’s ambassador to Israel has presented Benjamin Netanyahu with a football jersey ahead of the World Cup final.",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/7/19/netanyahu-declares-support-for-argentina-ahead-of-world-cup-final?traffic_source=rss",
-   "published": "2026-07-19T00:33:31+00:00"
+   "title": "Leopard caught on camera storming into a store in Rajasthan, India",
+   "summary": "A leopard storms into a store in Rajasthan, India, attacking an employee and causing panic.",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/7/22/leopard-caught-on-camera-storming-into-a-store-in-rajasthan-india?traffic_source=rss",
+   "published": "2026-07-22T01:17:06+00:00"
   },
   {
    "outlet": "Al Jazeera",
-   "title": "Iran war live: US bombs Iran; Trump says soldiers killed ‘a sad thing’",
-   "summary": "US forces attack Iran for the eighth consecutive night as Iran says MoU &#039;suspended&#039;.",
-   "link": "https://www.aljazeera.com/news/liveblog/2026/7/19/iran-war-live-us-launches-new-strikes-trump-mourns-killed-soldiers?traffic_source=rss",
-   "published": "2026-07-19T00:00:00+00:00"
+   "title": "Iran war live: Tehran attacks Bahrain, Kuwait, Jordan after US bombings",
+   "summary": "Trump threatens to bomb a suspected Iranian nuclear site called Pickaxe Mountain &#039;very heavily&#039;.",
+   "link": "https://www.aljazeera.com/news/liveblog/2026/7/22/iran-war-live-us-launches-new-attacks-hegseth-says-war-has-cost-37-5bn?traffic_source=rss",
+   "published": "2026-07-22T00:00:15+00:00"
   },
   {
    "outlet": "Al Jazeera",
-   "title": "Saka hat-trick helps England down France to win World Cup 2026 Bronze Final",
-   "summary": "Kylian Mbappe scores twice for France to hit World Cup record, but England win 6-4 in third-place playoff final.",
-   "link": "https://www.aljazeera.com/sports/2026/7/18/saka-hat-trick-helps-england-down-france-to-win-world-cup-2026-bronze-final?traffic_source=rss",
-   "published": "2026-07-18T23:22:12+00:00"
+   "title": "US attacks Iran for 11th consecutive night",
+   "summary": "Explosions reported in northwestern Iran&#039;s Tabriz, capital Tehran and across southern Iran.",
+   "link": "https://www.aljazeera.com/news/2026/7/21/explosions-in-iran-as-us-launches-new-strikes?traffic_source=rss",
+   "published": "2026-07-21T23:46:00+00:00"
   },
   {
    "outlet": "Al Jazeera",
-   "title": "Kylian Mbappe breaks all-time World Cup scoring record with 22nd goal",
-   "summary": "Mbappe is back on track to defend his Golden Boot title, which he and Messi have traded between themselves throughout the tournament.",
-   "link": "https://www.aljazeera.com/sports/2026/7/18/kylian-mbappe-breaks-all-time-world-cup-scoring-record-with-22nd-goal?traffic_source=rss",
-   "published": "2026-07-18T23:20:31+00:00"
+   "title": "Lebanese army deploys in ‘pilot zones’ under US-backed plan",
+   "summary": "The Lebanese army has begun deploying in three southern towns as part of a US-backed framework agreement with Israel.",
+   "link": "https://www.aljazeera.com/video/2026/7/21/lebanese-army-deploys-in-pilot-zones-under-us-backed-plan?traffic_source=rss",
+   "published": "2026-07-21T22:56:12+00:00"
   },
   {
    "outlet": "Al Jazeera",
-   "title": "World Cup final tickets near $2.3m mark on FIFA’s resale platform",
-   "summary": "While no tickets are available on FIFA&#039;s sales platform, they are being resold for sky-high prices on resale sites.",
-   "link": "https://www.aljazeera.com/sports/2026/7/18/world-cup-final-tickets-near-2-3m-mark-on-fifas-resale-platform?traffic_source=rss",
-   "published": "2026-07-18T22:41:47+00:00"
+   "title": "Trump administration attacks US left, alleging Cuba ties: Key takeaways",
+   "summary": "US report says the beleaguered government in Havana is the &#039;connective tissue&#039; of a global &#039;anti-American coalition&#039;.",
+   "link": "https://www.aljazeera.com/news/2026/7/21/trump-administration-attacks-us-left-alleging-cuba-ties-key-takeaways?traffic_source=rss",
+   "published": "2026-07-21T22:55:43+00:00"
   },
   {
    "outlet": "Al Jazeera",
-   "title": "Cockroach Party protest intensifies after Wangchuk forcibly hospitalised",
-   "summary": "Protest by India&#039;s Cockroach Janta Party has intensified after activist Sonam Wangchuk was forcibly hospitalised.",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/7/18/cockroach-party-protest-intensifies-after-wangchuk-forcibly-hospitalised?traffic_source=rss",
-   "published": "2026-07-18T21:03:34+00:00"
+   "title": "Moldova chooses new prime minister as it pushes for EU membership",
+   "summary": "Political newcomer Vasile Tofan inherits Moldova&#039;s push to join the European Union by 2030.",
+   "link": "https://www.aljazeera.com/news/2026/7/21/moldova-chooses-new-prime-minister-as-it-pushes-for-eu-membership?traffic_source=rss",
+   "published": "2026-07-21T22:53:42+00:00"
   },
   {
    "outlet": "Deutsche Welle",
-   "title": "Israel clears way for crocodiles to stop prison breaks",
-   "summary": "Israel's environment minister has reclassified crocodiles so that they can now be used for security purposes. Far-right Security Minister Itamar Ben-Gvir reportedly wants them to surround a jail holding Hamas militants.",
-   "link": "https://www.dw.com/en/israel-clears-way-for-crocodiles-to-stop-prison-breaks/a-78022950?maca=en-rss-en-world-4025-rdf",
-   "published": "2026-07-19T06:39:00+00:00"
+   "title": "Jordan faces growing risk of becoming latest frontline state in US-Iran conflict",
+   "summary": "As Iranian attacks intensify, Jordan is emerging as the latest frontline state in the widening Middle East conflict. Why is the Hashemite Kingdom a target for Tehran?",
+   "link": "https://www.dw.com/en/jordan-faces-growing-risk-of-becoming-latest-frontline-state-in-us-iran-conflict/a-78055209?maca=en-rss-en-world-4025-rdf",
+   "published": "2026-07-21T18:39:00+00:00"
   },
   {
    "outlet": "Deutsche Welle",
-   "title": "Russia's largest ballistic assault of war rocks Kyiv",
-   "summary": "Fires broke out across the Ukrainian capital after Russia's latest missile attack, which used the highest number of ballistic missiles of the war so far. Several people have been injured in Kyiv.",
-   "link": "https://www.dw.com/en/russia-s-largest-ballistic-assault-of-war-rocks-kyiv/a-78022851?maca=en-rss-en-world-4025-rdf",
-   "published": "2026-07-19T03:40:00+00:00"
+   "title": "China narrows AI gap, challenges US influence",
+   "summary": "At the World Artificial Intelligence Conference in Shanghai, Beijing showcased advances in AI while promoting its vision of open-source development and global governance.",
+   "link": "https://www.dw.com/en/china-narrows-ai-gap-challenges-us-influence/a-78053001?maca=en-rss-en-world-4025-rdf",
+   "published": "2026-07-21T14:16:00+00:00"
   },
   {
    "outlet": "Deutsche Welle",
-   "title": "Germany: CDU's Jens Spahn resigns amid surrogacy controversy",
-   "summary": "Surrogacy is not permitted in Germany and the conservative Christian Democratic Union (CDU) opposes its legalization. Spahn and his husband had their child through a surrogate mother in the US.",
-   "link": "https://www.dw.com/en/germany-cdu-s-jens-spahn-resigns-amid-surrogacy-controversy/a-78019238?maca=en-rss-en-world-4025-rdf",
-   "published": "2026-07-18T19:57:00+00:00"
+   "title": "How India's youth-led 'Cockroach' movement challenges Modi",
+   "summary": "What started as a satirical protest against exam leaks in India has grown into a wider movement voicing young Indians' anger over jobs and education.",
+   "link": "https://www.dw.com/en/how-india-s-youth-led-cockroach-movement-challenges-modi/a-78048621?maca=en-rss-en-world-4025-rdf",
+   "published": "2026-07-21T11:35:00+00:00"
   },
   {
    "outlet": "Deutsche Welle",
-   "title": "Norway: Huge fire destroys 100 homes, sparks evacuations",
-   "summary": "Firefighters from other areas of Norway were drafted in to help tackle the blaze in the southern city of Drammen.",
-   "link": "https://www.dw.com/en/norway-huge-fire-destroys-100-homes-sparks-evacuations/a-78019089?maca=en-rss-en-world-4025-rdf",
-   "published": "2026-07-18T19:25:00+00:00"
+   "title": "Mexican drug lord 'El Mayo' sentenced to life without parole in US prison",
+   "summary": "Ismael \"El Mayo\" Zambada, a co-founder of the Sinaloa cartel and one of the world's most notorious drug traffickers, was sentenced to life in a US prison.",
+   "link": "https://www.dw.com/en/mexican-drug-lord-el-mayo-sentenced-to-life-without-parole-in-us-prison/a-78042164?maca=en-rss-en-world-4025-rdf",
+   "published": "2026-07-20T19:55:00+00:00"
   },
   {
    "outlet": "Deutsche Welle",
-   "title": "Israel: How real is threat of gender segregation on street?",
-   "summary": "An Israeli city with a large ultra-Orthodox Jewish population wants to segregate men and women on certain streets. Israeli politicians have voted to allow university courses to do the same.",
-   "link": "https://www.dw.com/en/israel-how-real-is-threat-of-gender-segregation-on-street/a-78020879?maca=en-rss-en-world-4025-rdf",
-   "published": "2026-07-18T18:45:00+00:00"
+   "title": "AliExpress hit with record EU fine",
+   "summary": "The Chinese retailer has become the latest major online marketplace to face penalties under the EU’s Digital Services Act.",
+   "link": "https://www.dw.com/en/aliexpress-hit-with-record-eu-fine/a-78040720?maca=en-rss-en-world-4025-rdf",
+   "published": "2026-07-20T17:43:00+00:00"
   },
   {
    "outlet": "Deutsche Welle",
-   "title": "India launches first private rocket into space",
-   "summary": "Lifting off from an island north of Chennai, the Vikram-1 rocket signals India’s plans to take a larger share of the market for commercial rocket launches.",
-   "link": "https://www.dw.com/en/india-launches-first-private-rocket-into-space/a-78016562?maca=en-rss-en-world-4025-rdf",
-   "published": "2026-07-18T10:12:00+00:00"
+   "title": "Russia says bus strike kills 5 in border region with Ukraine",
+   "summary": "The strike comes as Ukraine launched more than hundreds of drones at Moscow after a Russian missile barrage on Kyiv, as President Zelenskyy sought to calm growing tensions over Ukraine’s military leadership.",
+   "link": "https://www.dw.com/en/russia-says-bus-strike-kills-5-in-border-region-with-ukraine/a-78039260?maca=en-rss-en-world-4025-rdf",
+   "published": "2026-07-20T15:09:00+00:00"
   },
   {
    "outlet": "Deutsche Welle",
-   "title": "Japan's superstitions make some homes hard to sell or rent",
-   "summary": "Many Japanese people are reluctant to buy or rent homes where a sudden or violent death has occurred. To reassure prospective buyers and tenants, property owners are calling in \"ghost investigators.\"",
-   "link": "https://www.dw.com/en/japan-s-superstitions-make-some-homes-hard-to-sell-or-rent/a-78005455?maca=en-rss-en-world-4025-rdf",
-   "published": "2026-07-18T07:32:00+00:00"
+   "title": "UN chief Guterres to visit Cyprus in bid to revive peace talks",
+   "summary": "UN Secretary-General Antonio Guterres will visit Cyprus next week in what is seen as an effort to kickstart the stalled peace process. Why now? What is known about the plan? And what might be different this time round?",
+   "link": "https://www.dw.com/en/un-chief-guterres-to-visit-cyprus-in-bid-to-revive-peace-talks/a-78037819?maca=en-rss-en-world-4025-rdf",
+   "published": "2026-07-20T14:16:00+00:00"
   },
   {
    "outlet": "Deutsche Welle",
-   "title": "Amid elections, Sao Tome and Principe balances global powers",
-   "summary": "As voters head to the polls, Sao Tome and Principe is attracting international scrutiny. A military agreement with Russia has heightened interest in the strategically located archipelago.",
-   "link": "https://www.dw.com/en/amid-elections-sao-tome-and-principe-balances-global-powers/a-77884067?maca=en-rss-en-world-4025-rdf",
-   "published": "2026-07-18T06:02:00+00:00"
+   "title": "Why a 90-year-old treaty limits NATO in the Black Sea",
+   "summary": "A 90-year-old treaty still shapes the balance of power in the Black Sea. As Ukraine fights on against Russia, can NATO project power into waters it can't enter freely?",
+   "link": "https://www.dw.com/en/why-a-90-year-old-treaty-limits-nato-in-the-black-sea/a-77966363?maca=en-rss-en-world-4025-rdf",
+   "published": "2026-07-20T14:10:00+00:00"
   },
   {
    "outlet": "Deutsche Welle",
-   "title": "Gaza officials say several killed in Israeli strike",
-   "summary": "Palestinian health and civil defense officials said at least eight people were killed while attending a funeral. Israel's military said it had struck a \"terrorist cell\" from the Islamic Jihad militant group.",
-   "link": "https://www.dw.com/en/gaza-officials-say-several-killed-in-israeli-strike/a-78014902?maca=en-rss-en-world-4025-rdf",
-   "published": "2026-07-17T21:29:00+00:00"
+   "title": "US ties to Israel rattle rare earth deal in Malaysia",
+   "summary": "Malaysia's rare earth refinery in Gebeng is essential to a strategic deal between the Pentagon and Australia's Lynas mining corporation. Now, Malaysian activists are using it as leverage to support Palestinians in Gaza.",
+   "link": "https://www.dw.com/en/us-ties-to-israel-rattle-rare-earth-deal-in-malaysia/a-78037439?maca=en-rss-en-world-4025-rdf",
+   "published": "2026-07-20T13:46:00+00:00"
   },
   {
    "outlet": "Deutsche Welle",
-   "title": "Germany's 5,000 heat deaths: What the numbers reveal",
-   "summary": "More than 5,100 people in Germany died from heat-related causes this year until the end of June, the Robert Koch Institute reports. But how can researchers prove that someone died because of soaring temperatures?",
-   "link": "https://www.dw.com/en/germany-s-5-000-heat-deaths-what-the-numbers-reveal/a-78010353?maca=en-rss-en-world-4025-rdf",
-   "published": "2026-07-17T19:11:00+00:00"
+   "title": "Why Japan's new imperial law keeps women off the throne",
+   "summary": "New legislation aims to address the shrinking ranks of Japan's imperial family, while preserving male-only succession despite broad support for a female emperor.",
+   "link": "https://www.dw.com/en/why-japan-s-new-imperial-law-keeps-women-off-the-throne/a-78037181?maca=en-rss-en-world-4025-rdf",
+   "published": "2026-07-20T13:09:00+00:00"
   },
   {
    "outlet": "Deutsche Welle",
-   "title": "Japan revises imperial succession rules, but still excludes women",
-   "summary": "Parliament has adjusted imperial succession laws in the country, seeking to ensure the royal line endures, but maintained the bar on women emperors. A popular princess, Aiko, would be next in line if sex was no issue.",
-   "link": "https://www.dw.com/en/japan-revises-imperial-succession-rules-but-still-excludes-women/a-78009893?maca=en-rss-en-world-4025-rdf",
-   "published": "2026-07-17T18:15:00+00:00"
-  },
-  {
-   "outlet": "Deutsche Welle",
-   "title": "Why the US is going after the International Criminal Court",
-   "summary": "US Secretary of State Marco Rubio has ramped up his criticism of the International Criminal Court in The Hague. His gloves-off approach could have far-reaching consequences for the tribunal.",
-   "link": "https://www.dw.com/en/why-the-us-is-going-after-the-international-criminal-court/a-78006596?maca=en-rss-en-world-4025-rdf",
-   "published": "2026-07-17T17:02:00+00:00"
-  },
-  {
-   "outlet": "Deutsche Welle",
-   "title": "Uganda halts school trips as bus crash kills 20 kids",
-   "summary": "A school bus in Uganda has crashed during its return to Kampala from a trip to the Sipi Falls. The government has temporarily halted all school trips in response, as families mourn at least 20 dead children and an adult.",
-   "link": "https://www.dw.com/en/uganda-halts-school-trips-as-bus-crash-kills-20-kids/a-78010176?maca=en-rss-en-world-4025-rdf",
-   "published": "2026-07-17T15:09:00+00:00"
+   "title": "Meet Andy Burnham, Britain's new prime minister",
+   "summary": "Andy Burnham has been sworn in as the successor to British Prime Minister Keir Starmer. Burnham, the former Manchester mayor, has become a leading figure in the Labour Party and one of the UK's most popular politicians.",
+   "link": "https://www.dw.com/en/meet-andy-burnham-britain-s-new-prime-minister/a-77664543?maca=en-rss-en-world-4025-rdf",
+   "published": "2026-07-20T11:37:00+00:00"
   },
   {
    "outlet": "NYT World",
-   "title": "Why Tokyo’s New Shorts Policy is Sparking Debate in Japan",
-   "summary": "The Tokyo government is allowing workers to wear shorts for the first time this summer, prompting delicate questions about etiquette and hairy legs.",
-   "link": "https://www.nytimes.com/2026/07/19/world/asia/japan-cool-biz-tokyo-shorts-heat.html",
-   "published": "2026-07-19T04:01:05+00:00"
+   "title": "Zelensky Dismisses Ukraine’s Top General After Protests",
+   "summary": "The move followed the firing of a popular defense minister, who had clashed with the general over how to fight the war.",
+   "link": "https://www.nytimes.com/2026/07/21/world/europe/ukraine-syrskyi-russia-war-fedorov-zelensky-protest.html",
+   "published": "2026-07-21T21:39:10+00:00"
   },
   {
    "outlet": "NYT World",
-   "title": "Iran War Live Updates: U.S. Launches Strikes After Iranian Attack Kills 2 American Soldiers",
-   "summary": "The soldiers, killed in Jordan, were the first U.S. troops to die from hostile fire since an April truce. U.S. forces began retaliatory strikes early Sunday.",
-   "link": "https://www.nytimes.com/live/2026/07/18/world/iran-war-strikes-trump-hormuz",
-   "published": "2026-07-19T06:48:03+00:00"
+   "title": "Inside the Fight to Rid South Africa of Black Immigrants",
+   "summary": "As immigration surges in the country, activists are going to extreme lengths to expel foreign nationals, often taking the law into their own hands.",
+   "link": "https://www.nytimes.com/2026/07/21/world/africa/south-africa-migrants.html",
+   "published": "2026-07-21T18:00:20+00:00"
   },
   {
    "outlet": "NYT World",
-   "title": "Ukraine’s Top General Becomes a Target of Protesters’ Anger",
-   "summary": "Demonstrators supporting Ukraine’s ousted defense minister have begun denouncing the commander he clashed with in office, Gen. Oleksandr Syrskyi.",
-   "link": "https://www.nytimes.com/2026/07/18/world/europe/ukraine-protests-general-syrskyi-fedorov.html",
-   "published": "2026-07-19T07:13:23+00:00"
+   "title": "3 Myths Fueling Anti-Immigrant Sentiment in South Africa",
+   "summary": "As the nation convulses with protests and violence, data and research suggest that some of the biggest arguments against foreigners don’t stand up against the facts.",
+   "link": "https://www.nytimes.com/2026/07/21/world/africa/south-africa-immigration-protests-explainer.html",
+   "published": "2026-07-21T18:00:06+00:00"
   },
   {
    "outlet": "NYT World",
-   "title": "Wildfires Continue To Burn in Ontario, Canada, Sending Smoke to U.S. Cities",
-   "summary": "Nearly 200 fires continued to devastate swaths of the province as smoke continued to drift across parts of Canada and the United States.",
-   "link": "https://www.nytimes.com/2026/07/18/world/canada/ontario-wildfires-smoke-thunder-bay-canada.html",
-   "published": "2026-07-18T18:03:18+00:00"
+   "title": "Japan Is Startled by Prime Minister’s Grueling Sleep Schedule",
+   "summary": "Sanae Takaichi has said she gets just “zero to three hours” of sleep a night, prompting a debate in the country over work-life balance.",
+   "link": "https://www.nytimes.com/2026/07/22/world/asia/japan-takaichi-sleep-schedule.html",
+   "published": "2026-07-22T06:03:38+00:00"
   },
   {
    "outlet": "NYT World",
-   "title": "Uproar Over Surrogate Baby Prompts German Official’s Sudden Resignation",
-   "summary": "Jens Spahn, a top leader of Chancellor Friedrich Merz’s party, resigned his post after announcing that he had a baby by surrogate, which is illegal in Germany.",
-   "link": "https://www.nytimes.com/2026/07/18/world/europe/jens-spahn-surrogacy-germany.html",
-   "published": "2026-07-18T15:30:32+00:00"
+   "title": "Mykhailo Drapatyi: What to Know About Ukraine’s New Top General",
+   "summary": "Maj. Gen. Mykhailo Drapatyi, a decorated commander, is popular both inside and outside of his country.",
+   "link": "https://www.nytimes.com/2026/07/21/world/europe/ukraine-mykhailo-drapatyi.html",
+   "published": "2026-07-21T23:39:36+00:00"
   },
   {
    "outlet": "NYT World",
-   "title": "Iqaluit, Canada’s Most Northern City, Gets Its First Bus Line",
-   "summary": "Jacinto Marques left Angola for Canada’s frozen edge. Now he’s running a bus service in Iqaluit, the largest, and only city in Canada’s Arctic.",
-   "link": "https://www.nytimes.com/2026/07/18/world/canada/iqaluit-arctic-city-bus.html",
-   "published": "2026-07-18T09:01:06+00:00"
+   "title": "India’s Young Protesters Are Bloodied but Unbowed",
+   "summary": "A day after police forcibly broke up demonstrations, thousands returned to the protest site in New Delhi to keep pushing for action over the country’s failings in education.",
+   "link": "https://www.nytimes.com/2026/07/21/world/asia/india-protests-cockroach-janta-party.html",
+   "published": "2026-07-22T02:33:42+00:00"
   },
   {
    "outlet": "NYT World",
-   "title": "A Very British CPAC: Few, if Any, Costumes and Not Much Trump",
-   "summary": "London hosted an understated version of the Conservative Political Action Conference, known in the United States for its over-the-top celebration of MAGA causes.",
-   "link": "https://www.nytimes.com/2026/07/18/world/europe/cpac-great-britain-farage.html",
-   "published": "2026-07-18T16:48:22+00:00"
+   "title": "Netanyahu Ad Uses a Questionable Tactic Against Bereaved Rival",
+   "summary": "A.I.-generated images showing Gadi Eisenkot, the Israeli leader’s top challenger in upcoming elections, played on anti-Arab sentiments and used images seen as disrespectful to his son, who was killed in the recent Gaza war.",
+   "link": "https://www.nytimes.com/2026/07/21/world/middleeast/netanyahu-ad-gadi-eisenkot.html",
+   "published": "2026-07-21T19:12:29+00:00"
   },
   {
    "outlet": "NYT World",
-   "title": "Lamine Yamal, Soccer Star and Son of African Migrants, Personifies a Changing Spain",
-   "summary": "As he prepares for the World Cup final, Lamine Yamal, 19, is at the heart of a national debate about what it means to be Spanish in an increasingly multicultural society.",
-   "link": "https://www.nytimes.com/2026/07/18/world/europe/spain-lamine-yamal.html",
-   "published": "2026-07-18T13:56:40+00:00"
+   "title": "Iran’s Neighbors Long for a Deal, Any Deal, to End the War",
+   "summary": "Business owners in Pakistan are getting impatient for a chance to finally trade goods and oil along their long shared border with Iran.",
+   "link": "https://www.nytimes.com/2026/07/22/world/asia/iran-pakistan-karachi-trade-oil.html",
+   "published": "2026-07-22T05:02:40+00:00"
   },
   {
    "outlet": "NYT World",
-   "title": "As Trump Scraps With Meloni, His Envoy to Italy Is at Sea",
-   "summary": "Tilman J. Fertitta, the U.S. ambassador to Rome, is summering on his superyacht as President Trump squabbles with Prime Minister Giorgia Meloni of Italy.",
-   "link": "https://www.nytimes.com/2026/07/18/world/europe/tilman-fertitta-superyacht-italy-ambassador.html",
-   "published": "2026-07-18T15:45:28+00:00"
+   "title": "British Politician Ann Widdecombe Was Murdered with a Hammer, Prosecutors Say",
+   "summary": "The politician, Ann Widdecombe, was eating lunch at home when a man walked in and asked whether she had bank cards, security footage showed.",
+   "link": "https://www.nytimes.com/2026/07/21/world/europe/ann-widdecombe-death-hammer.html",
+   "published": "2026-07-21T16:00:47+00:00"
   },
   {
    "outlet": "NYT World",
-   "title": "Israel Counters Iranian Spying by Warning Against Recruitment",
-   "summary": "The Israeli authorities have enacted a broad array of countermeasures to contain what they describe as online recruiting efforts by Iranian agents.",
-   "link": "https://www.nytimes.com/2026/07/18/world/middleeast/israel-recruits-rabbis-iran.html",
-   "published": "2026-07-18T13:09:16+00:00"
+   "title": "Trump Escalates Canada Tariffs as Mark Carney Holds Firm",
+   "summary": "The president’s new tariffs on a top U.S. trading partner aim at gaining concessions, but the Canadian government, and the public, have been bracing for the escalation.",
+   "link": "https://www.nytimes.com/2026/07/21/world/canada/trump-carney-trade-tariffs.html",
+   "published": "2026-07-21T17:21:51+00:00"
   },
   {
    "outlet": "NYT World",
-   "title": "In Bangladesh, Argentina’s Soccer Team Finds a Huge Fan Base",
-   "summary": "Bangladesh has never qualified for the World Cup. But every four years, many in the country adopt Argentina’s team as their own.",
-   "link": "https://www.nytimes.com/2026/07/18/world/asia/world-cup-bangladesh-argentina-fans.html",
-   "published": "2026-07-18T11:16:32+00:00"
+   "title": "Houthis in Yemen Edge Closer to Entering U.S.-Iran War",
+   "summary": "The Iran-backed Houthi militia in Yemen has declared a Red Sea blockade on Saudi Arabia, potentially opening a new front in the war rippling across the Middle East.",
+   "link": "https://www.nytimes.com/2026/07/21/world/middleeast/houthis-yemen-iran-war.html",
+   "published": "2026-07-21T18:16:45+00:00"
   },
   {
    "outlet": "NYT World",
-   "title": "Indian Activist on Hunger Strike Is Forcibly Removed by Police",
-   "summary": "The activist, Sonam Wangchuk, has been demanding the education minister’s resignation over botched nationwide exams that affected millions of students.",
-   "link": "https://www.nytimes.com/2026/07/18/world/asia/sonam-wangchuk-hunger-strike-delhi-police.html",
-   "published": "2026-07-18T14:05:17+00:00"
+   "title": "France Joins a Global Move Toward Restricting Social Media for Children",
+   "summary": "Its new law, the first of its kind enacted by a European country, will ban access to some accounts for anyone under 15.",
+   "link": "https://www.nytimes.com/2026/07/21/world/europe/france-social-media-ban.html",
+   "published": "2026-07-22T02:36:52+00:00"
   },
   {
    "outlet": "NYT World",
-   "title": "They Called Sam Neill ‘Skux.’ (It Was a Compliment.)",
-   "summary": "The New Zealand slang word, dating back to the 1990s, was pulled back into circulation in tributes to the actor, who died on Tuesday.",
-   "link": "https://www.nytimes.com/2026/07/18/world/australia/new-zealand-sam-neill-skux-meaning.html",
-   "published": "2026-07-18T18:36:11+00:00"
+   "title": "The Teenage Boys In Search of Their Mother After the Venezuela Earthquake",
+   "summary": "After Venezuela’s devastating earthquakes, Winder and Deivi Delfín dug every day for 26 days to find the bodies of their mother, brother and grandmother.",
+   "link": "https://www.nytimes.com/2026/07/21/world/americas/venezuela-quake-victims-search.html",
+   "published": "2026-07-21T19:03:34+00:00"
   },
   {
    "outlet": "NYT World",
-   "title": "Burnham Becomes Labour Leader and Britain’s Incoming Prime Minister",
-   "summary": "At a time of political upheaval and economic stagnation, Andy Burnham will on Monday become the seventh prime minister in a decade.",
-   "link": "https://www.nytimes.com/2026/07/17/world/europe/burnham-labour-leader.html",
-   "published": "2026-07-17T18:53:00+00:00"
+   "title": "A Family’s Daring Escape From North Korea",
+   "summary": "Their resolve for freedom hardened during the pandemic, when they lived through a crippling food shortage and were forced to witness frequent public executions.",
+   "link": "https://www.nytimes.com/2026/07/21/world/asia/south-korea-family-defection-escape.html",
+   "published": "2026-07-21T23:03:28+00:00"
   },
   {
    "outlet": "NYT World",
-   "title": "Why Jordan Is Becoming a New Focus in the U.S.-Iran War",
-   "summary": "Four Iranian attacks in five days have targeted U.S. troops in Jordan, U.S. officials said, including one on Friday that killed two soldiers and left another service member missing.",
-   "link": "https://www.nytimes.com/2026/07/18/world/middleeast/iran-war-jordan-attacks.html",
-   "published": "2026-07-18T23:03:24+00:00"
+   "title": "With His Latest Threats, Trump Signals to Iran That He Is Willing to Escalate",
+   "summary": "President Trump is facing a critical moment in the war, which has failed to bring about the “unconditional surrender” he once demanded.",
+   "link": "https://www.nytimes.com/2026/07/21/us/politics/trump-iran-threats.html",
+   "published": "2026-07-22T00:00:14+00:00"
   },
   {
    "outlet": "NYT World",
-   "title": "Canada Wildfires: What to Know",
-   "summary": "Hundreds of wildfires in Canada and the United States have blanketed large sections of North America in dense smoke over the past week.",
-   "link": "https://www.nytimes.com/2026/07/18/world/canada/canada-wildfires-what-to-know.html",
-   "published": "2026-07-18T20:16:59+00:00"
+   "title": "A Wartime Rift in Ukraine",
+   "summary": "President Volodymyr Zelensky fired his top general after a feud between old-school officers and younger innovators spilled into the streets.",
+   "link": "https://www.nytimes.com/2026/07/21/world/ukraine-general-fired-india-protests.html",
+   "published": "2026-07-22T04:31:56+00:00"
   },
   {
    "outlet": "NYT World",
-   "title": "Deaths of 2 U.S. Troops in Jordan Brings American Toll in the War With Iran to 16",
-   "summary": "President Trump vowed to avenge the deaths of any U.S. military personnel.",
-   "link": "https://www.nytimes.com/2026/07/18/world/middleeast/us-troops-killed-iran-war-jordan.html",
-   "published": "2026-07-18T22:53:13+00:00"
+   "title": "What to Know About Iran’s Pickaxe Mountain",
+   "summary": "The fortified underground complex, in central Iran, is about one mile away from the Natanz uranium enrichment facility.",
+   "link": "https://www.nytimes.com/2026/07/21/world/middleeast/pickaxe-mountain-iran-nuclear.html",
+   "published": "2026-07-21T20:59:02+00:00"
   },
   {
    "outlet": "NYT World",
-   "title": "U.S. Strikes Leave Iranians Isolated and Scared",
-   "summary": "Overnight strikes damaged a tunnel and three bridges in Hormozgan Province, the governor’s office said.",
-   "link": "https://www.nytimes.com/2026/07/18/world/middleeast/us-iran-war-strikes-bridges-bandar-abbas.html",
-   "published": "2026-07-18T16:02:40+00:00"
+   "title": "Water Plants Under Fire in the Gulf Are Crucial to Civilians",
+   "summary": "Several days of airstrikes have hit water and energy plants in Kuwait, a nation that relies on desalination for 90 percent of its drinking water.",
+   "link": "https://www.nytimes.com/2026/07/21/world/middleeast/desalination-water-middle-east.html",
+   "published": "2026-07-21T19:04:46+00:00"
   },
   {
    "outlet": "NYT World",
-   "title": "Your ‘Live’ World Cup Broadcast Is Not Really Live",
-   "summary": "Everyone is watching the goals after they happen, and some get them significantly faster.",
-   "link": "https://www.nytimes.com/2026/07/18/sports/soccer/world-cup-live-tv-delay.html",
-   "published": "2026-07-18T15:48:06+00:00"
-  },
-  {
-   "outlet": "NYT World",
-   "title": "Kuwait accuses Iran of targeting civilian sites after attacks spark fires.",
+   "title": "Iran’s top diplomat says ‘security gap’ may have led to strikes on supreme leader.",
    "summary": "",
-   "link": "https://www.nytimes.com/live/2026/07/18/world/iran-war-strikes-trump-hormuz/kuwait-power-water-facilities-attacks",
-   "published": "2026-07-18T14:24:02+00:00"
+   "link": "https://www.nytimes.com/live/2026/07/21/world/iran-war-strikes-trump-hormuz/abbas-aragchi-security-gap-strikes",
+   "published": "2026-07-21T16:00:44+00:00"
   },
   {
    "outlet": "NYT World",
-   "title": "Most Forest Fires in Canada Are Simply Impossible to Put Out",
-   "summary": "Half of Canada’s wildfires are in remote areas with no road access. Impossible to fight, they are often left to burn.",
-   "link": "https://www.nytimes.com/2026/07/18/world/canada/wildfires-canada-fire-fighting.html",
-   "published": "2026-07-18T12:31:34+00:00"
+   "title": "1,700 H.I.V. Treatment Sites Closed After Trump Aid Cuts, a Study Finds",
+   "summary": "New research also shows that children and high-risk adult populations have been particularly affected.",
+   "link": "https://www.nytimes.com/2026/07/21/health/hiv-trump-cuts-pepfar.html",
+   "published": "2026-07-21T14:24:29+00:00"
   },
   {
    "outlet": "NYT World",
-   "title": "Freedom Convoy Leader, Under House Arrest, Wants to Visit the White House",
-   "summary": "Prosecutors say Tamara Lich wants a “blank cheque” for international travel, including a cruise, arguing that she is trying to profit from the very protest that got her sentenced.",
-   "link": "https://www.nytimes.com/2026/07/18/world/canada/freedom-convoy-ottawa-lich-wildfires.html",
-   "published": "2026-07-18T10:00:04+00:00"
+   "title": "Lebanese Army Accuses Israeli Troops of Firing as Its Forces Deploy in ‘Pilot Zone’",
+   "summary": "The action raised tensions as the sides were taking their first steps under a U.S.-brokered deal to transfer control of occupied areas to Lebanon after months of war.",
+   "link": "https://www.nytimes.com/2026/07/21/world/middleeast/lebanon-israel-ceasefire-plan.html",
+   "published": "2026-07-21T20:45:30+00:00"
+  },
+  {
+   "outlet": "NYT World",
+   "title": "Philippines Says Sailor Was Injured in Skirmish With Chinese Coast Guard",
+   "summary": "China said it was not the aggressor in the episode, which was the latest flare-up in the South China Sea between the two countries.",
+   "link": "https://www.nytimes.com/2026/07/21/world/asia/philippines-south-china-sea-sailor-injured.html",
+   "published": "2026-07-22T01:14:09+00:00"
+  },
+  {
+   "outlet": "NYT World",
+   "title": "New UK Prime Minister Burnham Promises Hope and Change. The Hurdles Are High.",
+   "summary": "Britain’s new prime minister, Andy Burnham, promised policies that would give average Britons financial “breathing space.” His opponents are already doling out criticism.",
+   "link": "https://www.nytimes.com/2026/07/21/world/europe/andy-burnham-new-uk-prime-minister-policies.html",
+   "published": "2026-07-21T10:12:33+00:00"
+  },
+  {
+   "outlet": "NYT World",
+   "title": "Flash Floods Kill at Least 23 in Afghanistan",
+   "summary": "Dozens remained missing after floods swept through a city in Nuristan, an isolated province in the country’s east.",
+   "link": "https://www.nytimes.com/2026/07/21/world/asia/afghanistan-floods-deaths-nuristan.html",
+   "published": "2026-07-21T09:38:14+00:00"
+  },
+  {
+   "outlet": "NYT World",
+   "title": "When Protesters Speak, Zelensky Listens, in the Ukrainian Tradition",
+   "summary": "With anger high over the firing of the defense minister, the president’s office is signaling an openness to compromise.",
+   "link": "https://www.nytimes.com/2026/07/21/world/europe/ukraine-zelensky-protests.html",
+   "published": "2026-07-21T09:28:10+00:00"
   },
   {
    "outlet": "NYT World",
    "title": "Here’s the latest.",
    "summary": "",
-   "link": "https://www.nytimes.com/live/2026/07/18/world/iran-war-strikes-trump-hormuz/heres-the-latest",
-   "published": "2026-07-19T04:46:28+00:00"
+   "link": "https://www.nytimes.com/live/2026/07/21/world/iran-war-strikes-trump-hormuz/heres-the-latest",
+   "published": "2026-07-22T01:00:58+00:00"
   },
   {
    "outlet": "NYT World",
-   "title": "Russia Bill Broadens Sanctions but Could Fuel Fears Over the Dollar",
-   "summary": "The Trump administration has recently sought to scale back sanctions as adversaries develop workarounds that some believe could erode the U.S. dollar’s supremacy.",
-   "link": "https://www.nytimes.com/2026/07/18/us/politics/russia-bill-sanctions-trump.html",
-   "published": "2026-07-18T09:01:37+00:00"
+   "title": "Burnham, UK’s New Prime Minister, Starts With Electricity Tax Cut",
+   "summary": "Prime Minister Andy Burnham moved quickly to confront the high cost of living. And President Trump wished him well after a phone call between the two leaders.",
+   "link": "https://www.nytimes.com/2026/07/21/world/europe/uk-andy-burnham-electricity-tax-vat.html",
+   "published": "2026-07-21T12:01:06+00:00"
   },
   {
    "outlet": "NYT World",
-   "title": "7 Americans Sent to Disputed Kenya Ebola Site After New Trump Travel Ban",
-   "summary": "The aid workers were on the frontline in the fight against the outbreak in the Democratic Republic of Congo and have shown no symptoms, their employer said.",
-   "link": "https://www.nytimes.com/2026/07/17/world/africa/ebola-kenya-americans-quarantine.html",
-   "published": "2026-07-18T03:19:37+00:00"
+   "title": "Australian Woman Gives Birth to ‘Miracle’ Identical Quadruplets",
+   "summary": "Doctors said the arrival of Emily, Harriet, Catherine and Alexa, who were conceived naturally and split from one fertilized egg, is an extremely rare event.",
+   "link": "https://www.nytimes.com/2026/07/21/world/australia/australia-identical-quadruplets-birth.html",
+   "published": "2026-07-21T07:57:53+00:00"
   },
   {
    "outlet": "NYT World",
-   "title": "The Rise and Fall of Ukraine’s Drone Warfare Mastermind",
-   "summary": "The popularity of drones, and the defense minister who heavily promoted them, helped lead to a clash in which President Volodymyr Zelensky sided with the military brass.",
-   "link": "https://www.nytimes.com/2026/07/17/world/europe/ukraine-fedorov-defense-minister.html",
-   "published": "2026-07-18T14:29:39+00:00"
+   "title": "At Least 27 Dead in Guyana After Ferry Capsizes",
+   "summary": "Dozens of others are feared dead as crews scour for bodies after the vessel sank on its way to a gold-mining outpost in the South American country.",
+   "link": "https://www.nytimes.com/2026/07/20/world/americas/guyana-ferry-sinking-barima.html",
+   "published": "2026-07-21T08:00:43+00:00"
   },
   {
    "outlet": "NYT World",
-   "title": "Karim Khan’s Accuser Breaks Silence on Alleged Sexual Misconduct at I.C.C.",
-   "summary": "Karim Khan, the chief prosecutor at the International Criminal Court, has denied the accusations. He faces a vote next week that will determine whether he keeps his job.",
-   "link": "https://www.nytimes.com/2026/07/17/world/europe/karim-khan-icc-accusations.html",
-   "published": "2026-07-17T20:51:08+00:00"
+   "title": "Daniel Ortega, President of Nicaragua, Says He Plans to Abolish Elections",
+   "summary": "Daniel Ortega has been accused of rigging recent elections in Nicaragua. Now, the authoritarian leader says the nation won’t even hold a vote.",
+   "link": "https://www.nytimes.com/2026/07/20/world/americas/nicaragua-ortega-abolish-elections.html",
+   "published": "2026-07-21T00:49:04+00:00"
   },
   {
    "outlet": "NYT World",
-   "title": "War Between U.S. and Iran Expands, With Strikes Across the Region",
-   "summary": "Videos and reports in Iranian state media showed damage to bridges, railways and other infrastructure. U.S. allies in the region reported retaliatory strikes by Iran.",
-   "link": "https://www.nytimes.com/2026/07/17/world/middleeast/us-iran-war-strikes-infrastructure-civilians.html",
-   "published": "2026-07-17T21:49:49+00:00"
+   "title": "Pope Leo Calls for Nuclear Disarmament in Latest Antiwar Message",
+   "summary": "In a new book published on Tuesday, Leo said that a race to nuclear de-escalation has been “obscured by a race to armament that today frightens and terrifies.”",
+   "link": "https://www.nytimes.com/2026/07/20/world/europe/pope-leo-nuclear-disarmament-anti-war-message.html",
+   "published": "2026-07-20T22:00:05+00:00"
   },
   {
    "outlet": "NYT World",
-   "title": "Lam Wing-Kee, Hong Kong Bookseller Who Defied Authorities, Dies at 70",
-   "summary": "One of five booksellers kidnapped by Chinese officials in 2015, Mr. Lam spoke out after his release and became an international cause célèbre.",
-   "link": "https://www.nytimes.com/2026/07/17/world/asia/lam-wing-kee-dead.html",
-   "published": "2026-07-17T21:03:38+00:00"
+   "title": "U.K. Prosecutors File Murder Charge in Ann Widdecombe Death",
+   "summary": "A 28-year-old man has been charged in connection with the death of Ann Widdecombe, a right-wing figure whose body was found in her home this month.",
+   "link": "https://www.nytimes.com/2026/07/20/world/europe/uk-ann-widdecombe-murder.html",
+   "published": "2026-07-20T22:04:16+00:00"
   },
   {
    "outlet": "NYT World",
-   "title": "Prominent Cuban Artist Will Go Into Exile After 5-Year Prison Term",
-   "summary": "The United States offered a visa to Luis Manuel Otero Alcántara, who was expected to fly to Miami on Saturday.",
-   "link": "https://www.nytimes.com/2026/07/17/world/americas/luis-manuel-otero-alcantara-cuba-prison-release-exile.html",
-   "published": "2026-07-17T19:34:45+00:00"
+   "title": "Epidemics and Rage",
+   "summary": "Societies have always struggled with hostile reactions to health care workers during epidemics. Why?",
+   "link": "https://www.nytimes.com/2026/07/20/world/epidemics-rage-ebola-first-responders.html",
+   "published": "2026-07-21T13:43:13+00:00"
   },
   {
    "outlet": "NYT World",
-   "title": "Israeli Strike in Gaza Kills Seven People, Health Officials Say",
-   "summary": "The Israeli military said the attack targeted members of the second-biggest militant group in Gaza. It also said it was “aware of the claims that several uninvolved individuals” had been harmed.",
-   "link": "https://www.nytimes.com/2026/07/17/world/middleeast/israeli-strike-gaza-kills-eight.html",
-   "published": "2026-07-17T19:52:28+00:00"
+   "title": "Evacuees of Ontario’s Wildfires Wait and Worry",
+   "summary": "Flames crept, and then sprinted, toward unsuspecting residents who fled remote parts of northwestern Ontario. Now they want to know why officials weren’t prepared.",
+   "link": "https://www.nytimes.com/2026/07/20/world/canada/ontario-wildfire-evacuations-thunder-bay.html",
+   "published": "2026-07-22T02:17:50+00:00"
   },
   {
    "outlet": "NYT World",
-   "title": "7.3-Magnitude Earthquake Off Coast of Mexico and Guatemala Poses Tsunami Threat",
-   "summary": "A powerful earthquake near the border of Mexico and Guatemala raised fears of a tsunami and shook buildings across three countries.",
-   "link": "https://www.nytimes.com/2026/07/17/world/americas/earthquake-tsunami-warning-mexico-guatemala.html",
-   "published": "2026-07-17T19:54:11+00:00"
+   "title": "In Gaza, Spain’s Win Brings a Moment of Joy and Distraction",
+   "summary": "Many in the enclave supported Spain, which has recognized Palestinian statehood. Argentina had strong support among Israeli soccer fans.",
+   "link": "https://www.nytimes.com/2026/07/20/world/world-cup-spain-gaza-watch-parties.html",
+   "published": "2026-07-20T19:54:21+00:00"
   },
   {
    "outlet": "NYT World",
-   "title": "Parents in Uganda Demand Answers After Bus Crash Kills 21 Children",
-   "summary": "The driver of the school bus, carrying dozens of students, lost control, officials said, causing the bus to veer off the road into a boulder.",
-   "link": "https://www.nytimes.com/2026/07/17/world/africa/uganda-bus-crash-children.html",
-   "published": "2026-07-17T16:03:37+00:00"
+   "title": "Inside Andy Burnham’s 1st Day as U.K. Prime Minister",
+   "summary": "As Andy Burnham became Britain’s seventh leader in a decade on Monday, he tried to show that he will govern differently.",
+   "link": "https://www.nytimes.com/2026/07/20/world/europe/andy-burnham-uk.html",
+   "published": "2026-07-20T19:35:10+00:00"
   },
   {
    "outlet": "NYT World",
-   "title": "E.U. Proposes Changes to Emissions Trading System",
-   "summary": "The European Union is facing a green backlash as emissions cuts become harder and require bigger overhauls to industry and livelihoods",
-   "link": "https://www.nytimes.com/2026/07/17/climate/european-union-emissions-rollback.html",
-   "published": "2026-07-17T15:48:47+00:00"
+   "title": "Trump Says Netanyahu Will Not Be Arrested in the U.S.",
+   "summary": "New York’s mayor, Zohran Mamdani, told The New York Times, he was looking into whether he could arrest Prime Minister Benjamin Netanyahu when he comes to New York for the U.N. General Assembly.",
+   "link": "https://www.nytimes.com/2026/07/20/world/middleeast/israel-un-mamdani-netanyahu-arrest.html",
+   "published": "2026-07-21T14:45:28+00:00"
   },
   {
    "outlet": "NYT World",
-   "title": "Trump Faces the Limits of U.S. Firepower and the Lessons of Past Wars",
-   "summary": "Like his predecessors, President Trump has struggled to turn battlefield successes into long-term victories.",
-   "link": "https://www.nytimes.com/2026/07/17/us/politics/trump-iran-war-afghanistan-iraq.html",
-   "published": "2026-07-17T16:25:27+00:00"
+   "title": "In Venezuela’s Rubble, a Search for the Family Pets",
+   "summary": "Volunteers are reuniting pets with families, offering Venezuelans comfort amid loss and devastation.",
+   "link": "https://www.nytimes.com/2026/07/20/world/americas/venezuela-earthquakes-volunteer-pets.html",
+   "published": "2026-07-21T11:01:44+00:00"
   },
   {
    "outlet": "NYT World",
-   "title": "Cuban Dissident Was Missing A Week After Prison Release",
-   "summary": "A Cuban artist awaiting permission from the Trump administration to enter the United States was held in an unknown location in Cuba.",
-   "link": "https://www.nytimes.com/2026/07/17/world/americas/luis-manuel-otero-alcantara-cuba-missing-exile.html",
-   "published": "2026-07-17T19:44:21+00:00"
+   "title": "Inside the Deadly U.S. Airstrike on a Shadow Fleet Tanker",
+   "summary": "Evidence suggests the ship on which three Indian sailors died was not moving when it was struck in the Gulf of Oman, but it had been engaged in risky offshore transfers of oil.",
+   "link": "https://www.nytimes.com/2026/07/20/world/middleeast/inside-the-deadly-us-airstrike-on-a-shadow-fleet-tanker.html",
+   "published": "2026-07-21T02:28:31+00:00"
   },
   {
    "outlet": "NYT World",
-   "title": "Iran-U.S. Talks: How 4 Negotiators Would Approach Diplomacy",
-   "summary": "First step: Agree on a goal.",
-   "link": "https://www.nytimes.com/2026/07/17/world/middleeast/iran-us-war-peace-talks-strategies.html",
-   "published": "2026-07-17T13:06:32+00:00"
+   "title": "Outcry in Italy After Man Dies While Being Restrained by Police",
+   "summary": "The death of the man, a Moroccan resident of Italy, set off an outcry across the country and prompted comparisons to the death of George Floyd in the United States.",
+   "link": "https://www.nytimes.com/2026/07/20/world/europe/moroccan-italy-police-death-george-floyd.html",
+   "published": "2026-07-20T17:40:40+00:00"
   },
   {
    "outlet": "NYT World",
-   "title": "Hundreds of Rohingya Feared Drowned at Sea",
-   "summary": "Members of the persecuted minority group from Myanmar set off in search of a better life weeks ago, but news of their boats sinking only emerged recently. More than 500 are feared dead.",
-   "link": "https://www.nytimes.com/2026/07/17/world/asia/rohingya-myanmar-boats-sink-missing.html",
-   "published": "2026-07-17T14:20:07+00:00"
+   "title": "Suspected Iranian strikes have targeted the U.S. military in at least 4 countries.",
+   "summary": "",
+   "link": "https://www.nytimes.com/live/2026/07/20/world/iran-war-strikes-trump-hormuz/suspected-iranian-strikes-have-targeted-us-military-in-at-least-four-countries",
+   "published": "2026-07-21T06:24:45+00:00"
+  },
+  {
+   "outlet": "NYT World",
+   "title": "Hamas Names Khalil al-Hayya as Its New Leader",
+   "summary": "Seen as closer to Iran, Khalil al-Hayya served as the Palestinian militant group’s chief negotiator with Israel and the Trump administration during the Gaza war.",
+   "link": "https://www.nytimes.com/2026/07/20/world/middleeast/gaza-talks-khalil-al-hayya-leader.html",
+   "published": "2026-07-20T17:22:44+00:00"
+  },
+  {
+   "outlet": "NYT World",
+   "title": "Houthis in Yemen Declare Red Sea Blockade on Saudi Arabia",
+   "summary": "The Iran-backed Houthi militia, which controls parts of Yemen, has in the past blockaded the Red Sea by threatening a choke point crucial to Saudi oil exports and global shipping.",
+   "link": "https://www.nytimes.com/2026/07/20/world/middleeast/yemen-houthis-saudi-arabia-red-sea-blockade.html",
+   "published": "2026-07-21T02:20:10+00:00"
+  },
+  {
+   "outlet": "NYT World",
+   "title": "Spain Celebrates Both a Soccer Win and a Sense of Wider Success",
+   "summary": "For many fans, the World Cup victory cemented a belief that something promising — a cultural, economic and sports revival — is happening in the country.",
+   "link": "https://www.nytimes.com/2026/07/20/world/europe/spain-victory-world-cup.html",
+   "published": "2026-07-20T19:24:33+00:00"
+  },
+  {
+   "outlet": "NYT World",
+   "title": "What Happens Behind the Scenes Once Burnham Enters 10 Downing Street",
+   "summary": "Calls with foreign leaders, cabinet appointments and writing the “letters of last resort”: Andy Burnham’s first hours and days in office will be busy.",
+   "link": "https://www.nytimes.com/2026/07/20/world/europe/behind-the-scenes-downing-street.html",
+   "published": "2026-07-20T13:07:52+00:00"
+  },
+  {
+   "outlet": "NYT World",
+   "title": "Aiming for My Fastest Marathon, I Turned to Distance Running’s Mecca",
+   "summary": "A New York Times reporter’s quest to beat the personal best he set 14 years ago took him to a Kenyan village, where the biggest benefit he got was not what he expected.",
+   "link": "https://www.nytimes.com/2026/07/20/world/africa/kenya-iten-marathon-training.html",
+   "published": "2026-07-21T15:41:12+00:00"
+  },
+  {
+   "outlet": "NYT World",
+   "title": "Burnham Set to Become Britain’s First Openly Roman Catholic Prime Minister",
+   "summary": "Andy Burnham has spoken of Catholicism as part of his cultural identity rather than as a fervent religious faith.",
+   "link": "https://www.nytimes.com/2026/07/20/world/europe/burnham-openly-roman-catholic-prime-minister.html",
+   "published": "2026-07-20T10:44:02+00:00"
+  },
+  {
+   "outlet": "NYT World",
+   "title": "Zelensky Faces Pressure to Remove Ukraine’s Top General",
+   "summary": "Demonstrators and many soldiers want President Volodymyr Zelensky to reaffirm the vision of drone warfare laid out by the defense minister he fired last week.",
+   "link": "https://www.nytimes.com/2026/07/20/world/europe/ukraine-zelensky-general-defense-minister.html",
+   "published": "2026-07-20T18:55:43+00:00"
+  },
+  {
+   "outlet": "NYT World",
+   "title": "North Sea Drilling Offers First Test for Burnham’s Relationship With Trump",
+   "summary": "Andy Burnham has not yet met President Trump, but the two men spoke shortly after Mr. Burnham became prime minister.",
+   "link": "https://www.nytimes.com/2026/07/20/world/europe/burnham-trump-uk-us-relationship-north-sea-oil.html",
+   "published": "2026-07-20T19:22:57+00:00"
   },
   {
    "outlet": "NYT World",
    "title": "Here’s the latest.",
    "summary": "",
-   "link": "https://www.nytimes.com/live/2026/07/17/world/uk-burnham-starmer-labour/heres-the-latest",
-   "published": "2026-07-17T13:41:28+00:00"
-  },
-  {
-   "outlet": "NYT World",
-   "title": "Beijing Rejects Trump’s Claim of Meddling, but Avoids a Fight",
-   "summary": "Chinese officials called the election-meddling accusation baseless, while analysts said Beijing was trying to preserve a fragile détente.",
-   "link": "https://www.nytimes.com/2026/07/17/world/asia/china-trump-meddling-election.html",
-   "published": "2026-07-17T09:56:14+00:00"
+   "link": "https://www.nytimes.com/live/2026/07/20/world/uk-prime-minister-burnham-starmer/heres-the-latest",
+   "published": "2026-07-20T18:06:40+00:00"
   },
   {
    "outlet": "NYT World",
    "title": "Here’s the latest.",
    "summary": "",
-   "link": "https://www.nytimes.com/live/2026/07/17/world/iran-war-trump-hormuz/us-strikes-iran-bridges-port",
-   "published": "2026-07-18T01:22:04+00:00"
+   "link": "https://www.nytimes.com/live/2026/07/20/world/iran-war-strikes-trump-hormuz/heres-the-latest",
+   "published": "2026-07-21T03:04:39+00:00"
   },
   {
    "outlet": "NYT World",
-   "title": "The 20-Somethings Running Ukraine’s War Machine",
-   "summary": "A new generation has been cutting red tape to speed weapons to the front. But the old guard pushed back, and now Ukraine’s young defense minister is out.",
-   "link": "https://www.nytimes.com/2026/07/17/world/europe/youth-ukraine-defense-innovation.html",
-   "published": "2026-07-17T20:57:50+00:00"
+   "title": "Ukraine War Momentum Helps Spur Interest in Postwar Investment",
+   "summary": "At a conference on reconstruction, the focus shifted to private investment, not donor assistance.",
+   "link": "https://www.nytimes.com/2026/07/20/world/europe/ukraine-post-war-reconstruction.html",
+   "published": "2026-07-20T13:37:51+00:00"
   },
   {
    "outlet": "NYT World",
-   "title": "‘Suddenly, I Was Free’: A Chinese Pastor’s Journey From Jail to the U.S.",
-   "summary": "In his first interview since being released by China, Pastor Ezra Jin Mingri details his surprise release after a direct appeal by President Trump to Xi Jinping.",
-   "link": "https://www.nytimes.com/2026/07/17/world/asia/ezra-jin-china-pastor-trump.html",
-   "published": "2026-07-17T12:46:57+00:00"
+   "title": "Rubio Says That U.S. Is Still Open to Diplomacy With Iran",
+   "summary": "Iranian foreign ministry officials and Secretary of State Marco Rubio signaled openness to resume negotiations but declined to provide any new details.",
+   "link": "https://www.nytimes.com/2026/07/20/world/middleeast/rubio-us-iran-war-diplomacy.html",
+   "published": "2026-07-20T20:36:27+00:00"
   },
   {
    "outlet": "NYT World",
-   "title": "Venezuela Earthquakes Force a Grim Homecoming for Migrants",
-   "summary": "Mass migration, which defines modern Venezuela, has heavily marked the earthquake, too, saving many who had left, but also making their grief harder.",
-   "link": "https://www.nytimes.com/2026/07/17/world/americas/venezuela-earthquakes-families-migration.html",
-   "published": "2026-07-17T14:50:01+00:00"
-  },
-  {
-   "outlet": "NYT World",
-   "title": "Dubai Migrant Worker Layoffs Reveal Costs of Middle East War",
-   "summary": "The Persian Gulf city attracted migrant workers with the promise of opportunity. Many now say the war has brought job losses and salary cuts.",
-   "link": "https://www.nytimes.com/2026/07/17/world/middleeast/dubai-iran-war-migrant-workers-layoffs.html",
-   "published": "2026-07-17T09:00:33+00:00"
-  },
-  {
-   "outlet": "NYT World",
-   "title": "Philippines Condemns AI Video Posted by Chinese State Media Depicting It as a Monkey",
-   "summary": "It lodged a diplomatic complaint with Beijing over an A.I.-generated video centered on territorial disputes in the South China Sea.",
-   "link": "https://www.nytimes.com/2026/07/17/world/asia/philippines-ai-video-china-racist.html",
-   "published": "2026-07-17T13:36:15+00:00"
-  },
-  {
-   "outlet": "NYT World",
-   "title": "How Andy Burnham, ‘King of the North,’ Conquered U.K. Politics",
-   "summary": "A plain-spoken politician from a modest background in northwest England, Mr. Burnham became Labour leader — and Britain’s incoming prime minister — on Friday.",
-   "link": "https://www.nytimes.com/2026/07/17/world/europe/andy-burnham-uk-labour-prime-minister.html",
-   "published": "2026-07-17T13:56:33+00:00"
-  },
-  {
-   "outlet": "NYT World",
-   "title": "Japan Passes New Law Banning Flag Desecration in Nationalist Push",
-   "summary": "The new law is part of a campaign by Prime Minister Sanae Takaichi, a hard-line conservative, to build a more patriotic and assertive Japan. Critics say it undermines free speech.",
-   "link": "https://www.nytimes.com/2026/07/17/world/asia/japan-flag-desecration-law.html",
-   "published": "2026-07-17T07:00:11+00:00"
-  },
-  {
-   "outlet": "NYT World",
-   "title": "A Russian Political Battle Ends With a Visit From Masked Men",
-   "summary": "Boris B. Nadezhdin, an outspoken opponent of the war in Ukraine, says he knows why he was detained: “Among our leadership, there is panic and chaos.”",
-   "link": "https://www.nytimes.com/2026/07/17/world/europe/russia-politics-election-nadezhdin.html",
-   "published": "2026-07-17T13:02:30+00:00"
-  },
-  {
-   "outlet": "NYT World",
-   "title": "How Andy Burnham Becomes Britain’s New Prime Minister",
-   "summary": "Andy Burnham is set to officially become the next prime minister on Monday, but a number of things have to happen before then. Here’s how everything is expected to play out.",
-   "link": "https://www.nytimes.com/2026/07/17/world/europe/burnham-prime-minister-explainer.html",
-   "published": "2026-07-17T04:01:05+00:00"
-  },
-  {
-   "outlet": "NYT World",
-   "title": "Canada’s Wildfires Are Burning Through the Night",
-   "summary": "As overnight temperatures climb across Canada, fires that once spread more slowly after dark are burning around the clock, straining fire crews.",
-   "link": "https://www.nytimes.com/2026/07/16/world/canada/canada-wildfires-firefighters-heat.html",
-   "published": "2026-07-16T22:08:16+00:00"
-  },
-  {
-   "outlet": "NYT World",
-   "title": "Gay-Themed Mediterranean Cruise Turned Away From Turkey and Then Egypt",
-   "summary": "In both Muslim-majority countries, official hostility to gay people has increased in recent years. But the same cruise had visited before without problems.",
-   "link": "https://www.nytimes.com/2026/07/16/world/middleeast/gay-cruise-turkey-egypt.html",
-   "published": "2026-07-17T00:59:40+00:00"
-  },
-  {
-   "outlet": "NYT World",
-   "title": "Delightful World Cup Stories",
-   "summary": "Not all the best moments from the tournament were on the pitch. We revisit some of our favorites ahead of Sunday’s final.",
-   "link": "https://www.nytimes.com/2026/07/16/world/world-cup-spain-argentina-ukraine.html",
-   "published": "2026-07-17T05:25:39+00:00"
-  },
-  {
-   "outlet": "NYT World",
-   "title": "Ukraine Was on a Roll. Then a Clash Over War Strategy Exploded Into View.",
-   "summary": "From an underground parking garage, Ukraine’s newly dismissed defense minister aired the most dramatic, public critique of the military command to emerge during the war.",
-   "link": "https://www.nytimes.com/2026/07/16/world/europe/ukraine-military-defense-minister-drones.html",
-   "published": "2026-07-16T22:01:29+00:00"
-  },
-  {
-   "outlet": "NYT World",
-   "title": "Astronomers Find an Atmosphere on a Nearby Earthlike Planet",
-   "summary": "It’s the first potentially habitable world known to host an atmosphere, making it a lead contender in the search for life beyond our solar system.",
-   "link": "https://www.nytimes.com/2026/07/16/science/astronomy-exoplanet-atmosphere.html",
-   "published": "2026-07-16T20:17:14+00:00"
-  },
-  {
-   "outlet": "NYT World",
-   "title": "Israeli Government Pushes Through Divisive Laws Before Election",
-   "summary": "Prime Minister Benjamin Netanyahu backed a series of laws undermining legal oversight of the government, benefiting allied media outlets and aiming to shore up ultra-Orthodox political support.",
-   "link": "https://www.nytimes.com/2026/07/16/world/middleeast/israel-divisive-new-laws.html",
-   "published": "2026-07-17T07:22:36+00:00"
-  },
-  {
-   "outlet": "NYT World",
-   "title": "Orphanage Fire Kills Eleven in Algeria",
-   "summary": "The fire on Thursday morning at an orphanage near the nation’s capital killed 11 people, including children, and injured a dozen, the authorities said.",
-   "link": "https://www.nytimes.com/2026/07/16/world/africa/algeria-orphanage-fire.html",
-   "published": "2026-07-16T20:03:38+00:00"
-  },
-  {
-   "outlet": "NYT World",
-   "title": "German Man Accused of Drugging and Filming the Rape of 14 Women",
-   "summary": "The case has drawn comparisons to the Pelicot trial in France, which started a discussion across Europe about sexual assault and consent.",
-   "link": "https://www.nytimes.com/2026/07/16/world/europe/german-man-rape-case.html",
-   "published": "2026-07-16T17:11:32+00:00"
+   "title": "Police in India Use Tear Gas and Batons on Crowds Protesting Exam Scandal",
+   "summary": "Young people angry about frequent leaks of college entrance tests present one of the biggest challenges in years to Prime Minister Narendra Modi.",
+   "link": "https://www.nytimes.com/2026/07/20/world/asia/india-protest-cjp-cockroach-jantar-mantar.html",
+   "published": "2026-07-20T23:57:06+00:00"
   }
  ]
 }
