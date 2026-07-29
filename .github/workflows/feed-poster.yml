@@ -2,8 +2,8 @@ name: Feed poster
 
 on:
   schedule:
-    # Every 4 hours
-    - cron: '0 */4 * * *'
+    # Every 2 hours (12 map posts/day), offset 30min from the hourly fact pulse
+    - cron: '30 */2 * * *'
   workflow_dispatch:
     inputs:
       dry_run:

@@ -1,4 +1,4 @@
-name: Hourly pulse (facts + breaking news)
+name: Hourly pulse (facts)
 
 on:
   schedule:
@@ -36,7 +36,6 @@ jobs:
           FLAG=""
           if [ "${{ inputs.dry_run }}" = "true" ]; then FLAG="--dry-run"; fi
           python automation/post_fact.py $FLAG
-          python automation/news_tweeter.py $FLAG
       - name: Save state
         run: |
           git config user.name "forummapping-bot"
