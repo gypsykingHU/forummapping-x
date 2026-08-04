@@ -1,0 +1,33 @@
+{
+  "id": "033-four-maps-aging-world",
+  "posts": [
+    {
+      "text": "Half the world is ageing faster than any society in recorded history. The other half is still overwhelmingly young.\n\n4 maps that explain the great demographic split — a thread 🧵🗺️\n\nData: Our World in Data (CC BY)",
+      "image": "owid-median-age.png"
+    },
+    {
+      "text": "1/ Map one: median age — the age that splits a country into two equal halves. Dark blue is old: Japan, Italy, Germany, South Korea and now China sit at or above 40. The palest countries in the Sahel sit under 20."
+    },
+    {
+      "text": "2/ The extremes barely look like the same species of society. Monaco's median age is roughly 54 and Japan's roughly 50. The Central African Republic and Niger are under 16 — half their people are children or teenagers."
+    },
+    {
+      "text": "3/ Map two: old-age dependency — people aged 65+ for every 100 of working age. Japan is above 50. Much of sub-Saharan Africa is under 6. A tenfold gap in who is supporting whom, on the same planet, in the same year.",
+      "image": "owid-age-dependency-ratio-old.png"
+    },
+    {
+      "text": "4/ Map three: natural population growth. The orange band is the story. Across Europe, Russia, China, Japan and Thailand, deaths now outnumber births — these populations only hold steady, where they do, through migration.",
+      "image": "owid-natural-population-growth.png"
+    },
+    {
+      "text": "5/ Map four: urbanisation, part of the mechanism. City families have historically had fewer children, and humanity crossed the 50% urban line around 2007. Roughly 57% now live in urban areas, up from about 30% in 1950.",
+      "image": "owid-share-of-population-urban.png"
+    },
+    {
+      "text": "6/ None of this reverses quickly. A country with a median age near 50 cannot become young again in a decade, whatever policy it adopts — the children who would have done it were never born."
+    },
+    {
+      "text": "7/ The most consequential map of this century may have nothing to do with borders. It's about age.\n\nFollow @forummapping for more maps like this."
+    }
+  ]
+}
