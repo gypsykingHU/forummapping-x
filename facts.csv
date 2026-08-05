@@ -20,7 +20,7 @@ About 90% of the world's population lives in the Northern Hemisphere.,0,
 "The Sahara is roughly the size of the United States — and it was green savanna with lakes and hippos just 6,000 years ago.",1,2026-07-08T10:29:17+00:00
 "Indonesia is made up of over 17,000 islands and stretches wider than the continental United States.",1,2026-07-27T12:35:06+00:00
 The Danube flows through or borders 10 countries — more than any other river on Earth.,1,2026-07-06T04:23:58+00:00
-Mount Everest grows about 4 mm taller every year as the Indian plate keeps pushing into Asia.,0,
+Mount Everest grows about 4 mm taller every year as the Indian plate keeps pushing into Asia.,1,2026-08-04T23:14:23+00:00
 The Dead Sea shore sits about 430 m below sea level — the lowest dry land on Earth — and keeps dropping every year.,1,2026-08-02T00:06:42+00:00
 44 countries have no coastline. Two are double-landlocked (you must cross TWO countries to reach the sea): Liechtenstein and Uzbekistan.,1,2026-07-22T20:18:26+00:00
 "The Berlin Wall stood for 10,316 days. As of 2018, it has been gone longer than it ever stood.",1,2026-07-05T14:02:12+00:00
@@ -126,7 +126,7 @@ The Statue of Liberty operated as an official lighthouse from 1886 to 1902.,1,20
 The Leaning Tower of Pisa took about 200 years to finish — and it was already leaning before builders reached the top. They built the upper floors at an angle to compensate.,0,
 "Ancient sources claim the Colosseum was flooded for staged naval battles — full-size ships, in the middle of Rome.",1,2026-07-11T22:01:41+00:00
 Vikings reached North America around the year 1000 — nearly five centuries before Columbus. The site at L'Anse aux Meadows in Newfoundland is a UNESCO site.,1,2026-07-20T08:15:04+00:00
-"Iceland's parliament, the Althing, first met in 930 AD — making it arguably the oldest surviving parliament on Earth.",0,
+"Iceland's parliament, the Althing, first met in 930 AD — making it arguably the oldest surviving parliament on Earth.",1,2026-08-04T18:00:20+00:00
 "San Marino, founded (by tradition) in 301 AD, claims to be the world's oldest republic — and it made Abraham Lincoln an honorary citizen in 1861. He wrote back thanking them.",1,2026-07-25T00:12:22+00:00
 "At the 1936 Olympics, Liechtenstein and Haiti discovered they had identical flags. Liechtenstein added a crown the next year.",1,2026-07-24T18:40:12+00:00
 "In 2007, ~170 Swiss soldiers accidentally invaded Liechtenstein after getting lost in the dark. Liechtenstein, which has no army, didn't notice.",1,2026-07-07T20:55:55+00:00
@@ -257,7 +257,7 @@ Parts of Chile's Atacama Desert have gone without recorded rainfall for years at
 "The Siberian town of Verkhoyansk has recorded both -68°C and +38°C, giving it the widest temperature range of any inhabited place on Earth.",0,
 "A gas crater in Turkmenistan, nicknamed the ""Door to Hell,"" has been burning continuously since geologists ignited it in 1971, expecting the fire to die out in weeks.",0,
 "In 1986, Cameroon's Lake Nyos suddenly released a cloud of carbon dioxide that killed an estimated 1,700 people in nearby villages overnight.",0,
-Canada's Bay of Fundy has the highest tidal range on Earth. The difference between low and high tide there can reach about 16 metres.,0,
+Canada's Bay of Fundy has the highest tidal range on Earth. The difference between low and high tide there can reach about 16 metres.,1,2026-08-04T06:37:03+00:00
 "In 1995, Kiribati shifted its section of the international date line eastward so the entire country would share one date and be first to greet each new day.",1,2026-08-03T07:39:13+00:00
 "Samoa skipped December 30, 2011 entirely, jumping to the other side of the international date line to align its trade calendar with Australia and New Zealand.",0,
 "Mauritania's Richat Structure, a bullseye-shaped rock formation roughly 40 km across, is visible from orbit and was long mistaken for a meteor impact crater.",1,2026-08-02T12:10:59+00:00
@@ -267,7 +267,7 @@ Canada's Bay of Fundy has the highest tidal range on Earth. The difference betwe
 "France's Louis XIX reigned as king for about twenty minutes in 1830 before abdicating, probably the shortest monarchical reign in recorded history.",0,
 "Texas spent nine years as an independent nation, the Republic of Texas, before joining the United States in 1845.",0,
 Vermont operated as an independent republic with its own currency from 1777 until it became the 14th US state in 1791.,0,
-"Newfoundland governed itself as a separate dominion of the British Empire, on par with Canada or Australia, until it voted to join Canada in 1949.",0,
+"Newfoundland governed itself as a separate dominion of the British Empire, on par with Canada or Australia, until it voted to join Canada in 1949.",1,2026-08-03T23:14:47+00:00
 "The Kingdom of Hawaii was overthrown by American businessmen in 1893, five years before the islands were formally annexed by the United States.",0,
 The Free City of Danzig existed as its own League of Nations city-state between the world wars; its disputed status became one of the flashpoints of 1939.,0,
 The Faroe Islands belong to the Kingdom of Denmark but sit outside the European Union entirely.,0,
@@ -342,7 +342,7 @@ Greater Buenos Aires holds roughly a third of Argentina's entire population.,1,2
 "Luxembourg's workforce is nearly half made up of commuters who live in neighboring France, Germany or Belgium and cross the border to work every day.",0,
 "Indonesia is home to more than 700 living languages, second only to Papua New Guinea.",1,2026-07-30T22:15:45+00:00
 "Nigeria has more living languages than the whole of Europe combined, well over 500 by most counts.",1,2026-08-02T07:38:44+00:00
-"India's constitution recognizes 22 official languages, but the country is home to well over 400 languages spoken daily.",0,
+"India's constitution recognizes 22 official languages, but the country is home to well over 400 languages spoken daily.",1,2026-08-04T15:32:00+00:00
 Mandarin has no alphabet at all; its logographic script unites readers whose spoken dialects can be mutually unintelligible.,0,
 "Hindi and Urdu are close enough in speech that speakers understand each other easily, yet they're written in two completely different scripts.",0,
 "Welsh is now a compulsory school subject across Wales, part of a national push to reach a million speakers by 2050.",1,2026-07-31T22:13:16+00:00
@@ -373,13 +373,13 @@ Researchers estimate the wealthiest 1% of humanity holds close to as much wealth
 "France generates about two-thirds of its electricity from nuclear power, a share no other country comes close to matching, per Our World in Data.",1,2026-07-30T14:26:30+00:00
 "Denmark generates more than half its electricity from wind power alone, the highest share of any country on Earth, per Our World in Data.",0,
 "Paraguay, Norway and the Democratic Republic of Congo generate almost all their electricity from hydropower, per Our World in Data.",0,
-"The United States has been the world's largest oil producer for roughly a decade, ahead of both Saudi Arabia and Russia, per Our World in Data.",0,
+"The United States has been the world's largest oil producer for roughly a decade, ahead of both Saudi Arabia and Russia, per Our World in Data.",1,2026-08-04T12:10:07+00:00
 "Three countries alone, Australia, Chile and China, produce most of the world's lithium, the metal powering the battery era, per Our World in Data.",0,
 "India grows more bananas than any other country on Earth, yet exports almost none of them; nearly the entire crop is eaten at home, per Our World in Data.",0,
 "China grows roughly half the world's apples, per Our World in Data.",0,
 "Côte d'Ivoire and Ghana together grow about 60% of the world's cocoa, meaning the chocolate bar in your hand is most likely West African, per Our World in Data.",0,
 "More than half of all the fish humans eat today is farmed rather than caught in the wild, and China farms most of it, per Our World in Data.",0,
-"Brazil recently overtook the United States as the world's top soybean producer, per Our World in Data.",0,
+"Brazil recently overtook the United States as the world's top soybean producer, per Our World in Data.",1,2026-08-03T18:00:48+00:00
 "About 90% of the world's rice is grown in Asia, a single crop that feeds more people than any other, per Our World in Data.",1,2026-07-30T06:36:59+00:00
 "There are an estimated 1.5 billion cattle alive on Earth right now, with Brazil and India each hosting well over 200 million, per Our World in Data.",0,
 "Chicken has quietly overtaken every other meat to become humanity's most-produced meat, led by the US, China and Brazil, per Our World in Data.",0,
@@ -424,9 +424,9 @@ Vatican City citizenship is tied to holding a qualifying job or office there and
 "Basketball was invented in 1891 in Springfield, Massachusetts, by Canadian physical education instructor James Naismith, who nailed peach baskets to a gym balcony.",0,
 "Finland is estimated to have roughly one sauna for every two people — more saunas than cars, in a country of about 5.5 million.",0,
 "The piñata's path runs through several countries: it likely began in China, was adapted in Italy, carried to Spain, and brought to Mexico by missionaries.",0,
-"Flamenco grew out of centuries of coexistence in Andalusia, blending Romani, Moorish, Jewish and Christian musical traditions into one form.",0,
+"Flamenco grew out of centuries of coexistence in Andalusia, blending Romani, Moorish, Jewish and Christian musical traditions into one form.",1,2026-08-04T21:22:36+00:00
 "Only sparkling wine from France's Champagne region can legally be called champagne — everything else is technically just sparkling wine, under decades of French and EU law.",0,
-True Parmigiano-Reggiano can only come from a handful of Italian provinces around Parma and Reggio Emilia; the name is legally protected across the EU.,0,
+True Parmigiano-Reggiano can only come from a handful of Italian provinces around Parma and Reggio Emilia; the name is legally protected across the EU.,1,2026-08-03T19:52:03+00:00
 "Tequila can only be produced in designated regions of Mexico centered on the town it's named after, in the state of Jalisco.",0,
 "Bagpipe-like instruments may have originated in the ancient Middle East, with Roman writers describing similar devices centuries before bagpipes became a symbol of Scotland.",0,
 "Highland clan tartans, now treated as ancient heritage, were largely standardized in the 19th century, well after Scotland's actual clan era had ended.",1,2026-08-01T20:13:46+00:00
@@ -438,7 +438,7 @@ True Parmigiano-Reggiano can only come from a handful of Italian provinces aroun
 "Edward Jenner tested the first vaccine in rural England in 1796, using material from a milkmaid's cowpox blister to protect a boy against smallpox.",1,2026-08-01T10:07:42+00:00
 Alexander Fleming discovered penicillin in London in 1928 after returning from vacation to find mold had wiped out bacteria in a forgotten petri dish.,0,
 "The first successful human heart transplant happened not in the US or Europe but in Cape Town, South Africa, in 1967.",0,
-"GPS satellites experience time differently under relativity — without correcting for it, positioning errors would pile up by an estimated 10 km a day.",0,
+"GPS satellites experience time differently under relativity — without correcting for it, positioning errors would pile up by an estimated 10 km a day.",1,2026-08-04T09:45:31+00:00
 "The metric system emerged from the French Revolution, with the meter first defined as one ten-millionth of the distance from the North Pole to the equator, measured through Paris.",0,
 "Britain's 1714 Longitude Prize was eventually won not by an astronomer but by John Harrison, a self-taught carpenter who built an astonishingly accurate marine clock.",0,
 "The Richter scale, developed in 1935, was calibrated using earthquakes recorded in Southern California by Charles Richter.",0,
@@ -460,7 +460,7 @@ The world's first nuclear reactor went critical in 1942 underneath an unused squ
 "The words ""slave"" and ""Slav"" share a root, a grim linguistic fossil from an era when Slavic peoples were widely enslaved across medieval Europe.",0,
 "Vandal"" comes from the Germanic Vandals, who sacked Rome in 455, though historians now think their reputation for destruction was exaggerated by later Roman writers.",0,
 "Ostracize"" comes from ancient Athens, where citizens could vote to exile someone for a decade by scratching a name onto broken pottery shards called ostraka.",0,
-"Thomas More coined ""utopia"" in 1516 as a Greek pun that can mean either ""good place"" or ""no place,"" depending on how you read it.",0,
+"Thomas More coined ""utopia"" in 1516 as a Greek pun that can mean either ""good place"" or ""no place,"" depending on how you read it.",1,2026-08-03T21:15:58+00:00
 "Siesta"" comes from the Latin ""hora sexta,"" the sixth hour after dawn, roughly midday, when the heat made work impossible.",0,
 "Tycoon"" entered English from the Japanese title ""taikun,"" used for the shogun, and spread after American naval expeditions to Japan in the 1850s.",0,
 "Amok,"" as in ""running amok,"" is a Malay word describing a sudden violent frenzy, first recorded by European travelers in Southeast Asia.",0,
@@ -476,7 +476,7 @@ A library on the Vermont-Quebec border sits directly on the international line �
 "Under a 1920 treaty, citizens of many countries can live and work in Norway's Arctic territory of Svalbard without a visa, though getting there usually means flying through mainland Norway.",0,
 "Australia's Christmas Island sits more than 1,500 km from the Australian mainland but only about 350 km from Jakarta, Indonesia.",0,
 Britain forcibly removed the Chagossian population from Diego Garcia in the late 1960s and early 1970s to build what became a major US military base.,0,
-"Transnistria, a breakaway strip of Moldova, still flies a flag bearing a hammer and sickle, decades after the Soviet Union it once belonged to disappeared.",0,
+"Transnistria, a breakaway strip of Moldova, still flies a flag bearing a hammer and sickle, decades after the Soviet Union it once belonged to disappeared.",1,2026-08-04T03:31:06+00:00
 "Somaliland has run itself as a de facto independent state since 1991, with its own currency and passports, yet no UN member country officially recognizes it.",0,
 Most residents of the Pitcairn Islands descend from the HMS Bounty mutineers and the Tahitian companions who fled with them in 1789.,0,
 "Tristan da Cunha, a British island in the South Atlantic, is often called the most remote inhabited place on Earth, with the nearest continent roughly 2,400 km away.",0,
@@ -503,5 +503,5 @@ Kosovo and Montenegro both use the euro as their currency despite not being EU m
 "A Western Australian farm called Hutt River declared itself an independent principality in 1970 during a tax dispute with the government, lasting nearly fifty years before dissolving in 2020.",0,
 "Australia's Cocos (Keeling) Islands were privately ruled by one family, the Clunies-Ross dynasty, for close to 150 years before the government took formal control in 1978.",0,
 Antarctica's Blood Falls seeps crimson from beneath a glacier; the color comes from iron-rich brine sealed away from oxygen for possibly over a million years.,0,
-"The first weather satellite, TIROS-1, launched by the US in 1960, sent back grainy cloud photos that proved satellites could actually help forecast weather.",0,
+"The first weather satellite, TIROS-1, launched by the US in 1960, sent back grainy cloud photos that proved satellites could actually help forecast weather.",1,2026-08-04T19:50:20+00:00
 "Sharing mate, a caffeinated tea sipped through a metal straw from a common gourd, is such an everyday ritual in Argentina, Uruguay and Paraguay that refusing a round can seem rude.",0,
