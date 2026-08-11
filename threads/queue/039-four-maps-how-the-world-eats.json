@@ -1,0 +1,30 @@
+{
+  "id": "039-four-maps-how-the-world-eats",
+  "posts": [
+    {
+      "text": "The average person in the US has roughly twice the daily food supply of the average person in Central Africa.\n\n4 maps that explain how the world eats — a thread 🧵🗺️\n\nData: Our World in Data (CC BY)",
+      "image": "owid-daily-per-capita-caloric-supply.png"
+    },
+    {
+      "text": "1/ Map one: daily calorie supply per person. The darkest countries are above 3,500 kcal. The pale band across Central and East Africa sits nearer 1,800–2,200. Note the wording — this is food available, not food eaten. Waste isn't subtracted."
+    },
+    {
+      "text": "2/ Map two: meat supply per person per year. The US, Spain and Portugal run above 100kg. India sits at the far other end, in single digits — by a wide margin the largest low-meat population on Earth, for religious and economic reasons at once.",
+      "image": "owid-meat-supply-per-person.png"
+    },
+    {
+      "text": "3/ Map three: undernourishment. Around 9% of humanity, on the order of 700–750 million people, don't get enough energy for an active, healthy life. The deepest reds are Somalia, North Korea, Haiti and Madagascar.",
+      "image": "owid-prevalence-of-undernourishment.png"
+    },
+    {
+      "text": "4/ Map four is the same problem from the other side: adult obesity. Above 40% in the US, high across the Gulf, Egypt and the Pacific islands. Under 10% across Japan, Vietnam and much of the Sahel.",
+      "image": "owid-share-of-adults-defined-as-obese.png"
+    },
+    {
+      "text": "5/ Overlay maps three and four and the striking result is how many countries now sit high on both — undernutrition and obesity inside the same population, often the same city. Cheap calories are not the same thing as good ones."
+    },
+    {
+      "text": "6/ In the early 1960s the world averaged roughly 2,200 kcal per person per day. Today it's nearer 3,000. Humanity solved the calorie problem considerably faster than it solved the distribution problem.\n\nFollow @forummapping for more maps like this."
+    }
+  ]
+}
