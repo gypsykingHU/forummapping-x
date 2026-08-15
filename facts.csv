@@ -11,7 +11,7 @@ Monaco is smaller than Central Park in New York (2.1 km² vs 3.4 km²).,1,2026-0
 "In 1900, roughly 25% of the world's population lived in Europe. Today it's under 10%.",1,2026-08-05T17:50:46+00:00
 "Vatican City is the smallest country on Earth (0.44 km²) — and its Swiss Guard, founded in 1506, is older than most modern states.",0,
 Russia sold Alaska to the US in 1867 for $7.2 million — about 2 cents per acre.,1,2026-07-22T16:39:41+00:00
-"The Louisiana Purchase (1803) doubled the size of the United States overnight, at roughly 3 cents an acre.",0,
+"The Louisiana Purchase (1803) doubled the size of the United States overnight, at roughly 3 cents an acre.",1,2026-08-14T23:31:02+00:00
 The Ottoman Empire lasted 623 years (1299–1922) — longer than the entire history of most modern nations.,1,2026-08-09T18:55:05+00:00
 "The shortest war in recorded history: Britain vs Zanzibar, 1896. Duration: about 38 minutes.",1,2026-08-12T19:14:58+00:00
 France was still executing people by guillotine when Star Wars premiered. The last use was in 1977.,1,2026-07-30T16:43:41+00:00
@@ -57,7 +57,7 @@ The Great Emu War of 1932: Australia deployed soldiers with machine guns against
 Portugal and England have the world's oldest active alliance — signed in 1373 and still in force.,0,
 Ethiopia follows a calendar roughly 7 years behind the rest of the world — and clocks that start counting from dawn.,0,
 About 71% of Earth is ocean — but humans have mapped the surface of Mars in more detail than the ocean floor.,1,2026-07-04T18:11:19+00:00
-"Point Nemo, the spot in the Pacific farthest from any land, is so remote that the nearest humans are often the astronauts passing overhead on the ISS.",0,
+"Point Nemo, the spot in the Pacific farthest from any land, is so remote that the nearest humans are often the astronauts passing overhead on the ISS.",1,2026-08-15T07:38:28+00:00
 "Australia is wider than the Moon — about 4,000 km across, versus the Moon's roughly 3,475 km diameter.",1,2026-07-15T14:04:05+00:00
 "Chile is about 4,300 km long but on average only ~180 km wide. Flipped on its side, it would stretch from Lisbon past Moscow.",1,2026-07-29T12:11:43+00:00
 The Caspian Sea is the world's largest lake — bigger than Germany.,1,2026-07-15T06:24:35+00:00
@@ -74,7 +74,7 @@ Alaska is both the westernmost AND easternmost US state: the Aleutian Islands cr
 "At the Strait of Gibraltar, Africa and Europe are only about 14 km apart — on a clear day you can see one continent from the other.",0,
 "Russia and the US are less than 4 km apart. Between the Diomede Islands in the Bering Strait, the date line makes them ~21 hours apart — locals call them Tomorrow Island and Yesterday Isle.",1,2026-07-09T04:08:11+00:00
 "Finland has an estimated 188,000 lakes — roughly one for every 30 Finns.",0,
-The Sargasso Sea is the only sea on Earth with no coastline — it's bounded entirely by ocean currents.,0,
+The Sargasso Sea is the only sea on Earth with no coastline — it's bounded entirely by ocean currents.,1,2026-08-15T08:40:11+00:00
 Landlocked Bolivia still maintains a navy of several thousand personnel — patrolling Lake Titicaca and waiting to reclaim the coastline it lost to Chile in 1884.,1,2026-07-23T10:33:00+00:00
 "Everest is the highest point above sea level, but the summit of Ecuador's Chimborazo is the farthest point from the Earth's center — the planet bulges at the equator.",1,2026-07-21T10:32:13+00:00
 Angel Falls in Venezuela drops 979 m — roughly 15 times the height of Niagara.,1,2026-08-08T14:43:56+00:00
@@ -123,7 +123,7 @@ The Eiffel Tower was supposed to be demolished after 20 years — it was saved b
 The Eiffel Tower grows roughly 15 cm taller on hot summer days as the iron expands.,1,2026-07-18T12:00:50+00:00
 The Statue of Liberty operated as an official lighthouse from 1886 to 1902.,1,2026-07-12T04:32:24+00:00
 "'Big Ben' is the bell, not the tower. The tower is officially the Elizabeth Tower.",1,2026-08-05T03:26:22+00:00
-The Leaning Tower of Pisa took about 200 years to finish — and it was already leaning before builders reached the top. They built the upper floors at an angle to compensate.,0,
+The Leaning Tower of Pisa took about 200 years to finish — and it was already leaning before builders reached the top. They built the upper floors at an angle to compensate.,1,2026-08-15T03:49:10+00:00
 "Ancient sources claim the Colosseum was flooded for staged naval battles — full-size ships, in the middle of Rome.",1,2026-07-11T22:01:41+00:00
 Vikings reached North America around the year 1000 — nearly five centuries before Columbus. The site at L'Anse aux Meadows in Newfoundland is a UNESCO site.,1,2026-07-20T08:15:04+00:00
 "Iceland's parliament, the Althing, first met in 930 AD — making it arguably the oldest surviving parliament on Earth.",1,2026-08-04T18:00:20+00:00
@@ -172,7 +172,7 @@ Ancient Egyptian workers on royal tombs staged the first recorded labor strike i
 "Roman gladiators rarely fought to the death — they were expensive investments, and sweat scraped from their skin was sold as a cosmetic.",1,2026-07-28T12:06:21+00:00
 "Charlemagne, crowned in 800, is a documented ancestor of essentially every living person with European ancestry — genealogy's math makes it nearly unavoidable.",1,2026-07-23T12:46:00+00:00
 "Ukraine now spends roughly 40% of its GDP on defense, per Our World in Data (SIPRI) — a war burden no other country today comes close to matching.",1,2026-08-07T11:54:07+00:00
-"The world's biggest meat eaters per person aren't Americans: Tonga tops the map at roughly 157 kg per person per year, per Our World in Data.",0,
+"The world's biggest meat eaters per person aren't Americans: Tonga tops the map at roughly 157 kg per person per year, per Our World in Data.",1,2026-08-15T01:45:38+00:00
 "Romania drinks more than anywhere on Earth: about 16.8 litres of pure alcohol per person per year, per Our World in Data.",1,2026-08-08T13:07:19+00:00
 "France receives roughly 100 million international tourists a year — more than its entire population, per Our World in Data.",1,2026-07-27T00:09:17+00:00
 "In Norway, about 9 in 10 new cars sold are electric. In the US, it's roughly 1 in 10, per Our World in Data.",0,
@@ -242,7 +242,7 @@ Vanilla is native to Mexico — for 300 years the Aztecs' secret ingredient in c
 "Under the 1920 Svalbard Treaty, citizens of any signatory country can live and work on the Arctic archipelago without a visa, one of the most open borders on Earth.",0,
 "Pitcairn Island has one of the smallest populations of any territory on Earth, roughly 40-50 people, most descended from the HMS Bounty mutineers.",1,2026-08-08T20:43:08+00:00
 "Tristan da Cunha is the most remote inhabited archipelago on Earth — its nearest neighbor, Saint Helena, is roughly 2,400 km away by sea.",1,2026-08-07T00:11:06+00:00
-"In 2022, Canada and Denmark finally ended their decades-long ""Whisky War"" by splitting tiny Hans Island in the Arctic down the middle.",0,
+"In 2022, Canada and Denmark finally ended their decades-long ""Whisky War"" by splitting tiny Hans Island in the Arctic down the middle.",1,2026-08-15T11:29:50+00:00
 "Before a 2015 land swap, the India-Bangladesh border included an enclave inside an enclave inside an enclave: a scrap of India, inside Bangladesh, inside India, inside Bangladesh.",1,2026-08-01T18:07:29+00:00
 "The United States has leased Guantanamo Bay from Cuba since 1903 for about $4,085 a year. Cuba considers the lease illegal and, since 1959, has mostly refused to cash the checks.",0,
 "Myanmar's capital, Naypyidaw, was built from scratch in the 2000s with twenty-lane highways that today carry almost no traffic.",0,
@@ -286,7 +286,7 @@ Western Sahara is often called Africa's last colony; its final status remains di
 "The Korean War ended with an armistice in 1953, not a peace treaty, meaning North and South Korea remain, technically, still at war.",0,
 "The Taiping Rebellion of the 1850s-60s, led by a man who believed he was the younger brother of Jesus, is estimated to have killed 20-30 million people in China.",0,
 Belgium's King Leopold II ran Congo as his personal property from 1885 to 1908; forced-labor policies there are estimated to have caused millions of deaths.,1,2026-08-09T08:56:02+00:00
-"At the 1884-85 Berlin Conference, European powers divided up the map of Africa among themselves without a single African representative in the room.",0,
+"At the 1884-85 Berlin Conference, European powers divided up the map of Africa among themselves without a single African representative in the room.",1,2026-08-15T09:35:05+00:00
 "Ireland's population fell by roughly a quarter through death and emigration during the potato famine of the 1840s, a demographic scar still visible in its census figures today.",1,2026-08-09T16:48:27+00:00
 "Soviet policies during the early-1930s famine in Ukraine, known as the Holodomor, are estimated to have killed millions of people.",1,2026-08-14T10:13:10+00:00
 The Ottomans' 1683 siege of Vienna marked the empire's deepest push into Europe; its failure began a long Ottoman retreat from Central Europe.,1,2026-08-11T09:10:43+00:00
@@ -313,7 +313,7 @@ Ming China's Zheng He commanded treasure fleets in the early 1400s with ships re
 "Only one of Magellan's original five ships, and roughly 18 of his roughly 270 crew, made it all the way around the world in the first circumnavigation. Magellan himself died partway through, in the Philippines.",0,
 "Europeans searched for a Northwest Passage through the Arctic for centuries; it wasn't successfully sailed until Roald Amundsen finally did it, in 1903-1906.",1,2026-08-09T17:41:16+00:00
 "Turkey's government asked the world to start using ""Türkiye"" as its official English name in 2022, partly to distance the country from an unrelated Thanksgiving bird.",1,2026-08-08T05:51:53+00:00
-"Swaziland's king renamed the country eSwatini in 2018, on the 50th anniversary of its independence from Britain.",0,
+"Swaziland's king renamed the country eSwatini in 2018, on the 50th anniversary of its independence from Britain.",1,2026-08-15T06:53:36+00:00
 "North Macedonia only settled on its current name in 2019, ending a decades-long dispute with Greece over the use of ""Macedonia.",1,2026-08-10T19:10:11+00:00
 "Persia asked the world to call it Iran starting in 1935, a change tied to the government's own preferred, more nationalist name for the country.",1,2026-08-03T11:38:54+00:00
 "Siam renamed itself Thailand in 1939, briefly reverted to Siam after the war, then switched back to Thailand for good in 1949.",0,
@@ -338,7 +338,7 @@ Cairo's metro area is home to close to a fifth of all Egyptians.,1,2026-08-10T17
 Greater Buenos Aires holds roughly a third of Argentina's entire population.,1,2026-07-31T00:12:26+00:00
 "Ulaanbaatar holds nearly half of Mongolia's population, even though the rest of the country is among the emptiest places on Earth.",0,
 "The island of Ireland still hasn't recovered the population it had before the Great Famine of the 1840s, a demographic scar deeper than any war has left.",1,2026-08-11T17:08:36+00:00
-"An estimated one million Poles are thought to live and work in the UK and Germany combined, part of one of the largest peacetime migrations within a single economic bloc.",0,
+"An estimated one million Poles are thought to live and work in the UK and Germany combined, part of one of the largest peacetime migrations within a single economic bloc.",1,2026-08-14T19:07:54+00:00
 "Luxembourg's workforce is nearly half made up of commuters who live in neighboring France, Germany or Belgium and cross the border to work every day.",0,
 "Indonesia is home to more than 700 living languages, second only to Papua New Guinea.",1,2026-07-30T22:15:45+00:00
 "Nigeria has more living languages than the whole of Europe combined, well over 500 by most counts.",1,2026-08-02T07:38:44+00:00
@@ -413,9 +413,9 @@ Vatican City citizenship is tied to holding a qualifying job or office there and
 "About 85% of Australians live within 50 km of the coast, leaving the vast interior of the continent almost empty.",1,2026-08-09T20:47:32+00:00
 "Roughly 90% of Canadians live within 160 km of the US border, hugging the southern edge of a country that stretches nearly to the pole.",0,
 "Iceland's entire population would fit inside a single mid-sized neighborhood elsewhere in the world, yet the country runs its own currency, airline and stock exchange.",1,2026-08-09T09:51:28+00:00
-"Monaco is estimated to have one of the highest concentrations of millionaires per capita on Earth, with roughly a third of its residents holding that status.",0,
+"Monaco is estimated to have one of the highest concentrations of millionaires per capita on Earth, with roughly a third of its residents holding that status.",1,2026-08-15T03:00:23+00:00
 "Five of the world's ten tallest buildings now stand in Asia or the Gulf, not in the West that once defined the skyscraper race.",0,
-"Sushi began as narezushi, a preservation method where fish was fermented in rice for months and the rice itself was thrown away — eating the rice too is a relatively recent innovation.",0,
+"Sushi began as narezushi, a preservation method where fish was fermented in rice for months and the rice itself was thrown away — eating the rice too is a relatively recent innovation.",1,2026-08-14T22:34:01+00:00
 "One of the oldest known recipe collections, a set of Babylonian clay tablets from around 1730 BC, lists Mesopotamian stews and broths with almost no measurements at all.",1,2026-07-30T12:00:04+00:00
 "Ketchup started as a fermented fish sauce called ke-tsiap in southern China, carried west by traders long before tomatoes ever entered the recipe.",1,2026-08-10T22:51:18+00:00
 "The Maori haka wasn't originally a war dance for rugby crowds; it was performed for funerals, celebrations and welcoming guests too.",0,
@@ -427,10 +427,10 @@ Vatican City citizenship is tied to holding a qualifying job or office there and
 "Flamenco grew out of centuries of coexistence in Andalusia, blending Romani, Moorish, Jewish and Christian musical traditions into one form.",1,2026-08-04T21:22:36+00:00
 "Only sparkling wine from France's Champagne region can legally be called champagne — everything else is technically just sparkling wine, under decades of French and EU law.",0,
 True Parmigiano-Reggiano can only come from a handful of Italian provinces around Parma and Reggio Emilia; the name is legally protected across the EU.,1,2026-08-03T19:52:03+00:00
-"Tequila can only be produced in designated regions of Mexico centered on the town it's named after, in the state of Jalisco.",0,
+"Tequila can only be produced in designated regions of Mexico centered on the town it's named after, in the state of Jalisco.",1,2026-08-14T20:39:23+00:00
 "Bagpipe-like instruments may have originated in the ancient Middle East, with Roman writers describing similar devices centuries before bagpipes became a symbol of Scotland.",1,2026-08-08T02:13:52+00:00
 "Highland clan tartans, now treated as ancient heritage, were largely standardized in the 19th century, well after Scotland's actual clan era had ended.",1,2026-08-01T20:13:46+00:00
-"Karate's postwar global spread owes a lot to American servicemen stationed in occupied Okinawa, who trained locally and brought the practice home.",0,
+"Karate's postwar global spread owes a lot to American servicemen stationed in occupied Okinawa, who trained locally and brought the practice home.",1,2026-08-15T04:41:00+00:00
 "Marie Curie remains the only person to win Nobel Prizes in two different sciences, physics and chemistry, and her lab notebooks are still radioactive enough to be kept in lead-lined boxes.",1,2026-08-13T13:38:25+00:00
 "The first photograph of Earth from space was taken in 1946 by a camera on a captured German V-2 rocket, launched from the New Mexico desert.",0,
 "Oymyakon in Siberia, one of the coldest inhabited places on Earth, has recorded temperatures below -60°C, and people still live there year-round.",0,
@@ -439,10 +439,10 @@ True Parmigiano-Reggiano can only come from a handful of Italian provinces aroun
 Alexander Fleming discovered penicillin in London in 1928 after returning from vacation to find mold had wiped out bacteria in a forgotten petri dish.,1,2026-08-13T05:00:12+00:00
 "The first successful human heart transplant happened not in the US or Europe but in Cape Town, South Africa, in 1967.",0,
 "GPS satellites experience time differently under relativity — without correcting for it, positioning errors would pile up by an estimated 10 km a day.",1,2026-08-04T09:45:31+00:00
-"The metric system emerged from the French Revolution, with the meter first defined as one ten-millionth of the distance from the North Pole to the equator, measured through Paris.",0,
-"Britain's 1714 Longitude Prize was eventually won not by an astronomer but by John Harrison, a self-taught carpenter who built an astonishingly accurate marine clock.",0,
+"The metric system emerged from the French Revolution, with the meter first defined as one ten-millionth of the distance from the North Pole to the equator, measured through Paris.",1,2026-08-14T21:34:51+00:00
+"Britain's 1714 Longitude Prize was eventually won not by an astronomer but by John Harrison, a self-taught carpenter who built an astonishingly accurate marine clock.",1,2026-08-15T10:33:00+00:00
 "The Richter scale, developed in 1935, was calibrated using earthquakes recorded in Southern California by Charles Richter.",0,
-"When Alfred Wegener proposed continental drift in 1912, pointing to the matching coastlines of Africa and South America, most geologists dismissed him for decades.",0,
+"When Alfred Wegener proposed continental drift in 1912, pointing to the matching coastlines of Africa and South America, most geologists dismissed him for decades.",1,2026-08-15T05:34:56+00:00
 The world's first nuclear reactor went critical in 1942 underneath an unused squash court at the University of Chicago.,1,2026-08-02T23:08:13+00:00
 "Dmitri Mendeleev's 1869 periodic table left gaps for elements no one had discovered yet, and he predicted their properties correctly.",0,
 "Louis Pasteur's 1885 rabies vaccine, developed in Paris, was tested urgently on a boy who had been bitten by a rabid dog.",1,2026-07-29T21:08:37+00:00
@@ -497,7 +497,7 @@ Kosovo and Montenegro both use the euro as their currency despite not being EU m
 "Sepak takraw, a sport resembling volleyball played almost entirely with the feet and a woven rattan ball, is a national pastime across much of Southeast Asia.",1,2026-08-07T23:43:06+00:00
 "The America's Cup, first awarded in 1851, is the oldest active trophy in international sport, decades older than the modern Olympic Games.",0,
 "Most curling stones in the world are cut from granite quarried on a single small Scottish island, Ailsa Craig.",0,
-"Test cricket, the sport's oldest format, can run for five full days and still end in a draw, a structure barely changed since its 19th-century English origins.",0,
+"Test cricket, the sport's oldest format, can run for five full days and still end in a draw, a structure barely changed since its 19th-century English origins.",1,2026-08-14T17:06:07+00:00
 "Vilnius's bohemian Užupis district declared itself an independent republic in 1997, complete with its own constitution, currency and a mock border-guard ceremony every April Fools' Day.",1,2026-08-01T04:29:03+00:00
 "Key West, Florida briefly ""seceded"" from the United States in 1982 as the self-declared Conch Republic, a protest stunt that still sells souvenir passports today.",1,2026-08-12T10:16:35+00:00
 "A Western Australian farm called Hutt River declared itself an independent principality in 1970 during a tax dispute with the government, lasting nearly fifty years before dissolving in 2020.",0,
