@@ -1,7 +1,7 @@
 text,times_posted,last_posted
 "Russia spans 11 time zones — when it's 9am in Kaliningrad, it's already 8pm in Kamchatka 🕰️",1,2026-07-21T04:24:51+00:00
 "The Mongol Empire covered ~23 million km² at its peak — the largest contiguous land empire in history. Roughly 16% of Earth's land, ruled from horseback.",0,
-More than half of the Netherlands sits less than 1 metre above sea level — and about a quarter is below it.,0,
+More than half of the Netherlands sits less than 1 metre above sea level — and about a quarter is below it.,1,2026-08-16T15:30:59+00:00
 Canada has more lakes than the rest of the world combined.,1,2026-08-07T19:09:51+00:00
 The British Empire at its 1920 peak covered about 24% of Earth's land area. 'The empire on which the sun never sets' was not a metaphor.,1,2026-08-14T15:02:27+00:00
 Monaco is smaller than Central Park in New York (2.1 km² vs 3.4 km²).,1,2026-07-04T22:07:46+00:00
@@ -32,10 +32,10 @@ The 1918 flu pandemic killed more people in 6 months than WWI did in 4 years.,1,
 The Mongol conquests may have depopulated so much farmland that regrowing forests measurably cooled the planet.,1,2026-08-02T22:05:09+00:00
 "When the Spanish arrived in 1519, Tenochtitlan was larger than almost any city in Europe — built on a lake, connected by causeways.",0,
 The Soviet Union covered one-sixth of Earth's land surface.,1,2026-07-05T00:10:39+00:00
-Brazil borders every country in South America except Chile and Ecuador.,0,
+Brazil borders every country in South America except Chile and Ecuador.,1,2026-08-16T03:08:48+00:00
 Africa has 54 countries — more than a quarter of all UN member states — and a median age of just 19.,1,2026-07-24T16:52:08+00:00
 More than a third of humanity lives in just two countries: India and China.,0,
-Kazakhstan is the world's largest landlocked country — bigger than all of Western Europe.,0,
+Kazakhstan is the world's largest landlocked country — bigger than all of Western Europe.,1,2026-08-16T06:54:41+00:00
 "Rome's road network reached ~80,000 km of paved highways — enough to circle the Earth twice.",1,2026-07-18T10:35:18+00:00
 "When the Great Pyramid of Giza was built, woolly mammoths still lived on Wrangel Island. They survived until ~1650 BC.",1,2026-07-14T20:20:11+00:00
 Oxford University is older than the Aztec Empire. Teaching began at Oxford around 1096; Tenochtitlan was founded in 1325.,1,2026-07-11T10:23:04+00:00
@@ -54,7 +54,7 @@ The Black Death killed an estimated 30–60% of Europe's population in just 4 ye
 Antarctica is the largest desert on Earth — far bigger than the Sahara.,1,2026-07-31T20:34:32+00:00
 "In 1914, one US dollar bought 4.2 German marks. By November 1923, it bought 4.2 trillion.",1,2026-07-20T04:46:14+00:00
 The Great Emu War of 1932: Australia deployed soldiers with machine guns against emus. The emus won.,1,2026-07-07T08:36:13+00:00
-Portugal and England have the world's oldest active alliance — signed in 1373 and still in force.,0,
+Portugal and England have the world's oldest active alliance — signed in 1373 and still in force.,1,2026-08-15T23:29:29+00:00
 Ethiopia follows a calendar roughly 7 years behind the rest of the world — and clocks that start counting from dawn.,0,
 About 71% of Earth is ocean — but humans have mapped the surface of Mars in more detail than the ocean floor.,1,2026-07-04T18:11:19+00:00
 "Point Nemo, the spot in the Pacific farthest from any land, is so remote that the nearest humans are often the astronauts passing overhead on the ISS.",1,2026-08-15T07:38:28+00:00
@@ -84,15 +84,15 @@ The highest natural point of the Maldives is about 2.4 m above sea level — the
 "The Belgian-Dutch border town of Baarle is a puzzle of 30+ enclaves — the frontier runs through houses and cafés, and your tax residence could depend on where your front door is.",1,2026-07-24T06:36:00+00:00
 The Pacific Ocean is larger than every piece of land on Earth combined.,1,2026-07-31T14:28:50+00:00
 "Sailors' trivia: the longest straight-line ocean voyage on Earth runs roughly 32,000 km from Pakistan to Kamchatka — without touching land.",1,2026-08-15T12:54:40+00:00
-The Atlantic Ocean widens by roughly 2-3 cm every year — about the speed your fingernails grow. Columbus's voyage is over a metre longer today.,0,
+The Atlantic Ocean widens by roughly 2-3 cm every year — about the speed your fingernails grow. Columbus's voyage is over a metre longer today.,1,2026-08-17T04:53:19+00:00
 "Measured from its underwater base, Hawaii's Mauna Kea is taller than Everest — over 10,000 m from seabed to summit.",0,
 Antarctica holds an estimated 60-70% of all the fresh water on Earth — locked in ice up to 4.8 km thick.,1,2026-07-17T16:22:52+00:00
 France spans 12 time zones — more than any other country — thanks to territories from French Polynesia to the Caribbean.,1,2026-08-10T17:59:48+00:00
-"China, nearly as wide as the continental US, uses a single time zone. In the far west, the sun can set close to midnight Beijing time.",0,
+"China, nearly as wide as the continental US, uses a single time zone. In the far west, the sun can set close to midnight Beijing time.",1,2026-08-16T12:56:17+00:00
 "Spain has been in the 'wrong' time zone since 1940, when Franco moved clocks to Berlin time. Geographically, Madrid should share a zone with London.",1,2026-07-24T20:37:27+00:00
 Nepal's clocks are set to UTC+5:45 — one of only a handful of 45-minute time zones on Earth.,1,2026-08-09T21:42:51+00:00
 An estimated 27 million tonnes of Saharan dust blows across the Atlantic each year — and fertilizes the Amazon rainforest with phosphorus.,1,2026-07-29T19:38:40+00:00
-"The Great Barrier Reef is the largest structure ever built by living creatures — about 2,300 km long and visible from orbit.",0,
+"The Great Barrier Reef is the largest structure ever built by living creatures — about 2,300 km long and visible from orbit.",1,2026-08-16T04:45:27+00:00
 "Lake Titicaca, at ~3,800 m, is the highest lake in the world with large-scale commercial navigation.",1,2026-07-29T06:41:24+00:00
 "The Kaliningrad region — home to a million Russians — has no land connection to Russia. It's the old East Prussia, taken in 1945.",1,2026-08-07T03:59:50+00:00
 "Mount Thor on Canada's Baffin Island has Earth's greatest vertical drop: 1,250 m of pure cliff.",1,2026-08-09T10:46:59+00:00
@@ -115,7 +115,7 @@ The Hundred Years' War actually lasted 116 years (1337-1453). The name stuck any
 Genetic studies suggest roughly 1 in 200 men alive today may descend from Genghis Khan's male line — an estimated 16 million descendants.,1,2026-07-21T12:42:13+00:00
 "The Great Fire of London in 1666 destroyed ~13,000 houses and 87 churches — yet the official recorded death toll was in single digits. Historians suspect many deaths simply went unrecorded.",1,2026-07-23T00:10:28+00:00
 "The oldest known customer complaint is ~3,770 years old: a Babylonian tablet from one Nanni, furious at the merchant Ea-nasir over substandard copper.",1,2026-08-08T08:54:26+00:00
-"Göbekli Tepe in Turkey is roughly 6,000 years older than Stonehenge — monumental architecture built by people who hadn't yet invented pottery or farming.",0,
+"Göbekli Tepe in Turkey is roughly 6,000 years older than Stonehenge — monumental architecture built by people who hadn't yet invented pottery or farming.",1,2026-08-17T14:37:58+00:00
 Ancient Romans were already tourists at the pyramids — graffiti from Roman visitors survives inside them.,1,2026-07-17T14:50:42+00:00
 The Roman Empire (in the East) fell just 39 years before Columbus sailed. Constantinople fell in 1453; the Americas were reached in 1492.,1,2026-08-03T15:11:08+00:00
 "Napoleon wasn't short. At ~1.68 m (5'7"") he was average or above for a Frenchman of his era — the myth came from British propaganda and French inches.",1,2026-07-20T20:38:35+00:00
@@ -185,18 +185,18 @@ Ancient Egyptian workers on royal tombs staged the first recorded labor strike i
 "Japan and South Korea have 10+ hospital beds per 1,000 people — several times the level of the US or UK, per Our World in Data.",1,2026-07-10T00:15:18+00:00
 "The US and El Salvador imprison more people per capita than anywhere else on Earth, per Our World in Data.",1,2026-07-25T04:20:25+00:00
 "Extreme poverty (under $2.15/day) is now concentrated almost entirely in one region: Sub-Saharan Africa, per Our World in Data. In 1990, most of the world's poorest lived in Asia.",1,2026-07-31T04:32:28+00:00
-"Global literacy has passed 87% — but in parts of the Sahel, fewer than half of adults can read, per Our World in Data.",0,
+"Global literacy has passed 87% — but in parts of the Sahel, fewer than half of adults can read, per Our World in Data.",1,2026-08-16T08:41:52+00:00
 "Workers in Cambodia and Mexico log 2,200+ hours a year. Germans work about 1,300 — the equivalent of ~5 months less, per Our World in Data.",1,2026-07-24T22:14:38+00:00
 "Half of Earth's habitable land is used for agriculture — and most of that feeds livestock, not people directly, per Our World in Data.",1,2026-07-29T23:08:50+00:00
 "Iceland gets about 80% of its energy from low-carbon sources — the highest share of any country, per Our World in Data.",0,
 "In 1950 the average woman worldwide had about 5 children. Today it's roughly 2.2 — the fastest reproductive shift in human history, per Our World in Data.",1,2026-07-09T22:41:02+00:00
 "South Korea's fertility rate is about 0.7 births per woman. At that rate, 100 Koreans have ~33 children and ~11 grandchildren.",1,2026-07-14T18:13:44+00:00
-"Most countries now have more mobile phone subscriptions than people, per Our World in Data.",0,
-"Global life expectancy is now about 73 years. In 1900 it was roughly 32 — humanity has more than doubled its lifespan in five generations, per Our World in Data.",0,
+"Most countries now have more mobile phone subscriptions than people, per Our World in Data.",1,2026-08-17T07:11:56+00:00
+"Global life expectancy is now about 73 years. In 1900 it was roughly 32 — humanity has more than doubled its lifespan in five generations, per Our World in Data.",1,2026-08-17T08:55:16+00:00
 "A century ago, about 1 in 4 children worldwide died before their fifth birthday. Today it's under 1 in 25 — still too many, but a 90% fall, per Our World in Data.",1,2026-07-18T22:01:21+00:00
 "Some Gulf states emit more CO2 per person than the US — and many times the global average, per Our World in Data.",0,
 "Northern Europeans drink more milk than anyone on Earth — Finland tops most rankings. Much of East Asia consumes almost none, per Our World in Data.",1,2026-08-09T14:46:17+00:00
-"Malaria still kills hundreds of thousands of people a year — and the deaths are now almost entirely concentrated in Africa, per Our World in Data.",0,
+"Malaria still kills hundreds of thousands of people a year — and the deaths are now almost entirely concentrated in Africa, per Our World in Data.",1,2026-08-16T11:29:54+00:00
 "Japan has nearly one retiree for every two working-age people. In much of Africa the ratio is closer to one per twenty, per Our World in Data.",1,2026-07-14T14:07:37+00:00
 "Nature's constant: about 105 boys are born for every 100 girls, almost everywhere on Earth. Countries far above that line have a story to explain, per Our World in Data.",1,2026-07-27T04:47:48+00:00
 "In some Pacific island nations, more than half of all adults are obese — the highest rates on Earth, per Our World in Data.",1,2026-07-16T14:15:53+00:00
@@ -205,8 +205,8 @@ Ancient Egyptian workers on royal tombs staged the first recorded labor strike i
 "Basque, spoken in the Pyrenees, has no known living relatives — it likely predates the arrival of Indo-European languages in Europe by thousands of years.",1,2026-08-15T17:30:07+00:00
 English is an official or primary language in ~60 sovereign states — more than any other language. The UK itself has no law making it official.,1,2026-08-12T04:55:56+00:00
 More people speak English in total than any other language — but Mandarin and Spanish both have more NATIVE speakers.,0,
-"At least part of the Bible has been translated into over 3,500 languages — the complete text into 700+.",0,
-Zimbabwe recognizes 16 official languages — the most of any country.,0,
+"At least part of the Bible has been translated into over 3,500 languages — the complete text into 700+.",1,2026-08-17T03:08:32+00:00
+Zimbabwe recognizes 16 official languages — the most of any country.,1,2026-08-16T01:53:22+00:00
 "Switzerland has four national languages — and a fifth unofficial one, English, increasingly used between the other four.",1,2026-07-12T22:04:20+00:00
 Icelandic has changed so little in 800 years that modern Icelanders can still read the medieval sagas in the original.,0,
 The Hawaiian alphabet has just 13 letters. The Khmer script of Cambodia has 74 characters — the world's longest alphabet.,1,2026-07-13T14:55:16+00:00
@@ -224,14 +224,14 @@ Oktoberfest mostly takes place in September.,1,2026-07-21T00:05:51+00:00
 "The croissant isn't French — it descends from the Austrian kipferl, brought to Paris in the 1830s by a Viennese baker.",1,2026-07-26T12:11:49+00:00
 "Fortune cookies were invented in California, most likely by Japanese immigrants. They're almost unknown in China.",1,2026-07-08T04:25:42+00:00
 Vanilla is native to Mexico — for 300 years the Aztecs' secret ingredient in chocolate. Most 'vanilla' flavor today is synthetic.,1,2026-08-07T05:47:44+00:00
-"The Ottoman Empire had a state department of tulips — the flower that triggered Dutch 'tulip mania' came to Europe from Istanbul, not Amsterdam.",0,
+"The Ottoman Empire had a state department of tulips — the flower that triggered Dutch 'tulip mania' came to Europe from Istanbul, not Amsterdam.",1,2026-08-15T20:33:59+00:00
 "The Congo River plunges to depths of over 220 metres in places, making it the deepest river on Earth — deep enough that some fish species there evolved without eyes.",0,
 "For decades atlases named the Nile the world's longest river; a 2007 study argued the Amazon may actually be longer, depending on where its source is measured. The debate is still not fully settled.",1,2026-08-10T23:46:34+00:00
 "The Congo is one of the only major rivers to cross the equator twice, which helps keep its flow unusually steady year-round.",1,2026-08-14T08:23:44+00:00
 "Botswana's Okavango River never reaches the sea. It fans out into the Kalahari Desert and simply evaporates, feeding one of the world's largest inland deltas.",1,2026-08-11T04:35:46+00:00
 "Every rainy season, the Mekong River reverses the flow of the Tonle Sap in Cambodia, swelling the lake to roughly five times its dry-season size.",1,2026-08-03T03:47:56+00:00
 "In 1900, engineers reversed the flow of the Chicago River so the city's sewage would drain away from Lake Michigan instead of into it.",1,2026-08-11T19:15:31+00:00
-"The Amur River forms roughly 4,000 km of the border between Russia and China — one of the longest river borders on Earth.",0,
+"The Amur River forms roughly 4,000 km of the border between Russia and China — one of the longest river borders on Earth.",1,2026-08-16T14:33:13+00:00
 "Victoria Falls' local name, Mosi-oa-Tunya, means ""the smoke that thunders"" — its spray can rise high enough to be seen many kilometers before you hear the falls.",0,
 "K2, the world's second-highest peak, is considered far deadlier to climb than Everest and wasn't successfully summited in winter until 2021.",0,
 "By some measures of vertical rise from base to peak, Alaska's Denali stands taller than Mount Everest, which starts its climb from a much higher plateau.",1,2026-08-11T20:58:45+00:00
@@ -249,7 +249,7 @@ Vanilla is native to Mexico — for 300 years the Aztecs' secret ingredient in c
 "Bolivia has two capitals: Sucre holds the constitutional title, while La Paz, the world's highest seat of government at roughly 3,640 m, actually runs the country.",0,
 "South Africa splits its capital three ways: Pretoria for the executive, Cape Town for the legislature, and Bloemfontein for the judiciary.",1,2026-08-12T11:55:06+00:00
 "Kazakhstan's capital has changed names four times since 1998 alone: Akmola, then Astana, then Nur-Sultan, then back to Astana.",1,2026-08-07T20:52:49+00:00
-"Nigeria moved its capital from coastal Lagos to purpose-built Abuja in 1991, largely to sit at a more neutral, central point in the country.",0,
+"Nigeria moved its capital from coastal Lagos to purpose-built Abuja in 1991, largely to sit at a more neutral, central point in the country.",1,2026-08-16T21:29:53+00:00
 "Death Valley recorded 56.7°C in 1913, still generally accepted as the highest reliably measured air temperature on Earth.",0,
 "Russia's Vostok Station in Antarctica recorded -89.2°C in 1983, the coldest temperature ever measured on the planet's surface.",1,2026-08-01T12:08:54+00:00
 "Mawsynram, in northeast India, receives an estimated 11,000+ mm of rain a year on average, making it one of the wettest inhabited places on Earth.",0,
@@ -271,17 +271,17 @@ Vermont operated as an independent republic with its own currency from 1777 unti
 "The Kingdom of Hawaii was overthrown by American businessmen in 1893, five years before the islands were formally annexed by the United States.",0,
 The Free City of Danzig existed as its own League of Nations city-state between the world wars; its disputed status became one of the flashpoints of 1939.,1,2026-08-06T06:40:51+00:00
 The Faroe Islands belong to the Kingdom of Denmark but sit outside the European Union entirely.,1,2026-08-08T16:47:35+00:00
-"A 1494 treaty between Spain and Portugal drew a line down the Atlantic dividing the unexplored New World, the main reason Brazil speaks Portuguese while its neighbors speak Spanish.",0,
+"A 1494 treaty between Spain and Portugal drew a line down the Atlantic dividing the unexplored New World, the main reason Brazil speaks Portuguese while its neighbors speak Spanish.",1,2026-08-16T07:38:57+00:00
 "Macau was a Portuguese territory from 1557 until 1999, making it the oldest and last European colony in Asia.",1,2026-08-05T23:13:19+00:00
 "Britain's 99-year lease on Hong Kong's New Territories, signed in 1898, was set to expire in 1997, the deadline that forced the handover of the entire territory, not just the leased part.",0,
 "Portugal ruled Goa on India's coast for more than 450 years, only losing it in 1961 when Indian forces annexed the territory.",1,2026-08-14T13:33:58+00:00
 East Timor was occupied by Indonesia from 1975 until a UN-backed vote led to full independence in 2002.,0,
 Western Sahara is often called Africa's last colony; its final status remains disputed between Morocco and the Polisario Front decades after Spain withdrew.,0,
 "Somaliland has run its own government, currency and passports since 1991, yet not a single UN member formally recognizes it as a country.",0,
-"Kosovo declared independence in 2008 and is recognized by roughly half of UN member states, a split that still shapes its relations abroad.",0,
-"South Sudan became the world's newest country in 2011, seceding from Sudan after decades of civil war.",0,
+"Kosovo declared independence in 2008 and is recognized by roughly half of UN member states, a split that still shapes its relations abroad.",1,2026-08-16T05:37:04+00:00
+"South Sudan became the world's newest country in 2011, seceding from Sudan after decades of civil war.",1,2026-08-17T15:34:36+00:00
 "Czechoslovakia dissolved peacefully on January 1, 1993, in what's often called the ""Velvet Divorce"" between the Czech Republic and Slovakia.",1,2026-08-13T20:55:55+00:00
-"In December 1991, one country, the Soviet Union, ceased to exist, and fifteen new ones took its place almost overnight.",0,
+"In December 1991, one country, the Soviet Union, ceased to exist, and fifteen new ones took its place almost overnight.",1,2026-08-15T21:30:22+00:00
 "In the Six-Day War of 1967, Israel took control of several times as much territory as it had held before the fighting began.",1,2026-07-31T11:34:11+00:00
 "The Korean War ended with an armistice in 1953, not a peace treaty, meaning North and South Korea remain, technically, still at war.",0,
 "The Taiping Rebellion of the 1850s-60s, led by a man who believed he was the younger brother of Jesus, is estimated to have killed 20-30 million people in China.",0,
@@ -321,13 +321,13 @@ Ming China's Zheng He commanded treasure fleets in the early 1400s with ships re
 "Canada's name likely comes from an Iroquoian word, ""kanata,"" simply meaning ""village"" or ""settlement.",0,
 "Magellan named the Pacific Ocean ""Mar Pacifico"" after experiencing unusually calm weather crossing it, a name that stuck despite the ocean also spawning the world's most powerful typhoons.",1,2026-08-01T14:39:06+00:00
 "Bangladesh is roughly the size of New York State, yet its population is larger than Russia's entire population.",1,2026-08-13T17:06:58+00:00
-"Tokyo's greater metropolitan area holds an estimated 37 million people, close to the entire population of Canada packed into one urban region.",0,
+"Tokyo's greater metropolitan area holds an estimated 37 million people, close to the entire population of Canada packed into one urban region.",1,2026-08-16T13:39:19+00:00
 More people who identify as Puerto Rican now live on the US mainland than on the island of Puerto Rico itself.,1,2026-08-10T10:33:22+00:00
 Dubai's population is overwhelmingly foreign-born; native Emiratis are estimated to make up less than a fifth of the city's residents.,1,2026-07-31T16:52:56+00:00
-"Migrant workers send home an estimated $650 billion or more every year in remittances, several times what the world spends on foreign aid.",0,
+"Migrant workers send home an estimated $650 billion or more every year in remittances, several times what the world spends on foreign aid.",1,2026-08-17T09:53:12+00:00
 India receives more remittance income from its diaspora abroad than any other country on Earth.,0,
 "An estimated 1 in 10 Filipinos works overseas, and the money they send home props up a meaningful share of the national economy.",0,
-"Venezuela's economic collapse pushed an estimated 7 to 8 million people to leave the country within a decade, one of the largest displacements outside a war zone.",0,
+"Venezuela's economic collapse pushed an estimated 7 to 8 million people to leave the country within a decade, one of the largest displacements outside a war zone.",1,2026-08-15T22:32:36+00:00
 "Syria's civil war displaced more than half the country's pre-war population, counting both refugees abroad and people uprooted inside it.",1,2026-08-12T22:54:42+00:00
 "China's rural-to-urban migration since 1990 has moved several hundred million people, likely the largest internal migration in human history.",1,2026-08-13T19:15:12+00:00
 "Just over half of humanity now lives in cities; a century ago, fewer than 1 in 5 people did.",1,2026-08-02T20:14:56+00:00
@@ -347,7 +347,7 @@ Mandarin has no alphabet at all; its logographic script unites readers whose spo
 "Hindi and Urdu are close enough in speech that speakers understand each other easily, yet they're written in two completely different scripts.",1,2026-08-11T22:56:22+00:00
 "Welsh is now a compulsory school subject across Wales, part of a national push to reach a million speakers by 2050.",1,2026-07-31T22:13:16+00:00
 "Linguists estimate that somewhere in the world, a language falls silent roughly every couple of weeks as its last fluent speakers die.",1,2026-08-10T06:18:43+00:00
-"Indonesia has more Muslims than Saudi Arabia, Iraq and Iran combined.",0,
+"Indonesia has more Muslims than Saudi Arabia, Iraq and Iran combined.",1,2026-08-17T17:37:21+00:00
 "India is home to more Muslims than Saudi Arabia and Iraq combined, despite being a Hindu-majority country.",0,
 "There are now more Christians living in Sub-Saharan Africa than in Europe, a reversal from a century ago.",0,
 "In South Korea, Christianity is the country's largest organized religion, not Buddhism, despite its long Buddhist history.",1,2026-08-13T11:55:40+00:00
@@ -362,12 +362,12 @@ Lebanon has no official religious majority; its government runs on a power-shari
 "In the poorest countries, farming makes up close to half the economy; in the richest, it's about 1%, per Our World in Data.",0,
 "Small, trade-heavy economies can see trade flows worth 3 to 4 times their GDP, while giants like the US trade barely half their GDP's value, per Our World in Data.",1,2026-08-13T22:55:50+00:00
 "National unemployment rates range from under 1% to more than 25%, depending entirely on which country you're standing in, per Our World in Data.",0,
-"Some countries have lived with inflation above 50% a year for extended stretches, while others hold it near 2%, per Our World in Data.",0,
+"Some countries have lived with inflation above 50% a year for extended stretches, while others hold it near 2%, per Our World in Data.",1,2026-08-16T23:29:47+00:00
 Researchers estimate the wealthiest 1% of humanity holds close to as much wealth as the poorest two-thirds combined.,0,
 "China now trades more with most African countries than any Western nation does, a shift that happened within a single generation.",0,
-"The Strait of Malacca is estimated to carry roughly a quarter of the world's seaborne trade, making it one of the most valuable chokepoints on the map.",0,
+"The Strait of Malacca is estimated to carry roughly a quarter of the world's seaborne trade, making it one of the most valuable chokepoints on the map.",1,2026-08-17T05:43:59+00:00
 "The World Trade Organization's rules now cover more than 160 member countries, accounting for the vast majority of global commerce.",0,
-"Standardized shipping containers, introduced in the 1950s, cut the cost of moving goods across oceans so sharply they reshaped global trade itself.",0,
+"Standardized shipping containers, introduced in the 1950s, cut the cost of moving goods across oceans so sharply they reshaped global trade itself.",1,2026-08-16T10:33:24+00:00
 "Landlocked countries trade less on average than coastal ones, a persistent economic disadvantage that geography alone imposes.",0,
 "An average person in Iceland uses roughly 100 times more energy per year than an average person in Ethiopia, per Our World in Data.",1,2026-08-08T10:45:30+00:00
 "France generates about two-thirds of its electricity from nuclear power, a share no other country comes close to matching, per Our World in Data.",1,2026-07-30T14:26:30+00:00
@@ -382,13 +382,13 @@ Researchers estimate the wealthiest 1% of humanity holds close to as much wealth
 "Brazil recently overtook the United States as the world's top soybean producer, per Our World in Data.",1,2026-08-03T18:00:48+00:00
 "About 90% of the world's rice is grown in Asia, a single crop that feeds more people than any other, per Our World in Data.",1,2026-07-30T06:36:59+00:00
 "There are an estimated 1.5 billion cattle alive on Earth right now, with Brazil and India each hosting well over 200 million, per Our World in Data.",1,2026-08-08T17:40:18+00:00
-"Chicken has quietly overtaken every other meat to become humanity's most-produced meat, led by the US, China and Brazil, per Our World in Data.",0,
+"Chicken has quietly overtaken every other meat to become humanity's most-produced meat, led by the US, China and Brazil, per Our World in Data.",1,2026-08-16T18:41:53+00:00
 "Ireland and the Netherlands coax roughly three times more wheat from a hectare than some of the world's biggest wheat-growing nations, per Our World in Data.",1,2026-08-08T18:53:02+00:00
 "Farmers worldwide spray an estimated 3.5 million tonnes of pesticides on crops every year, per Our World in Data.",1,2026-08-05T12:08:06+00:00
 "Life expectancy tops 84 years in Japan and Switzerland but falls under 55 in parts of West Africa, a 30-year gap on the same planet, per Our World in Data.",1,2026-08-09T02:23:27+00:00
 "Giving birth is estimated to be roughly 100 times more dangerous in parts of Africa than in Scandinavia, per Our World in Data.",1,2026-08-06T15:26:12+00:00
 "Tuberculosis, curable for 70 years, still kills more than a million people a year, concentrated in a handful of countries, per Our World in Data.",1,2026-08-05T06:37:44+00:00
-"An estimated 1 in 8 people worldwide lives with a mental health or substance use disorder, per Our World in Data.",0,
+"An estimated 1 in 8 people worldwide lives with a mental health or substance use disorder, per Our World in Data.",1,2026-08-17T13:49:25+00:00
 "Roughly 1 in 5 children worldwide has stunted growth from chronic malnutrition, concentrated in the Sahel and South Asia, per Our World in Data.",0,
 "More than 2 billion people still cook their food over wood, dung or charcoal, and the resulting indoor smoke kills millions every year, per Our World in Data.",1,2026-08-10T20:55:53+00:00
 "Cardiovascular disease is the world's single leading cause of death, striking hardest across Eastern Europe and Central Asia, per Our World in Data.",0,
@@ -402,13 +402,13 @@ Researchers estimate the wealthiest 1% of humanity holds close to as much wealth
 "Rwanda has a higher share of women in parliament than any other country on Earth, ahead of every Western democracy, per Our World in Data.",1,2026-08-10T02:28:32+00:00
 "Sub-Saharan Africa mostly skipped landline telephones altogether, jumping straight to mobile networks decades before fixed lines would ever have arrived.",1,2026-08-09T05:53:43+00:00
 "Kenya's M-Pesa mobile money system, launched in 2007, now moves a volume of transactions each year equivalent to more than half of the country's GDP, by some estimates.",0,
-"Cash and credit cards both became rare in many Chinese cities within a decade, as mobile payment apps leapfrogged straight past them.",0,
+"Cash and credit cards both became rare in many Chinese cities within a decade, as mobile payment apps leapfrogged straight past them.",1,2026-08-16T16:36:38+00:00
 "Estonia lets citizens vote online in national elections and file a tax return in minutes, one of the most digitized states on Earth.",0,
 "India's biometric ID program has enrolled more than a billion people, the largest identity database of its kind in the world.",1,2026-08-12T17:07:06+00:00
 "South Korea's population is projected to roughly halve by 2100 if current birth rates hold, one of the fastest peacetime declines ever projected for a country.",0,
 "Africa's share of world population is expected to approach a quarter by 2050, up from under a fifth today.",0,
-"Japan's population has shrunk every year for well over a decade, losing several hundred thousand people annually.",0,
-Vatican City citizenship is tied to holding a qualifying job or office there and normally ends when the job does; almost nobody holds it for life.,0,
+"Japan's population has shrunk every year for well over a decade, losing several hundred thousand people annually.",1,2026-08-17T10:43:13+00:00
+Vatican City citizenship is tied to holding a qualifying job or office there and normally ends when the job does; almost nobody holds it for life.,1,2026-08-15T19:29:05+00:00
 "Egypt's population is heavily concentrated: the overwhelming majority live within a narrow strip along the Nile, since the rest of the country is desert.",0,
 "About 85% of Australians live within 50 km of the coast, leaving the vast interior of the continent almost empty.",1,2026-08-09T20:47:32+00:00
 "Roughly 90% of Canadians live within 160 km of the US border, hugging the southern edge of a country that stretches nearly to the pole.",0,
@@ -444,7 +444,7 @@ Alexander Fleming discovered penicillin in London in 1928 after returning from v
 "The Richter scale, developed in 1935, was calibrated using earthquakes recorded in Southern California by Charles Richter.",0,
 "When Alfred Wegener proposed continental drift in 1912, pointing to the matching coastlines of Africa and South America, most geologists dismissed him for decades.",1,2026-08-15T05:34:56+00:00
 The world's first nuclear reactor went critical in 1942 underneath an unused squash court at the University of Chicago.,1,2026-08-02T23:08:13+00:00
-"Dmitri Mendeleev's 1869 periodic table left gaps for elements no one had discovered yet, and he predicted their properties correctly.",0,
+"Dmitri Mendeleev's 1869 periodic table left gaps for elements no one had discovered yet, and he predicted their properties correctly.",1,2026-08-17T16:39:09+00:00
 "Louis Pasteur's 1885 rabies vaccine, developed in Paris, was tested urgently on a boy who had been bitten by a rabid dog.",1,2026-07-29T21:08:37+00:00
 "Russian scientists finally drilled into Antarctica's Lake Vostok in 2012, reaching water sealed beneath nearly 4 km of ice for possibly millions of years.",0,
 "Parts of Chile's Atacama Desert are so dry that NASA has tested Mars rover technology there, in conditions considered the closest match on Earth.",0,
@@ -456,13 +456,13 @@ The world's first nuclear reactor went critical in 1942 underneath an unused squ
 "The country long called Turkey in English officially requested the name ""Türkiye"" in 2022, partly to shed associations with the bird and unrelated slang.",1,2026-08-12T13:38:06+00:00
 "Magazine"" comes from the Arabic ""makhazin,"" meaning storehouses, filtered into English through French and Italian trade vocabulary.",1,2026-08-12T21:57:00+00:00
 "Coffee"" traveled through Arabic ""qahwa"" and Ottoman Turkish ""kahve"" on its way into European languages, tracing the drink's path from Ethiopia to Istanbul.",1,2026-08-02T10:05:51+00:00
-"Alcohol"" derives from Arabic ""al-kuhl,"" a fine powder used as eyeliner; the meaning shifted entirely once medieval Latin chemists borrowed the word.",0,
+"Alcohol"" derives from Arabic ""al-kuhl,"" a fine powder used as eyeliner; the meaning shifted entirely once medieval Latin chemists borrowed the word.",1,2026-08-16T22:32:28+00:00
 "The words ""slave"" and ""Slav"" share a root, a grim linguistic fossil from an era when Slavic peoples were widely enslaved across medieval Europe.",0,
 "Vandal"" comes from the Germanic Vandals, who sacked Rome in 455, though historians now think their reputation for destruction was exaggerated by later Roman writers.",1,2026-08-08T22:40:20+00:00
 "Ostracize"" comes from ancient Athens, where citizens could vote to exile someone for a decade by scratching a name onto broken pottery shards called ostraka.",0,
 "Thomas More coined ""utopia"" in 1516 as a Greek pun that can mean either ""good place"" or ""no place,"" depending on how you read it.",1,2026-08-03T21:15:58+00:00
 "Siesta"" comes from the Latin ""hora sexta,"" the sixth hour after dawn, roughly midday, when the heat made work impossible.",1,2026-08-08T04:17:32+00:00
-"Tycoon"" entered English from the Japanese title ""taikun,"" used for the shogun, and spread after American naval expeditions to Japan in the 1850s.",0,
+"Tycoon"" entered English from the Japanese title ""taikun,"" used for the shogun, and spread after American naval expeditions to Japan in the 1850s.",1,2026-08-16T19:28:54+00:00
 "Amok,"" as in ""running amok,"" is a Malay word describing a sudden violent frenzy, first recorded by European travelers in Southeast Asia.",0,
 "Taxi"" comes from the taximeter, a fare-calculating device fitted to horse-drawn cabs in 1890s Germany, long before the motorcar.",1,2026-08-13T08:39:41+00:00
 "The self-declared Republic of Molossia occupies a few acres of Nevada, complete with its own currency, national anthem and a ""space program"" built around a weather balloon.",0,
@@ -470,7 +470,7 @@ The world's first nuclear reactor went critical in 1942 underneath an unused squ
 A library on the Vermont-Quebec border sits directly on the international line — patrons can read in the United States while sitting in a chair placed in Canada.,1,2026-08-11T23:52:54+00:00
 "Campione d'Italia is an Italian town completely surrounded by Switzerland, reachable only by crossing a border most visitors never notice they've passed.",1,2026-08-14T11:52:45+00:00
 "Lesotho, San Marino and Vatican City are the only three sovereign states entirely surrounded by a single other country, with the latter two both enclaved inside Italy.",1,2026-08-12T06:22:58+00:00
-"Cyprus still hosts sovereign British military bases, Akrotiri and Dhekelia, land Britain kept for itself when the island gained independence in 1960.",0,
+"Cyprus still hosts sovereign British military bases, Akrotiri and Dhekelia, land Britain kept for itself when the island gained independence in 1960.",1,2026-08-16T09:36:17+00:00
 "North Sentinel Island, part of India's Andaman chain, is home to one of the last uncontacted peoples on Earth, and Indian law bars outsiders from approaching it.",0,
 "Finland's Åland Islands are Swedish-speaking, permanently demilitarized under a 1921 treaty, and issue their own postage stamps despite belonging to Finland.",1,2026-08-07T17:56:20+00:00
 "Under a 1920 treaty, citizens of many countries can live and work in Norway's Arctic territory of Svalbard without a visa, though getting there usually means flying through mainland Norway.",1,2026-08-05T15:24:04+00:00
@@ -478,29 +478,29 @@ A library on the Vermont-Quebec border sits directly on the international line �
 Britain forcibly removed the Chagossian population from Diego Garcia in the late 1960s and early 1970s to build what became a major US military base.,0,
 "Transnistria, a breakaway strip of Moldova, still flies a flag bearing a hammer and sickle, decades after the Soviet Union it once belonged to disappeared.",1,2026-08-04T03:31:06+00:00
 "Somaliland has run itself as a de facto independent state since 1991, with its own currency and passports, yet no UN member country officially recognizes it.",0,
-Most residents of the Pitcairn Islands descend from the HMS Bounty mutineers and the Tahitian companions who fled with them in 1789.,0,
+Most residents of the Pitcairn Islands descend from the HMS Bounty mutineers and the Tahitian companions who fled with them in 1789.,1,2026-08-15T18:42:53+00:00
 "Tristan da Cunha, a British island in the South Atlantic, is often called the most remote inhabited place on Earth, with the nearest continent roughly 2,400 km away.",1,2026-08-14T04:57:07+00:00
 "In 2008, Zimbabwe's hyperinflation crisis got so extreme that the government printed a 100-trillion-dollar note, worth only a few US dollars the day it was issued.",0,
 "Panama and Ecuador both use the US dollar as their official currency, without any formal voice in how American monetary policy is set.",1,2026-08-11T15:11:10+00:00
 Kosovo and Montenegro both use the euro as their currency despite not being EU members; they adopted it unilaterally rather than through any treaty.,0,
 "Scottish banks legally back their own banknotes with rarely seen ""Giant"" and ""Titan"" notes worth £1 million and £100 million, never meant to circulate publicly.",0,
-"Mozambique's flag features an AK-47 rifle laid over a hoe and book, making it one of the only national flags to depict a modern firearm.",0,
+"Mozambique's flag features an AK-47 rifle laid over a hoe and book, making it one of the only national flags to depict a modern firearm.",1,2026-08-17T13:01:22+00:00
 "Belize's flag is often cited as the most detailed national flag in the world, built around a full coat of arms with human figures and dozens of colors.",0,
 "The flags of Kiribati and Tuvalu both depict a rising sun over ocean waves, a direct nod to their identity as scattered Pacific island nations.",1,2026-08-07T21:51:00+00:00
 "South Africa's 1994 flag was designed with six colors converging into a ""Y"" shape, deliberately avoiding any single ethnic or religious symbol.",1,2026-08-01T22:05:30+00:00
 "Saudi Arabia used the Islamic Hijri calendar for official government business until 2016, when it switched to the Gregorian calendar to align salaries with global markets.",0,
-"North Korea's official calendar counts years from 1912, the birth year of founder Kim Il-sung, running alongside the Gregorian year in daily use.",0,
+"North Korea's official calendar counts years from 1912, the birth year of founder Kim Il-sung, running alongside the Gregorian year in daily use.",1,2026-08-16T17:29:18+00:00
 "Thailand's official calendar runs on the Buddhist Era, roughly 543 years ahead of the Western count, so a Gregorian 2024 becomes 2567 there.",0,
 "In 1995, Kiribati shifted part of its territory's date line eastward so the whole country, spread across a huge stretch of the Pacific, could share one calendar day.",0,
-"Samoa skipped December 30, 2011 entirely, jumping across the international date line to align its work week with Australia and New Zealand instead of the US.",0,
-"St. Moritz's Cresta Run, a natural ice toboggan track rebuilt from scratch with snow and ice each winter, has operated since 1884.",0,
+"Samoa skipped December 30, 2011 entirely, jumping across the international date line to align its work week with Australia and New Zealand instead of the US.",1,2026-08-16T20:33:53+00:00
+"St. Moritz's Cresta Run, a natural ice toboggan track rebuilt from scratch with snow and ice each winter, has operated since 1884.",1,2026-08-17T18:53:07+00:00
 "Sepak takraw, a sport resembling volleyball played almost entirely with the feet and a woven rattan ball, is a national pastime across much of Southeast Asia.",1,2026-08-07T23:43:06+00:00
-"The America's Cup, first awarded in 1851, is the oldest active trophy in international sport, decades older than the modern Olympic Games.",0,
+"The America's Cup, first awarded in 1851, is the oldest active trophy in international sport, decades older than the modern Olympic Games.",1,2026-08-17T11:35:27+00:00
 "Most curling stones in the world are cut from granite quarried on a single small Scottish island, Ailsa Craig.",0,
 "Test cricket, the sport's oldest format, can run for five full days and still end in a draw, a structure barely changed since its 19th-century English origins.",1,2026-08-14T17:06:07+00:00
 "Vilnius's bohemian Užupis district declared itself an independent republic in 1997, complete with its own constitution, currency and a mock border-guard ceremony every April Fools' Day.",1,2026-08-01T04:29:03+00:00
 "Key West, Florida briefly ""seceded"" from the United States in 1982 as the self-declared Conch Republic, a protest stunt that still sells souvenir passports today.",1,2026-08-12T10:16:35+00:00
-"A Western Australian farm called Hutt River declared itself an independent principality in 1970 during a tax dispute with the government, lasting nearly fifty years before dissolving in 2020.",0,
+"A Western Australian farm called Hutt River declared itself an independent principality in 1970 during a tax dispute with the government, lasting nearly fifty years before dissolving in 2020.",1,2026-08-17T01:50:39+00:00
 "Australia's Cocos (Keeling) Islands were privately ruled by one family, the Clunies-Ross dynasty, for close to 150 years before the government took formal control in 1978.",1,2026-08-13T10:18:27+00:00
 Antarctica's Blood Falls seeps crimson from beneath a glacier; the color comes from iron-rich brine sealed away from oxygen for possibly over a million years.,0,
 "The first weather satellite, TIROS-1, launched by the US in 1960, sent back grainy cloud photos that proved satellites could actually help forecast weather.",1,2026-08-04T19:50:20+00:00
