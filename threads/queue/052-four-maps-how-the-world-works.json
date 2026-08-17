@@ -1,0 +1,33 @@
+{
+  "id": "052-four-maps-how-the-world-works",
+  "posts": [
+    {
+      "text": "The workers who put in the most hours per year are, almost without exception, the ones paid least for them.\n\n4 maps that explain how the world works for a living — a thread 🧵🗺️\n\nData: Our World in Data (CC BY)",
+      "image": "owid-annual-working-hours-per-worker.png"
+    },
+    {
+      "text": "1/ Map one: annual hours worked per worker, 2023. Germany, Denmark and the Netherlands sit at the pale end, near or below 1,400. Sudan, Colombia and Pakistan run past 2,700. That gap is roughly 25 extra hours a week, every week of the year."
+    },
+    {
+      "text": "2/ Map two: median income per day, adjusted for local prices. The US, Canada, Australia and Norway are in the top band above $50. Much of Central Africa sits under $3. Note “median” — the middle person, so it isn't inflated by a rich tail.",
+      "image": "owid-daily-median-income.png"
+    },
+    {
+      "text": "3/ Set the two side by side and the pattern inverts: more hours, less money. Rich countries did not get rich by working longer. They made each hour worth more — machines, energy, schooling, capital — then spent part of the surplus buying time back."
+    },
+    {
+      "text": "4/ Map three: female labour force participation, 2025. The highest rates on Earth are in Tanzania, Rwanda, Burundi and Madagascar, above 70%. The lowest sit in Yemen, Iraq, Jordan and Algeria, under 20%.",
+      "image": "owid-female-labor-force-participation-rates.png"
+    },
+    {
+      "text": "5/ Read that as a prosperity ranking and you'll go wrong. Very poor countries show high participation because subsistence farming leaves no alternative; rich ones because paid work is plentiful. The dip is in the middle, not at the bottom."
+    },
+    {
+      "text": "6/ Map four: unemployment. South Africa is darkest, near a third of the labour force. Much of South and East Asia looks pale — but low measured unemployment in a poor country often just means no benefits exist, so people take whatever work does.",
+      "image": "owid-unemployment-rate.png"
+    },
+    {
+      "text": "7/ Four maps, four disagreements. Hours worked, money earned, who works, who can't find work — none of them rank the world the same way. “Employment” turns out to be at least four separate questions.\n\nFollow @forummapping for more maps like this."
+    }
+  ]
+}
