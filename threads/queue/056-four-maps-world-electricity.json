@@ -1,0 +1,36 @@
+{
+  "id": "056-four-maps-world-electricity",
+  "posts": [
+    {
+      "text": "The sunniest land on Earth is nearly blank on the solar power map. The Netherlands is not.\n\n4 maps that explain where the world's electricity actually comes from — a thread 🧵🗺️\n\nData: Our World in Data (CC BY)",
+      "image": "owid-share-electricity-solar.png"
+    },
+    {
+      "text": "1/ Map one: solar's share of electricity, 2025. Chile and Spain lead, both above 20%. But so are Greece, Hungary and the Netherlands — while most of the Sahara and the Arabian interior sit at the pale end, near zero."
+    },
+    {
+      "text": "2/ So this is not a sunshine map. Solar needs capital, a grid that can absorb intermittent supply, and a permitting regime. Sunlight is the cheapest input and the least decisive one. Chile is dark because of Atacama sun AND mining demand next door."
+    },
+    {
+      "text": "3/ Map two: wind. Denmark is in a class of its own, over half its electricity. Ireland, Lithuania, the UK, Germany and Uruguay follow. Central Asia and most of Africa are blank.",
+      "image": "owid-share-electricity-wind.png"
+    },
+    {
+      "text": "4/ Wind is closer to real geography than solar. What it wants is coastline, flat exposed plains and shallow offshore shelf — the North Sea is the best wind resource in the developed world, and every country touching it shows up dark."
+    },
+    {
+      "text": "5/ Map three: hydropower. This one is almost purely terrain. Nepal, Bhutan, Paraguay, Albania, Ethiopia and DR Congo run near 100%; Norway is close to 90%. You need mountains and rain, and you cannot install either.",
+      "image": "owid-share-electricity-hydro.png"
+    },
+    {
+      "text": "6/ Map four: coal. Mongolia, South Africa, India, Botswana and Kazakhstan are darkest, with China, Indonesia, Poland and Australia not far behind. Coal tracks where the seams are — and when you built your grid.",
+      "image": "owid-share-electricity-coal.png"
+    },
+    {
+      "text": "7/ Now find France. It is faint on all four maps, which looks like a country with no electricity strategy. It has one: roughly two-thirds of French power is nuclear, and nuclear appears on none of these maps."
+    },
+    {
+      "text": "8/ Together they say this. Hydro is a map of mountains. Wind is a map of coastlines. Coal is a map of geology plus history. Solar is barely a map of anything physical — which is why it's the one still changing fast.\n\nFollow @forummapping for more maps like this."
+    }
+  ]
+}
