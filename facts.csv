@@ -144,7 +144,7 @@ Machu Picchu was built around 1450 and abandoned only ~100 years later. The Span
 Ethiopia is the only African country never colonized by a European power — Italy occupied it for just 5 years (1936-41) and never subdued it.,1,2026-08-20T13:05:58+00:00
 Haiti became the first Black republic in 1804 after the only successful slave revolution in history — then France forced it to pay 'compensation' to former slaveholders until 1947.,1,2026-07-18T00:05:04+00:00
 The US bought the Virgin Islands from Denmark in 1917 for $25 million in gold.,1,2026-08-12T23:53:27+00:00
-"Sweden's Vasa warship sank in 1628, twenty minutes into its maiden voyage, in full view of the crowd. Raised in 1961, it's now the world's best-preserved 17th-century ship.",0,
+"Sweden's Vasa warship sank in 1628, twenty minutes into its maiden voyage, in full view of the crowd. Raised in 1961, it's now the world's best-preserved 17th-century ship.",1,2026-08-20T20:39:21+00:00
 "The Antikythera mechanism, recovered from a Greek shipwreck, is a ~2,100-year-old geared device that predicted eclipses and planetary positions — an ancient analog computer.",1,2026-08-11T11:52:36+00:00
 "Passenger flight has gotten slower: Concorde crossed New York-London in under 3.5 hours. It retired in 2003, and nothing has replaced it.",1,2026-08-18T13:53:32+00:00
 The Apollo 11 guidance computer had less processing power than a modern washing machine. It still navigated to the Moon and back.,1,2026-08-20T05:40:09+00:00
@@ -264,7 +264,7 @@ Canada's Bay of Fundy has the highest tidal range on Earth. The difference betwe
 "Bolivia's Salar de Uyuni, the world's largest salt flat, becomes so flat and mirror-like after rain that satellites use it to calibrate their altitude sensors.",1,2026-08-18T08:49:19+00:00
 "The 1883 eruption of Krakatoa was reportedly heard some 4,800 km away on Rodrigues Island near Mauritius, likely the loudest sound ever recorded by human ears.",1,2026-08-10T08:47:50+00:00
 "The 1908 Tunguska event flattened an estimated 2,000 square kilometers of Siberian forest. No impact crater was ever found, and its exact cause is still debated.",1,2026-08-13T06:24:57+00:00
-"France's Louis XIX reigned as king for about twenty minutes in 1830 before abdicating, probably the shortest monarchical reign in recorded history.",0,
+"France's Louis XIX reigned as king for about twenty minutes in 1830 before abdicating, probably the shortest monarchical reign in recorded history.",1,2026-08-21T07:53:24+00:00
 "Texas spent nine years as an independent nation, the Republic of Texas, before joining the United States in 1845.",1,2026-08-18T01:45:55+00:00
 Vermont operated as an independent republic with its own currency from 1777 until it became the 14th US state in 1791.,1,2026-08-11T06:00:12+00:00
 "Newfoundland governed itself as a separate dominion of the British Empire, on par with Canada or Australia, until it voted to join Canada in 1949.",1,2026-08-03T23:14:47+00:00
@@ -275,7 +275,7 @@ The Faroe Islands belong to the Kingdom of Denmark but sit outside the European 
 "Macau was a Portuguese territory from 1557 until 1999, making it the oldest and last European colony in Asia.",1,2026-08-05T23:13:19+00:00
 "Britain's 99-year lease on Hong Kong's New Territories, signed in 1898, was set to expire in 1997, the deadline that forced the handover of the entire territory, not just the leased part.",1,2026-08-20T07:51:43+00:00
 "Portugal ruled Goa on India's coast for more than 450 years, only losing it in 1961 when Indian forces annexed the territory.",1,2026-08-14T13:33:58+00:00
-East Timor was occupied by Indonesia from 1975 until a UN-backed vote led to full independence in 2002.,0,
+East Timor was occupied by Indonesia from 1975 until a UN-backed vote led to full independence in 2002.,1,2026-08-20T22:38:27+00:00
 Western Sahara is often called Africa's last colony; its final status remains disputed between Morocco and the Polisario Front decades after Spain withdrew.,0,
 "Somaliland has run its own government, currency and passports since 1991, yet not a single UN member formally recognizes it as a country.",1,2026-08-19T07:48:58+00:00
 "Kosovo declared independence in 2008 and is recognized by roughly half of UN member states, a split that still shapes its relations abroad.",1,2026-08-16T05:37:04+00:00
@@ -284,7 +284,7 @@ Western Sahara is often called Africa's last colony; its final status remains di
 "In December 1991, one country, the Soviet Union, ceased to exist, and fifteen new ones took its place almost overnight.",1,2026-08-15T21:30:22+00:00
 "In the Six-Day War of 1967, Israel took control of several times as much territory as it had held before the fighting began.",1,2026-07-31T11:34:11+00:00
 "The Korean War ended with an armistice in 1953, not a peace treaty, meaning North and South Korea remain, technically, still at war.",1,2026-08-19T19:34:19+00:00
-"The Taiping Rebellion of the 1850s-60s, led by a man who believed he was the younger brother of Jesus, is estimated to have killed 20-30 million people in China.",0,
+"The Taiping Rebellion of the 1850s-60s, led by a man who believed he was the younger brother of Jesus, is estimated to have killed 20-30 million people in China.",1,2026-08-21T07:02:12+00:00
 Belgium's King Leopold II ran Congo as his personal property from 1885 to 1908; forced-labor policies there are estimated to have caused millions of deaths.,1,2026-08-09T08:56:02+00:00
 "At the 1884-85 Berlin Conference, European powers divided up the map of Africa among themselves without a single African representative in the room.",1,2026-08-15T09:35:05+00:00
 "Ireland's population fell by roughly a quarter through death and emigration during the potato famine of the 1840s, a demographic scar still visible in its census figures today.",1,2026-08-09T16:48:27+00:00
@@ -343,7 +343,7 @@ Greater Buenos Aires holds roughly a third of Argentina's entire population.,1,2
 "Indonesia is home to more than 700 living languages, second only to Papua New Guinea.",1,2026-07-30T22:15:45+00:00
 "Nigeria has more living languages than the whole of Europe combined, well over 500 by most counts.",1,2026-08-02T07:38:44+00:00
 "India's constitution recognizes 22 official languages, but the country is home to well over 400 languages spoken daily.",1,2026-08-04T15:32:00+00:00
-Mandarin has no alphabet at all; its logographic script unites readers whose spoken dialects can be mutually unintelligible.,0,
+Mandarin has no alphabet at all; its logographic script unites readers whose spoken dialects can be mutually unintelligible.,1,2026-08-21T03:12:08+00:00
 "Hindi and Urdu are close enough in speech that speakers understand each other easily, yet they're written in two completely different scripts.",1,2026-08-11T22:56:22+00:00
 "Welsh is now a compulsory school subject across Wales, part of a national push to reach a million speakers by 2050.",1,2026-07-31T22:13:16+00:00
 "Linguists estimate that somewhere in the world, a language falls silent roughly every couple of weeks as its last fluent speakers die.",1,2026-08-10T06:18:43+00:00
@@ -371,7 +371,7 @@ Researchers estimate the wealthiest 1% of humanity holds close to as much wealth
 "Landlocked countries trade less on average than coastal ones, a persistent economic disadvantage that geography alone imposes.",1,2026-08-18T05:38:58+00:00
 "An average person in Iceland uses roughly 100 times more energy per year than an average person in Ethiopia, per Our World in Data.",1,2026-08-08T10:45:30+00:00
 "France generates about two-thirds of its electricity from nuclear power, a share no other country comes close to matching, per Our World in Data.",1,2026-07-30T14:26:30+00:00
-"Denmark generates more than half its electricity from wind power alone, the highest share of any country on Earth, per Our World in Data.",0,
+"Denmark generates more than half its electricity from wind power alone, the highest share of any country on Earth, per Our World in Data.",1,2026-08-21T11:35:39+00:00
 "Paraguay, Norway and the Democratic Republic of Congo generate almost all their electricity from hydropower, per Our World in Data.",1,2026-08-11T21:58:16+00:00
 "The United States has been the world's largest oil producer for roughly a decade, ahead of both Saudi Arabia and Russia, per Our World in Data.",1,2026-08-04T12:10:07+00:00
 "Three countries alone, Australia, Chile and China, produce most of the world's lithium, the metal powering the battery era, per Our World in Data.",1,2026-08-20T10:40:41+00:00
@@ -396,12 +396,12 @@ Researchers estimate the wealthiest 1% of humanity holds close to as much wealth
 "Finland scrapped most standardized testing decades ago, yet its students still rank among the best performers in the world.",0,
 "More than 70% of young South Koreans now enroll in university, one of the highest rates on Earth.",1,2026-08-18T16:43:15+00:00
 "Fixed broadband is nearly universal across East Asia and Europe but still rare across much of Africa, per Our World in Data.",1,2026-08-08T19:38:22+00:00
-"China now publishes more scientific research papers each year than the United States, a reversal that happened within the past two decades, per Our World in Data.",0,
+"China now publishes more scientific research papers each year than the United States, a reversal that happened within the past two decades, per Our World in Data.",1,2026-08-21T08:53:17+00:00
 "East Asian countries file more patents per person than anywhere else on Earth, per Our World in Data.",0,
 "Nearly the entire population of Northern Europe is online, while parts of Africa still have internet access under 20%, per Our World in Data.",1,2026-08-19T13:03:59+00:00
 "Rwanda has a higher share of women in parliament than any other country on Earth, ahead of every Western democracy, per Our World in Data.",1,2026-08-10T02:28:32+00:00
 "Sub-Saharan Africa mostly skipped landline telephones altogether, jumping straight to mobile networks decades before fixed lines would ever have arrived.",1,2026-08-09T05:53:43+00:00
-"Kenya's M-Pesa mobile money system, launched in 2007, now moves a volume of transactions each year equivalent to more than half of the country's GDP, by some estimates.",0,
+"Kenya's M-Pesa mobile money system, launched in 2007, now moves a volume of transactions each year equivalent to more than half of the country's GDP, by some estimates.",1,2026-08-21T04:49:34+00:00
 "Cash and credit cards both became rare in many Chinese cities within a decade, as mobile payment apps leapfrogged straight past them.",1,2026-08-16T16:36:38+00:00
 "Estonia lets citizens vote online in national elections and file a tax return in minutes, one of the most digitized states on Earth.",1,2026-08-20T16:46:42+00:00
 "India's biometric ID program has enrolled more than a billion people, the largest identity database of its kind in the world.",1,2026-08-12T17:07:06+00:00
@@ -411,7 +411,7 @@ Researchers estimate the wealthiest 1% of humanity holds close to as much wealth
 Vatican City citizenship is tied to holding a qualifying job or office there and normally ends when the job does; almost nobody holds it for life.,1,2026-08-15T19:29:05+00:00
 "Egypt's population is heavily concentrated: the overwhelming majority live within a narrow strip along the Nile, since the rest of the country is desert.",1,2026-08-20T15:44:18+00:00
 "About 85% of Australians live within 50 km of the coast, leaving the vast interior of the continent almost empty.",1,2026-08-09T20:47:32+00:00
-"Roughly 90% of Canadians live within 160 km of the US border, hugging the southern edge of a country that stretches nearly to the pole.",0,
+"Roughly 90% of Canadians live within 160 km of the US border, hugging the southern edge of a country that stretches nearly to the pole.",1,2026-08-21T05:42:13+00:00
 "Iceland's entire population would fit inside a single mid-sized neighborhood elsewhere in the world, yet the country runs its own currency, airline and stock exchange.",1,2026-08-09T09:51:28+00:00
 "Monaco is estimated to have one of the highest concentrations of millionaires per capita on Earth, with roughly a third of its residents holding that status.",1,2026-08-15T03:00:23+00:00
 "Five of the world's ten tallest buildings now stand in Asia or the Gulf, not in the West that once defined the skyscraper race.",0,
@@ -421,7 +421,7 @@ Vatican City citizenship is tied to holding a qualifying job or office there and
 "The Maori haka wasn't originally a war dance for rugby crowds; it was performed for funerals, celebrations and welcoming guests too.",1,2026-08-18T23:31:35+00:00
 "The Olympic marathon's odd distance, 42.195 km, wasn't fixed until the 1908 London Games, extended so the race could finish in front of the royal box at Windsor.",1,2026-08-02T14:41:34+00:00
 "Modern football's rules were first written down in a London pub in 1863, the meeting that split ""football"" permanently from rugby.",1,2026-08-01T16:09:48+00:00
-"Basketball was invented in 1891 in Springfield, Massachusetts, by Canadian physical education instructor James Naismith, who nailed peach baskets to a gym balcony.",0,
+"Basketball was invented in 1891 in Springfield, Massachusetts, by Canadian physical education instructor James Naismith, who nailed peach baskets to a gym balcony.",1,2026-08-21T10:40:21+00:00
 "Finland is estimated to have roughly one sauna for every two people — more saunas than cars, in a country of about 5.5 million.",1,2026-08-10T15:11:16+00:00
 "The piñata's path runs through several countries: it likely began in China, was adapted in Italy, carried to Spain, and brought to Mexico by missionaries.",1,2026-08-05T09:43:37+00:00
 "Flamenco grew out of centuries of coexistence in Andalusia, blending Romani, Moorish, Jewish and Christian musical traditions into one form.",1,2026-08-04T21:22:36+00:00
@@ -457,9 +457,9 @@ The world's first nuclear reactor went critical in 1942 underneath an unused squ
 "Magazine"" comes from the Arabic ""makhazin,"" meaning storehouses, filtered into English through French and Italian trade vocabulary.",1,2026-08-12T21:57:00+00:00
 "Coffee"" traveled through Arabic ""qahwa"" and Ottoman Turkish ""kahve"" on its way into European languages, tracing the drink's path from Ethiopia to Istanbul.",1,2026-08-02T10:05:51+00:00
 "Alcohol"" derives from Arabic ""al-kuhl,"" a fine powder used as eyeliner; the meaning shifted entirely once medieval Latin chemists borrowed the word.",1,2026-08-16T22:32:28+00:00
-"The words ""slave"" and ""Slav"" share a root, a grim linguistic fossil from an era when Slavic peoples were widely enslaved across medieval Europe.",0,
+"The words ""slave"" and ""Slav"" share a root, a grim linguistic fossil from an era when Slavic peoples were widely enslaved across medieval Europe.",1,2026-08-21T09:48:04+00:00
 "Vandal"" comes from the Germanic Vandals, who sacked Rome in 455, though historians now think their reputation for destruction was exaggerated by later Roman writers.",1,2026-08-08T22:40:20+00:00
-"Ostracize"" comes from ancient Athens, where citizens could vote to exile someone for a decade by scratching a name onto broken pottery shards called ostraka.",0,
+"Ostracize"" comes from ancient Athens, where citizens could vote to exile someone for a decade by scratching a name onto broken pottery shards called ostraka.",1,2026-08-21T01:52:19+00:00
 "Thomas More coined ""utopia"" in 1516 as a Greek pun that can mean either ""good place"" or ""no place,"" depending on how you read it.",1,2026-08-03T21:15:58+00:00
 "Siesta"" comes from the Latin ""hora sexta,"" the sixth hour after dawn, roughly midday, when the heat made work impossible.",1,2026-08-08T04:17:32+00:00
 "Tycoon"" entered English from the Japanese title ""taikun,"" used for the shogun, and spread after American naval expeditions to Japan in the 1850s.",1,2026-08-16T19:28:54+00:00
@@ -485,12 +485,12 @@ Most residents of the Pitcairn Islands descend from the HMS Bounty mutineers and
 Kosovo and Montenegro both use the euro as their currency despite not being EU members; they adopted it unilaterally rather than through any treaty.,1,2026-08-18T13:03:15+00:00
 "Scottish banks legally back their own banknotes with rarely seen ""Giant"" and ""Titan"" notes worth £1 million and £100 million, never meant to circulate publicly.",1,2026-08-19T18:49:07+00:00
 "Mozambique's flag features an AK-47 rifle laid over a hoe and book, making it one of the only national flags to depict a modern firearm.",1,2026-08-17T13:01:22+00:00
-"Belize's flag is often cited as the most detailed national flag in the world, built around a full coat of arms with human figures and dozens of colors.",0,
+"Belize's flag is often cited as the most detailed national flag in the world, built around a full coat of arms with human figures and dozens of colors.",1,2026-08-20T23:34:39+00:00
 "The flags of Kiribati and Tuvalu both depict a rising sun over ocean waves, a direct nod to their identity as scattered Pacific island nations.",1,2026-08-07T21:51:00+00:00
 "South Africa's 1994 flag was designed with six colors converging into a ""Y"" shape, deliberately avoiding any single ethnic or religious symbol.",1,2026-08-01T22:05:30+00:00
 "Saudi Arabia used the Islamic Hijri calendar for official government business until 2016, when it switched to the Gregorian calendar to align salaries with global markets.",1,2026-08-18T09:43:55+00:00
 "North Korea's official calendar counts years from 1912, the birth year of founder Kim Il-sung, running alongside the Gregorian year in daily use.",1,2026-08-16T17:29:18+00:00
-"Thailand's official calendar runs on the Buddhist Era, roughly 543 years ahead of the Western count, so a Gregorian 2024 becomes 2567 there.",0,
+"Thailand's official calendar runs on the Buddhist Era, roughly 543 years ahead of the Western count, so a Gregorian 2024 becomes 2567 there.",1,2026-08-20T21:36:56+00:00
 "In 1995, Kiribati shifted part of its territory's date line eastward so the whole country, spread across a huge stretch of the Pacific, could share one calendar day.",1,2026-08-20T04:47:29+00:00
 "Samoa skipped December 30, 2011 entirely, jumping across the international date line to align its work week with Australia and New Zealand instead of the US.",1,2026-08-16T20:33:53+00:00
 "St. Moritz's Cresta Run, a natural ice toboggan track rebuilt from scratch with snow and ice each winter, has operated since 1884.",1,2026-08-17T18:53:07+00:00
