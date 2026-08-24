@@ -1,0 +1,36 @@
+{
+  "id": "059-four-maps-world-healthcare",
+  "posts": [
+    {
+      "text": "The country that spends the most on healthcare has fewer doctors per person than Bulgaria and fewer hospital beds than Kazakhstan.\n\n4 maps that explain how the world treats the sick — a thread 🧵🗺️\n\nData: Our World in Data (CC BY)",
+      "image": "owid-physicians-per-1000-people.png"
+    },
+    {
+      "text": "1/ Map one: medical doctors per 1,000 people, 2023. Russia, Cuba, Argentina and most of Europe sit in the dark band above 2.5. Across the Sahel and Central Africa the figure drops under 0.25 — one doctor for every few thousand people."
+    },
+    {
+      "text": "2/ Cuba is the outlier worth pausing on. It trains far more physicians than it needs and exports them, in state-run medical missions that have been one of its main sources of foreign currency for decades."
+    },
+    {
+      "text": "3/ Map two: hospital beds per 1,000. A different world entirely. Japan and South Korea are darkest, both above 12. The old Eastern Bloc is dark. Much of Western Europe is paler than Russia.\n\nData: Our World in Data (CC BY)",
+      "image": "owid-hospital-beds-per-1000-people.png"
+    },
+    {
+      "text": "4/ Beds are not a quality ranking. Japan's number reflects long average stays and hospitals doing work that elsewhere is done in care homes. Rich countries have spent thirty years cutting beds deliberately, as day surgery replaced admission."
+    },
+    {
+      "text": "5/ Map three: healthcare spending as a share of GDP. The United States is alone at the dark end, around 16-17% — roughly double what most of Europe spends, for a doctor count in the middle of the pack.\n\nData: Our World in Data (CC BY)",
+      "image": "owid-total-healthcare-expenditure-gdp.png"
+    },
+    {
+      "text": "6/ Watch out for the denominator. A poor country can look like it spends a lot because its GDP is small, not because its clinics are good. Share of GDP measures effort, never capacity."
+    },
+    {
+      "text": "7/ Map four tries to measure the thing itself: the UHC service coverage index, 0 to 100, built from whether essential services actually reach people. Canada, Europe and East Asia sit high; the Sahel and Somalia sit lowest.\n\nData: Our World in Data (CC BY)",
+      "image": "owid-universal-health-coverage-index.png"
+    },
+    {
+      "text": "8/ Four maps, four rankings, and only the last one is about outcomes. Doctors, beds and money are inputs — and a country can be generous with all three and still leave people uncovered.\n\nFollow @forummapping for more maps like this."
+    }
+  ]
+}

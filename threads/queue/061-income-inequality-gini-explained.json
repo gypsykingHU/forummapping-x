@@ -1,0 +1,33 @@
+{
+  "id": "061-income-inequality-gini-explained",
+  "posts": [
+    {
+      "text": "This map is one of the most cited in economics and one of the most misread. Half the countries on it aren't measuring the same thing.\n\nIncome inequality, explained — a thread 🧵🗺️\n\nData: Our World in Data (CC BY)",
+      "image": "owid-economic-inequality-gini-index.png"
+    },
+    {
+      "text": "1/ The Gini coefficient runs 0 to 1. Zero means everyone receives exactly the same; one means a single person receives everything. Neither has ever existed. Real countries live between roughly 0.24 and 0.63."
+    },
+    {
+      "text": "2/ The darkest band is southern Africa and parts of Latin America — South Africa, Namibia, Botswana, Brazil, Colombia. The palest is Central and Eastern Europe, where Slovakia, Slovenia and Czechia sit near 0.25."
+    },
+    {
+      "text": "3/ Now the catch, and it's printed on the map itself. For some countries this measures income after taxes and benefits. For others it measures consumption — what households actually spend. Consumption is always more equal. Those countries look better than they are."
+    },
+    {
+      "text": "4/ Second catch: the hatched areas. Large parts of Africa, Central Asia and the Middle East have no usable data. Inequality is measured through household surveys, and the very rich are famously good at not being in them."
+    },
+    {
+      "text": "5/ Third: Gini says nothing about how rich anyone is. A country where everyone earns $2 a day and one where everyone earns $200 have the same Gini. It's a shape, not a level — which is why it needs a second map beside it, always."
+    },
+    {
+      "text": "6/ And it hides the ends. Gini is most sensitive to the middle of the distribution. A country can concentrate wealth sharply at the very top and barely move on this scale, which is why economists increasingly quote top-10% shares instead."
+    },
+    {
+      "text": "7/ What it does capture: the United States sits visibly darker than every country in Western Europe. Same rich-country club, same technology, similar pre-tax spread — and a different answer about what to do afterwards."
+    },
+    {
+      "text": "8/ So read this map as a question, not a scoreboard. It tells you how differently two societies chose to divide a similar amount of output. It does not tell you which one you'd rather be poor in.\n\nFollow @forummapping for more maps like this."
+    }
+  ]
+}
