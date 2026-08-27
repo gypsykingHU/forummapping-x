@@ -37,16 +37,44 @@ def oauth():
     )
 
 
+COOLDOWN_DAYS = 60        # preferred gap before a map may reappear
+HARD_MIN_DAYS = 7         # absolute floor — never relaxed, even if it means skipping
+
+
 def pick_row(rows):
+    """Least-posted first; within that tier, whatever has been off the feed longest.
+    Random selection inside the tier is what causes maps to resurface days apart
+    once the library completes a rotation, so ordering by age is deliberate."""
     active = [r for r in rows if r["status"] == "active" and r["caption"].strip()]
     if not active:
         sys.exit("No active rows in database.")
+
+    def last_posted(r):
+        return r["last_posted"] or ""          # never-posted sorts first
+
     min_posted = min(int(r["times_posted"] or 0) for r in active)
     pool = [r for r in active if int(r["times_posted"] or 0) == min_posted]
+
+    cutoff = (datetime.datetime.now(datetime.timezone.utc)
+              - datetime.timedelta(days=COOLDOWN_DAYS)).isoformat()
+    eligible = [r for r in pool if last_posted(r) < cutoff or not r["last_posted"]]
+    if not eligible:
+        # Relax toward the hard floor, never past it. A map reappearing inside a week
+        # is the single most visible failure mode for this account.
+        floor = (datetime.datetime.now(datetime.timezone.utc)
+                 - datetime.timedelta(days=HARD_MIN_DAYS)).isoformat()
+        eligible = [r for r in active if last_posted(r) < floor or not r["last_posted"]]
+        if not eligible:
+            return None    # caller skips this cycle rather than repeat
+        print(f"note: library small for the {COOLDOWN_DAYS}-day target — using oldest "
+              f"eligible map (still ≥{HARD_MIN_DAYS} days old)")
+
+    # keep same-day variety: avoid a category already used today when possible
     today = datetime.date.today().isoformat()
     todays_cats = {r["category"] for r in active if (r["last_posted"] or "")[:10] == today}
-    varied = [r for r in pool if r["category"] not in todays_cats]
-    return random.choice(varied or pool)
+    varied = [r for r in eligible if r["category"] not in todays_cats]
+
+    return min(varied or eligible, key=last_posted)
 
 
 def trim(text):
@@ -82,6 +110,10 @@ def main():
         rows = list(reader)
 
     row = pick_row(rows)
+    if row is None:
+        print(f"SKIPPING: every active map was posted within the last {HARD_MIN_DAYS} days. "
+              f"Add maps rather than repeat.")
+        return
     img = os.path.join(POSTS_DIR, row["filename"])
     text = trim(row["caption"])
 
