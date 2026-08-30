@@ -12,7 +12,7 @@ Usage:
   python3 automation/post_to_x.py --dry-run   # show what would be posted
   python3 automation/post_to_x.py             # post for real
 """
-import csv, os, random, sys, datetime, mimetypes
+import csv, os, random, sys, time, datetime, mimetypes
 from requests_oauthlib import OAuth1Session
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -37,8 +37,25 @@ def oauth():
     )
 
 
+SPACING_SECONDS = 150     # gap between catch-up posts inside one run
 COOLDOWN_DAYS = 60        # preferred gap before a map may reappear
 HARD_MIN_DAYS = 7         # absolute floor — never relaxed, even if it means skipping
+
+
+def slots_missed(rows, per_day=12, cap=3):
+    """GitHub drops most scheduled runs, so treat each run as responsible for every
+    slot since the last successful post rather than exactly one."""
+    stamps = [r["last_posted"] for r in rows if r["last_posted"]]
+    if not stamps:
+        return 1
+    try:
+        last = datetime.datetime.fromisoformat(max(stamps))
+    except ValueError:
+        return 1
+    if last.tzinfo is None:
+        last = last.replace(tzinfo=datetime.timezone.utc)
+    hours = (datetime.datetime.now(datetime.timezone.utc) - last).total_seconds() / 3600
+    return max(1, min(cap, int(hours / (24 / per_day))))
 
 
 def pick_row(rows):
@@ -96,30 +113,18 @@ def upload_media(session, path):
     return d.get("data", d).get("id") or d.get("media_id_string")
 
 
-def main():
-    session = oauth()
-
-    if "--check" in sys.argv:
-        r = session.get(ME)
-        print(r.status_code, r.text[:300])
-        sys.exit(0 if r.ok else 1)
-
-    with open(DB_PATH, newline="") as f:
-        reader = csv.DictReader(f)
-        fieldnames = reader.fieldnames
-        rows = list(reader)
-
+def post_one(session, rows, fieldnames):
     row = pick_row(rows)
     if row is None:
         print(f"SKIPPING: every active map was posted within the last {HARD_MIN_DAYS} days. "
               f"Add maps rather than repeat.")
-        return
+        return False
     img = os.path.join(POSTS_DIR, row["filename"])
     text = trim(row["caption"])
 
     if "--dry-run" in sys.argv:
         print(f"WOULD POST: {row['filename']}\nCaption: {text}")
-        return
+        return False
 
     media_id = upload_media(session, img)
     resp = session.post(CREATE_POST, json={"text": text, "media": {"media_ids": [str(media_id)]}})
@@ -137,6 +142,33 @@ def main():
         w.writerows(rows)
 
     print(f"Posted {row['filename']} -> https://x.com/forummapping/status/{post_id}")
+    return True
+
+
+def main():
+    session = oauth()
+
+    if "--check" in sys.argv:
+        r = session.get(ME)
+        print(r.status_code, r.text[:300])
+        sys.exit(0 if r.ok else 1)
+
+    with open(DB_PATH, newline="") as f:
+        reader = csv.DictReader(f)
+        fieldnames = reader.fieldnames
+        rows = list(reader)
+
+    n = 1 if "--dry-run" in sys.argv else slots_missed(rows)
+    if n > 1:
+        print(f"catching up: {n} map slots elapsed since the last post")
+    posted = 0
+    for i in range(n):
+        if i:
+            time.sleep(SPACING_SECONDS)
+        if not post_one(session, rows, fieldnames):
+            break
+        posted += 1
+    print(f"done: {posted} map(s) posted")
 
 
 if __name__ == "__main__":

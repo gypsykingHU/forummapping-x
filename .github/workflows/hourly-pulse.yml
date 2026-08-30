@@ -1,4 +1,4 @@
-name: Hourly pulse (facts)
+name: Hourly pulse (facts + maps)
 
 on:
   schedule:
@@ -22,11 +22,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
       - run: pip install -r requirements.txt
-      - name: Post fact + news
+      - name: Post fact (hourly) + map (even hours)
         env:
           X_API_KEY: ${{ secrets.X_API_KEY }}
           X_API_KEY_SECRET: ${{ secrets.X_API_KEY_SECRET }}
@@ -36,6 +38,12 @@ jobs:
           FLAG=""
           if [ "${{ inputs.dry_run }}" = "true" ]; then FLAG="--dry-run"; fi
           python automation/post_fact.py $FLAG
+          # Map posts ride along on even hours (12/day) instead of running their own
+          # workflow — one checkout of this 500MB repo instead of two.
+          if [ $(( $(date -u +%H) % 2 )) -eq 0 ]; then
+            sleep 60   # offset from the fact so the two don't land in the same minute
+            python automation/post_to_x.py $FLAG
+          fi
       - name: Save state
         run: |
           git config user.name "forummapping-bot"

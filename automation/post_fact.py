@@ -5,13 +5,14 @@ Posts the least-recently-used fact from facts.csv. Facts recycle after the
 whole bank rotates (they're evergreen statistics), so the queue never dies;
 the Monday content writer keeps the bank growing so repeats stay rare.
 """
-import csv, datetime, os, random, sys
+import csv, datetime, os, random, sys, time
 from requests_oauthlib import OAuth1Session
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FACTS = os.path.join(REPO, "facts.csv")
 CREATE_POST = "https://api.x.com/2/tweets"
 COOLDOWN_DAYS = 45        # preferred gap before a fact may reappear
+SPACING_SECONDS = 150     # gap between catch-up posts inside one run
 HARD_MIN_DAYS = 7         # absolute floor — never relaxed, even if it means skipping
 
 
@@ -23,6 +24,24 @@ def oauth():
     )
 
 
+def slots_missed(rows, per_day=24, cap=4):
+    """GitHub drops most scheduled runs (observed gaps of 2–13h on an hourly cron),
+    so a run that assumes it is one-of-24 silently loses most of the day's volume.
+    Work out how many posting slots have elapsed since the last post and catch up,
+    capped so a very long outage doesn't dump a wall of posts at once."""
+    stamps = [r["last_posted"] for r in rows if r["last_posted"]]
+    if not stamps:
+        return 1
+    try:
+        last = datetime.datetime.fromisoformat(max(stamps))
+    except ValueError:
+        return 1
+    if last.tzinfo is None:
+        last = last.replace(tzinfo=datetime.timezone.utc)
+    hours = (datetime.datetime.now(datetime.timezone.utc) - last).total_seconds() / 3600
+    return max(1, min(cap, int(hours / (24 / per_day))))
+
+
 def main():
     # pulse runs hourly and every hour is now a fact hour (24/day)
     with open(FACTS, newline="", encoding="utf-8") as f:
@@ -32,6 +51,21 @@ def main():
     if not rows:
         print("facts.csv is empty")
         return
+
+    n = 1 if "--dry-run" in sys.argv else slots_missed(rows)
+    if n > 1:
+        print(f"catching up: {n} fact slots elapsed since the last post")
+    posted = 0
+    for i in range(n):
+        if i:
+            time.sleep(SPACING_SECONDS)
+        if not post_one(rows, fieldnames):
+            break
+        posted += 1
+    print(f"done: {posted} fact(s) posted")
+
+
+def post_one(rows, fieldnames):
 
     # Spacing policy: always prefer the least-posted facts, and within that tier
     # take the one that has been off the timeline longest. Random choice inside the
@@ -56,7 +90,7 @@ def main():
         if not eligible:
             print(f"SKIPPING: every fact in the bank of {len(rows)} was posted within the "
                   f"last {HARD_MIN_DAYS} days. Grow facts.csv rather than repeat.")
-            return
+            return False
         print(f"note: bank too small for the {COOLDOWN_DAYS}-day target — using oldest "
               f"eligible fact (still ≥{HARD_MIN_DAYS} days old). Add more facts.")
 
@@ -67,7 +101,7 @@ def main():
 
     if "--dry-run" in sys.argv:
         print(f"WOULD POST FACT: {text}")
-        return
+        return False
 
     resp = oauth().post(CREATE_POST, json={"text": text})
     resp.raise_for_status()
@@ -78,6 +112,7 @@ def main():
         w.writeheader()
         w.writerows(rows)
     print(f"posted fact: {text[:70]}")
+    return True
 
 
 if __name__ == "__main__":
