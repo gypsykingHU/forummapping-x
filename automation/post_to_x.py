@@ -37,12 +37,12 @@ def oauth():
     )
 
 
-SPACING_SECONDS = 150     # gap between catch-up posts inside one run
+SPACING_SECONDS = 1200    # 20 min between catch-up posts
 COOLDOWN_DAYS = 60        # preferred gap before a map may reappear
 HARD_MIN_DAYS = 7         # absolute floor — never relaxed, even if it means skipping
 
 
-def slots_missed(rows, per_day=12, cap=3):
+def slots_missed(rows, per_day=6, cap=2):
     """GitHub drops most scheduled runs, so treat each run as responsible for every
     slot since the last successful post rather than exactly one."""
     stamps = [r["last_posted"] for r in rows if r["last_posted"]]

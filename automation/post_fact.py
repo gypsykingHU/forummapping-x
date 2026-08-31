@@ -12,7 +12,7 @@ REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FACTS = os.path.join(REPO, "facts.csv")
 CREATE_POST = "https://api.x.com/2/tweets"
 COOLDOWN_DAYS = 45        # preferred gap before a fact may reappear
-SPACING_SECONDS = 150     # gap between catch-up posts inside one run
+SPACING_SECONDS = 900     # 15 min between catch-up posts — keeps them spread, not bursty
 HARD_MIN_DAYS = 7         # absolute floor — never relaxed, even if it means skipping
 
 
