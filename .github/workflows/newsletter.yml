@@ -2,8 +2,8 @@ name: Newsletter
 
 on:
   schedule:
-    # Every 3rd day of the month at 15:00 UTC ≈ 11am US Eastern
-    - cron: '0 15 */3 * *'
+    # Weekly, Monday 15:00 UTC ≈ 11am US Eastern
+    - cron: '0 15 * * 1'      # Mondays 15:00 UTC — weekly, per Plan A
   workflow_dispatch:
     inputs:
       dry_run:

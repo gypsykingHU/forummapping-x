@@ -3,7 +3,7 @@ name: News fetch
 on:
   schedule:
     # 05:30 UTC on days divisible by 3 — hours before the digest writer runs
-    - cron: '30 5 */3 * *'
+    - cron: '30 5 * * 1'      # Monday early — feeds that day's newsletter research
   workflow_dispatch:
 
 permissions:
