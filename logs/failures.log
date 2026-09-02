@@ -9,3 +9,10 @@ X API REFUSED (403). This is almost never a code problem.
    3. app keys/tokens still valid and set to Read and Write
   X said: {"detail":"You are not allowed to create a Tweet with duplicate content.","status":403,"title":"Forbidden","type":"about:blank"}
 
+=== 2026-09-02T19:04:26Z  run 729  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-0538 recorded on main (attempt 1)
+X REFUSED this post as a duplicate of something already on the timeline. The claim is already saved, so this row won't be picked again — moving to the next slot rather than failing the run.
+  X said: {"detail":"You are not allowed to create a Tweet with duplicate content.","status":403,"title":"Forbidden","type":"about:blank"}
+done: 0 fact(s) posted, 1 skipped as duplicates
+
