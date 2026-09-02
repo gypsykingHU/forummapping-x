@@ -28,6 +28,31 @@ MEDIA_UPLOAD = "https://api.x.com/2/media/upload"
 CREATE_POST = "https://api.x.com/2/tweets"
 
 
+def x_call(r, what="request"):
+    """Turn an X API failure into a readable log line instead of a traceback.
+    429 exits clean (normal condition, no failure email); auth/credit problems
+    exit 1 with a checklist; anything else prints the status and body."""
+    if r.ok:
+        return r
+    body = (r.text or "")[:400]
+    if r.status_code == 429:
+        print(f"Rate limited (429) on {what}. Skipping this slot rather than failing.")
+        raise SystemExit(0)
+    if r.status_code in (401, 403):
+        print(f"X API REFUSED ({r.status_code}) on {what}. Check, in order:")
+        print("   1. console.x.com credit balance (zero blocks everything)")
+        print("   2. console.x.com billing-cycle spend cap")
+        print("   3. tokens valid and set to Read and Write")
+        print(f"  X said: {body}")
+        raise SystemExit(1)
+    if 500 <= r.status_code < 600:
+        print(f"X server error {r.status_code} on {what} — transient, skipping. {body}")
+        raise SystemExit(0)
+    print(f"X API error {r.status_code} on {what}: {body}")
+    raise SystemExit(1)
+
+
+
 def oauth():
     return OAuth1Session(
         os.environ["X_API_KEY"], client_secret=os.environ["X_API_KEY_SECRET"],
@@ -41,7 +66,7 @@ def upload_media(session, path):
     with open(path, "rb") as f:
         resp = session.post(MEDIA_UPLOAD, files={"media": (os.path.basename(path), f, mime)},
                             data={"media_category": "tweet_image"})
-    resp.raise_for_status()
+    x_call(resp, "media upload")
     d = resp.json()
     return d.get("data", d).get("id") or d.get("media_id_string")
 
@@ -70,7 +95,7 @@ def main():
         if prev_id:
             payload["reply"] = {"in_reply_to_tweet_id": prev_id}
         resp = session.post(CREATE_POST, json=payload)
-        resp.raise_for_status()
+        x_call(resp, "create post")
         prev_id = resp.json()["data"]["id"]
         print(f"posted {i}/{len(thread['posts'])}: {prev_id}")
         time.sleep(3)
