@@ -1,0 +1,11 @@
+=== 2026-09-02T18:35:55Z  run 728  status=failure
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 6 fact slots elapsed since the last post
+state: FT-0536 recorded on main (attempt 1)
+X API REFUSED (403). This is almost never a code problem.
+  Check, in order:
+   1. console.x.com — credit balance at or below zero blocks ALL requests
+   2. console.x.com — monthly spending limit reached blocks until next cycle
+   3. app keys/tokens still valid and set to Read and Write
+  X said: {"detail":"You are not allowed to create a Tweet with duplicate content.","status":403,"title":"Forbidden","type":"about:blank"}
+
