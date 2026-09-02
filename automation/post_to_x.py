@@ -15,6 +15,9 @@ Usage:
 import csv, os, random, sys, time, datetime, mimetypes
 from requests_oauthlib import OAuth1Session
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import state_store
+
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DB_PATH = os.path.join(REPO, "content_database.csv")
 POSTS_DIR = os.path.join(REPO, "Posts")
@@ -166,6 +169,15 @@ def upload_media(session, path):
 
 
 def post_one(session, rows, fieldnames):
+    """Reserve the map's ID first, then post.
+
+    Order matters. The old order was post -> record, with the record pushed by
+    git at the end of the whole job; when that push failed, the post had
+    happened but nothing remembered it, and the map came back around inside the
+    week. Reserving first inverts the risk: the worst case is a map that gets
+    marked as used without going out (one map lost from a library of ~485),
+    instead of a map going out twice in front of the audience.
+    """
     row = pick_row(rows)
     if row is None:
         print(f"SKIPPING: every active map was posted within the last {HARD_MIN_DAYS} days. "
@@ -173,27 +185,54 @@ def post_one(session, rows, fieldnames):
         return False
     img = os.path.join(POSTS_DIR, row["filename"])
     text = trim(row["caption"])
+    mid = row.get("map_id") or row["filename"]
 
     if "--dry-run" in sys.argv:
-        print(f"WOULD POST: {row['filename']}\nCaption: {text}")
+        print(f"WOULD POST: [{mid}] {row['filename']}\nCaption: {text}")
         return False
 
+    # --- 1. claim the ID, durably, before anything goes out -----------------
+    stamp = datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds")
+    claim = {
+        "last_posted": stamp,
+        "times_posted": str(int(row["times_posted"] or 0) + 1),
+    }
+    if not state_store.update_csv_row(
+            "content_database.csv", "map_id", mid, claim,
+            f"claim: map {datetime.date.today().isoformat()}"):
+        print(f"SKIPPING this slot: could not record the claim on {mid}, so posting it "
+              f"would risk a repeat. Nothing was posted.")
+        return False
+    row.update(claim)          # keep the in-memory copy consistent for this run
+
+    # --- 2. now post; the claim already stands ------------------------------
     media_id = upload_media(session, img)
     resp = x_post(session, CREATE_POST, json={"text": text, "media": {"media_ids": [str(media_id)]}})
     post_id = resp.json()["data"]["id"]
 
-    row["last_posted"] = datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds")
-    row["times_posted"] = str(int(row["times_posted"] or 0) + 1)
+    # --- 3. annotate with the live post id (best effort; the lock is already safe)
     note = f"posted {datetime.date.today().isoformat()} id {post_id}"
     row["notes"] = f"{row['notes']}; {note}" if row["notes"] else note
+    state_store.update_csv_row(
+        "content_database.csv", "map_id", mid, {"notes": row["notes"]},
+        f"log: map {datetime.date.today().isoformat()}")
 
-    with open(DB_PATH, "w", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=fieldnames)
-        w.writeheader()
-        w.writerows(rows)
-
-    print(f"Posted {row['filename']} -> https://x.com/forummapping/status/{post_id}")
+    print(f"Posted [{mid}] {row['filename']} -> https://x.com/forummapping/status/{post_id}")
     return True
+
+
+def load_database():
+    """Prefer the remote copy of the database; fall back to the checkout."""
+    if state_store.available():
+        remote = state_store.read_csv("content_database.csv")
+        if remote:
+            rows, fields = remote
+            print(f"database: read {len(rows)} rows from origin/main (authoritative)")
+            return rows, fields
+        print("database: could not read origin/main — using the checkout")
+    with open(DB_PATH, newline="", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        return list(reader), reader.fieldnames
 
 
 def main():
@@ -204,10 +243,10 @@ def main():
         print(r.status_code, r.text[:300])
         sys.exit(0 if r.ok else 1)
 
-    with open(DB_PATH, newline="") as f:
-        reader = csv.DictReader(f)
-        fieldnames = reader.fieldnames
-        rows = list(reader)
+    # Read the database from the remote branch when we can. The runner's
+    # checkout is a snapshot from job-start and may already be behind another
+    # run's stamps; trusting it is how a "posted" map looks unposted.
+    rows, fieldnames = load_database()
 
     # Spacing is handled by the workflow cron (every 4h), not here. The 7-day
     # no-repeat rule in pick_row() still applies and is unrelated to spacing.

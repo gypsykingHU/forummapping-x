@@ -8,6 +8,9 @@ the Monday content writer keeps the bank growing so repeats stay rare.
 import csv, datetime, os, random, sys, time
 from requests_oauthlib import OAuth1Session
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import state_store
+
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FACTS = os.path.join(REPO, "facts.csv")
 CREATE_POST = "https://api.x.com/2/tweets"
@@ -67,12 +70,23 @@ def slots_missed(rows, per_day=24, cap=6):
     return max(1, min(cap, int(hours / (24 / per_day))))
 
 
-def main():
-    # pulse runs hourly and every hour is now a fact hour (24/day)
+def load_facts():
+    """Prefer the remote bank; the checkout can be behind another run's stamps."""
+    if state_store.available():
+        remote = state_store.read_csv("facts.csv")
+        if remote:
+            rows, fields = remote
+            print(f"facts: read {len(rows)} rows from origin/main (authoritative)")
+            return rows, fields
+        print("facts: could not read origin/main — using the checkout")
     with open(FACTS, newline="", encoding="utf-8") as f:
         reader = csv.DictReader(f)
-        fieldnames = reader.fieldnames
-        rows = list(reader)
+        return list(reader), reader.fieldnames
+
+
+def main():
+    # pulse runs hourly and every hour is now a fact hour (24/day)
+    rows, fieldnames = load_facts()
     if not rows:
         print("facts.csv is empty")
         return
@@ -123,19 +137,28 @@ def post_one(rows, fieldnames):
     text = row["text"]
     if len(text) > 280:
         text = text[:277] + "…"
+    fid = row.get("fact_id") or text[:40]
 
     if "--dry-run" in sys.argv:
-        print(f"WOULD POST FACT: {text}")
+        print(f"WOULD POST FACT: [{fid}] {text}")
         return False
 
-    resp = x_post(oauth(), CREATE_POST, json={"text": text})
-    row["times_posted"] = str(int(row["times_posted"] or 0) + 1)
-    row["last_posted"] = datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds")
-    with open(FACTS, "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=fieldnames)
-        w.writeheader()
-        w.writerows(rows)
-    print(f"posted fact: {text[:70]}")
+    # Claim the ID before posting, not after. See post_to_x.post_one() for why:
+    # a post whose record is lost is a post that goes out again inside the week.
+    claim = {
+        "times_posted": str(int(row["times_posted"] or 0) + 1),
+        "last_posted": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
+    }
+    if not state_store.update_csv_row(
+            "facts.csv", "fact_id", fid, claim,
+            f"claim: fact {datetime.date.today().isoformat()}"):
+        print(f"SKIPPING this slot: could not record the claim on {fid}, so posting it "
+              f"would risk a repeat. Nothing was posted.")
+        return False
+    row.update(claim)
+
+    x_post(oauth(), CREATE_POST, json={"text": text})
+    print(f"posted fact [{fid}]: {text[:70]}")
     return True
 
 

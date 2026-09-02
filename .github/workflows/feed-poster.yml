@@ -36,6 +36,9 @@ jobs:
           X_API_KEY_SECRET: ${{ secrets.X_API_KEY_SECRET }}
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+          # lets post_to_x.py record each claim straight to origin/main via the
+          # Contents API, instead of relying on the git step at the end of the job
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           if [ "${{ inputs.dry_run }}" = "true" ]; then
             python automation/post_to_x.py --dry-run
@@ -44,11 +47,18 @@ jobs:
           fi
 
       - name: Save posting log
+        if: always()
         run: |
           git config user.name "forummapping-bot"
           git config user.email "forummapping-bot@users.noreply.github.com"
-          git add content_database.csv
-          git commit -m "log: post $(date -u +%F_%H:%M)" || echo "nothing to commit"
+          # content_database.csv is NOT committed here any more. post_to_x.py
+          # claims each map_id directly on origin/main through the Contents API
+          # before the post goes out, so the 7-day lock no longer depends on
+          # this step surviving. Losing this step now costs a log line, not a
+          # posting record — which is what let two maps repeat.
+          git checkout -- content_database.csv 2>/dev/null || true
+          git add logs/ state/ 2>/dev/null || true
+          git commit -m "logs $(date -u +%F_%H:%M)" || echo "nothing to commit"
           # three attempts, then give up quietly — the next run carries the state.
           # every branch ends in `true` so bookkeeping can never fail the job.
           for attempt in 1 2 3; do
