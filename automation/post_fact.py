@@ -28,14 +28,32 @@ def oauth():
     )
 
 
+class DuplicatePost(Exception):
+    """X refused this exact text as a repeat post. Distinct from an auth/credit 403:
+    nothing is misconfigured, this one fact just can't go out. The caller should
+    move on to the next slot, not abort the run."""
+
+
 def x_post(session, url, **kw):
     """POST to X and explain failures in plain language.
     Returns the response on success; raises SystemExit with a readable message
-    on the failures that actually happen in production."""
+    on genuine auth/credit failures, or DuplicatePost when X's own duplicate-
+    content filter is the reason (see DuplicatePost docstring)."""
     r = session.post(url, **kw)
     if r.ok:
         return r
     body = (r.text or "")[:400]
+    if r.status_code == 403 and "duplicate content" in body.lower():
+        # Most likely explanation: this exact text already went out for real during
+        # the Aug 27 - Sep 2 window, when the old "Save state" step could fail
+        # silently and leave facts.csv believing nothing was posted (fixed in
+        # 15e91c5 / ee58f50). The claim for this row is already recorded by the
+        # time we get here, so the record is correct going forward either way.
+        print(f"X REFUSED this post as a duplicate of something already on the "
+              f"timeline. The claim is already saved, so this row won't be picked "
+              f"again — moving to the next slot rather than failing the run.")
+        print(f"  X said: {body}")
+        raise DuplicatePost(body)
     if r.status_code in (401, 403):
         print(f"X API REFUSED ({r.status_code}). This is almost never a code problem.")
         print("  Check, in order:")
@@ -94,14 +112,23 @@ def main():
     n = 1 if "--dry-run" in sys.argv else slots_missed(rows)
     if n > 1:
         print(f"catching up: {n} fact slots elapsed since the last post")
-    posted = 0
+    posted = skipped_dupes = 0
     for i in range(n):
         if i:
             time.sleep(SPACING_SECONDS)
-        if not post_one(rows, fieldnames):
-            break
+        try:
+            if not post_one(rows, fieldnames):
+                break
+        except DuplicatePost:
+            # The claim for that row is already saved (it happened before the X
+            # call), so it won't be picked again this run or any future one.
+            # Move on to the next slot instead of losing the rest of this catch-up
+            # batch to one already-posted fact.
+            skipped_dupes += 1
+            continue
         posted += 1
-    print(f"done: {posted} fact(s) posted")
+    extra = f", {skipped_dupes} skipped as duplicates" if skipped_dupes else ""
+    print(f"done: {posted} fact(s) posted{extra}")
 
 
 def post_one(rows, fieldnames):
