@@ -49,7 +49,7 @@ def x_post(session, url, **kw):
 
 
 
-def slots_missed(rows, per_day=24, cap=4):
+def slots_missed(rows, per_day=24, cap=6):
     """GitHub drops most scheduled runs (observed gaps of 2–13h on an hourly cron),
     so a run that assumes it is one-of-24 silently loses most of the day's volume.
     Work out how many posting slots have elapsed since the last post and catch up,

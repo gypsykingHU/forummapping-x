@@ -36,12 +36,12 @@ jobs:
           FLAG=""
           if [ "${{ inputs.dry_run }}" = "true" ]; then FLAG="--dry-run"; fi
           python automation/post_fact.py $FLAG
-          # Map posts ride along every 4th hour (6/day: 00,04,08,12,16,20 UTC)
-          # instead of running their own workflow — one checkout instead of two.
-          if [ $(( 10#$(date -u +%H) % 4 )) -eq 0 ]; then   # 10# forces base-10; bare 08/09 parse as octal and abort
-            sleep 45   # brief offset so fact and map don't land in the same minute
-            python automation/post_to_x.py $FLAG
-          fi
+          # Maps ride along on every pulse. The script itself enforces the ~4h
+          # spacing from the LAST MAP POST, so it works no matter which triggers
+          # GitHub actually fires. Gating on the clock hour meant maps only posted
+          # when a run happened to land on 00/04/08/12/16/20 — about 25% of runs.
+          sleep 45   # brief offset so fact and map don't land in the same minute
+          python automation/post_to_x.py $FLAG
       - name: Save state
         run: |
           git config user.name "forummapping-bot"
