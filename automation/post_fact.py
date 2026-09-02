@@ -12,7 +12,8 @@ REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FACTS = os.path.join(REPO, "facts.csv")
 CREATE_POST = "https://api.x.com/2/tweets"
 COOLDOWN_DAYS = 45        # preferred gap before a fact may reappear
-SPACING_SECONDS = 900     # 15 min between catch-up posts — keeps them spread, not bursty
+SPACING_SECONDS = 90      # catch-up gap. Kept short on purpose: a long-running job holds
+                          # the concurrency group and blocks the NEXT hourly trigger.
 HARD_MIN_DAYS = 7         # absolute floor — never relaxed, even if it means skipping
 
 
@@ -22,6 +23,30 @@ def oauth():
         resource_owner_key=os.environ["X_ACCESS_TOKEN"],
         resource_owner_secret=os.environ["X_ACCESS_TOKEN_SECRET"],
     )
+
+
+def x_post(session, url, **kw):
+    """POST to X and explain failures in plain language.
+    Returns the response on success; raises SystemExit with a readable message
+    on the failures that actually happen in production."""
+    r = session.post(url, **kw)
+    if r.ok:
+        return r
+    body = (r.text or "")[:400]
+    if r.status_code in (401, 403):
+        print(f"X API REFUSED ({r.status_code}). This is almost never a code problem.")
+        print("  Check, in order:")
+        print("   1. console.x.com — credit balance at or below zero blocks ALL requests")
+        print("   2. console.x.com — monthly spending limit reached blocks until next cycle")
+        print("   3. app keys/tokens still valid and set to Read and Write")
+        print(f"  X said: {body}")
+        raise SystemExit(1)
+    if r.status_code == 429:
+        print(f"Rate limited (429). Skipping this slot rather than failing the run. {body}")
+        raise SystemExit(0)          # exit clean: no failure email for a normal condition
+    print(f"X API error {r.status_code}: {body}")
+    raise SystemExit(1)
+
 
 
 def slots_missed(rows, per_day=24, cap=4):
@@ -103,8 +128,7 @@ def post_one(rows, fieldnames):
         print(f"WOULD POST FACT: {text}")
         return False
 
-    resp = oauth().post(CREATE_POST, json={"text": text})
-    resp.raise_for_status()
+    resp = x_post(oauth(), CREATE_POST, json={"text": text})
     row["times_posted"] = str(int(row["times_posted"] or 0) + 1)
     row["last_posted"] = datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds")
     with open(FACTS, "w", newline="", encoding="utf-8") as f:

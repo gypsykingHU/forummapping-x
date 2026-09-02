@@ -23,8 +23,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 1
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -48,5 +46,7 @@ jobs:
           mkdir -p state newsletter_threads
           git add -A state/ newsletter_threads/ || true
           git commit -m "newsletter thread $(date -u +%F)" || echo "nothing to commit"
-          git pull --rebase
-          git push
+          git fetch origin main
+          git rebase origin/main || git rebase --abort
+          git push || (sleep 5 && git fetch origin main && git rebase origin/main && git push) || \
+            echo "push lost the race; next run will carry these changes"

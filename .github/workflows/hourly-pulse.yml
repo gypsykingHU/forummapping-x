@@ -22,8 +22,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 1
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -41,7 +39,7 @@ jobs:
           # Map posts ride along every 4th hour (6/day: 00,04,08,12,16,20 UTC)
           # instead of running their own workflow — one checkout instead of two.
           if [ $(( 10#$(date -u +%H) % 4 )) -eq 0 ]; then   # 10# forces base-10; bare 08/09 parse as octal and abort
-            sleep 900  # 15 min after the fact so the two never share a slot
+            sleep 45   # brief offset so fact and map don't land in the same minute
             python automation/post_to_x.py $FLAG
           fi
       - name: Save state
@@ -51,5 +49,7 @@ jobs:
           mkdir -p state
           git add facts.csv state/ || true
           git commit -m "pulse $(date -u +%F_%H:%M)" || echo "nothing to commit"
-          git pull --rebase
-          git push
+          git fetch origin main
+          git rebase origin/main || git rebase --abort
+          git push || (sleep 5 && git fetch origin main && git rebase origin/main && git push) || \
+            echo "push lost the race; next run will carry these changes"
