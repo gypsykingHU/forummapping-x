@@ -91,20 +91,7 @@ COOLDOWN_DAYS = 60        # preferred gap before a map may reappear
 HARD_MIN_DAYS = 7         # absolute floor — never relaxed, even if it means skipping
 
 
-MIN_GAP_HOURS = 3.5      # never post two maps closer than this, whatever fires
 
-
-def hours_since_last(rows):
-    stamps = [r["last_posted"] for r in rows if r["last_posted"]]
-    if not stamps:
-        return 999.0
-    try:
-        last = datetime.datetime.fromisoformat(max(stamps))
-    except ValueError:
-        return 999.0
-    if last.tzinfo is None:
-        last = last.replace(tzinfo=datetime.timezone.utc)
-    return (datetime.datetime.now(datetime.timezone.utc) - last).total_seconds() / 3600
 
 
 def slots_missed(rows, per_day=6, cap=2):
@@ -222,10 +209,8 @@ def main():
         fieldnames = reader.fieldnames
         rows = list(reader)
 
-    gap = hours_since_last(rows)
-    if "--dry-run" not in sys.argv and gap < MIN_GAP_HOURS:
-        print(f"last map posted {gap:.1f}h ago; target spacing is 4h — nothing to do this run.")
-        return
+    # Spacing is handled by the workflow cron (every 4h), not here. The 7-day
+    # no-repeat rule in pick_row() still applies and is unrelated to spacing.
     n = 1 if "--dry-run" in sys.argv else slots_missed(rows)
     if n > 1:
         print(f"catching up: {n} map slots elapsed since the last post")

@@ -1,10 +1,9 @@
-name: Feed poster
+name: Maps (every 4h)
 
 on:
-  # feed-poster consolidated into hourly-pulse (Aug 2026) to halve Actions minutes
-  # schedule:
-    # Every 2 hours (12 map posts/day), offset 30min from the hourly fact pulse
-    #  - cron: "30 */2 * * *"
+  schedule:
+    # Every 4 hours = 6 map posts/day. Spacing is the cron's job, not the code's.
+    - cron: '0 */4 * * *'
   workflow_dispatch:
     inputs:
       dry_run:
