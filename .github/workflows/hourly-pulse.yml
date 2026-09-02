@@ -60,7 +60,14 @@ jobs:
           mkdir -p state
           git add facts.csv state/ logs/ || true
           git commit -m "pulse $(date -u +%F_%H:%M)" || echo "nothing to commit"
-          git fetch origin main
-          git rebase origin/main || git rebase --abort
-          git push || (sleep 5 && git fetch origin main && git rebase origin/main && git push) || \
-            echo "push lost the race; next run will carry these changes"
+          # three attempts, then give up quietly — the next run carries the state.
+          # every branch ends in `true` so bookkeeping can never fail the job.
+          for attempt in 1 2 3; do
+            if git fetch origin main && git rebase origin/main && git push; then
+              echo "state pushed on attempt $attempt"; break
+            fi
+            git rebase --abort 2>/dev/null || true
+            echo "attempt $attempt lost the race; retrying"
+            sleep 5
+          done
+          true
