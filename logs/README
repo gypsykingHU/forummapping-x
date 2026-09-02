@@ -1,0 +1,2 @@
+# Pulse outcomes are appended here by the workflow so failures are readable
+# from the repo itself, without needing Actions log access.

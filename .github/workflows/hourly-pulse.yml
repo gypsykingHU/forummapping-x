@@ -33,21 +33,38 @@ jobs:
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
         run: |
+          set -o pipefail
           FLAG=""
           if [ "${{ inputs.dry_run }}" = "true" ]; then FLAG="--dry-run"; fi
-          python automation/post_fact.py $FLAG
+          mkdir -p logs
+          # tee everything so a failure leaves evidence in the repo, not just in
+          # the Actions UI (which needs auth to read)
+          python automation/post_fact.py $FLAG 2>&1 | tee -a /tmp/pulse.out
           # Maps ride along on every pulse. The script itself enforces the ~4h
           # spacing from the LAST MAP POST, so it works no matter which triggers
           # GitHub actually fires. Gating on the clock hour meant maps only posted
           # when a run happened to land on 00/04/08/12/16/20 — about 25% of runs.
           sleep 45   # brief offset so fact and map don't land in the same minute
-          python automation/post_to_x.py $FLAG
+          python automation/post_to_x.py $FLAG 2>&1 | tee -a /tmp/pulse.out
+      - name: Record outcome
+        if: always()
+        run: |
+          mkdir -p logs
+          {
+            echo "=== $(date -u +%FT%TZ)  run ${{ github.run_number }}  status=${{ job.status }}"
+            tail -n 25 /tmp/pulse.out 2>/dev/null || echo "(no output captured)"
+            echo ""
+          } >> logs/failures.log
+          # keep the file from growing without bound
+          tail -n 400 logs/failures.log > logs/.t && mv logs/.t logs/failures.log
+
       - name: Save state
+        if: always()
         run: |
           git config user.name "forummapping-bot"
           git config user.email "forummapping-bot@users.noreply.github.com"
           mkdir -p state
-          git add facts.csv state/ || true
+          git add facts.csv state/ logs/ || true
           git commit -m "pulse $(date -u +%F_%H:%M)" || echo "nothing to commit"
           git fetch origin main
           git rebase origin/main || git rebase --abort
