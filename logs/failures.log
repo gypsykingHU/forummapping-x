@@ -36,3 +36,18 @@ state: FT-0542 recorded on main (attempt 1)
 posted fact [FT-0542]: When Saladin retook Jerusalem in 1187, he largely spared its populatio
 done: 2 fact(s) posted
 
+=== 2026-09-03T05:47:41Z  run 732  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 5 fact slots elapsed since the last post
+state: FT-0543 recorded on main (attempt 1)
+posted fact [FT-0543]: Suleiman the Magnificent's reign, from 1520 to 1566, took Ottoman powe
+state: FT-0544 recorded on main (attempt 1)
+posted fact [FT-0544]: Charlemagne, according to his own biographer, never learned to write f
+state: FT-0545 recorded on main (attempt 1)
+posted fact [FT-0545]: Medieval European courts sometimes settled guilt through "trial by ord
+state: FT-0546 recorded on main (attempt 1)
+posted fact [FT-0546]: Pope Innocent III annulled the Magna Carta within weeks of its 1215 si
+state: FT-0547 recorded on main (attempt 1)
+posted fact [FT-0547]: Eleanor of Aquitaine was queen consort of France, then of England, and
+done: 5 fact(s) posted
+
