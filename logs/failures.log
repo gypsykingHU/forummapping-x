@@ -92,3 +92,12 @@ state: FT-0560 recorded on main (attempt 1)
 posted fact [FT-0560]: George Washington's Continental Army lost most of its major pitched ba
 done: 3 fact(s) posted
 
+=== 2026-09-03T22:31:29Z  run 736  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 2 fact slots elapsed since the last post
+state: FT-0561 recorded on main (attempt 1)
+posted fact [FT-0561]: The revolutions of 1848 swept dozens of European states within months,
+state: FT-0562 recorded on main (attempt 1)
+posted fact [FT-0562]: China's Xinhai Revolution of 1911 ended more than two thousand years o
+done: 2 fact(s) posted
+
