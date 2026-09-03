@@ -81,3 +81,14 @@ state: FT-0557 recorded on main (attempt 1)
 posted fact [FT-0557]: During Jamestown's brutal winter of 1609-1610, starving colonists repo
 done: 5 fact(s) posted
 
+=== 2026-09-03T19:47:50Z  run 735  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 3 fact slots elapsed since the last post
+state: FT-0558 recorded on main (attempt 1)
+posted fact [FT-0558]: The Haitian Revolution's success helped convince Napoleon to abandon h
+state: FT-0559 recorded on main (attempt 1)
+posted fact [FT-0559]: France's Reign of Terror sent an estimated 17,000 people to the guillo
+state: FT-0560 recorded on main (attempt 1)
+posted fact [FT-0560]: George Washington's Continental Army lost most of its major pitched ba
+done: 3 fact(s) posted
+
