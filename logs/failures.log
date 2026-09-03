@@ -66,3 +66,18 @@ state: FT-0552 recorded on main (attempt 1)
 posted fact [FT-0552]: Andean societies recorded numbers, and possibly narratives, using quip
 done: 5 fact(s) posted
 
+=== 2026-09-03T16:26:29Z  run 734  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 5 fact slots elapsed since the last post
+state: FT-0553 recorded on main (attempt 1)
+posted fact [FT-0553]: Spain's colonial silver mines at Potosí, Bolivia, produced such vast q
+state: FT-0554 recorded on main (attempt 1)
+posted fact [FT-0554]: Historians estimate that roughly 90% of the Americas' indigenous popul
+state: FT-0555 recorded on main (attempt 1)
+posted fact [FT-0555]: The Spanish friar Bartolomé de las Casas's 16th-century accounts of co
+state: FT-0556 recorded on main (attempt 1)
+posted fact [FT-0556]: Of an estimated 12.5 million Africans forced onto slave ships across t
+state: FT-0557 recorded on main (attempt 1)
+posted fact [FT-0557]: During Jamestown's brutal winter of 1609-1610, starving colonists repo
+done: 5 fact(s) posted
+
