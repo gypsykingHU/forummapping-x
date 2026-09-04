@@ -110,3 +110,16 @@ state: FT-0564 recorded on main (attempt 1)
 posted fact [FT-0564]: According to court accounts, Ivan the Terrible killed his own son and 
 done: 2 fact(s) posted
 
+=== 2026-09-04T05:51:17Z  run 738  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 4 fact slots elapsed since the last post
+state: FT-0565 recorded on main (attempt 1)
+posted fact [FT-0565]: Catherine the Great seized the Russian throne in a 1762 coup against h
+state: FT-0566 recorded on main (attempt 1)
+posted fact [FT-0566]: Russia's February Revolution of 1917 began as bread riots by female te
+state: FT-0567 recorded on main (attempt 1)
+posted fact [FT-0567]: Germany arranged Lenin's return to Russia in 1917 in a sealed train, g
+state: FT-0568 recorded on main (attempt 1)
+posted fact [FT-0568]: Stalin's Great Purge of 1936-1938 sent an estimated 750,000 people to 
+done: 4 fact(s) posted
+
