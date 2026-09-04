@@ -123,3 +123,18 @@ state: FT-0568 recorded on main (attempt 1)
 posted fact [FT-0568]: Stalin's Great Purge of 1936-1938 sent an estimated 750,000 people to 
 done: 4 fact(s) posted
 
+=== 2026-09-04T11:15:19Z  run 739  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 5 fact slots elapsed since the last post
+state: FT-0569 recorded on main (attempt 1)
+posted fact [FT-0569]: For over three years, the Western Front's trench lines in WWI barely m
+state: FT-0570 recorded on main (attempt 1)
+posted fact [FT-0570]: The Treaty of Versailles forced Germany to accept sole blame for WWI u
+state: FT-0571 recorded on main (attempt 1)
+posted fact [FT-0571]: One leading theory traces the 1918 flu pandemic's origin to a US Army 
+state: FT-0572 recorded on main (attempt 1)
+posted fact [FT-0572]: Archduke Franz Ferdinand's assassin, Gavrilo Princip, only got his sho
+state: FT-0573 recorded on main (attempt 1)
+posted fact [FT-0573]: The Manhattan Project employed more than 130,000 people, most of whom 
+done: 5 fact(s) posted
+
