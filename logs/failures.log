@@ -164,3 +164,12 @@ state: FT-0581 recorded on main (attempt 1)
 posted fact [FT-0581]: Ghana became the first Sub-Saharan African colony to win independence,
 done: 3 fact(s) posted
 
+=== 2026-09-04T22:20:28Z  run 742  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 2 fact slots elapsed since the last post
+state: FT-0582 recorded on main (attempt 1)
+posted fact [FT-0582]: Belgian Congo's transition to independence in 1960 was so abrupt that 
+state: FT-0583 recorded on main (attempt 1)
+posted fact [FT-0583]: Portugal's 1974 Carnation Revolution — named for the flowers protester
+done: 2 fact(s) posted
+
