@@ -153,3 +153,14 @@ state: FT-0578 recorded on main (attempt 1)
 posted fact [FT-0578]: Finland's outnumbered forces inflicted disproportionate Soviet casualt
 done: 5 fact(s) posted
 
+=== 2026-09-04T19:30:11Z  run 741  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 3 fact slots elapsed since the last post
+state: FT-0579 recorded on main (attempt 1)
+posted fact [FT-0579]: Nelson Mandela served 27 years in prison before his 1990 release, and 
+state: FT-0580 recorded on main (attempt 1)
+posted fact [FT-0580]: In 1960 alone, 17 African nations gained independence from colonial ru
+state: FT-0581 recorded on main (attempt 1)
+posted fact [FT-0581]: Ghana became the first Sub-Saharan African colony to win independence,
+done: 3 fact(s) posted
+
