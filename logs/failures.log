@@ -173,3 +173,12 @@ state: FT-0583 recorded on main (attempt 1)
 posted fact [FT-0583]: Portugal's 1974 Carnation Revolution — named for the flowers protester
 done: 2 fact(s) posted
 
+=== 2026-09-05T00:53:09Z  run 743  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 2 fact slots elapsed since the last post
+state: FT-0584 recorded on main (attempt 1)
+posted fact [FT-0584]: Algeria's war of independence from France, from 1954 to 1962, killed s
+state: FT-0585 recorded on main (attempt 1)
+posted fact [FT-0585]: India's 1947 partition displaced an estimated 15 million people and ki
+done: 2 fact(s) posted
+
