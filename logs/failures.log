@@ -208,3 +208,14 @@ state: FT-0593 recorded on main (attempt 1)
 posted fact [FT-0593]: Mao's Great Leap Forward triggered a famine in 1958-1962 estimated to 
 done: 4 fact(s) posted
 
+=== 2026-09-05T13:52:56Z  run 746  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 3 fact slots elapsed since the last post
+state: FT-0594 recorded on main (attempt 1)
+posted fact [FT-0594]: China's Cultural Revolution, launched in 1966, shut universities for y
+state: FT-0595 recorded on main (attempt 1)
+posted fact [FT-0595]: The Khmer Rouge's rule over Cambodia from 1975 to 1979 killed an estim
+state: FT-0596 recorded on main (attempt 1)
+posted fact [FT-0596]: Louis XIV of France reigned for 72 years, the longest confirmed reign 
+done: 3 fact(s) posted
+
