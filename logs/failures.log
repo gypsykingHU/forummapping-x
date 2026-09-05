@@ -182,3 +182,16 @@ state: FT-0585 recorded on main (attempt 1)
 posted fact [FT-0585]: India's 1947 partition displaced an estimated 15 million people and ki
 done: 2 fact(s) posted
 
+=== 2026-09-05T05:41:43Z  run 744  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 4 fact slots elapsed since the last post
+state: FT-0586 recorded on main (attempt 1)
+posted fact [FT-0586]: A British lawyer named Cyril Radcliffe, who had never before set foot 
+state: FT-0587 recorded on main (attempt 1)
+posted fact [FT-0587]: The 1971 Bangladesh Liberation War drove millions of refugees into Ind
+state: FT-0588 recorded on main (attempt 1)
+posted fact [FT-0588]: The 1954 Geneva Accords split Vietnam at the 17th parallel as a "tempo
+state: FT-0589 recorded on main (attempt 1)
+posted fact [FT-0589]: Indonesia's 1965-66 anti-communist purges are estimated to have killed
+done: 4 fact(s) posted
+
