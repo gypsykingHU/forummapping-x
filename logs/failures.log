@@ -195,3 +195,16 @@ state: FT-0589 recorded on main (attempt 1)
 posted fact [FT-0589]: Indonesia's 1965-66 anti-communist purges are estimated to have killed
 done: 4 fact(s) posted
 
+=== 2026-09-05T10:33:37Z  run 745  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 4 fact slots elapsed since the last post
+state: FT-0590 recorded on main (attempt 1)
+posted fact [FT-0590]: The 1956 Suez Crisis exposed that Britain and France could no longer a
+state: FT-0591 recorded on main (attempt 1)
+posted fact [FT-0591]: Aboard a Soviet submarine during the 1962 Cuban Missile Crisis, office
+state: FT-0592 recorded on main (attempt 1)
+posted fact [FT-0592]: Warsaw Pact forces, roughly 250,000 strong, crushed the reformist Prag
+state: FT-0593 recorded on main (attempt 1)
+posted fact [FT-0593]: Mao's Great Leap Forward triggered a famine in 1958-1962 estimated to 
+done: 4 fact(s) posted
+
