@@ -228,3 +228,12 @@ state: FT-0598 recorded on main (attempt 1)
 posted fact [FT-0598]: Elizabeth I of England never married, partly to avoid ceding power to 
 done: 2 fact(s) posted
 
+=== 2026-09-05T19:00:37Z  run 748  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 2 fact slots elapsed since the last post
+state: FT-0599 recorded on main (attempt 1)
+posted fact [FT-0599]: Beijing's Forbidden City, completed in 1420 under the Yongle Emperor, 
+state: FT-0600 recorded on main (attempt 1)
+posted fact [FT-0600]: Mughal emperor Akbar abolished the tax on non-Muslim subjects in 1564 
+done: 2 fact(s) posted
+
