@@ -246,3 +246,12 @@ state: FT-0602 recorded on main (attempt 1)
 posted fact [FT-0602]: Aurangzeb pushed the Mughal Empire to its largest territorial extent, 
 done: 2 fact(s) posted
 
+=== 2026-09-05T23:51:05Z  run 750  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 2 fact slots elapsed since the last post
+state: FT-0603 recorded on main (attempt 1)
+posted fact [FT-0603]: At the Battle of Hastings in 1066, a feigned Norman retreat reportedly
+state: FT-0604 recorded on main (attempt 1)
+posted fact [FT-0604]: At Agincourt in 1415, a heavily outnumbered English army ravaged by dy
+done: 2 fact(s) posted
+
