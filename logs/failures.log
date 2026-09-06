@@ -323,3 +323,12 @@ state: FT-0623 recorded on main (attempt 1)
 posted fact [FT-0623]: Belgian colonial administrators issued identity cards labeling Rwandan
 done: 2 fact(s) posted
 
+=== 2026-09-06T23:48:52Z  run 757  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 2 fact slots elapsed since the last post
+state: FT-0624 recorded on main (attempt 1)
+posted fact [FT-0624]: Britain fought the Opium Wars of 1839-1860 largely to keep selling opi
+state: FT-0625 recorded on main (attempt 1)
+posted fact [FT-0625]: Foreign legations in Beijing endured a 55-day siege during the Boxer R
+done: 2 fact(s) posted
+
