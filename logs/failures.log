@@ -305,3 +305,12 @@ state: FT-0619 recorded on main (attempt 1)
 posted fact [FT-0619]: Emperor Diocletian split Roman rule among four co-emperors in 293 AD, 
 done: 3 fact(s) posted
 
+=== 2026-09-06T19:06:03Z  run 755  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 2 fact slots elapsed since the last post
+state: FT-0620 recorded on main (attempt 1)
+posted fact [FT-0620]: Boudica led a revolt against Roman rule in Britain around 60-61 AD, re
+state: FT-0621 recorded on main (attempt 1)
+posted fact [FT-0621]: Queen Zenobia of Palmyra briefly carved out an empire stretching into 
+done: 2 fact(s) posted
+
