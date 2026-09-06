@@ -314,3 +314,12 @@ state: FT-0621 recorded on main (attempt 1)
 posted fact [FT-0621]: Queen Zenobia of Palmyra briefly carved out an empire stretching into 
 done: 2 fact(s) posted
 
+=== 2026-09-06T21:18:46Z  run 756  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 2 fact slots elapsed since the last post
+state: FT-0622 recorded on main (attempt 1)
+posted fact [FT-0622]: Empress Dowager Cixi effectively ruled China from behind a screen for 
+state: FT-0623 recorded on main (attempt 1)
+posted fact [FT-0623]: Belgian colonial administrators issued identity cards labeling Rwandan
+done: 2 fact(s) posted
+
