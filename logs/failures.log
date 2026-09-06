@@ -294,3 +294,14 @@ state: FT-0616 recorded on main (attempt 1)
 posted fact [FT-0616]: Toussaint Louverture rose from slavery to lead the Haitian Revolution,
 done: 4 fact(s) posted
 
+=== 2026-09-06T16:59:16Z  run 754  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 3 fact slots elapsed since the last post
+state: FT-0617 recorded on main (attempt 1)
+posted fact [FT-0617]: Spartacus's slave rebellion defeated multiple Roman armies between 73 
+state: FT-0618 recorded on main (attempt 1)
+posted fact [FT-0618]: As a young man, Julius Caesar was captured by pirates — and after bein
+state: FT-0619 recorded on main (attempt 1)
+posted fact [FT-0619]: Emperor Diocletian split Roman rule among four co-emperors in 293 AD, 
+done: 3 fact(s) posted
+
