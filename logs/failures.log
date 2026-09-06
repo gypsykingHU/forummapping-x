@@ -281,3 +281,16 @@ state: FT-0612 recorded on main (attempt 1)
 posted fact [FT-0612]: The 1848 Treaty of Guadalupe Hidalgo forced Mexico to cede roughly hal
 done: 4 fact(s) posted
 
+=== 2026-09-06T13:41:06Z  run 753  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 4 fact slots elapsed since the last post
+state: FT-0613 recorded on main (attempt 1)
+posted fact [FT-0613]: A secret protocol in the 1939 Molotov-Ribbentrop Pact divided Poland a
+state: FT-0614 recorded on main (attempt 1)
+posted fact [FT-0614]: Peter the Great toured Western Europe incognito in the 1690s, working 
+state: FT-0615 recorded on main (attempt 1)
+posted fact [FT-0615]: Simón Bolívar's campaigns helped liberate six modern South American co
+state: FT-0616 recorded on main (attempt 1)
+posted fact [FT-0616]: Toussaint Louverture rose from slavery to lead the Haitian Revolution,
+done: 4 fact(s) posted
+
