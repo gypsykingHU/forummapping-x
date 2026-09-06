@@ -255,3 +255,16 @@ state: FT-0604 recorded on main (attempt 1)
 posted fact [FT-0604]: At Agincourt in 1415, a heavily outnumbered English army ravaged by dy
 done: 2 fact(s) posted
 
+=== 2026-09-06T04:31:50Z  run 751  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 4 fact slots elapsed since the last post
+state: FT-0605 recorded on main (attempt 1)
+posted fact [FT-0605]: Roughly 168 Spanish conquistadors captured the Inca emperor Atahualpa 
+state: FT-0606 recorded on main (attempt 1)
+posted fact [FT-0606]: The British East India Company won control of Bengal at the 1757 Battl
+state: FT-0607 recorded on main (attempt 1)
+posted fact [FT-0607]: British colonial forces suffered one of their worst defeats against a 
+state: FT-0608 recorded on main (attempt 1)
+posted fact [FT-0608]: At Adwa in 1896, Ethiopian forces under Menelik II decisively defeated
+done: 4 fact(s) posted
+
