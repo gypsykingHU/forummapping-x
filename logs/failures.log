@@ -268,3 +268,16 @@ state: FT-0608 recorded on main (attempt 1)
 posted fact [FT-0608]: At Adwa in 1896, Ethiopian forces under Menelik II decisively defeated
 done: 4 fact(s) posted
 
+=== 2026-09-06T09:24:11Z  run 752  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 4 fact slots elapsed since the last post
+state: FT-0609 recorded on main (attempt 1)
+posted fact [FT-0609]: The 1916 Sykes-Picot Agreement secretly carved up the Ottoman Middle E
+state: FT-0610 recorded on main (attempt 1)
+posted fact [FT-0610]: A British diplomat drew the Durand Line in 1893, splitting Pashtun ter
+state: FT-0611 recorded on main (attempt 1)
+posted fact [FT-0611]: The Treaty of Waitangi exists in English and Māori versions with subtl
+state: FT-0612 recorded on main (attempt 1)
+posted fact [FT-0612]: The 1848 Treaty of Guadalupe Hidalgo forced Mexico to cede roughly hal
+done: 4 fact(s) posted
+
