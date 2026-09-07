@@ -388,3 +388,12 @@ state: FT-0643 recorded on main (attempt 1)
 posted fact [FT-0643]: The medieval Hanseatic League, a confederation of merchant cities, dom
 done: 3 fact(s) posted
 
+=== 2026-09-07T23:28:38Z  run 762  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 2 fact slots elapsed since the last post
+state: FT-0644 recorded on main (attempt 1)
+posted fact [FT-0644]: Modern experiments show fitted suits of medieval plate armor, at rough
+state: FT-0645 recorded on main (attempt 1)
+posted fact [FT-0645]: Watergate's fallout made Richard Nixon, in 1974, the only US president
+done: 2 fact(s) posted
+
