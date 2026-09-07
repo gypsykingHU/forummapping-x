@@ -377,3 +377,14 @@ state: FT-0640 recorded on main (attempt 1)
 posted fact [FT-0640]: Mohenjo-daro, a city of the Indus Valley Civilization dating to around
 done: 6 fact(s) posted
 
+=== 2026-09-07T20:33:16Z  run 761  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 3 fact slots elapsed since the last post
+state: FT-0641 recorded on main (attempt 1)
+posted fact [FT-0641]: Chroniclers wrote that when the Mongols sacked Baghdad in 1258, so man
+state: FT-0642 recorded on main (attempt 1)
+posted fact [FT-0642]: London's Great Plague of 1665, a late outbreak of the same bacterium b
+state: FT-0643 recorded on main (attempt 1)
+posted fact [FT-0643]: The medieval Hanseatic League, a confederation of merchant cities, dom
+done: 3 fact(s) posted
+
