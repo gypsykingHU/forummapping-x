@@ -1,0 +1,27 @@
+{
+  "id": "074-tuberculosis-deadliest-infection",
+  "posts": [
+    {
+      "text": "Tuberculosis has been curable since the 1950s. In 2023 it killed an estimated 1.25 million people and took back its title as the world's deadliest infectious disease.\n\na thread 🧵🗺️",
+      "image": "owid-tuberculosis-death-rates.png"
+    },
+    {
+      "text": "1/ The map is estimated TB deaths per 100,000 people in 2023. Notice the scale: the bands run from under 1 to over 1,000, so the gap between palest and darkest is a factor of hundreds, not a few percent.\n\nData: Our World in Data (CC BY)"
+    },
+    {
+      "text": "2/ Western Europe, North America and Australia sit under 1 per 100,000. Central Africa — the Democratic Republic of the Congo, the Central African Republic — sits in the 100 to 300 band. Same bacterium, same drugs, different outcomes."
+    },
+    {
+      "text": "3/ For three years COVID-19 displaced TB as the leading infectious killer. In 2023 TB took the position back. Around 8.2 million people were newly diagnosed that year, the highest annual count since WHO monitoring began in 1995."
+    },
+    {
+      "text": "4/ TB is airborne and patient. Roughly a quarter of the world's population is thought to carry a latent infection that never becomes illness. Disease usually follows when immunity drops — HIV, malnutrition, diabetes, crowded housing."
+    },
+    {
+      "text": "5/ Drug resistance is the part worth worrying about. Multidrug-resistant TB needs longer, harsher and far costlier treatment, and only a fraction of the cases estimated to exist are ever diagnosed and put on it."
+    },
+    {
+      "text": "6/ So this isn't really a map of a disease. It's a map of ventilation, nutrition, HIV prevalence and how far a health system reaches — a curable illness tracking the ability to pay for the cure.\n\nFollow @forummapping for more maps like this."
+    }
+  ]
+}
