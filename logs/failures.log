@@ -332,3 +332,16 @@ state: FT-0625 recorded on main (attempt 1)
 posted fact [FT-0625]: Foreign legations in Beijing endured a 55-day siege during the Boxer R
 done: 2 fact(s) posted
 
+=== 2026-09-07T04:30:33Z  run 758  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 4 fact slots elapsed since the last post
+state: FT-0626 recorded on main (attempt 1)
+posted fact [FT-0626]: Japan's 35-year annexation of Korea, beginning in 1910, included campa
+state: FT-0627 recorded on main (attempt 1)
+posted fact [FT-0627]: The Ottoman government's campaign against Armenians from 1915 to 1923 
+state: FT-0628 recorded on main (attempt 1)
+posted fact [FT-0628]: At Ain Jalut in 1260, the slave-soldier Mamluks of Egypt inflicted the
+state: FT-0629 recorded on main (attempt 1)
+posted fact [FT-0629]: Shah Ismail I made Twelver Shia Islam the official religion of Persia 
+done: 4 fact(s) posted
+
