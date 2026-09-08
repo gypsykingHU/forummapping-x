@@ -1,16 +1,3 @@
-posted fact [FT-0544]: Charlemagne, according to his own biographer, never learned to write f
-state: FT-0545 recorded on main (attempt 1)
-posted fact [FT-0545]: Medieval European courts sometimes settled guilt through "trial by ord
-state: FT-0546 recorded on main (attempt 1)
-posted fact [FT-0546]: Pope Innocent III annulled the Magna Carta within weeks of its 1215 si
-state: FT-0547 recorded on main (attempt 1)
-posted fact [FT-0547]: Eleanor of Aquitaine was queen consort of France, then of England, and
-done: 5 fact(s) posted
-
-=== 2026-09-03T11:12:16Z  run 733  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 5 fact slots elapsed since the last post
-state: FT-0548 recorded on main (attempt 1)
 posted fact [FT-0548]: The Fourth Crusade of 1204 never reached the Holy Land — it sacked Con
 state: FT-0549 recorded on main (attempt 1)
 posted fact [FT-0549]: Around 1100 AD, the mound-building city of Cahokia near modern St. Lou
@@ -397,4 +384,17 @@ posted fact [FT-0657]: Cyclone Olivia struck Barrow Island, Australia in 1996 wi
 state: FT-0658 recorded on main (attempt 1)
 posted fact [FT-0658]: Before that gust was verified, Mount Washington in New Hampshire held 
 done: 3 fact(s) posted
+
+=== 2026-09-08T18:38:30Z  run 767  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 4 fact slots elapsed since the last post
+state: FT-0659 recorded on main (attempt 1)
+posted fact [FT-0659]: Georgia's Veryovkina Cave plunges roughly 2,209 metres into the Arabik
+state: FT-0660 recorded on main (attempt 1)
+posted fact [FT-0660]: Malaysia's Sarawak Chamber is the largest known cave chamber by area —
+state: FT-0661 recorded on main (attempt 1)
+posted fact [FT-0661]: Kentucky's Mammoth Cave has more than 686 km of mapped passages, about
+state: FT-0662 recorded on main (attempt 1)
+posted fact [FT-0662]: Vietnam's Hang Sơn Đoòng cave is so enormous it contains its own jungl
+done: 4 fact(s) posted
 
