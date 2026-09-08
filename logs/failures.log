@@ -1,14 +1,3 @@
-posted fact [FT-0548]: The Fourth Crusade of 1204 never reached the Holy Land — it sacked Con
-state: FT-0549 recorded on main (attempt 1)
-posted fact [FT-0549]: Around 1100 AD, the mound-building city of Cahokia near modern St. Lou
-state: FT-0550 recorded on main (attempt 1)
-posted fact [FT-0550]: Inca emperors were mummified after death and continued, through attend
-state: FT-0551 recorded on main (attempt 1)
-posted fact [FT-0551]: The Maya independently developed the mathematical concept of zero and 
-state: FT-0552 recorded on main (attempt 1)
-posted fact [FT-0552]: Andean societies recorded numbers, and possibly narratives, using quip
-done: 5 fact(s) posted
-
 === 2026-09-03T16:26:29Z  run 734  status=success
 facts: read 1106 rows from origin/main (authoritative)
 catching up: 5 fact slots elapsed since the last post
@@ -397,4 +386,15 @@ posted fact [FT-0661]: Kentucky's Mammoth Cave has more than 686 km of mapped pa
 state: FT-0662 recorded on main (attempt 1)
 posted fact [FT-0662]: Vietnam's Hang Sơn Đoòng cave is so enormous it contains its own jungl
 done: 4 fact(s) posted
+
+=== 2026-09-08T21:50:21Z  run 768  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 3 fact slots elapsed since the last post
+state: FT-0663 recorded on main (attempt 1)
+posted fact [FT-0663]: Mexico's Naica Mine holds a chamber of gypsum crystals up to 12 metres
+state: FT-0664 recorded on main (attempt 1)
+posted fact [FT-0664]: New Zealand's Waitomo Caves glow with thousands of bioluminescent glow
+state: FT-0665 recorded on main (attempt 1)
+posted fact [FT-0665]: China's Three Gorges Dam holds so much water that NASA calculates it h
+done: 3 fact(s) posted
 
