@@ -1,9 +1,3 @@
-done: 0 fact(s) posted, 2 skipped as duplicates
-
-=== 2026-09-03T00:12:52Z  run 731  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 2 fact slots elapsed since the last post
-state: FT-0541 recorded on main (attempt 1)
 posted fact [FT-0541]: Tenth-century Córdoba, under Umayyad rule, may have held several hundr
 state: FT-0542 recorded on main (attempt 1)
 posted fact [FT-0542]: When Saladin retook Jerusalem in 1187, he largely spared its populatio
@@ -397,4 +391,10 @@ posted fact [FT-0653]: The Mfecane, a period of upheaval and mass migration in e
 state: FT-0654 recorded on main (attempt 1)
 posted fact [FT-0654]: The Kingdom of Dahomey, in what is now Benin, maintained an elite corp
 done: 5 fact(s) posted
+
+=== 2026-09-08T10:34:34Z  run 765  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-0655 recorded on main (attempt 1)
+posted fact [FT-0655]: Aksum's King Ezana adopted Christianity as a state religion in the 4th
+done: 1 fact(s) posted
 
