@@ -1,18 +1,3 @@
-facts: read 1106 rows from origin/main (authoritative)
-state: FT-0538 recorded on main (attempt 1)
-X REFUSED this post as a duplicate of something already on the timeline. The claim is already saved, so this row won't be picked again — moving to the next slot rather than failing the run.
-  X said: {"detail":"You are not allowed to create a Tweet with duplicate content.","status":403,"title":"Forbidden","type":"about:blank"}
-done: 0 fact(s) posted, 1 skipped as duplicates
-
-=== 2026-09-02T21:46:52Z  run 730  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 2 fact slots elapsed since the last post
-state: FT-0539 recorded on main (attempt 1)
-X REFUSED this post as a duplicate of something already on the timeline. The claim is already saved, so this row won't be picked again — moving to the next slot rather than failing the run.
-  X said: {"detail":"You are not allowed to create a Tweet with duplicate content.","status":403,"title":"Forbidden","type":"about:blank"}
-state: FT-0540 recorded on main (attempt 1)
-X REFUSED this post as a duplicate of something already on the timeline. The claim is already saved, so this row won't be picked again — moving to the next slot rather than failing the run.
-  X said: {"detail":"You are not allowed to create a Tweet with duplicate content.","status":403,"title":"Forbidden","type":"about:blank"}
 done: 0 fact(s) posted, 2 skipped as duplicates
 
 === 2026-09-03T00:12:52Z  run 731  status=success
@@ -397,4 +382,19 @@ posted fact [FT-0648]: Founded in 1961, the Non-Aligned Movement tried to chart 
 state: FT-0649 recorded on main (attempt 1)
 posted fact [FT-0649]: Iran's 1979 revolution replaced a Western-backed monarchy with an Isla
 done: 4 fact(s) posted
+
+=== 2026-09-08T09:40:10Z  run 764  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 5 fact slots elapsed since the last post
+state: FT-0650 recorded on main (attempt 1)
+posted fact [FT-0650]: The Berlin Wall's fall in 1989 was set off partly by a flustered East 
+state: FT-0651 recorded on main (attempt 1)
+posted fact [FT-0651]: The Rwandan genocide of 1994 killed an estimated 800,000 people, most 
+state: FT-0652 recorded on main (attempt 1)
+posted fact [FT-0652]: China's civil war between Communists and Nationalists, fought from 192
+state: FT-0653 recorded on main (attempt 1)
+posted fact [FT-0653]: The Mfecane, a period of upheaval and mass migration in early-19th-cen
+state: FT-0654 recorded on main (attempt 1)
+posted fact [FT-0654]: The Kingdom of Dahomey, in what is now Benin, maintained an elite corp
+done: 5 fact(s) posted
 
