@@ -1,15 +1,3 @@
-=== 2026-09-02T18:35:55Z  run 728  status=failure
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 6 fact slots elapsed since the last post
-state: FT-0536 recorded on main (attempt 1)
-X API REFUSED (403). This is almost never a code problem.
-  Check, in order:
-   1. console.x.com — credit balance at or below zero blocks ALL requests
-   2. console.x.com — monthly spending limit reached blocks until next cycle
-   3. app keys/tokens still valid and set to Read and Write
-  X said: {"detail":"You are not allowed to create a Tweet with duplicate content.","status":403,"title":"Forbidden","type":"about:blank"}
-
-=== 2026-09-02T19:04:26Z  run 729  status=success
 facts: read 1106 rows from origin/main (authoritative)
 state: FT-0538 recorded on main (attempt 1)
 X REFUSED this post as a duplicate of something already on the timeline. The claim is already saved, so this row won't be picked again — moving to the next slot rather than failing the run.
@@ -396,4 +384,17 @@ posted fact [FT-0644]: Modern experiments show fitted suits of medieval plate ar
 state: FT-0645 recorded on main (attempt 1)
 posted fact [FT-0645]: Watergate's fallout made Richard Nixon, in 1974, the only US president
 done: 2 fact(s) posted
+
+=== 2026-09-08T04:30:04Z  run 763  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 4 fact slots elapsed since the last post
+state: FT-0646 recorded on main (attempt 1)
+posted fact [FT-0646]: The US only formally acknowledged its role in the 1953 coup that toppl
+state: FT-0647 recorded on main (attempt 1)
+posted fact [FT-0647]: The Marshall Plan funneled roughly $13 billion — well over $100 billio
+state: FT-0648 recorded on main (attempt 1)
+posted fact [FT-0648]: Founded in 1961, the Non-Aligned Movement tried to chart a path for de
+state: FT-0649 recorded on main (attempt 1)
+posted fact [FT-0649]: Iran's 1979 revolution replaced a Western-backed monarchy with an Isla
+done: 4 fact(s) posted
 
