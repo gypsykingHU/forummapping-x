@@ -1,18 +1,3 @@
-state: FT-0556 recorded on main (attempt 1)
-posted fact [FT-0556]: Of an estimated 12.5 million Africans forced onto slave ships across t
-state: FT-0557 recorded on main (attempt 1)
-posted fact [FT-0557]: During Jamestown's brutal winter of 1609-1610, starving colonists repo
-done: 5 fact(s) posted
-
-=== 2026-09-03T19:47:50Z  run 735  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 3 fact slots elapsed since the last post
-state: FT-0558 recorded on main (attempt 1)
-posted fact [FT-0558]: The Haitian Revolution's success helped convince Napoleon to abandon h
-state: FT-0559 recorded on main (attempt 1)
-posted fact [FT-0559]: France's Reign of Terror sent an estimated 17,000 people to the guillo
-state: FT-0560 recorded on main (attempt 1)
-posted fact [FT-0560]: George Washington's Continental Army lost most of its major pitched ba
 done: 3 fact(s) posted
 
 === 2026-09-03T22:31:29Z  run 736  status=success
@@ -397,4 +382,19 @@ posted fact [FT-0666]: The 2004 Sumatra earthquake shifted enough mass to shorte
 state: FT-0667 recorded on main (attempt 1)
 posted fact [FT-0667]: The 1960 Valdivia earthquake in Chile measured magnitude 9.5, the most
 done: 2 fact(s) posted
+
+=== 2026-09-09T06:00:59Z  run 770  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 5 fact slots elapsed since the last post
+state: FT-0668 recorded on main (attempt 1)
+posted fact [FT-0668]: The San Andreas Fault is slowly carrying Los Angeles toward San Franci
+state: FT-0669 recorded on main (attempt 1)
+posted fact [FT-0669]: The 1811-12 New Madrid earthquakes in the American Midwest were so vio
+state: FT-0670 recorded on main (attempt 1)
+posted fact [FT-0670]: Roughly 90% of the world's earthquakes and about three-quarters of its
+state: FT-0671 recorded on main (attempt 1)
+posted fact [FT-0671]: Iceland's Laki volcano erupted for eight months in 1783, and the resul
+state: FT-0672 recorded on main (attempt 1)
+posted fact [FT-0672]: A Mexican farmer watched a volcano erupt straight out of his cornfield
+done: 5 fact(s) posted
 
