@@ -1,18 +1,3 @@
-posted fact [FT-0563]: Mexico's war of independence began in 1810 when the priest Miguel Hida
-state: FT-0564 recorded on main (attempt 1)
-posted fact [FT-0564]: According to court accounts, Ivan the Terrible killed his own son and 
-done: 2 fact(s) posted
-
-=== 2026-09-04T05:51:17Z  run 738  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 4 fact slots elapsed since the last post
-state: FT-0565 recorded on main (attempt 1)
-posted fact [FT-0565]: Catherine the Great seized the Russian throne in a 1762 coup against h
-state: FT-0566 recorded on main (attempt 1)
-posted fact [FT-0566]: Russia's February Revolution of 1917 began as bread riots by female te
-state: FT-0567 recorded on main (attempt 1)
-posted fact [FT-0567]: Germany arranged Lenin's return to Russia in 1917 in a sealed train, g
-state: FT-0568 recorded on main (attempt 1)
 posted fact [FT-0568]: Stalin's Great Purge of 1936-1938 sent an estimated 750,000 people to 
 done: 4 fact(s) posted
 
@@ -396,5 +381,20 @@ state: FT-0676 recorded on main (attempt 1)
 posted fact [FT-0676]: Ethiopia's Erta Ale volcano has hosted a nearly continuous lava lake s
 state: FT-0677 recorded on main (attempt 1)
 posted fact [FT-0677]: Italy's Stromboli volcano has erupted in small bursts every 10 to 20 m
+done: 5 fact(s) posted
+
+=== 2026-09-09T16:38:41Z  run 772  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 5 fact slots elapsed since the last post
+state: FT-0678 recorded on main (attempt 1)
+posted fact [FT-0678]: A vent on Hawaii's Kilauea, Puʻu ʻŌʻō, erupted almost continuously fro
+state: FT-0679 recorded on main (attempt 1)
+posted fact [FT-0679]: Antarctica's Mount Erebus is one of the only volcanoes on Earth with a
+state: FT-0680 recorded on main (attempt 1)
+posted fact [FT-0680]: Straddling Chile and Argentina, Ojos del Salado rises to roughly 6,893
+state: FT-0681 recorded on main (attempt 1)
+posted fact [FT-0681]: Yellowstone's caldera, carved out by a supereruption 640,000 years ago
+state: FT-0682 recorded on main (attempt 1)
+posted fact [FT-0682]: Sumatra's Lake Toba fills the crater of a supervolcano that erupted an
 done: 5 fact(s) posted
 
