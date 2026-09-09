@@ -1,12 +1,3 @@
-posted fact [FT-0571]: One leading theory traces the 1918 flu pandemic's origin to a US Army 
-state: FT-0572 recorded on main (attempt 1)
-posted fact [FT-0572]: Archduke Franz Ferdinand's assassin, Gavrilo Princip, only got his sho
-state: FT-0573 recorded on main (attempt 1)
-posted fact [FT-0573]: The Manhattan Project employed more than 130,000 people, most of whom 
-done: 5 fact(s) posted
-
-=== 2026-09-04T16:22:10Z  run 740  status=success
-facts: read 1106 rows from origin/main (authoritative)
 catching up: 5 fact slots elapsed since the last post
 state: FT-0574 recorded on main (attempt 1)
 posted fact [FT-0574]: An estimated 2 million people died in the Battle of Stalingrad, making
@@ -397,4 +388,13 @@ posted fact [FT-0684]: Siberia's Traps eruptions some 252 million years ago cove
 state: FT-0685 recorded on main (attempt 1)
 posted fact [FT-0685]: Djibouti's Lake Assal sits about 155 m below sea level, the lowest poi
 done: 3 fact(s) posted
+
+=== 2026-09-09T22:29:50Z  run 774  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 2 fact slots elapsed since the last post
+state: FT-0686 recorded on main (attempt 1)
+posted fact [FT-0686]: Western Australia's Lake Hillier is a permanent, vivid bubblegum pink,
+state: FT-0687 recorded on main (attempt 1)
+posted fact [FT-0687]: Senegal's Lake Retba turns rose-pink in the dry season thanks to salt-
+done: 2 fact(s) posted
 
