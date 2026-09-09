@@ -1,12 +1,3 @@
-=== 2026-09-03T16:26:29Z  run 734  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 5 fact slots elapsed since the last post
-state: FT-0553 recorded on main (attempt 1)
-posted fact [FT-0553]: Spain's colonial silver mines at Potosí, Bolivia, produced such vast q
-state: FT-0554 recorded on main (attempt 1)
-posted fact [FT-0554]: Historians estimate that roughly 90% of the Americas' indigenous popul
-state: FT-0555 recorded on main (attempt 1)
-posted fact [FT-0555]: The Spanish friar Bartolomé de las Casas's 16th-century accounts of co
 state: FT-0556 recorded on main (attempt 1)
 posted fact [FT-0556]: Of an estimated 12.5 million Africans forced onto slave ships across t
 state: FT-0557 recorded on main (attempt 1)
@@ -397,4 +388,13 @@ posted fact [FT-0664]: New Zealand's Waitomo Caves glow with thousands of biolum
 state: FT-0665 recorded on main (attempt 1)
 posted fact [FT-0665]: China's Three Gorges Dam holds so much water that NASA calculates it h
 done: 3 fact(s) posted
+
+=== 2026-09-09T00:07:41Z  run 769  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 2 fact slots elapsed since the last post
+state: FT-0666 recorded on main (attempt 1)
+posted fact [FT-0666]: The 2004 Sumatra earthquake shifted enough mass to shorten Earth's day
+state: FT-0667 recorded on main (attempt 1)
+posted fact [FT-0667]: The 1960 Valdivia earthquake in Chile measured magnitude 9.5, the most
+done: 2 fact(s) posted
 
