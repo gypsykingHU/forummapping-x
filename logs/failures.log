@@ -1,18 +1,3 @@
-done: 3 fact(s) posted
-
-=== 2026-09-03T22:31:29Z  run 736  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 2 fact slots elapsed since the last post
-state: FT-0561 recorded on main (attempt 1)
-posted fact [FT-0561]: The revolutions of 1848 swept dozens of European states within months,
-state: FT-0562 recorded on main (attempt 1)
-posted fact [FT-0562]: China's Xinhai Revolution of 1911 ended more than two thousand years o
-done: 2 fact(s) posted
-
-=== 2026-09-04T00:57:23Z  run 737  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 2 fact slots elapsed since the last post
-state: FT-0563 recorded on main (attempt 1)
 posted fact [FT-0563]: Mexico's war of independence began in 1810 when the priest Miguel Hida
 state: FT-0564 recorded on main (attempt 1)
 posted fact [FT-0564]: According to court accounts, Ivan the Terrible killed his own son and 
@@ -396,5 +381,20 @@ state: FT-0671 recorded on main (attempt 1)
 posted fact [FT-0671]: Iceland's Laki volcano erupted for eight months in 1783, and the resul
 state: FT-0672 recorded on main (attempt 1)
 posted fact [FT-0672]: A Mexican farmer watched a volcano erupt straight out of his cornfield
+done: 5 fact(s) posted
+
+=== 2026-09-09T11:19:45Z  run 771  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 5 fact slots elapsed since the last post
+state: FT-0673 recorded on main (attempt 1)
+posted fact [FT-0673]: Iceland's island of Surtsey rose from the sea in a 1963 eruption; scie
+state: FT-0674 recorded on main (attempt 1)
+posted fact [FT-0674]: Indonesia's Anak Krakatau, "Child of Krakatoa," grew from the original
+state: FT-0675 recorded on main (attempt 1)
+posted fact [FT-0675]: Congo's Nyiragongo volcano holds one of Earth's few persistent lava la
+state: FT-0676 recorded on main (attempt 1)
+posted fact [FT-0676]: Ethiopia's Erta Ale volcano has hosted a nearly continuous lava lake s
+state: FT-0677 recorded on main (attempt 1)
+posted fact [FT-0677]: Italy's Stromboli volcano has erupted in small bursts every 10 to 20 m
 done: 5 fact(s) posted
 
