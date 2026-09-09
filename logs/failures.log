@@ -1,14 +1,3 @@
-posted fact [FT-0568]: Stalin's Great Purge of 1936-1938 sent an estimated 750,000 people to 
-done: 4 fact(s) posted
-
-=== 2026-09-04T11:15:19Z  run 739  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 5 fact slots elapsed since the last post
-state: FT-0569 recorded on main (attempt 1)
-posted fact [FT-0569]: For over three years, the Western Front's trench lines in WWI barely m
-state: FT-0570 recorded on main (attempt 1)
-posted fact [FT-0570]: The Treaty of Versailles forced Germany to accept sole blame for WWI u
-state: FT-0571 recorded on main (attempt 1)
 posted fact [FT-0571]: One leading theory traces the 1918 flu pandemic's origin to a US Army 
 state: FT-0572 recorded on main (attempt 1)
 posted fact [FT-0572]: Archduke Franz Ferdinand's assassin, Gavrilo Princip, only got his sho
@@ -397,4 +386,15 @@ posted fact [FT-0681]: Yellowstone's caldera, carved out by a supereruption 640,
 state: FT-0682 recorded on main (attempt 1)
 posted fact [FT-0682]: Sumatra's Lake Toba fills the crater of a supervolcano that erupted an
 done: 5 fact(s) posted
+
+=== 2026-09-09T19:45:41Z  run 773  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 3 fact slots elapsed since the last post
+state: FT-0683 recorded on main (attempt 1)
+posted fact [FT-0683]: India's Deccan Traps, a volcanic plateau covering roughly half a milli
+state: FT-0684 recorded on main (attempt 1)
+posted fact [FT-0684]: Siberia's Traps eruptions some 252 million years ago covered an area n
+state: FT-0685 recorded on main (attempt 1)
+posted fact [FT-0685]: Djibouti's Lake Assal sits about 155 m below sea level, the lowest poi
+done: 3 fact(s) posted
 
