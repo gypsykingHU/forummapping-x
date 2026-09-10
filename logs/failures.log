@@ -1,12 +1,3 @@
-catching up: 5 fact slots elapsed since the last post
-state: FT-0574 recorded on main (attempt 1)
-posted fact [FT-0574]: An estimated 2 million people died in the Battle of Stalingrad, making
-state: FT-0575 recorded on main (attempt 1)
-posted fact [FT-0575]: Operation Barbarossa in 1941 launched more than 3 million Axis troops 
-state: FT-0576 recorded on main (attempt 1)
-posted fact [FT-0576]: American dive bombers caught four Japanese aircraft carriers mid-refue
-state: FT-0577 recorded on main (attempt 1)
-posted fact [FT-0577]: Kursk in 1943 is often called history's largest tank battle, with thou
 state: FT-0578 recorded on main (attempt 1)
 posted fact [FT-0578]: Finland's outnumbered forces inflicted disproportionate Soviet casualt
 done: 5 fact(s) posted
@@ -396,5 +387,14 @@ state: FT-0686 recorded on main (attempt 1)
 posted fact [FT-0686]: Western Australia's Lake Hillier is a permanent, vivid bubblegum pink,
 state: FT-0687 recorded on main (attempt 1)
 posted fact [FT-0687]: Senegal's Lake Retba turns rose-pink in the dry season thanks to salt-
+done: 2 fact(s) posted
+
+=== 2026-09-10T01:02:11Z  run 775  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 2 fact slots elapsed since the last post
+state: FT-0688 recorded on main (attempt 1)
+posted fact [FT-0688]: Africa's Lake Malawi is home to an estimated 700 to 1,000 species of c
+state: FT-0689 recorded on main (attempt 1)
+posted fact [FT-0689]: Lake Tanganyika is the world's second-deepest and second-oldest lake, 
 done: 2 fact(s) posted
 
