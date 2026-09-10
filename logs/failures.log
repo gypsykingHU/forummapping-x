@@ -1,11 +1,3 @@
-posted fact [FT-0584]: Algeria's war of independence from France, from 1954 to 1962, killed s
-state: FT-0585 recorded on main (attempt 1)
-posted fact [FT-0585]: India's 1947 partition displaced an estimated 15 million people and ki
-done: 2 fact(s) posted
-
-=== 2026-09-05T05:41:43Z  run 744  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 4 fact slots elapsed since the last post
 state: FT-0586 recorded on main (attempt 1)
 posted fact [FT-0586]: A British lawyer named Cyril Radcliffe, who had never before set foot 
 state: FT-0587 recorded on main (attempt 1)
@@ -397,4 +389,12 @@ posted fact [FT-0697]: A storm over Uruguay and Argentina in June 2020 produced 
 state: FT-0698 recorded on main (attempt 1)
 posted fact [FT-0698]: Venezuela's Lake Maracaibo sees so-called Catatumbo lightning on an es
 done: 5 fact(s) posted
+
+=== 2026-09-10T16:20:18Z  run 778  status=failure
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 5 fact slots elapsed since the last post
+state: FT-0699 recorded on main (attempt 1)
+posted fact [FT-0699]: The Amazon River has no bridges anywhere along its roughly 6,400 km le
+state: FT-0700 recorded on main (attempt 1)
+X API error 503: {"detail":"Service Unavailable","status":503,"title":"Service Unavailable","type":"about:blank"}
 
