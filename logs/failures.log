@@ -1,12 +1,3 @@
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 4 fact slots elapsed since the last post
-state: FT-0590 recorded on main (attempt 1)
-posted fact [FT-0590]: The 1956 Suez Crisis exposed that Britain and France could no longer a
-state: FT-0591 recorded on main (attempt 1)
-posted fact [FT-0591]: Aboard a Soviet submarine during the 1962 Cuban Missile Crisis, office
-state: FT-0592 recorded on main (attempt 1)
-posted fact [FT-0592]: Warsaw Pact forces, roughly 250,000 strong, crushed the reformist Prag
-state: FT-0593 recorded on main (attempt 1)
 posted fact [FT-0593]: Mao's Great Leap Forward triggered a famine in 1958-1962 estimated to 
 done: 4 fact(s) posted
 
@@ -397,4 +388,13 @@ posted fact [FT-0702]: China's Qiantang River produces the world's largest tidal
 state: FT-0703 recorded on main (attempt 1)
 posted fact [FT-0703]: The Ganges-Brahmaputra Delta, spanning Bangladesh and eastern India, i
 done: 3 fact(s) posted
+
+=== 2026-09-10T22:30:50Z  run 780  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 2 fact slots elapsed since the last post
+state: FT-0704 recorded on main (attempt 1)
+posted fact [FT-0704]: Siberia's Lena River empties into a delta so vast and cold that it sta
+state: FT-0705 recorded on main (attempt 1)
+posted fact [FT-0705]: Seasonal floods can raise the Amazon's water level by as much as 10 m,
+done: 2 fact(s) posted
 
