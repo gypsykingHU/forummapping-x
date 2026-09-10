@@ -1,16 +1,3 @@
-state: FT-0578 recorded on main (attempt 1)
-posted fact [FT-0578]: Finland's outnumbered forces inflicted disproportionate Soviet casualt
-done: 5 fact(s) posted
-
-=== 2026-09-04T19:30:11Z  run 741  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 3 fact slots elapsed since the last post
-state: FT-0579 recorded on main (attempt 1)
-posted fact [FT-0579]: Nelson Mandela served 27 years in prison before his 1990 release, and 
-state: FT-0580 recorded on main (attempt 1)
-posted fact [FT-0580]: In 1960 alone, 17 African nations gained independence from colonial ru
-state: FT-0581 recorded on main (attempt 1)
-posted fact [FT-0581]: Ghana became the first Sub-Saharan African colony to win independence,
 done: 3 fact(s) posted
 
 === 2026-09-04T22:20:28Z  run 742  status=success
@@ -397,4 +384,17 @@ posted fact [FT-0688]: Africa's Lake Malawi is home to an estimated 700 to 1,000
 state: FT-0689 recorded on main (attempt 1)
 posted fact [FT-0689]: Lake Tanganyika is the world's second-deepest and second-oldest lake, 
 done: 2 fact(s) posted
+
+=== 2026-09-10T05:57:36Z  run 776  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 4 fact slots elapsed since the last post
+state: FT-0690 recorded on main (attempt 1)
+posted fact [FT-0690]: Oregon's Crater Lake formed when Mount Mazama collapsed about 7,700 ye
+state: FT-0691 recorded on main (attempt 1)
+posted fact [FT-0691]: Lake Chad has shrunk by more than 90% since the 1960s, squeezed by dro
+state: FT-0692 recorded on main (attempt 1)
+posted fact [FT-0692]: Antarctica's Lake Vanda stays sealed under ice all year, yet its botto
+state: FT-0693 recorded on main (attempt 1)
+posted fact [FT-0693]: Ethiopia's Danakil Depression averages annual highs above 41°C, making
+done: 4 fact(s) posted
 
