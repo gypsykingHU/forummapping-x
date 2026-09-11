@@ -1,18 +1,3 @@
-state: FT-0602 recorded on main (attempt 1)
-posted fact [FT-0602]: Aurangzeb pushed the Mughal Empire to its largest territorial extent, 
-done: 2 fact(s) posted
-
-=== 2026-09-05T23:51:05Z  run 750  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 2 fact slots elapsed since the last post
-state: FT-0603 recorded on main (attempt 1)
-posted fact [FT-0603]: At the Battle of Hastings in 1066, a feigned Norman retreat reportedly
-state: FT-0604 recorded on main (attempt 1)
-posted fact [FT-0604]: At Agincourt in 1415, a heavily outnumbered English army ravaged by dy
-done: 2 fact(s) posted
-
-=== 2026-09-06T04:31:50Z  run 751  status=success
-facts: read 1106 rows from origin/main (authoritative)
 catching up: 4 fact slots elapsed since the last post
 state: FT-0605 recorded on main (attempt 1)
 posted fact [FT-0605]: Roughly 168 Spanish conquistadors captured the Inca emperor Atahualpa 
@@ -396,5 +381,20 @@ state: FT-0715 recorded on main (attempt 1)
 posted fact [FT-0715]: Norway's Bouvet Island, a volcanic speck in the South Atlantic, is con
 state: FT-0716 recorded on main (attempt 1)
 posted fact [FT-0716]: Canada's Baffin Island, the world's fifth-largest island, covers more 
+done: 5 fact(s) posted
+
+=== 2026-09-11T16:29:01Z  run 784  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 5 fact slots elapsed since the last post
+state: FT-0717 recorded on main (attempt 1)
+posted fact [FT-0717]: Ellesmere Island lies so far north its coasts brush the Arctic Ocean's
+state: FT-0718 recorded on main (attempt 1)
+posted fact [FT-0718]: Japan's Iwo Jima has risen several metres out of the Pacific over the 
+state: FT-0719 recorded on main (attempt 1)
+posted fact [FT-0719]: The Wallace Line, an invisible boundary running through the Indonesian
+state: FT-0720 recorded on main (attempt 1)
+posted fact [FT-0720]: Isolation drove Galápagos finches on different islands to evolve disti
+state: FT-0721 recorded on main (attempt 1)
+posted fact [FT-0721]: Baobab trees grow wild in Africa, Madagascar and Australia — continent
 done: 5 fact(s) posted
 
