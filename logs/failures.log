@@ -1,14 +1,3 @@
-catching up: 4 fact slots elapsed since the last post
-state: FT-0605 recorded on main (attempt 1)
-posted fact [FT-0605]: Roughly 168 Spanish conquistadors captured the Inca emperor Atahualpa 
-state: FT-0606 recorded on main (attempt 1)
-posted fact [FT-0606]: The British East India Company won control of Bengal at the 1757 Battl
-state: FT-0607 recorded on main (attempt 1)
-posted fact [FT-0607]: British colonial forces suffered one of their worst defeats against a 
-state: FT-0608 recorded on main (attempt 1)
-posted fact [FT-0608]: At Adwa in 1896, Ethiopian forces under Menelik II decisively defeated
-done: 4 fact(s) posted
-
 === 2026-09-06T09:24:11Z  run 752  status=success
 facts: read 1106 rows from origin/main (authoritative)
 catching up: 4 fact slots elapsed since the last post
@@ -397,4 +386,15 @@ posted fact [FT-0720]: Isolation drove Galápagos finches on different islands t
 state: FT-0721 recorded on main (attempt 1)
 posted fact [FT-0721]: Baobab trees grow wild in Africa, Madagascar and Australia — continent
 done: 5 fact(s) posted
+
+=== 2026-09-11T19:38:58Z  run 785  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 3 fact slots elapsed since the last post
+state: FT-0722 recorded on main (attempt 1)
+posted fact [FT-0722]: The boreal forest, or taiga, stretching across Russia, Scandinavia and
+state: FT-0723 recorded on main (attempt 1)
+posted fact [FT-0723]: Australia's Daintree Rainforest is estimated to be around 180 million 
+state: FT-0724 recorded on main (attempt 1)
+posted fact [FT-0724]: Roughly 1.2 to 2 million wildebeest migrate in a continuous loop acros
+done: 3 fact(s) posted
 
