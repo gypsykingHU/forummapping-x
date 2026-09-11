@@ -1,12 +1,3 @@
-=== 2026-09-06T09:24:11Z  run 752  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 4 fact slots elapsed since the last post
-state: FT-0609 recorded on main (attempt 1)
-posted fact [FT-0609]: The 1916 Sykes-Picot Agreement secretly carved up the Ottoman Middle E
-state: FT-0610 recorded on main (attempt 1)
-posted fact [FT-0610]: A British diplomat drew the Durand Line in 1893, splitting Pashtun ter
-state: FT-0611 recorded on main (attempt 1)
-posted fact [FT-0611]: The Treaty of Waitangi exists in English and Māori versions with subtl
 state: FT-0612 recorded on main (attempt 1)
 posted fact [FT-0612]: The 1848 Treaty of Guadalupe Hidalgo forced Mexico to cede roughly hal
 done: 4 fact(s) posted
@@ -397,4 +388,13 @@ posted fact [FT-0723]: Australia's Daintree Rainforest is estimated to be around
 state: FT-0724 recorded on main (attempt 1)
 posted fact [FT-0724]: Roughly 1.2 to 2 million wildebeest migrate in a continuous loop acros
 done: 3 fact(s) posted
+
+=== 2026-09-11T22:31:03Z  run 786  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 2 fact slots elapsed since the last post
+state: FT-0725 recorded on main (attempt 1)
+posted fact [FT-0725]: Arctic terns fly an estimated 70,000 km round trip between the Arctic 
+state: FT-0726 recorded on main (attempt 1)
+posted fact [FT-0726]: In 2022, satellite tracking showed a bar-tailed godwit flying 13,560 k
+done: 2 fact(s) posted
 
