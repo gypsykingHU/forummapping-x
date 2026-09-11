@@ -1,16 +1,3 @@
-posted fact [FT-0595]: The Khmer Rouge's rule over Cambodia from 1975 to 1979 killed an estim
-state: FT-0596 recorded on main (attempt 1)
-posted fact [FT-0596]: Louis XIV of France reigned for 72 years, the longest confirmed reign 
-done: 3 fact(s) posted
-
-=== 2026-09-05T16:47:15Z  run 747  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 2 fact slots elapsed since the last post
-state: FT-0597 recorded on main (attempt 1)
-posted fact [FT-0597]: The Habsburgs expanded their realm largely through marriage, immortali
-state: FT-0598 recorded on main (attempt 1)
-posted fact [FT-0598]: Elizabeth I of England never married, partly to avoid ceding power to 
-done: 2 fact(s) posted
 
 === 2026-09-05T19:00:37Z  run 748  status=success
 facts: read 1106 rows from origin/main (authoritative)
@@ -397,4 +384,17 @@ posted fact [FT-0706]: Antarctica hides more than 400 known subglacial lakes of 
 state: FT-0707 recorded on main (attempt 1)
 posted fact [FT-0707]: Namibia's Namib Desert is thought to be the oldest desert on Earth, wi
 done: 2 fact(s) posted
+
+=== 2026-09-11T05:56:46Z  run 782  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 4 fact slots elapsed since the last post
+state: FT-0708 recorded on main (attempt 1)
+posted fact [FT-0708]: Arabia's Rub' al Khali, or Empty Quarter, is the largest continuous sa
+state: FT-0709 recorded on main (attempt 1)
+posted fact [FT-0709]: Mongolia's Gobi Desert gets cold enough to snow in winter and has yiel
+state: FT-0710 recorded on main (attempt 1)
+posted fact [FT-0710]: Shifting dunes in China's Taklamakan Desert have swallowed entire anci
+state: FT-0711 recorded on main (attempt 1)
+posted fact [FT-0711]: Antarctica's McMurdo Dry Valleys are so parched that some soils there 
+done: 4 fact(s) posted
 
