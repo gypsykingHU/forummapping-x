@@ -1,16 +1,3 @@
-state: FT-0618 recorded on main (attempt 1)
-posted fact [FT-0618]: As a young man, Julius Caesar was captured by pirates — and after bein
-state: FT-0619 recorded on main (attempt 1)
-posted fact [FT-0619]: Emperor Diocletian split Roman rule among four co-emperors in 293 AD, 
-done: 3 fact(s) posted
-
-=== 2026-09-06T19:06:03Z  run 755  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 2 fact slots elapsed since the last post
-state: FT-0620 recorded on main (attempt 1)
-posted fact [FT-0620]: Boudica led a revolt against Roman rule in Britain around 60-61 AD, re
-state: FT-0621 recorded on main (attempt 1)
-posted fact [FT-0621]: Queen Zenobia of Palmyra briefly carved out an empire stretching into 
 done: 2 fact(s) posted
 
 === 2026-09-06T21:18:46Z  run 756  status=success
@@ -396,5 +383,18 @@ state: FT-0731 recorded on main (attempt 1)
 posted fact [FT-0731]: The Denmark Strait cataract, an underwater waterfall formed where cold
 state: FT-0732 recorded on main (attempt 1)
 posted fact [FT-0732]: South Africa's Agulhas Current can generate rogue waves so steep that 
+done: 4 fact(s) posted
+
+=== 2026-09-12T10:42:58Z  run 789  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 4 fact slots elapsed since the last post
+state: FT-0733 recorded on main (attempt 1)
+posted fact [FT-0733]: The 1995 "Draupner wave," a 25.6 m rogue wave recorded in the North Se
+state: FT-0734 recorded on main (attempt 1)
+posted fact [FT-0734]: Cold, nutrient-rich water from the Humboldt Current makes the seas off
+state: FT-0735 recorded on main (attempt 1)
+posted fact [FT-0735]: Deep-sea "black smokers," hydrothermal vents first found in 1977, host
+state: FT-0736 recorded on main (attempt 1)
+posted fact [FT-0736]: Giant kelp can grow up to 60 cm in a single day, making it one of the 
 done: 4 fact(s) posted
 
