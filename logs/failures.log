@@ -1,16 +1,3 @@
-state: FT-0614 recorded on main (attempt 1)
-posted fact [FT-0614]: Peter the Great toured Western Europe incognito in the 1690s, working 
-state: FT-0615 recorded on main (attempt 1)
-posted fact [FT-0615]: Simón Bolívar's campaigns helped liberate six modern South American co
-state: FT-0616 recorded on main (attempt 1)
-posted fact [FT-0616]: Toussaint Louverture rose from slavery to lead the Haitian Revolution,
-done: 4 fact(s) posted
-
-=== 2026-09-06T16:59:16Z  run 754  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 3 fact slots elapsed since the last post
-state: FT-0617 recorded on main (attempt 1)
-posted fact [FT-0617]: Spartacus's slave rebellion defeated multiple Roman armies between 73 
 state: FT-0618 recorded on main (attempt 1)
 posted fact [FT-0618]: As a young man, Julius Caesar was captured by pirates — and after bein
 state: FT-0619 recorded on main (attempt 1)
@@ -397,4 +384,17 @@ posted fact [FT-0727]: Monarch butterflies that have never made the trip before 
 state: FT-0728 recorded on main (attempt 1)
 posted fact [FT-0728]: Lake Baikal is home to the nerpa, the world's only exclusively freshwa
 done: 2 fact(s) posted
+
+=== 2026-09-12T05:48:11Z  run 788  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 4 fact slots elapsed since the last post
+state: FT-0729 recorded on main (attempt 1)
+posted fact [FT-0729]: Mangroves are among the only trees able to survive rooted in saltwater
+state: FT-0730 recorded on main (attempt 1)
+posted fact [FT-0730]: Permafrost underlies roughly a quarter of the land in the Northern Hem
+state: FT-0731 recorded on main (attempt 1)
+posted fact [FT-0731]: The Denmark Strait cataract, an underwater waterfall formed where cold
+state: FT-0732 recorded on main (attempt 1)
+posted fact [FT-0732]: South Africa's Agulhas Current can generate rogue waves so steep that 
+done: 4 fact(s) posted
 
