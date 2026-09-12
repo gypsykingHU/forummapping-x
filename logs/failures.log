@@ -1,12 +1,3 @@
-=== 2026-09-06T23:48:52Z  run 757  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 2 fact slots elapsed since the last post
-state: FT-0624 recorded on main (attempt 1)
-posted fact [FT-0624]: Britain fought the Opium Wars of 1839-1860 largely to keep selling opi
-state: FT-0625 recorded on main (attempt 1)
-posted fact [FT-0625]: Foreign legations in Beijing endured a 55-day siege during the Boxer R
-done: 2 fact(s) posted
-
 === 2026-09-07T04:30:33Z  run 758  status=success
 facts: read 1106 rows from origin/main (authoritative)
 catching up: 4 fact slots elapsed since the last post
@@ -397,4 +388,13 @@ posted fact [FT-0738]: Southeast Asia's Coral Triangle holds an estimated 76% of
 state: FT-0739 recorded on main (attempt 1)
 posted fact [FT-0739]: Puerto Rico's Mosquito Bay glows blue-green at night from densely pack
 done: 3 fact(s) posted
+
+=== 2026-09-12T17:04:35Z  run 791  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 2 fact slots elapsed since the last post
+state: FT-0740 recorded on main (attempt 1)
+posted fact [FT-0740]: Greenland's Scoresby Sund is the longest fjord system in the world, re
+state: FT-0741 recorded on main (attempt 1)
+posted fact [FT-0741]: Argentina's Perito Moreno Glacier is one of the few glaciers on Earth 
+done: 2 fact(s) posted
 
