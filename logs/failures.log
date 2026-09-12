@@ -1,12 +1,3 @@
-state: FT-0629 recorded on main (attempt 1)
-posted fact [FT-0629]: Shah Ismail I made Twelver Shia Islam the official religion of Persia 
-done: 4 fact(s) posted
-
-=== 2026-09-07T10:15:49Z  run 759  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 5 fact slots elapsed since the last post
-state: FT-0630 recorded on main (attempt 1)
-posted fact [FT-0630]: Archaeological evidence suggests Aboriginal Australians have maintaine
 state: FT-0631 recorded on main (attempt 1)
 posted fact [FT-0631]: Captain Cook charted much of the Pacific in the 1770s before being kil
 state: FT-0632 recorded on main (attempt 1)
@@ -396,5 +387,14 @@ state: FT-0742 recorded on main (attempt 1)
 posted fact [FT-0742]: Greenland's Jakobshavn Glacier reached speeds of about 46 m a day in 2
 state: FT-0743 recorded on main (attempt 1)
 posted fact [FT-0743]: Antarctica's Lambert Glacier stretches more than 400 km and, with its 
+done: 2 fact(s) posted
+
+=== 2026-09-12T22:13:23Z  run 793  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 2 fact slots elapsed since the last post
+state: FT-0744 recorded on main (attempt 1)
+posted fact [FT-0744]: Iceland's Vatnajökull is Europe's largest ice cap by volume, covering 
+state: FT-0745 recorded on main (attempt 1)
+posted fact [FT-0745]: On New Zealand's South Island, the Franz Josef and Fox glaciers descen
 done: 2 fact(s) posted
 
