@@ -1,18 +1,3 @@
-
-=== 2026-09-07T16:32:06Z  run 760  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 6 fact slots elapsed since the last post
-state: FT-0635 recorded on main (attempt 1)
-posted fact [FT-0635]: The forced 1838 removal of the Cherokee and other nations, later calle
-state: FT-0636 recorded on main (attempt 1)
-posted fact [FT-0636]: Some estimates suggest the 1864-1870 Paraguayan War killed more than h
-state: FT-0637 recorded on main (attempt 1)
-posted fact [FT-0637]: Hittite and Egyptian scribes recorded one of history's earliest known 
-state: FT-0638 recorded on main (attempt 1)
-posted fact [FT-0638]: Ancient Nubian rulers at Meroë, in modern Sudan, built well over 200 p
-state: FT-0639 recorded on main (attempt 1)
-posted fact [FT-0639]: According to tradition, the Phoenician queen Dido founded Carthage aro
-state: FT-0640 recorded on main (attempt 1)
 posted fact [FT-0640]: Mohenjo-daro, a city of the Indus Valley Civilization dating to around
 done: 6 fact(s) posted
 
@@ -397,4 +382,19 @@ posted fact [FT-0746]: Ethiopia's Afar Triangle is one of the few places on Eart
 state: FT-0747 recorded on main (attempt 1)
 posted fact [FT-0747]: At Iceland's Þingvellir, visitors can walk, or even dive, through a ri
 done: 2 fact(s) posted
+
+=== 2026-09-13T06:06:23Z  run 795  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 5 fact slots elapsed since the last post
+state: FT-0748 recorded on main (attempt 1)
+posted fact [FT-0748]: East Africa's rift valley is slowly tearing the continent in two; geol
+state: FT-0749 recorded on main (attempt 1)
+posted fact [FT-0749]: India was once a separate landmass that drifted roughly 6,000 km north
+state: FT-0750 recorded on main (attempt 1)
+posted fact [FT-0750]: The Democratic Republic of Congo mines an estimated 70% or more of the
+state: FT-0751 recorded on main (attempt 1)
+posted fact [FT-0751]: Chile holds roughly a quarter of the world's known copper reserves and
+state: FT-0752 recorded on main (attempt 1)
+posted fact [FT-0752]: Saudi Arabia's Ghawar Field, discovered in 1948, is the largest conven
+done: 5 fact(s) posted
 
