@@ -1,18 +1,3 @@
-posted fact [FT-0665]: China's Three Gorges Dam holds so much water that NASA calculates it h
-done: 3 fact(s) posted
-
-=== 2026-09-09T00:07:41Z  run 769  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 2 fact slots elapsed since the last post
-state: FT-0666 recorded on main (attempt 1)
-posted fact [FT-0666]: The 2004 Sumatra earthquake shifted enough mass to shorten Earth's day
-state: FT-0667 recorded on main (attempt 1)
-posted fact [FT-0667]: The 1960 Valdivia earthquake in Chile measured magnitude 9.5, the most
-done: 2 fact(s) posted
-
-=== 2026-09-09T06:00:59Z  run 770  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 5 fact slots elapsed since the last post
 state: FT-0668 recorded on main (attempt 1)
 posted fact [FT-0668]: The San Andreas Fault is slowly carrying Los Angeles toward San Franci
 state: FT-0669 recorded on main (attempt 1)
@@ -397,4 +382,19 @@ posted fact [FT-0778]: Ice flow carries survey markers placed near the geographi
 state: FT-0779 recorded on main (attempt 1)
 posted fact [FT-0779]: Point Barrow, Alaska sits farther north than the northernmost tip of R
 done: 6 fact(s) posted
+
+=== 2026-09-14T19:23:07Z  run 803  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 5 fact slots elapsed since the last post
+state: FT-0780 recorded on main (attempt 1)
+posted fact [FT-0780]: Argentina's Ushuaia, often billed the world's southernmost city, still
+state: FT-0781 recorded on main (attempt 1)
+posted fact [FT-0781]: Svalbard's Longyearbyen, one of the world's northernmost towns, goes w
+state: FT-0782 recorded on main (attempt 1)
+posted fact [FT-0782]: Chile's Villa Las Estrellas and Argentina's Base Esperanza are among t
+state: FT-0783 recorded on main (attempt 1)
+posted fact [FT-0783]: Nunavut's Alert sits just 817 km from the North Pole, making it the no
+state: FT-0784 recorded on main (attempt 1)
+posted fact [FT-0784]: Palmyra Atoll, a US territory in the central Pacific, has no permanent
+done: 5 fact(s) posted
 
