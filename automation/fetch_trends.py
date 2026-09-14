@@ -18,12 +18,20 @@ the seen-list entirely (housekeeping; the fact itself expires on its own
 schedule in trending_facts.csv, this is just bookkeeping so the file doesn't
 grow forever).
 
-Credentials: same X_API_KEY/X_API_KEY_SECRET/X_ACCESS_TOKEN/X_ACCESS_TOKEN_SECRET
-as the other posting scripts. GET /2/trends/by/woeid accepts OAuth 1.0a user
-context the same way /2/users/me already does elsewhere in this repo.
+Credentials: reuses X_API_KEY/X_API_KEY_SECRET (already GitHub secrets, no new
+setup needed) -- but NOT via OAuth 1.0a like the posting scripts. A live run
+proved GET /2/trends/by/woeid rejects OAuth 1.0a outright:
+    "Authenticating with OAuth 1.0a User Context is forbidden for this
+    endpoint. Supported authentication types are [OAuth 2.0 User Context,
+    OAuth 2.0 Application-Only]."
+This one endpoint needs OAuth 2.0 App-only auth specifically -- everything
+else this repo calls accepts OAuth 1.0a, which is why this was missed until
+the first live run. Fixed by exchanging the API key/secret for a Bearer token
+via POST /oauth2/token (see get_app_bearer_token below); the trends call
+itself is unchanged at $0.01/request.
 """
 import csv, datetime, json, os, sys
-from requests_oauthlib import OAuth1Session
+import requests
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import trend_keywords
@@ -33,22 +41,39 @@ RAW_OUT = os.path.join(REPO, "trends_raw", "latest.json")
 CANDIDATES_OUT = os.path.join(REPO, "trend_candidates.json")
 SEEN_PATH = os.path.join(REPO, "trend_candidates_seen.json")
 
+BEARER_TOKEN_URL = "https://api.x.com/oauth2/token"
 TRENDS_URL = "https://api.x.com/2/trends/by/woeid/1"   # 1 = worldwide
 WOEID_LABEL = "worldwide"
 RESURFACE_COOLDOWN_HOURS = 24     # don't re-flag the same trend within a day
 SEEN_HOUSEKEEPING_DAYS = 2        # matches the 2-day rolling expiry on facts
 
 
-def oauth():
-    return OAuth1Session(
-        os.environ["X_API_KEY"], client_secret=os.environ["X_API_KEY_SECRET"],
-        resource_owner_key=os.environ["X_ACCESS_TOKEN"],
-        resource_owner_secret=os.environ["X_ACCESS_TOKEN_SECRET"],
+def get_app_bearer_token():
+    """Exchange X_API_KEY/X_API_KEY_SECRET for an OAuth 2.0 Application-Only
+    Bearer Token (docs.x.com: POST oauth2/token, HTTP Basic auth of key:secret,
+    grant_type=client_credentials). X returns the SAME existing token on
+    repeat calls rather than minting a new one each time -- "repeated requests
+    to this method will yield the same already-existent token until it has
+    been invalidated" -- so calling this once per run (12x/day) is the
+    documented pattern, not excessive: no caching needed, no extra secret to
+    configure, and it isn't a separately billed resource in the pay-per-use
+    pricing table (only the trends call itself is)."""
+    r = requests.post(
+        BEARER_TOKEN_URL,
+        auth=(os.environ["X_API_KEY"], os.environ["X_API_KEY_SECRET"]),
+        data={"grant_type": "client_credentials"},
+        headers={"Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"},
     )
+    if not r.ok:
+        print(f"Could not obtain an app-only bearer token ({r.status_code}): "
+              f"{(r.text or '')[:300]}")
+        print("  Check console.x.com: API Key/Secret valid, app not suspended.")
+        raise SystemExit(1)
+    return r.json()["access_token"]
 
 
-def x_get(session, url, **kw):
-    r = session.get(url, **kw)
+def x_get(url, token, **kw):
+    r = requests.get(url, headers={"Authorization": f"Bearer {token}"}, **kw)
     if r.ok:
         return r
     body = (r.text or "")[:400]
@@ -56,9 +81,7 @@ def x_get(session, url, **kw):
         print(f"X API REFUSED ({r.status_code}) on trends. Check, in order:")
         print("   1. console.x.com credit balance")
         print("   2. billing-cycle spend cap")
-        print("   3. tokens valid, Read and Write")
-        print("   4. this specific endpoint may need a different access tier than")
-        print("      your other calls -- check console.x.com for a 'Trends' scope")
+        print("   3. app-only bearer token obtained cleanly (see step above)")
         print(f"  X said: {body}")
         raise SystemExit(1)
     if r.status_code == 429:
@@ -83,8 +106,8 @@ def save_seen(seen):
 
 
 def main():
-    session = oauth()
-    resp = x_get(session, TRENDS_URL, params={"max_trends": 50})
+    token = get_app_bearer_token()
+    resp = x_get(TRENDS_URL, token, params={"max_trends": 50})
     data = resp.json().get("data", [])
     now = datetime.datetime.now(datetime.timezone.utc)
     now_iso = now.isoformat(timespec="seconds")
