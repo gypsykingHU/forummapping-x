@@ -163,6 +163,28 @@ def _pick_within_group(pool_rows):
     return min(varied or eligible, key=last_posted)
 
 
+MAX_STREAK = 4    # hard cap on consecutive same-group posts, see note below
+
+
+def _recent_streak(active):
+    """How many of the most-recently-posted active rows, taken in last_posted
+    order, share the same group -- and which group that is. Each row's
+    last_posted is that row's own most recent posting, and COOLDOWN_DAYS /
+    HARD_MIN_DAYS make a repeat within a few days rare, so the most-recently-
+    stamped N rows are effectively the last N real post events, in order."""
+    posted = sorted((r for r in active if r["last_posted"]),
+                     key=lambda r: r["last_posted"], reverse=True)
+    if not posted:
+        return 0, None
+    streak_is_owid = is_owid(posted[0])
+    n = 0
+    for r in posted:
+        if is_owid(r) != streak_is_owid:
+            break
+        n += 1
+    return n, ("owid" if streak_is_owid else "original")
+
+
 def pick_row(rows):
     """Choose a map so that, over time, the split between original/historical
     maps and Our World in Data maps tracks their share of the active library
@@ -181,7 +203,23 @@ def pick_row(rows):
     self-adjusts to future imports without needing a hardcoded ratio: whichever
     group is furthest below its target share gets the slot. This is a
     deficit/weighted-fair-queueing scheduler, the same idea network switches
-    use to split bandwidth proportionally between competing streams."""
+    use to split bandwidth proportionally between competing streams.
+
+    That share math converges correctly (confirmed: 515 real posts sit at
+    26.7% OWID against a 27.0% target), but with a library this size one post
+    only moves the cumulative ratio ~0.2 percentage points. Any time the mix
+    drifts even slightly off target -- a bulk import shifting the target,
+    or a run of cooldown-forced fallbacks to one side -- correcting it takes
+    a dozen-plus consecutive same-group posts, because that's what it takes
+    to move a ~500-post denominator. That's not a bug in the math, but it IS
+    a visible monopoly streak on the timeline (confirmed: real history shows
+    a 13-post OWID streak and, earlier, a 30-post original streak, both the
+    scheduler correctly if slowly closing a real gap). Milan's ask was
+    continuous rotation, not eventual convergence, so MAX_STREAK below forces
+    a switch after a few same-group posts regardless of what the share math
+    wants for that one slot -- the deficit scheduler still governs every
+    other pick, so the long-run ratio is unaffected, it just never gets to
+    run more than MAX_STREAK slots in a row before ceding the mic."""
     active = [r for r in rows if r["status"] == "active" and r["caption"].strip()]
     if not active:
         sys.exit("No active rows in database.")
@@ -208,6 +246,19 @@ def pick_row(rows):
         return "owid" if current_owid_share < target_owid_share else "original"
 
     choice = group_choice()
+
+    streak_len, streak_group = _recent_streak(active)
+    if streak_len >= MAX_STREAK and streak_group == choice:
+        forced = "original" if choice == "owid" else "owid"
+        # only force the switch if the other side can actually post --
+        # otherwise leave choice alone and let the fallback below (or a
+        # skipped slot) handle a genuinely exhausted group.
+        if (owid_pool if forced == "owid" else orig_pool):
+            print(f"note: last {streak_len} posts were all {streak_group} -- "
+                  f"breaking the streak with a {forced} pick this slot, "
+                  f"overriding the deficit-share calculation for one slot")
+            choice = forced
+
     row = _pick_within_group(owid_pool if choice == "owid" else orig_pool)
     if row is None:
         # that group is genuinely exhausted (cooldown-locked) -- fall back to
