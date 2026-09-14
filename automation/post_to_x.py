@@ -128,40 +128,93 @@ def slots_missed(rows, per_day=6, cap=2):
     return max(1, min(cap, int(hours / (24 / per_day))))
 
 
+def is_owid(r):
+    return r["filename"].startswith("owid-") or "OWID" in (r["notes"] or "")
+
+
+def _pick_within_group(pool_rows):
+    """The original whole-library algorithm, scoped to one group (original or
+    OWID). Least-posted first within the group; within that tier, whatever has
+    been off the feed longest. This is what makes rotation continuous: once
+    every map in a group has been posted the same number of times, the next
+    pick is just the oldest last_posted in the group -- it keeps cycling
+    forever rather than ever treating "already posted" as disqualifying."""
+    def last_posted(r):
+        return r["last_posted"] or ""          # never-posted sorts first
+
+    min_posted = min(int(r["times_posted"] or 0) for r in pool_rows)
+    tier = [r for r in pool_rows if int(r["times_posted"] or 0) == min_posted]
+
+    cutoff = (datetime.datetime.now(datetime.timezone.utc)
+              - datetime.timedelta(days=COOLDOWN_DAYS)).isoformat()
+    eligible = [r for r in tier if last_posted(r) < cutoff or not r["last_posted"]]
+    if not eligible:
+        floor = (datetime.datetime.now(datetime.timezone.utc)
+                 - datetime.timedelta(days=HARD_MIN_DAYS)).isoformat()
+        eligible = [r for r in pool_rows if last_posted(r) < floor or not r["last_posted"]]
+        if not eligible:
+            return None
+        print(f"note: group too small for the {COOLDOWN_DAYS}-day target — using "
+              f"oldest eligible map (still >={HARD_MIN_DAYS} days old)")
+
+    today = datetime.date.today().isoformat()
+    todays_cats = {r["category"] for r in pool_rows if (r["last_posted"] or "")[:10] == today}
+    varied = [r for r in eligible if r["category"] not in todays_cats]
+    return min(varied or eligible, key=last_posted)
+
+
 def pick_row(rows):
-    """Least-posted first; within that tier, whatever has been off the feed longest.
-    Random selection inside the tier is what causes maps to resurface days apart
-    once the library completes a rotation, so ordering by age is deliberate."""
+    """Choose a map so that, over time, the split between original/historical
+    maps and Our World in Data maps tracks their share of the active library
+    -- Milan's call, after 138 freshly-imported OWID maps (all starting at
+    times_posted=0) monopolized the old whole-library least-posted tier and
+    crowded out originals for days. That old logic wasn't wrong exactly, but
+    ANY future bulk import of one type reproduces the same imbalance, because
+    a single times_posted tier spanning both groups always drains the newer
+    group completely before the older group gets a look.
+
+    Fix: track originals and OWID as two independent rotations (each using
+    the old least-posted-then-oldest logic, so each keeps cycling
+    indefinitely -- posted before is never a disqualifier). Which group gets
+    THIS slot is decided by comparing each group's actual share of posts so
+    far to its share of the active library, recomputed fresh every run so it
+    self-adjusts to future imports without needing a hardcoded ratio: whichever
+    group is furthest below its target share gets the slot. This is a
+    deficit/weighted-fair-queueing scheduler, the same idea network switches
+    use to split bandwidth proportionally between competing streams."""
     active = [r for r in rows if r["status"] == "active" and r["caption"].strip()]
     if not active:
         sys.exit("No active rows in database.")
 
-    def last_posted(r):
-        return r["last_posted"] or ""          # never-posted sorts first
+    owid_pool = [r for r in active if is_owid(r)]
+    orig_pool = [r for r in active if not is_owid(r)]
 
-    min_posted = min(int(r["times_posted"] or 0) for r in active)
-    pool = [r for r in active if int(r["times_posted"] or 0) == min_posted]
+    def group_choice():
+        if not owid_pool:
+            return "original"
+        if not orig_pool:
+            return "owid"
+        target_owid_share = len(owid_pool) / len(active)
+        owid_posts = sum(int(r["times_posted"] or 0) for r in owid_pool)
+        orig_posts = sum(int(r["times_posted"] or 0) for r in orig_pool)
+        total_posts = owid_posts + orig_posts
+        if total_posts == 0:
+            # bootstrap: nothing posted yet, go with whichever group is larger
+            return "owid" if target_owid_share >= 0.5 else "original"
+        current_owid_share = owid_posts / total_posts
+        # whichever group is furthest under its target share of the library
+        # gets this slot -- pulls the mix back toward proportional over time
+        # regardless of what caused the current skew.
+        return "owid" if current_owid_share < target_owid_share else "original"
 
-    cutoff = (datetime.datetime.now(datetime.timezone.utc)
-              - datetime.timedelta(days=COOLDOWN_DAYS)).isoformat()
-    eligible = [r for r in pool if last_posted(r) < cutoff or not r["last_posted"]]
-    if not eligible:
-        # Relax toward the hard floor, never past it. A map reappearing inside a week
-        # is the single most visible failure mode for this account.
-        floor = (datetime.datetime.now(datetime.timezone.utc)
-                 - datetime.timedelta(days=HARD_MIN_DAYS)).isoformat()
-        eligible = [r for r in active if last_posted(r) < floor or not r["last_posted"]]
-        if not eligible:
-            return None    # caller skips this cycle rather than repeat
-        print(f"note: library small for the {COOLDOWN_DAYS}-day target — using oldest "
-              f"eligible map (still ≥{HARD_MIN_DAYS} days old)")
-
-    # keep same-day variety: avoid a category already used today when possible
-    today = datetime.date.today().isoformat()
-    todays_cats = {r["category"] for r in active if (r["last_posted"] or "")[:10] == today}
-    varied = [r for r in eligible if r["category"] not in todays_cats]
-
-    return min(varied or eligible, key=last_posted)
+    choice = group_choice()
+    row = _pick_within_group(owid_pool if choice == "owid" else orig_pool)
+    if row is None:
+        # that group is genuinely exhausted (cooldown-locked) -- fall back to
+        # the other rather than skip a slot outright.
+        other = orig_pool if choice == "owid" else owid_pool
+        row = _pick_within_group(other) if other else None
+    return row
 
 
 def trim(text):
