@@ -1,20 +1,3 @@
-posted fact [FT-0659]: Georgia's Veryovkina Cave plunges roughly 2,209 metres into the Arabik
-state: FT-0660 recorded on main (attempt 1)
-posted fact [FT-0660]: Malaysia's Sarawak Chamber is the largest known cave chamber by area —
-state: FT-0661 recorded on main (attempt 1)
-posted fact [FT-0661]: Kentucky's Mammoth Cave has more than 686 km of mapped passages, about
-state: FT-0662 recorded on main (attempt 1)
-posted fact [FT-0662]: Vietnam's Hang Sơn Đoòng cave is so enormous it contains its own jungl
-done: 4 fact(s) posted
-
-=== 2026-09-08T21:50:21Z  run 768  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 3 fact slots elapsed since the last post
-state: FT-0663 recorded on main (attempt 1)
-posted fact [FT-0663]: Mexico's Naica Mine holds a chamber of gypsum crystals up to 12 metres
-state: FT-0664 recorded on main (attempt 1)
-posted fact [FT-0664]: New Zealand's Waitomo Caves glow with thousands of bioluminescent glow
-state: FT-0665 recorded on main (attempt 1)
 posted fact [FT-0665]: China's Three Gorges Dam holds so much water that NASA calculates it h
 done: 3 fact(s) posted
 
@@ -397,4 +380,21 @@ posted fact [FT-0772]: Australia is the only continent naturally home to monotre
 state: FT-0773 recorded on main (attempt 1)
 posted fact [FT-0773]: Nearly all of Madagascar's roughly 100 lemur species descend from a si
 done: 5 fact(s) posted
+
+=== 2026-09-14T14:02:23Z  run 802  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 6 fact slots elapsed since the last post
+state: FT-0774 recorded on main (attempt 1)
+posted fact [FT-0774]: The Galápagos marine iguana is the only lizard on Earth known to forag
+state: FT-0775 recorded on main (attempt 1)
+posted fact [FT-0775]: Antarctica's only two native flowering plants survive on an otherwise 
+state: FT-0776 recorded on main (attempt 1)
+posted fact [FT-0776]: Antarctic icefish are the only vertebrates known to lack both red bloo
+state: FT-0777 recorded on main (attempt 1)
+posted fact [FT-0777]: Emperor penguins are the only animal known to breed through the depths
+state: FT-0778 recorded on main (attempt 1)
+posted fact [FT-0778]: Ice flow carries survey markers placed near the geographic South Pole 
+state: FT-0779 recorded on main (attempt 1)
+posted fact [FT-0779]: Point Barrow, Alaska sits farther north than the northernmost tip of R
+done: 6 fact(s) posted
 
