@@ -1,4 +1,11 @@
 {
- "fetched_at": "2026-09-14T16:04:49+00:00",
- "candidates": []
+ "fetched_at": "2026-09-14T19:17:52+00:00",
+ "candidates": [
+  {
+   "trend_name": "Free Palestine",
+   "tweet_count": null,
+   "reason": "country:Palestine",
+   "first_seen": "2026-09-14T19:17:52+00:00"
+  }
+ ]
 }
