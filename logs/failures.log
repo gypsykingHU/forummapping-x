@@ -1,12 +1,3 @@
-posted fact [FT-0654]: The Kingdom of Dahomey, in what is now Benin, maintained an elite corp
-done: 5 fact(s) posted
-
-=== 2026-09-08T10:34:34Z  run 765  status=success
-facts: read 1106 rows from origin/main (authoritative)
-state: FT-0655 recorded on main (attempt 1)
-posted fact [FT-0655]: Aksum's King Ezana adopted Christianity as a state religion in the 4th
-done: 1 fact(s) posted
-
 === 2026-09-08T14:29:32Z  run 766  status=success
 facts: read 1106 rows from origin/main (authoritative)
 catching up: 3 fact slots elapsed since the last post
@@ -396,5 +387,14 @@ state: FT-0765 recorded on main (attempt 1)
 posted fact [FT-0765]: Turkey's Pamukkale, meaning "cotton castle," is a hillside of white tr
 state: FT-0766 recorded on main (attempt 1)
 posted fact [FT-0766]: Australia's Simpson Desert holds sand dunes that run parallel for hund
+done: 2 fact(s) posted
+
+=== 2026-09-14T00:59:54Z  run 800  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 2 fact slots elapsed since the last post
+state: FT-0767 recorded on main (attempt 1)
+posted fact [FT-0767]: Namibia's Dune 7, near Walvis Bay, rises roughly 383 m, making it one 
+state: FT-0768 recorded on main (attempt 1)
+posted fact [FT-0768]: Papua New Guinea covers well under 1% of Earth's land surface, yet its
 done: 2 fact(s) posted
 
