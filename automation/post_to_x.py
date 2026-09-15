@@ -163,7 +163,27 @@ def _pick_within_group(pool_rows):
     return min(varied or eligible, key=last_posted)
 
 
-MAX_STREAK = 4    # hard cap on consecutive same-group posts, see note below
+MAX_STREAK = 4        # hard cap on consecutive same-group posts, kept as a
+                      # safety net alongside the rolling window below
+ROLLING_WINDOW = 20   # how many of the most-recent posts define "the current
+                      # mix" -- see the ROLLING BASIS note in pick_row()
+ROLLING_MIN_SAMPLE = 10   # below this many recent posts, the window is too
+                          # thin to trust -- fall back to lifetime totals
+
+
+def _recent_owid_share(active, window):
+    """The OWID fraction of the `window` most-recently-posted active rows.
+    Each row's last_posted is that row's own most recent posting, and
+    COOLDOWN_DAYS/HARD_MIN_DAYS make a repeat inside a 20-post span rare, so
+    the most-recently-stamped `window` rows are effectively the last `window`
+    real post events, each counted once. Returns (share, sample_size);
+    sample_size lets the caller decide whether to trust it."""
+    posted = sorted((r for r in active if r["last_posted"]),
+                     key=lambda r: r["last_posted"], reverse=True)[:window]
+    if not posted:
+        return None, 0
+    owid_n = sum(1 for r in posted if is_owid(r))
+    return owid_n / len(posted), len(posted)
 
 
 def _recent_streak(active):
@@ -205,21 +225,38 @@ def pick_row(rows):
     deficit/weighted-fair-queueing scheduler, the same idea network switches
     use to split bandwidth proportionally between competing streams.
 
-    That share math converges correctly (confirmed: 515 real posts sit at
-    26.7% OWID against a 27.0% target), but with a library this size one post
-    only moves the cumulative ratio ~0.2 percentage points. Any time the mix
-    drifts even slightly off target -- a bulk import shifting the target,
-    or a run of cooldown-forced fallbacks to one side -- correcting it takes
-    a dozen-plus consecutive same-group posts, because that's what it takes
-    to move a ~500-post denominator. That's not a bug in the math, but it IS
-    a visible monopoly streak on the timeline (confirmed: real history shows
-    a 13-post OWID streak and, earlier, a 30-post original streak, both the
-    scheduler correctly if slowly closing a real gap). Milan's ask was
-    continuous rotation, not eventual convergence, so MAX_STREAK below forces
-    a switch after a few same-group posts regardless of what the share math
-    wants for that one slot -- the deficit scheduler still governs every
-    other pick, so the long-run ratio is unaffected, it just never gets to
-    run more than MAX_STREAK slots in a row before ceding the mic."""
+    ROLLING BASIS (2026-09-15, second pass): that share math converges
+    correctly in aggregate (515 real posts landed at 26.7% OWID against a
+    27.0% target), but it compared against ALL-TIME cumulative totals. With
+    a library this size, one post only moves that ratio ~0.2 percentage
+    points, so any time the mix drifted even slightly off target -- a bulk
+    import shifting the target, or a run of cooldown-forced fallbacks to one
+    side -- correcting it took a dozen-plus consecutive same-group posts,
+    because that's what it takes to move a ~500-post denominator (confirmed:
+    real history shows a 13-post OWID streak and, earlier, a 30-post
+    original streak). A same-day MAX_STREAK cap was added to force a switch
+    after a few same-group posts, but that only chopped the mega-streak into
+    repeating MAX_STREAK-then-1 chunks -- the underlying cumulative math
+    still wanted OWID after that single original post, so it resumed
+    immediately. Net effect over the following day: still ~63% OWID, still
+    visibly OWID-dominated, because a streak cap alone can't fix a metric
+    that's slow to change its mind.
+
+    Fix: stop comparing to ALL-TIME totals and compare to a ROLLING window of
+    the last ROLLING_WINDOW posts instead (see _recent_owid_share). A 500-
+    post lifetime denominator takes a dozen-plus posts to move a couple of
+    points; a 20-post rolling denominator moves 5 points per post, so the mix
+    snaps back toward target within a handful of slots instead of days, and
+    stays close to it continuously rather than only in the long-run
+    aggregate -- which is what "prioritize originals, on a rolling basis"
+    means in practice: whichever group is under-represented in the last
+    ROLLING_WINDOW posts gets this slot, every slot, forever. Falls back to
+    the lifetime-totals calculation when there isn't enough posting history
+    yet (cold start, or a library too young to have ROLLING_MIN_SAMPLE
+    recent posts) so early runs aren't deciding off a handful of noisy
+    samples. MAX_STREAK stays on as a belt-and-suspenders cap -- with the
+    rolling window doing the real work, it should now rarely if ever
+    trigger."""
     active = [r for r in rows if r["status"] == "active" and r["caption"].strip()]
     if not active:
         sys.exit("No active rows in database.")
@@ -233,16 +270,22 @@ def pick_row(rows):
         if not orig_pool:
             return "owid"
         target_owid_share = len(owid_pool) / len(active)
-        owid_posts = sum(int(r["times_posted"] or 0) for r in owid_pool)
-        orig_posts = sum(int(r["times_posted"] or 0) for r in orig_pool)
-        total_posts = owid_posts + orig_posts
-        if total_posts == 0:
-            # bootstrap: nothing posted yet, go with whichever group is larger
-            return "owid" if target_owid_share >= 0.5 else "original"
-        current_owid_share = owid_posts / total_posts
-        # whichever group is furthest under its target share of the library
-        # gets this slot -- pulls the mix back toward proportional over time
-        # regardless of what caused the current skew.
+
+        recent_share, sample_size = _recent_owid_share(active, ROLLING_WINDOW)
+        if recent_share is not None and sample_size >= ROLLING_MIN_SAMPLE:
+            current_owid_share = recent_share
+        else:
+            # cold start / too little history to trust a rolling window --
+            # fall back to the lifetime totals this was originally built on.
+            owid_posts = sum(int(r["times_posted"] or 0) for r in owid_pool)
+            orig_posts = sum(int(r["times_posted"] or 0) for r in orig_pool)
+            total_posts = owid_posts + orig_posts
+            if total_posts == 0:
+                return "owid" if target_owid_share >= 0.5 else "original"
+            current_owid_share = owid_posts / total_posts
+        # whichever group is furthest under its target share gets this slot
+        # -- pulls the mix back toward proportional continuously, since the
+        # comparison itself now looks at recent posts rather than all-time.
         return "owid" if current_owid_share < target_owid_share else "original"
 
     choice = group_choice()
