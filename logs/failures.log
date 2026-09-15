@@ -1,16 +1,3 @@
-
-=== 2026-09-09T22:29:50Z  run 774  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 2 fact slots elapsed since the last post
-state: FT-0686 recorded on main (attempt 1)
-posted fact [FT-0686]: Western Australia's Lake Hillier is a permanent, vivid bubblegum pink,
-state: FT-0687 recorded on main (attempt 1)
-posted fact [FT-0687]: Senegal's Lake Retba turns rose-pink in the dry season thanks to salt-
-done: 2 fact(s) posted
-
-=== 2026-09-10T01:02:11Z  run 775  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 2 fact slots elapsed since the last post
 state: FT-0688 recorded on main (attempt 1)
 posted fact [FT-0688]: Africa's Lake Malawi is home to an estimated 700 to 1,000 species of c
 state: FT-0689 recorded on main (attempt 1)
@@ -397,4 +384,17 @@ posted fact [FT-0798]: Australia holds an estimated third of the world's known u
 state: FT-0799 recorded on main (attempt 1)
 posted fact [FT-0799]: Chile, Argentina and Bolivia's shared salt flats hold such rich lithiu
 done: 5 fact(s) posted, 1 from trending
+
+=== 2026-09-15T18:11:57Z  run 808  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 4 fact slots elapsed since the last post
+state: FT-0800 recorded on main (attempt 1)
+posted fact [FT-0800]: Decades of phosphate mining stripped from its own guano deposits left 
+state: FT-0801 recorded on main (attempt 1)
+posted fact [FT-0801]: Iceland sits directly atop the Mid-Atlantic Ridge, one of the only pla
+state: FT-0802 recorded on main (attempt 1)
+posted fact [FT-0802]: Kenya's Lake Turkana is the world's largest permanent desert lake, sit
+state: FT-0803 recorded on main (attempt 1)
+posted fact [FT-0803]: Brazil's Carajás mining complex sits atop one of the largest iron ore 
+done: 4 fact(s) posted
 
