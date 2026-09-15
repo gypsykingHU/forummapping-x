@@ -1,17 +1,11 @@
 {
- "fetched_at": "2026-09-15T00:06:06+00:00",
+ "fetched_at": "2026-09-15T07:00:38+00:00",
  "candidates": [
   {
-   "trend_name": "JOSSGAWIN OFDO IN BRAZIL",
+   "trend_name": "Pemulihan Kondisi Indonesia",
    "tweet_count": null,
-   "reason": "country:Brazil",
-   "first_seen": "2026-09-15T00:06:06+00:00"
-  },
-  {
-   "trend_name": "AOUBOOM X OFDO BRAZIL",
-   "tweet_count": null,
-   "reason": "country:Brazil",
-   "first_seen": "2026-09-15T00:06:06+00:00"
+   "reason": "country:Indonesia",
+   "first_seen": "2026-09-15T07:00:38+00:00"
   }
  ]
 }
