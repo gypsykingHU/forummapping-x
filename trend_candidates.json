@@ -1,4 +1,11 @@
 {
- "fetched_at": "2026-09-15T20:41:47+00:00",
- "candidates": []
+ "fetched_at": "2026-09-15T23:51:26+00:00",
+ "candidates": [
+  {
+   "trend_name": "Palestine",
+   "tweet_count": null,
+   "reason": "country:Palestine",
+   "first_seen": "2026-09-15T23:51:26+00:00"
+  }
+ ]
 }
