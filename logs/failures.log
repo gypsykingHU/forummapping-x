@@ -1,20 +1,3 @@
-posted fact [FT-0675]: Congo's Nyiragongo volcano holds one of Earth's few persistent lava la
-state: FT-0676 recorded on main (attempt 1)
-posted fact [FT-0676]: Ethiopia's Erta Ale volcano has hosted a nearly continuous lava lake s
-state: FT-0677 recorded on main (attempt 1)
-posted fact [FT-0677]: Italy's Stromboli volcano has erupted in small bursts every 10 to 20 m
-done: 5 fact(s) posted
-
-=== 2026-09-09T16:38:41Z  run 772  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 5 fact slots elapsed since the last post
-state: FT-0678 recorded on main (attempt 1)
-posted fact [FT-0678]: A vent on Hawaii's Kilauea, Puʻu ʻŌʻō, erupted almost continuously fro
-state: FT-0679 recorded on main (attempt 1)
-posted fact [FT-0679]: Antarctica's Mount Erebus is one of the only volcanoes on Earth with a
-state: FT-0680 recorded on main (attempt 1)
-posted fact [FT-0680]: Straddling Chile and Argentina, Ojos del Salado rises to roughly 6,893
-state: FT-0681 recorded on main (attempt 1)
 posted fact [FT-0681]: Yellowstone's caldera, carved out by a supereruption 640,000 years ago
 state: FT-0682 recorded on main (attempt 1)
 posted fact [FT-0682]: Sumatra's Lake Toba fills the crater of a supervolcano that erupted an
@@ -397,4 +380,21 @@ posted fact [FT-0788]: Unlike most rivers that flow toward warmer latitudes, the
 state: FT-0789 recorded on main (attempt 1)
 posted fact [FT-0789]: The Zambezi's roughly 2,700 km course to the Indian Ocean includes mor
 done: 2 fact(s) posted
+
+=== 2026-09-15T07:45:51Z  run 806  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 6 fact slots elapsed since the last post
+state: FT-0790 recorded on main (attempt 1)
+posted fact [FT-0790]: Papua New Guinea's Sepik River winds so extensively through swampy low
+state: FT-0791 recorded on main (attempt 1)
+posted fact [FT-0791]: Siberia's Ob River system drains an area larger than India into the Ar
+state: FT-0792 recorded on main (attempt 1)
+posted fact [FT-0792]: China's Yellow River carries so much silt that its delta has gained an
+state: FT-0793 recorded on main (attempt 1)
+posted fact [FT-0793]: South Sudan's Sudd wetland, formed where the White Nile spreads across
+state: FT-0794 recorded on main (attempt 1)
+posted fact [FT-0794]: Brazil's Pantanal is the largest tropical wetland on Earth, covering a
+state: FT-0795 recorded on main (attempt 1)
+posted fact [FT-0795]: Florida's Everglades is technically a slow-moving river some 100 km wi
+done: 6 fact(s) posted
 
