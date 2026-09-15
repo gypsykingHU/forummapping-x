@@ -1,4 +1,17 @@
 {
- "fetched_at": "2026-09-14T21:13:33+00:00",
- "candidates": []
+ "fetched_at": "2026-09-15T00:06:06+00:00",
+ "candidates": [
+  {
+   "trend_name": "JOSSGAWIN OFDO IN BRAZIL",
+   "tweet_count": null,
+   "reason": "country:Brazil",
+   "first_seen": "2026-09-15T00:06:06+00:00"
+  },
+  {
+   "trend_name": "AOUBOOM X OFDO BRAZIL",
+   "tweet_count": null,
+   "reason": "country:Brazil",
+   "first_seen": "2026-09-15T00:06:06+00:00"
+  }
+ ]
 }
