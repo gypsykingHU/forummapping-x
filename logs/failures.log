@@ -1,14 +1,3 @@
-state: FT-0707 recorded on main (attempt 1)
-posted fact [FT-0707]: Namibia's Namib Desert is thought to be the oldest desert on Earth, wi
-done: 2 fact(s) posted
-
-=== 2026-09-11T05:56:46Z  run 782  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 4 fact slots elapsed since the last post
-state: FT-0708 recorded on main (attempt 1)
-posted fact [FT-0708]: Arabia's Rub' al Khali, or Empty Quarter, is the largest continuous sa
-state: FT-0709 recorded on main (attempt 1)
-posted fact [FT-0709]: Mongolia's Gobi Desert gets cold enough to snow in winter and has yiel
 state: FT-0710 recorded on main (attempt 1)
 posted fact [FT-0710]: Shifting dunes in China's Taklamakan Desert have swallowed entire anci
 state: FT-0711 recorded on main (attempt 1)
@@ -397,4 +386,15 @@ posted fact [FT-0823]: More people of Lebanese descent are estimated to live out
 state: FT-0824 recorded on main (attempt 1)
 posted fact [FT-0824]: Armenia's diaspora is estimated to be several times larger than Armeni
 done: 4 fact(s) posted
+
+=== 2026-09-16T22:07:32Z  run 814  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 3 fact slots elapsed since the last post
+state: FT-0825 recorded on main (attempt 1)
+posted fact [FT-0825]: Ireland's diaspora is estimated at tens of millions worldwide, a figur
+state: FT-0826 recorded on main (attempt 1)
+posted fact [FT-0826]: Qatar and the UAE draw so much of their labor force from South Asia th
+state: FT-0827 recorded on main (attempt 1)
+posted fact [FT-0827]: Britain's 1948-1971 "Windrush generation" brought tens of thousands of
+done: 3 fact(s) posted
 
