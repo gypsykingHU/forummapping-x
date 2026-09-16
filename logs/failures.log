@@ -1,14 +1,3 @@
-state: FT-0691 recorded on main (attempt 1)
-posted fact [FT-0691]: Lake Chad has shrunk by more than 90% since the 1960s, squeezed by dro
-state: FT-0692 recorded on main (attempt 1)
-posted fact [FT-0692]: Antarctica's Lake Vanda stays sealed under ice all year, yet its botto
-state: FT-0693 recorded on main (attempt 1)
-posted fact [FT-0693]: Ethiopia's Danakil Depression averages annual highs above 41°C, making
-done: 4 fact(s) posted
-
-=== 2026-09-10T11:15:51Z  run 777  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 5 fact slots elapsed since the last post
 state: FT-0694 recorded on main (attempt 1)
 posted fact [FT-0694]: A hailstone that fell near Vivian, South Dakota in 2010 measured about
 state: FT-0695 recorded on main (attempt 1)
@@ -396,5 +385,16 @@ state: FT-0805 recorded on main (attempt 1)
 posted fact [FT-0805]: Australia's Pilbara region supplies more than half the world's seaborn
 state: FT-0806 recorded on main (attempt 1)
 posted fact [FT-0806]: Canada's Hudson Bay Lowlands form the world's second-largest peatland 
+done: 3 fact(s) posted
+
+=== 2026-09-16T01:23:47Z  run 810  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 3 fact slots elapsed since the last post
+state: FT-0807 recorded on main (attempt 1)
+posted fact [FT-0807]: India overtook China as the world's most populous country in 2023; by 
+state: FT-0808 recorded on main (attempt 1)
+posted fact [FT-0808]: Monaco's median age is around 55, the oldest of any country on Earth. 
+state: FT-0809 recorded on main (attempt 1)
+posted fact [FT-0809]: Bulgaria's population has been shrinking faster than almost any other 
 done: 3 fact(s) posted
 
