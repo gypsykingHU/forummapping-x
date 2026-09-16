@@ -1,20 +1,3 @@
-state: FT-0694 recorded on main (attempt 1)
-posted fact [FT-0694]: A hailstone that fell near Vivian, South Dakota in 2010 measured about
-state: FT-0695 recorded on main (attempt 1)
-posted fact [FT-0695]: Washington's Mount Baker Ski Area logged 1,140 inches, about 29 metres
-state: FT-0696 recorded on main (attempt 1)
-posted fact [FT-0696]: A lightning bolt recorded over Texas, Louisiana and Mississippi in Apr
-state: FT-0697 recorded on main (attempt 1)
-posted fact [FT-0697]: A storm over Uruguay and Argentina in June 2020 produced a single ligh
-state: FT-0698 recorded on main (attempt 1)
-posted fact [FT-0698]: Venezuela's Lake Maracaibo sees so-called Catatumbo lightning on an es
-done: 5 fact(s) posted
-
-=== 2026-09-10T16:20:18Z  run 778  status=failure
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 5 fact slots elapsed since the last post
-state: FT-0699 recorded on main (attempt 1)
-posted fact [FT-0699]: The Amazon River has no bridges anywhere along its roughly 6,400 km le
 state: FT-0700 recorded on main (attempt 1)
 X API error 503: {"detail":"Service Unavailable","status":503,"title":"Service Unavailable","type":"about:blank"}
 
@@ -397,4 +380,21 @@ posted fact [FT-0808]: Monaco's median age is around 55, the oldest of any count
 state: FT-0809 recorded on main (attempt 1)
 posted fact [FT-0809]: Bulgaria's population has been shrinking faster than almost any other 
 done: 3 fact(s) posted
+
+=== 2026-09-16T07:44:40Z  run 811  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 6 fact slots elapsed since the last post
+state: FT-0810 recorded on main (attempt 1)
+posted fact [FT-0810]: China's one-child policy, enforced from 1980 to 2015, is estimated to 
+state: FT-0811 recorded on main (attempt 1)
+posted fact [FT-0811]: Israel's fertility rate, near 3 births per woman, is the highest in th
+state: FT-0812 recorded on main (attempt 1)
+posted fact [FT-0812]: The United Arab Emirates' population is estimated to be roughly 90% fo
+state: FT-0813 recorded on main (attempt 1)
+posted fact [FT-0813]: Around 2018, people aged 65 and older outnumbered children under 5 wor
+state: FT-0814 recorded on main (attempt 1)
+posted fact [FT-0814]: Puerto Rico's population has fallen by more than 10% since 2010 throug
+state: FT-0815 recorded on main (attempt 1)
+posted fact [FT-0815]: Italy's population has shrunk every year since 2014; without sustained
+done: 6 fact(s) posted
 
