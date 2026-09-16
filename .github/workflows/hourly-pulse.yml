@@ -61,14 +61,14 @@ jobs:
           git config user.name "forummapping-bot"
           git config user.email "forummapping-bot@users.noreply.github.com"
           mkdir -p state
-          # facts.csv and trending_facts.csv are NOT committed here any more.
-          # post_fact.py writes each claim straight to origin/main through the
-          # Contents API before the post goes out, so the record no longer
-          # depends on this step succeeding. This step now carries logs only —
-          # if it fails, we lose a log line, never a posting record. Discarding
-          # the local diff also stops a stale checkout from clobbering a claim
-          # that was already written to origin/main mid-run.
-          git checkout -- facts.csv trending_facts.csv 2>/dev/null || true
+          # facts.csv is NOT committed here any more. post_fact.py writes each
+          # claim straight to origin/main through the Contents API before the
+          # post goes out, so the record no longer depends on this step
+          # succeeding. This step now carries logs only — if it fails, we
+          # lose a log line, never a posting record. Discarding the local
+          # diff also stops a stale checkout from clobbering a claim that
+          # was already written to origin/main mid-run.
+          git checkout -- facts.csv 2>/dev/null || true
           git add state/ logs/ || true
           git commit -m "logs $(date -u +%F_%H:%M)" || echo "nothing to commit"
           # three attempts, then give up quietly — the next run carries the state.

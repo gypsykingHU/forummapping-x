@@ -13,7 +13,6 @@ import state_store
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FACTS = os.path.join(REPO, "facts.csv")
-TRENDING = os.path.join(REPO, "trending_facts.csv")
 CREATE_POST = "https://api.x.com/2/tweets"
 COOLDOWN_DAYS = 45        # preferred gap before a fact may reappear
 SPACING_SECONDS = 90      # catch-up gap. Kept short on purpose: a long-running job holds
@@ -103,21 +102,6 @@ def load_facts():
         return list(reader), reader.fieldnames
 
 
-def load_trending():
-    """Same remote-first pattern as load_facts(). Missing/empty file is fine —
-    trending_facts.csv only has rows when forummapping-trend-fact-writer found
-    something worth writing; most cycles it's empty and that's expected."""
-    if state_store.available():
-        remote = state_store.read_csv("trending_facts.csv")
-        if remote:
-            return remote
-    if not os.path.exists(TRENDING):
-        return [], None
-    with open(TRENDING, newline="", encoding="utf-8") as f:
-        reader = csv.DictReader(f)
-        return list(reader), reader.fieldnames
-
-
 def main():
     # pulse runs hourly and every hour is now a fact hour (24/day)
     rows, fieldnames = load_facts()
@@ -128,22 +112,10 @@ def main():
     n = 1 if "--dry-run" in sys.argv else slots_missed(rows)
     if n > 1:
         print(f"catching up: {n} fact slots elapsed since the last post")
-    posted = skipped_dupes = trending_posted = 0
+    posted = skipped_dupes = 0
     for i in range(n):
         if i:
             time.sleep(SPACING_SECONDS)
-        # Trending facts get first look at every slot -- a Wikipedia-verified
-        # fact tied to something live on X right now is more valuable than the
-        # next oldest row in the evergreen bank, but only while it's still
-        # fresh (see post_trending_one's expiry check).
-        try:
-            trend_result = post_trending_one()
-        except DuplicatePost:
-            trend_result = "posted"   # claim already saved; treat this slot as used
-        if trend_result == "posted":
-            trending_posted += 1
-            posted += 1
-            continue
         try:
             if not post_one(rows, fieldnames):
                 break
@@ -156,68 +128,7 @@ def main():
             continue
         posted += 1
     extra = f", {skipped_dupes} skipped as duplicates" if skipped_dupes else ""
-    trend_note = f", {trending_posted} from trending" if trending_posted else ""
-    print(f"done: {posted} fact(s) posted{trend_note}{extra}")
-
-
-def post_trending_one():
-    """Check trending_facts.csv for something unposted and not yet expired.
-    Returns "posted" if one went out. Returns None otherwise -- whether that's
-    because the file is empty, everything in it was already posted, or the
-    only unposted rows aged past their 2-day window (logged either way) -- the
-    caller's response is the same in all those cases: fall through to the
-    normal evergreen bank for this slot."""
-    rows, fieldnames = load_trending()
-    if not rows:
-        return None
-
-    now = datetime.datetime.now(datetime.timezone.utc)
-
-    def parse(ts):
-        try:
-            dt = datetime.datetime.fromisoformat(ts)
-            return dt if dt.tzinfo else dt.replace(tzinfo=datetime.timezone.utc)
-        except (ValueError, TypeError):
-            return None
-
-    unposted = [r for r in rows if int(r.get("times_posted") or 0) == 0]
-    live, expired = [], []
-    for r in unposted:
-        (live if (parse(r.get("expires_at")) or now) > now else expired).append(r)
-    if expired:
-        names = ", ".join(r.get("fact_id", "?") for r in expired)
-        print(f"trending: {len(expired)} candidate(s) aged out past their 2-day "
-              f"window without posting, left as-is: {names}")
-    if not live:
-        return None
-
-    # Most urgent (soonest to expire) first -- that's the one most likely to
-    # otherwise be wasted if this run doesn't take it.
-    row = min(live, key=lambda r: parse(r["expires_at"]) or now)
-    text = row["text"]
-    if len(text) > 280:
-        text = text[:277] + "…"
-    fid = row["fact_id"]
-    source = row.get("source_trend", "?")
-
-    if "--dry-run" in sys.argv:
-        print(f"WOULD POST TRENDING FACT: [{fid}] (trend: {source}) {text}")
-        return None
-
-    claim = {
-        "times_posted": "1",
-        "last_posted": now.isoformat(timespec="seconds"),
-    }
-    if not state_store.update_csv_row(
-            "trending_facts.csv", "fact_id", fid, claim,
-            f"claim: trending {datetime.date.today().isoformat()}"):
-        print(f"trending: could not record the claim on {fid}, skipping this slot "
-              f"rather than risk posting without a record.")
-        return None
-
-    x_post(oauth(), CREATE_POST, json={"text": text})
-    print(f"posted trending fact [{fid}] (trend: {source}): {text[:70]}")
-    return "posted"
+    print(f"done: {posted} fact(s) posted{extra}")
 
 
 def post_one(rows, fieldnames):
