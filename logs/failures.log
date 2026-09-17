@@ -1,12 +1,3 @@
-state: FT-0710 recorded on main (attempt 1)
-posted fact [FT-0710]: Shifting dunes in China's Taklamakan Desert have swallowed entire anci
-state: FT-0711 recorded on main (attempt 1)
-posted fact [FT-0711]: Antarctica's McMurdo Dry Valleys are so parched that some soils there 
-done: 4 fact(s) posted
-
-=== 2026-09-11T11:16:14Z  run 783  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 5 fact slots elapsed since the last post
 state: FT-0712 recorded on main (attempt 1)
 posted fact [FT-0712]: New Zealand's landmass is just the visible tip of Zealandia, a mostly 
 state: FT-0713 recorded on main (attempt 1)
@@ -397,4 +388,13 @@ posted fact [FT-0826]: Qatar and the UAE draw so much of their labor force from 
 state: FT-0827 recorded on main (attempt 1)
 posted fact [FT-0827]: Britain's 1948-1971 "Windrush generation" brought tens of thousands of
 done: 3 fact(s) posted
+
+=== 2026-09-17T00:28:08Z  run 815  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 2 fact slots elapsed since the last post
+state: FT-0828 recorded on main (attempt 1)
+posted fact [FT-0828]: The US-Mexico corridor is one of the largest remittance routes on Eart
+state: FT-0829 recorded on main (attempt 1)
+posted fact [FT-0829]: Europe saw over a million asylum applications in a single year at leas
+done: 2 fact(s) posted
 
