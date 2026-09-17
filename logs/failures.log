@@ -1,14 +1,3 @@
-=== 2026-09-12T05:48:11Z  run 788  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 4 fact slots elapsed since the last post
-state: FT-0729 recorded on main (attempt 1)
-posted fact [FT-0729]: Mangroves are among the only trees able to survive rooted in saltwater
-state: FT-0730 recorded on main (attempt 1)
-posted fact [FT-0730]: Permafrost underlies roughly a quarter of the land in the Northern Hem
-state: FT-0731 recorded on main (attempt 1)
-posted fact [FT-0731]: The Denmark Strait cataract, an underwater waterfall formed where cold
-state: FT-0732 recorded on main (attempt 1)
-posted fact [FT-0732]: South Africa's Agulhas Current can generate rogue waves so steep that 
 done: 4 fact(s) posted
 
 === 2026-09-12T10:42:58Z  run 789  status=success
@@ -396,5 +385,16 @@ state: FT-0846 recorded on main (attempt 1)
 posted fact [FT-0846]: There are more than 300 distinct sign languages in use worldwide — the
 state: FT-0847 recorded on main (attempt 1)
 posted fact [FT-0847]: English is estimated to have borrowed roughly 80% of its vocabulary fr
+done: 3 fact(s) posted
+
+=== 2026-09-17T23:33:54Z  run 820  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 3 fact slots elapsed since the last post
+state: FT-0848 recorded on main (attempt 1)
+posted fact [FT-0848]: Louis Braille invented his raised-dot reading system in the 1820s at a
+state: FT-0849 recorded on main (attempt 1)
+posted fact [FT-0849]: Cyrillic script, developed in the 9th century, is now used to write mo
+state: FT-0850 recorded on main (attempt 1)
+posted fact [FT-0850]: Silbo Gomero, a whistled language used on Spain's La Gomera island, ca
 done: 3 fact(s) posted
 
