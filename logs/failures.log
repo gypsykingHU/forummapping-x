@@ -1,18 +1,3 @@
-state: FT-0722 recorded on main (attempt 1)
-posted fact [FT-0722]: The boreal forest, or taiga, stretching across Russia, Scandinavia and
-state: FT-0723 recorded on main (attempt 1)
-posted fact [FT-0723]: Australia's Daintree Rainforest is estimated to be around 180 million 
-state: FT-0724 recorded on main (attempt 1)
-posted fact [FT-0724]: Roughly 1.2 to 2 million wildebeest migrate in a continuous loop acros
-done: 3 fact(s) posted
-
-=== 2026-09-11T22:31:03Z  run 786  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 2 fact slots elapsed since the last post
-state: FT-0725 recorded on main (attempt 1)
-posted fact [FT-0725]: Arctic terns fly an estimated 70,000 km round trip between the Arctic 
-state: FT-0726 recorded on main (attempt 1)
-posted fact [FT-0726]: In 2022, satellite tracking showed a bar-tailed godwit flying 13,560 k
 done: 2 fact(s) posted
 
 === 2026-09-12T01:04:53Z  run 787  status=success
@@ -396,5 +381,20 @@ state: FT-0838 recorded on main (attempt 1)
 posted fact [FT-0838]: Singapore has expanded its land area by roughly a quarter since indepe
 state: FT-0839 recorded on main (attempt 1)
 posted fact [FT-0839]: Residency in Pyongyang is tightly restricted by the North Korean state
+done: 5 fact(s) posted
+
+=== 2026-09-17T16:58:17Z  run 818  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 5 fact slots elapsed since the last post
+state: FT-0840 recorded on main (attempt 1)
+posted fact [FT-0840]: Detroit's population has fallen by more than half since its 1950s peak
+state: FT-0841 recorded on main (attempt 1)
+posted fact [FT-0841]: The number of "megacities" with over 10 million people has grown from 
+state: FT-0842 recorded on main (attempt 1)
+posted fact [FT-0842]: Mumbai's Dharavi packs an estimated 1 million or more residents into r
+state: FT-0843 recorded on main (attempt 1)
+posted fact [FT-0843]: Brasília was built from nothing in under four years and became Brazil'
+state: FT-0844 recorded on main (attempt 1)
+posted fact [FT-0844]: Nearly 40% of Egypt's population is squeezed into greater Cairo and th
 done: 5 fact(s) posted
 
