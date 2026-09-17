@@ -1,18 +1,3 @@
-state: FT-0717 recorded on main (attempt 1)
-posted fact [FT-0717]: Ellesmere Island lies so far north its coasts brush the Arctic Ocean's
-state: FT-0718 recorded on main (attempt 1)
-posted fact [FT-0718]: Japan's Iwo Jima has risen several metres out of the Pacific over the 
-state: FT-0719 recorded on main (attempt 1)
-posted fact [FT-0719]: The Wallace Line, an invisible boundary running through the Indonesian
-state: FT-0720 recorded on main (attempt 1)
-posted fact [FT-0720]: Isolation drove Galápagos finches on different islands to evolve disti
-state: FT-0721 recorded on main (attempt 1)
-posted fact [FT-0721]: Baobab trees grow wild in Africa, Madagascar and Australia — continent
-done: 5 fact(s) posted
-
-=== 2026-09-11T19:38:58Z  run 785  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 3 fact slots elapsed since the last post
 state: FT-0722 recorded on main (attempt 1)
 posted fact [FT-0722]: The boreal forest, or taiga, stretching across Russia, Scandinavia and
 state: FT-0723 recorded on main (attempt 1)
@@ -396,5 +381,20 @@ state: FT-0833 recorded on main (attempt 1)
 posted fact [FT-0833]: Japan, long closed to large-scale immigration, has quietly become one 
 state: FT-0834 recorded on main (attempt 1)
 posted fact [FT-0834]: Lagos has grown from roughly 1 million people in 1970 to an estimated 
+done: 5 fact(s) posted
+
+=== 2026-09-17T11:40:37Z  run 817  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 5 fact slots elapsed since the last post
+state: FT-0835 recorded on main (attempt 1)
+posted fact [FT-0835]: Shenzhen was a fishing town of about 30,000 people in 1980. Designated
+state: FT-0836 recorded on main (attempt 1)
+posted fact [FT-0836]: Delhi's metro area is growing so fast the UN projects it could become 
+state: FT-0837 recorded on main (attempt 1)
+posted fact [FT-0837]: An estimated 1 billion people worldwide live in informal settlements o
+state: FT-0838 recorded on main (attempt 1)
+posted fact [FT-0838]: Singapore has expanded its land area by roughly a quarter since indepe
+state: FT-0839 recorded on main (attempt 1)
+posted fact [FT-0839]: Residency in Pyongyang is tightly restricted by the North Korean state
 done: 5 fact(s) posted
 
