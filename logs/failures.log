@@ -1,14 +1,3 @@
-done: 2 fact(s) posted
-
-=== 2026-09-12T01:04:53Z  run 787  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 2 fact slots elapsed since the last post
-state: FT-0727 recorded on main (attempt 1)
-posted fact [FT-0727]: Monarch butterflies that have never made the trip before still navigat
-state: FT-0728 recorded on main (attempt 1)
-posted fact [FT-0728]: Lake Baikal is home to the nerpa, the world's only exclusively freshwa
-done: 2 fact(s) posted
-
 === 2026-09-12T05:48:11Z  run 788  status=success
 facts: read 1106 rows from origin/main (authoritative)
 catching up: 4 fact slots elapsed since the last post
@@ -397,4 +386,15 @@ posted fact [FT-0843]: Brasília was built from nothing in under four years and 
 state: FT-0844 recorded on main (attempt 1)
 posted fact [FT-0844]: Nearly 40% of Egypt's population is squeezed into greater Cairo and th
 done: 5 fact(s) posted
+
+=== 2026-09-17T20:16:08Z  run 819  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 3 fact slots elapsed since the last post
+state: FT-0845 recorded on main (attempt 1)
+posted fact [FT-0845]: Ho Chi Minh City's population has roughly quadrupled since Vietnam's p
+state: FT-0846 recorded on main (attempt 1)
+posted fact [FT-0846]: There are more than 300 distinct sign languages in use worldwide — the
+state: FT-0847 recorded on main (attempt 1)
+posted fact [FT-0847]: English is estimated to have borrowed roughly 80% of its vocabulary fr
+done: 3 fact(s) posted
 
