@@ -1,18 +1,5 @@
 done: 4 fact(s) posted
 
-=== 2026-09-12T10:42:58Z  run 789  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 4 fact slots elapsed since the last post
-state: FT-0733 recorded on main (attempt 1)
-posted fact [FT-0733]: The 1995 "Draupner wave," a 25.6 m rogue wave recorded in the North Se
-state: FT-0734 recorded on main (attempt 1)
-posted fact [FT-0734]: Cold, nutrient-rich water from the Humboldt Current makes the seas off
-state: FT-0735 recorded on main (attempt 1)
-posted fact [FT-0735]: Deep-sea "black smokers," hydrothermal vents first found in 1977, host
-state: FT-0736 recorded on main (attempt 1)
-posted fact [FT-0736]: Giant kelp can grow up to 60 cm in a single day, making it one of the 
-done: 4 fact(s) posted
-
 === 2026-09-12T14:05:05Z  run 790  status=success
 facts: read 1106 rows from origin/main (authoritative)
 catching up: 3 fact slots elapsed since the last post
@@ -397,4 +384,17 @@ posted fact [FT-0849]: Cyrillic script, developed in the 9th century, is now use
 state: FT-0850 recorded on main (attempt 1)
 posted fact [FT-0850]: Silbo Gomero, a whistled language used on Spain's La Gomera island, ca
 done: 3 fact(s) posted
+
+=== 2026-09-18T04:37:37Z  run 821  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 4 fact slots elapsed since the last post
+state: FT-0851 recorded on main (attempt 1)
+posted fact [FT-0851]: Duolingo reports several hundred million registered users worldwide, m
+state: FT-0852 recorded on main (attempt 1)
+posted fact [FT-0852]: Literate adults need to recognize roughly 3,000 to 4,000 Chinese chara
+state: FT-0853 recorded on main (attempt 1)
+posted fact [FT-0853]: Esperanto, invented in 1887 to be a universal second language, is esti
+state: FT-0854 recorded on main (attempt 1)
+posted fact [FT-0854]: Speakers of Spanish, Italian and Portuguese share enough vocabulary th
+done: 4 fact(s) posted
 
