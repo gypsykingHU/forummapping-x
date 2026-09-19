@@ -1,12 +1,3 @@
-posted fact [FT-0768]: Papua New Guinea covers well under 1% of Earth's land surface, yet its
-done: 2 fact(s) posted
-
-=== 2026-09-14T06:13:46Z  run 801  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 5 fact slots elapsed since the last post
-state: FT-0769 recorded on main (attempt 1)
-posted fact [FT-0769]: The Democratic Republic of Congo's rainforest is the second-largest co
-state: FT-0770 recorded on main (attempt 1)
 posted fact [FT-0770]: Borneo's rainforests, in continuous existence for over 100 million yea
 state: FT-0771 recorded on main (attempt 1)
 posted fact [FT-0771]: New Zealand had no native land mammals besides bats before humans arri
@@ -396,5 +387,14 @@ state: FT-0887 recorded on main (attempt 1)
 posted fact [FT-0887]: An estimated 730 million people worldwide still lacked access to elect
 state: FT-0888 recorded on main (attempt 1)
 posted fact [FT-0888]: China's Three Gorges Dam generates more electricity in a year than som
+done: 2 fact(s) posted
+
+=== 2026-09-19T22:56:45Z  run 832  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 2 fact slots elapsed since the last post
+state: FT-0889 recorded on main (attempt 1)
+posted fact [FT-0889]: Rare earth elements essential to electronics and green technology are 
+state: FT-0890 recorded on main (attempt 1)
+posted fact [FT-0890]: The Öresund link between Denmark and Sweden, opened in 2000, was among
 done: 2 fact(s) posted
 
