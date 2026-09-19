@@ -1,12 +1,3 @@
-posted fact [FT-0766]: Australia's Simpson Desert holds sand dunes that run parallel for hund
-done: 2 fact(s) posted
-
-=== 2026-09-14T00:59:54Z  run 800  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 2 fact slots elapsed since the last post
-state: FT-0767 recorded on main (attempt 1)
-posted fact [FT-0767]: Namibia's Dune 7, near Walvis Bay, rises roughly 383 m, making it one 
-state: FT-0768 recorded on main (attempt 1)
 posted fact [FT-0768]: Papua New Guinea covers well under 1% of Earth's land surface, yet its
 done: 2 fact(s) posted
 
@@ -397,4 +388,13 @@ posted fact [FT-0885]: Roughly 1.3 million kilometres of undersea fiber-optic ca
 state: FT-0886 recorded on main (attempt 1)
 posted fact [FT-0886]: China's high-speed rail network grew from almost nothing in 2008 to ov
 done: 3 fact(s) posted
+
+=== 2026-09-19T20:34:02Z  run 831  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 2 fact slots elapsed since the last post
+state: FT-0887 recorded on main (attempt 1)
+posted fact [FT-0887]: An estimated 730 million people worldwide still lacked access to elect
+state: FT-0888 recorded on main (attempt 1)
+posted fact [FT-0888]: China's Three Gorges Dam generates more electricity in a year than som
+done: 2 fact(s) posted
 
