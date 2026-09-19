@@ -1,18 +1,3 @@
-posted fact [FT-0751]: Chile holds roughly a quarter of the world's known copper reserves and
-state: FT-0752 recorded on main (attempt 1)
-posted fact [FT-0752]: Saudi Arabia's Ghawar Field, discovered in 1948, is the largest conven
-done: 5 fact(s) posted
-
-=== 2026-09-13T11:47:18Z  run 796  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 5 fact slots elapsed since the last post
-state: FT-0753 recorded on main (attempt 1)
-posted fact [FT-0753]: The Ogallala Aquifer stretches beneath eight US Great Plains states an
-state: FT-0754 recorded on main (attempt 1)
-posted fact [FT-0754]: Tanzania's Ol Doinyo Lengai is the only volcano on Earth known to erup
-state: FT-0755 recorded on main (attempt 1)
-posted fact [FT-0755]: Venezuela's Mount Roraima is a flat-topped tepui with sheer cliffs up 
-state: FT-0756 recorded on main (attempt 1)
 posted fact [FT-0756]: Table Mountain in Cape Town is estimated at around 260 million years o
 state: FT-0757 recorded on main (attempt 1)
 posted fact [FT-0757]: Indonesia's Puncak Jaya carries small equatorial glaciers above 4,800 
@@ -397,4 +382,19 @@ posted fact [FT-0870]: The Amish population in the United States has roughly dou
 state: FT-0871 recorded on main (attempt 1)
 posted fact [FT-0871]: El Salvador made bitcoin legal tender in 2021, then reversed the manda
 done: 2 fact(s) posted
+
+=== 2026-09-19T05:51:17Z  run 827  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 5 fact slots elapsed since the last post
+state: FT-0872 recorded on main (attempt 1)
+posted fact [FT-0872]: The Hong Kong dollar has been pegged at roughly 7.8 to the US dollar s
+state: FT-0873 recorded on main (attempt 1)
+posted fact [FT-0873]: Zimbabwe introduced its sixth new currency in 15 years in April 2024, 
+state: FT-0874 recorded on main (attempt 1)
+posted fact [FT-0874]: Fourteen African countries still use the CFA franc, a currency pegged 
+state: FT-0875 recorded on main (attempt 1)
+posted fact [FT-0875]: The United States holds the world's largest official gold reserves, at
+state: FT-0876 recorded on main (attempt 1)
+posted fact [FT-0876]: Japan's public debt runs to roughly 235% of GDP, among the highest of 
+done: 5 fact(s) posted
 
