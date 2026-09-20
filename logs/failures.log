@@ -1,12 +1,3 @@
-posted fact [FT-0770]: Borneo's rainforests, in continuous existence for over 100 million yea
-state: FT-0771 recorded on main (attempt 1)
-posted fact [FT-0771]: New Zealand had no native land mammals besides bats before humans arri
-state: FT-0772 recorded on main (attempt 1)
-posted fact [FT-0772]: Australia is the only continent naturally home to monotremes, the egg-
-state: FT-0773 recorded on main (attempt 1)
-posted fact [FT-0773]: Nearly all of Madagascar's roughly 100 lemur species descend from a si
-done: 5 fact(s) posted
-
 === 2026-09-14T14:02:23Z  run 802  status=success
 facts: read 1106 rows from origin/main (authoritative)
 catching up: 6 fact slots elapsed since the last post
@@ -396,5 +387,14 @@ state: FT-0889 recorded on main (attempt 1)
 posted fact [FT-0889]: Rare earth elements essential to electronics and green technology are 
 state: FT-0890 recorded on main (attempt 1)
 posted fact [FT-0890]: The Öresund link between Denmark and Sweden, opened in 2000, was among
+done: 2 fact(s) posted
+
+=== 2026-09-20T01:01:41Z  run 833  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 2 fact slots elapsed since the last post
+state: FT-0891 recorded on main (attempt 1)
+posted fact [FT-0891]: Continental Europe runs one of the largest synchronized electricity gr
+state: FT-0892 recorded on main (attempt 1)
+posted fact [FT-0892]: India's state railway employs well over a million people directly, mak
 done: 2 fact(s) posted
 
