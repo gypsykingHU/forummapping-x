@@ -1,20 +1,3 @@
-done: 6 fact(s) posted
-
-=== 2026-09-14T19:23:07Z  run 803  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 5 fact slots elapsed since the last post
-state: FT-0780 recorded on main (attempt 1)
-posted fact [FT-0780]: Argentina's Ushuaia, often billed the world's southernmost city, still
-state: FT-0781 recorded on main (attempt 1)
-posted fact [FT-0781]: Svalbard's Longyearbyen, one of the world's northernmost towns, goes w
-state: FT-0782 recorded on main (attempt 1)
-posted fact [FT-0782]: Chile's Villa Las Estrellas and Argentina's Base Esperanza are among t
-state: FT-0783 recorded on main (attempt 1)
-posted fact [FT-0783]: Nunavut's Alert sits just 817 km from the North Pole, making it the no
-state: FT-0784 recorded on main (attempt 1)
-posted fact [FT-0784]: Palmyra Atoll, a US territory in the central Pacific, has no permanent
-done: 5 fact(s) posted
-
 === 2026-09-14T23:08:03Z  run 804  status=success
 facts: read 1106 rows from origin/main (authoritative)
 catching up: 3 fact slots elapsed since the last post
@@ -397,4 +380,21 @@ posted fact [FT-0896]: Dubai's Jebel Ali Port grew from empty desert in the 1970
 state: FT-0897 recorded on main (attempt 1)
 posted fact [FT-0897]: Shanghai's port moved more than 51 million shipping containers in 2024
 done: 5 fact(s) posted
+
+=== 2026-09-20T12:22:27Z  run 835  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 6 fact slots elapsed since the last post
+state: FT-0898 recorded on main (attempt 1)
+posted fact [FT-0898]: Atlanta's Hartsfield-Jackson airport has ranked among the world's busi
+state: FT-0899 recorded on main (attempt 1)
+posted fact [FT-0899]: Shanghai's two airports combined handled roughly 135 million passenger
+state: FT-0900 recorded on main (attempt 1)
+posted fact [FT-0900]: The world's commercial airline fleet has grown to more than 25,000 air
+state: FT-0901 recorded on main (attempt 1)
+posted fact [FT-0901]: India's rail network carries more than 20 million passengers on an ave
+state: FT-0902 recorded on main (attempt 1)
+posted fact [FT-0902]: The Netherlands has more bicycles than people, and cycling accounts fo
+state: FT-0903 recorded on main (attempt 1)
+posted fact [FT-0903]: Container shipping is estimated to move roughly 80% or more of world t
+done: 6 fact(s) posted
 
