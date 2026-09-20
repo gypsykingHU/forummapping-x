@@ -1,18 +1,3 @@
-=== 2026-09-14T14:02:23Z  run 802  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 6 fact slots elapsed since the last post
-state: FT-0774 recorded on main (attempt 1)
-posted fact [FT-0774]: The Galápagos marine iguana is the only lizard on Earth known to forag
-state: FT-0775 recorded on main (attempt 1)
-posted fact [FT-0775]: Antarctica's only two native flowering plants survive on an otherwise 
-state: FT-0776 recorded on main (attempt 1)
-posted fact [FT-0776]: Antarctic icefish are the only vertebrates known to lack both red bloo
-state: FT-0777 recorded on main (attempt 1)
-posted fact [FT-0777]: Emperor penguins are the only animal known to breed through the depths
-state: FT-0778 recorded on main (attempt 1)
-posted fact [FT-0778]: Ice flow carries survey markers placed near the geographic South Pole 
-state: FT-0779 recorded on main (attempt 1)
-posted fact [FT-0779]: Point Barrow, Alaska sits farther north than the northernmost tip of R
 done: 6 fact(s) posted
 
 === 2026-09-14T19:23:07Z  run 803  status=success
@@ -397,4 +382,19 @@ posted fact [FT-0891]: Continental Europe runs one of the largest synchronized e
 state: FT-0892 recorded on main (attempt 1)
 posted fact [FT-0892]: India's state railway employs well over a million people directly, mak
 done: 2 fact(s) posted
+
+=== 2026-09-20T06:12:49Z  run 834  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 5 fact slots elapsed since the last post
+state: FT-0893 recorded on main (attempt 1)
+posted fact [FT-0893]: China's Danyang-Kunshan Grand Bridge, the world's longest, stretches r
+state: FT-0894 recorded on main (attempt 1)
+posted fact [FT-0894]: Global cement production has roughly quadrupled since 1990, with China
+state: FT-0895 recorded on main (attempt 1)
+posted fact [FT-0895]: Roughly 2.2 billion people worldwide lack safely managed drinking wate
+state: FT-0896 recorded on main (attempt 1)
+posted fact [FT-0896]: Dubai's Jebel Ali Port grew from empty desert in the 1970s into one of
+state: FT-0897 recorded on main (attempt 1)
+posted fact [FT-0897]: Shanghai's port moved more than 51 million shipping containers in 2024
+done: 5 fact(s) posted
 
