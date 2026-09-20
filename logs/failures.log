@@ -1,12 +1,3 @@
-catching up: 2 fact slots elapsed since the last post
-state: FT-0788 recorded on main (attempt 1)
-posted fact [FT-0788]: Unlike most rivers that flow toward warmer latitudes, the Nile runs no
-state: FT-0789 recorded on main (attempt 1)
-posted fact [FT-0789]: The Zambezi's roughly 2,700 km course to the Indian Ocean includes mor
-done: 2 fact(s) posted
-
-=== 2026-09-15T07:45:51Z  run 806  status=success
-facts: read 1106 rows from origin/main (authoritative)
 catching up: 6 fact slots elapsed since the last post
 state: FT-0790 recorded on main (attempt 1)
 posted fact [FT-0790]: Papua New Guinea's Sepik River winds so extensively through swampy low
@@ -397,4 +388,13 @@ posted fact [FT-0906]: Mumbai's suburban railway carries several million riders 
 state: FT-0907 recorded on main (attempt 1)
 posted fact [FT-0907]: The Beijing-Shanghai high-speed line covers roughly 1,300 km in under 
 done: 4 fact(s) posted
+
+=== 2026-09-20T19:23:55Z  run 837  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 2 fact slots elapsed since the last post
+state: FT-0908 recorded on main (attempt 1)
+posted fact [FT-0908]: Air cargo carries only a small fraction of world trade by weight but a
+state: FT-0909 recorded on main (attempt 1)
+posted fact [FT-0909]: The world's registered merchant fleet now carries far more total cargo
+done: 2 fact(s) posted
 
