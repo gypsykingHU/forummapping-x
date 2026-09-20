@@ -1,12 +1,3 @@
-catching up: 6 fact slots elapsed since the last post
-state: FT-0790 recorded on main (attempt 1)
-posted fact [FT-0790]: Papua New Guinea's Sepik River winds so extensively through swampy low
-state: FT-0791 recorded on main (attempt 1)
-posted fact [FT-0791]: Siberia's Ob River system drains an area larger than India into the Ar
-state: FT-0792 recorded on main (attempt 1)
-posted fact [FT-0792]: China's Yellow River carries so much silt that its delta has gained an
-state: FT-0793 recorded on main (attempt 1)
-posted fact [FT-0793]: South Sudan's Sudd wetland, formed where the White Nile spreads across
 state: FT-0794 recorded on main (attempt 1)
 posted fact [FT-0794]: Brazil's Pantanal is the largest tropical wetland on Earth, covering a
 state: FT-0795 recorded on main (attempt 1)
@@ -396,5 +387,14 @@ state: FT-0908 recorded on main (attempt 1)
 posted fact [FT-0908]: Air cargo carries only a small fraction of world trade by weight but a
 state: FT-0909 recorded on main (attempt 1)
 posted fact [FT-0909]: The world's registered merchant fleet now carries far more total cargo
+done: 2 fact(s) posted
+
+=== 2026-09-20T22:24:14Z  run 838  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 2 fact slots elapsed since the last post
+state: FT-0910 recorded on main (attempt 1)
+posted fact [FT-0910]: Nearly 138 million children were engaged in child labor worldwide in 2
+state: FT-0911 recorded on main (attempt 1)
+posted fact [FT-0911]: An estimated 50 million people worldwide were living in modern slavery
 done: 2 fact(s) posted
 
