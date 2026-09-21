@@ -1,27 +1,3 @@
-state: FT-0794 recorded on main (attempt 1)
-posted fact [FT-0794]: Brazil's Pantanal is the largest tropical wetland on Earth, covering a
-state: FT-0795 recorded on main (attempt 1)
-posted fact [FT-0795]: Florida's Everglades is technically a slow-moving river some 100 km wi
-done: 6 fact(s) posted
-
-=== 2026-09-15T13:33:38Z  run 807  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 5 fact slots elapsed since the last post
-state: TR-20260915100412-indonesia recorded on main (attempt 1)
-posted trending fact [TR-20260915100412-indonesia] (trend: Pemulihan Kondisi Indonesia): Indonesia spans about 5,120 km west to east — wider than the continent
-state: FT-0796 recorded on main (attempt 1)
-posted fact [FT-0796]: Only about 1% of Scotland's original Caledonian pine forest survives t
-state: FT-0797 recorded on main (attempt 1)
-posted fact [FT-0797]: Chile's temperate rainforests along the Pacific coast of Patagonia ran
-state: FT-0798 recorded on main (attempt 1)
-posted fact [FT-0798]: Australia holds an estimated third of the world's known uranium reserv
-state: FT-0799 recorded on main (attempt 1)
-posted fact [FT-0799]: Chile, Argentina and Bolivia's shared salt flats hold such rich lithiu
-done: 5 fact(s) posted, 1 from trending
-
-=== 2026-09-15T18:11:57Z  run 808  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 4 fact slots elapsed since the last post
 state: FT-0800 recorded on main (attempt 1)
 posted fact [FT-0800]: Decades of phosphate mining stripped from its own guano deposits left 
 state: FT-0801 recorded on main (attempt 1)
@@ -397,4 +373,28 @@ posted fact [FT-0910]: Nearly 138 million children were engaged in child labor w
 state: FT-0911 recorded on main (attempt 1)
 posted fact [FT-0911]: An estimated 50 million people worldwide were living in modern slavery
 done: 2 fact(s) posted
+
+=== 2026-09-21T01:02:39Z  run 839  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 2 fact slots elapsed since the last post
+state: FT-0912 recorded on main (attempt 1)
+posted fact [FT-0912]: More than 60% of the world's workers are estimated to hold informal jo
+state: FT-0913 recorded on main (attempt 1)
+posted fact [FT-0913]: Women's labor-force participation in parts of the Middle East and Nort
+done: 2 fact(s) posted
+
+=== 2026-09-21T06:19:35Z  run 840  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 5 fact slots elapsed since the last post
+state: FT-0914 recorded on main (attempt 1)
+posted fact [FT-0914]: Women worldwide are estimated to earn on average roughly 20% less than
+state: FT-0915 recorded on main (attempt 1)
+posted fact [FT-0915]: Retirement ages range from under 60 in some countries to 67 or higher 
+state: FT-0916 recorded on main (attempt 1)
+posted fact [FT-0916]: The United States is one of the only wealthy countries with no federal
+state: FT-0917 recorded on main (attempt 1)
+posted fact [FT-0917]: Union membership in Nordic countries can exceed 60-70% of the workforc
+state: FT-0918 recorded on main (attempt 1)
+posted fact [FT-0918]: Youth unemployment has topped 30% in parts of Southern Europe and Nort
+done: 5 fact(s) posted
 
