@@ -1,18 +1,3 @@
-state: FT-0806 recorded on main (attempt 1)
-posted fact [FT-0806]: Canada's Hudson Bay Lowlands form the world's second-largest peatland 
-done: 3 fact(s) posted
-
-=== 2026-09-16T01:23:47Z  run 810  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 3 fact slots elapsed since the last post
-state: FT-0807 recorded on main (attempt 1)
-posted fact [FT-0807]: India overtook China as the world's most populous country in 2023; by 
-state: FT-0808 recorded on main (attempt 1)
-posted fact [FT-0808]: Monaco's median age is around 55, the oldest of any country on Earth. 
-state: FT-0809 recorded on main (attempt 1)
-posted fact [FT-0809]: Bulgaria's population has been shrinking faster than almost any other 
-done: 3 fact(s) posted
-
 === 2026-09-16T07:44:40Z  run 811  status=success
 facts: read 1106 rows from origin/main (authoritative)
 catching up: 6 fact slots elapsed since the last post
@@ -397,4 +382,19 @@ posted fact [FT-0923]: Nauru has one of the highest smoking rates on Earth, with
 state: FT-0924 recorded on main (attempt 1)
 posted fact [FT-0924]: Lesotho has recorded some of the highest suicide rates ever measured, 
 done: 6 fact(s) posted
+
+=== 2026-09-21T19:25:34Z  run 842  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 5 fact slots elapsed since the last post
+state: FT-0925 recorded on main (attempt 1)
+posted fact [FT-0925]: HIV prevalence among adults in parts of Southern Africa, including Esw
+state: FT-0926 recorded on main (attempt 1)
+posted fact [FT-0926]: Antibiotic-resistant infections are estimated to contribute to more th
+state: FT-0927 recorded on main (attempt 1)
+posted fact [FT-0927]: Blood type distribution varies sharply by region: type O dominates acr
+state: FT-0928 recorded on main (attempt 1)
+posted fact [FT-0928]: South Korea has one of the highest rates of cosmetic surgery per capit
+state: FT-0929 recorded on main (attempt 1)
+posted fact [FT-0929]: COVID-19 caused several million confirmed deaths worldwide, and consid
+done: 5 fact(s) posted
 
