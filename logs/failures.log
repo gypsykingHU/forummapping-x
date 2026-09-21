@@ -1,14 +1,3 @@
-=== 2026-09-16T07:44:40Z  run 811  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 6 fact slots elapsed since the last post
-state: FT-0810 recorded on main (attempt 1)
-posted fact [FT-0810]: China's one-child policy, enforced from 1980 to 2015, is estimated to 
-state: FT-0811 recorded on main (attempt 1)
-posted fact [FT-0811]: Israel's fertility rate, near 3 births per woman, is the highest in th
-state: FT-0812 recorded on main (attempt 1)
-posted fact [FT-0812]: The United Arab Emirates' population is estimated to be roughly 90% fo
-state: FT-0813 recorded on main (attempt 1)
-posted fact [FT-0813]: Around 2018, people aged 65 and older outnumbered children under 5 wor
 state: FT-0814 recorded on main (attempt 1)
 posted fact [FT-0814]: Puerto Rico's population has fallen by more than 10% since 2010 throug
 state: FT-0815 recorded on main (attempt 1)
@@ -397,4 +386,15 @@ posted fact [FT-0928]: South Korea has one of the highest rates of cosmetic surg
 state: FT-0929 recorded on main (attempt 1)
 posted fact [FT-0929]: COVID-19 caused several million confirmed deaths worldwide, and consid
 done: 5 fact(s) posted
+
+=== 2026-09-21T23:16:10Z  run 843  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 3 fact slots elapsed since the last post
+state: FT-0930 recorded on main (attempt 1)
+posted fact [FT-0930]: Surgical care remains out of reach for an estimated 5 billion people w
+state: FT-0931 recorded on main (attempt 1)
+posted fact [FT-0931]: Life expectancy for women exceeds that of men in nearly every country 
+state: FT-0932 recorded on main (attempt 1)
+posted fact [FT-0932]: Diabetes prevalence has risen fastest across the Pacific islands and p
+done: 3 fact(s) posted
 
