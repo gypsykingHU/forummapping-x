@@ -1,20 +1,3 @@
-state: FT-0800 recorded on main (attempt 1)
-posted fact [FT-0800]: Decades of phosphate mining stripped from its own guano deposits left 
-state: FT-0801 recorded on main (attempt 1)
-posted fact [FT-0801]: Iceland sits directly atop the Mid-Atlantic Ridge, one of the only pla
-state: FT-0802 recorded on main (attempt 1)
-posted fact [FT-0802]: Kenya's Lake Turkana is the world's largest permanent desert lake, sit
-state: FT-0803 recorded on main (attempt 1)
-posted fact [FT-0803]: Brazil's Carajás mining complex sits atop one of the largest iron ore 
-done: 4 fact(s) posted
-
-=== 2026-09-15T22:11:20Z  run 809  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 3 fact slots elapsed since the last post
-state: FT-0804 recorded on main (attempt 1)
-posted fact [FT-0804]: Chile's Escondida mine, high in the Atacama, is the largest copper min
-state: FT-0805 recorded on main (attempt 1)
-posted fact [FT-0805]: Australia's Pilbara region supplies more than half the world's seaborn
 state: FT-0806 recorded on main (attempt 1)
 posted fact [FT-0806]: Canada's Hudson Bay Lowlands form the world's second-largest peatland 
 done: 3 fact(s) posted
@@ -397,4 +380,21 @@ posted fact [FT-0917]: Union membership in Nordic countries can exceed 60-70% of
 state: FT-0918 recorded on main (attempt 1)
 posted fact [FT-0918]: Youth unemployment has topped 30% in parts of Southern Europe and Nort
 done: 5 fact(s) posted
+
+=== 2026-09-21T14:05:58Z  run 841  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 6 fact slots elapsed since the last post
+state: FT-0919 recorded on main (attempt 1)
+posted fact [FT-0919]: The "kafala" sponsorship system, used across much of the Gulf for deca
+state: FT-0920 recorded on main (attempt 1)
+posted fact [FT-0920]: Informal domestic work, largely performed by women, is estimated to em
+state: FT-0921 recorded on main (attempt 1)
+posted fact [FT-0921]: Smallpox was declared eradicated in 1980 after a global vaccination ca
+state: FT-0922 recorded on main (attempt 1)
+posted fact [FT-0922]: Wild poliovirus now survives in only a couple of countries, down from 
+state: FT-0923 recorded on main (attempt 1)
+posted fact [FT-0923]: Nauru has one of the highest smoking rates on Earth, with nearly half 
+state: FT-0924 recorded on main (attempt 1)
+posted fact [FT-0924]: Lesotho has recorded some of the highest suicide rates ever measured, 
+done: 6 fact(s) posted
 
