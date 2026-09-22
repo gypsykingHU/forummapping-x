@@ -1,18 +1,3 @@
-state: FT-0814 recorded on main (attempt 1)
-posted fact [FT-0814]: Puerto Rico's population has fallen by more than 10% since 2010 throug
-state: FT-0815 recorded on main (attempt 1)
-posted fact [FT-0815]: Italy's population has shrunk every year since 2014; without sustained
-done: 6 fact(s) posted
-
-=== 2026-09-16T13:32:40Z  run 812  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 5 fact slots elapsed since the last post
-state: FT-0816 recorded on main (attempt 1)
-posted fact [FT-0816]: Roughly 1 in 8 people worldwide is over 60 today. The UN expects that 
-state: FT-0817 recorded on main (attempt 1)
-posted fact [FT-0817]: India's population is markedly younger than China's — a median age nea
-state: FT-0818 recorded on main (attempt 1)
-posted fact [FT-0818]: Nigeria is projected to become the world's third most populous country
 state: FT-0819 recorded on main (attempt 1)
 posted fact [FT-0819]: Qatar's population is over 2.5 million, yet fewer than 1 in 10 residen
 state: FT-0820 recorded on main (attempt 1)
@@ -397,4 +382,19 @@ posted fact [FT-0931]: Life expectancy for women exceeds that of men in nearly e
 state: FT-0932 recorded on main (attempt 1)
 posted fact [FT-0932]: Diabetes prevalence has risen fastest across the Pacific islands and p
 done: 3 fact(s) posted
+
+=== 2026-09-22T04:50:09Z  run 844  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 5 fact slots elapsed since the last post
+state: FT-0933 recorded on main (attempt 1)
+posted fact [FT-0933]: Roughly a third of all food produced worldwide is lost or wasted every
+state: FT-0934 recorded on main (attempt 1)
+posted fact [FT-0934]: Between 638 and 720 million people faced hunger in 2024, with Africa a
+state: FT-0935 recorded on main (attempt 1)
+posted fact [FT-0935]: Just three crops — wheat, rice and maize — supply roughly half of all 
+state: FT-0936 recorded on main (attempt 1)
+posted fact [FT-0936]: Colombia, Vietnam and Brazil together grow a large share of the world'
+state: FT-0937 recorded on main (attempt 1)
+posted fact [FT-0937]: Indonesia and Malaysia together produce the overwhelming majority of t
+done: 5 fact(s) posted
 
