@@ -1,16 +1,3 @@
-state: FT-0824 recorded on main (attempt 1)
-posted fact [FT-0824]: Armenia's diaspora is estimated to be several times larger than Armeni
-done: 4 fact(s) posted
-
-=== 2026-09-16T22:07:32Z  run 814  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 3 fact slots elapsed since the last post
-state: FT-0825 recorded on main (attempt 1)
-posted fact [FT-0825]: Ireland's diaspora is estimated at tens of millions worldwide, a figur
-state: FT-0826 recorded on main (attempt 1)
-posted fact [FT-0826]: Qatar and the UAE draw so much of their labor force from South Asia th
-state: FT-0827 recorded on main (attempt 1)
-posted fact [FT-0827]: Britain's 1948-1971 "Windrush generation" brought tens of thousands of
 done: 3 fact(s) posted
 
 === 2026-09-17T00:28:08Z  run 815  status=success
@@ -397,4 +384,17 @@ posted fact [FT-0941]: Overfishing has pushed roughly a third of the world's mon
 state: FT-0942 recorded on main (attempt 1)
 posted fact [FT-0942]: Chili peppers, now central to cuisines from Sichuan to Ethiopia to Kor
 done: 5 fact(s) posted
+
+=== 2026-09-22T14:48:08Z  run 846  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 4 fact slots elapsed since the last post
+state: FT-0943 recorded on main (attempt 1)
+posted fact [FT-0943]: Russia, the US, Canada, France and Australia together account for the 
+state: FT-0944 recorded on main (attempt 1)
+posted fact [FT-0944]: Ethiopia is traditionally credited as coffee's birthplace, in a legend
+state: FT-0945 recorded on main (attempt 1)
+posted fact [FT-0945]: Smartphone ownership has passed 90% of adults in much of East Asia and
+state: FT-0946 recorded on main (attempt 1)
+posted fact [FT-0946]: Solar power has become the cheapest source of new electricity in most 
+done: 4 fact(s) posted
 
