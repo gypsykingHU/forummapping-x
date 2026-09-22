@@ -1,14 +1,3 @@
-done: 3 fact(s) posted
-
-=== 2026-09-17T00:28:08Z  run 815  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 2 fact slots elapsed since the last post
-state: FT-0828 recorded on main (attempt 1)
-posted fact [FT-0828]: The US-Mexico corridor is one of the largest remittance routes on Eart
-state: FT-0829 recorded on main (attempt 1)
-posted fact [FT-0829]: Europe saw over a million asylum applications in a single year at leas
-done: 2 fact(s) posted
-
 === 2026-09-17T06:09:12Z  run 816  status=success
 facts: read 1106 rows from origin/main (authoritative)
 catching up: 5 fact slots elapsed since the last post
@@ -397,4 +386,15 @@ posted fact [FT-0945]: Smartphone ownership has passed 90% of adults in much of 
 state: FT-0946 recorded on main (attempt 1)
 posted fact [FT-0946]: Solar power has become the cheapest source of new electricity in most 
 done: 4 fact(s) posted
+
+=== 2026-09-22T18:50:43Z  run 847  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 3 fact slots elapsed since the last post
+state: FT-0947 recorded on main (attempt 1)
+posted fact [FT-0947]: More than 40 countries have now launched their own satellites, though 
+state: FT-0948 recorded on main (attempt 1)
+posted fact [FT-0948]: Satellite-internet services like Starlink have begun reaching rural co
+state: FT-0949 recorded on main (attempt 1)
+posted fact [FT-0949]: Social media penetration exceeds 80% of the population in several weal
+done: 3 fact(s) posted
 
