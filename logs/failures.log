@@ -1,18 +1,3 @@
-state: FT-0819 recorded on main (attempt 1)
-posted fact [FT-0819]: Qatar's population is over 2.5 million, yet fewer than 1 in 10 residen
-state: FT-0820 recorded on main (attempt 1)
-posted fact [FT-0820]: By the end of 2025, an estimated 117.8 million people worldwide were f
-done: 5 fact(s) posted
-
-=== 2026-09-16T18:13:17Z  run 813  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 4 fact slots elapsed since the last post
-state: FT-0821 recorded on main (attempt 1)
-posted fact [FT-0821]: Turkey has hosted more refugees than any other country for over a deca
-state: FT-0822 recorded on main (attempt 1)
-posted fact [FT-0822]: Germany's postwar "Gastarbeiter" program brought in millions of guest 
-state: FT-0823 recorded on main (attempt 1)
-posted fact [FT-0823]: More people of Lebanese descent are estimated to live outside Lebanon 
 state: FT-0824 recorded on main (attempt 1)
 posted fact [FT-0824]: Armenia's diaspora is estimated to be several times larger than Armeni
 done: 4 fact(s) posted
@@ -396,5 +381,20 @@ state: FT-0936 recorded on main (attempt 1)
 posted fact [FT-0936]: Colombia, Vietnam and Brazil together grow a large share of the world'
 state: FT-0937 recorded on main (attempt 1)
 posted fact [FT-0937]: Indonesia and Malaysia together produce the overwhelming majority of t
+done: 5 fact(s) posted
+
+=== 2026-09-22T09:58:07Z  run 845  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 5 fact slots elapsed since the last post
+state: FT-0938 recorded on main (attempt 1)
+posted fact [FT-0938]: Brazil and India together account for a large share of the world's can
+state: FT-0939 recorded on main (attempt 1)
+posted fact [FT-0939]: France, Italy and Spain together produce roughly half the world's wine
+state: FT-0940 recorded on main (attempt 1)
+posted fact [FT-0940]: China now produces more honey than any other country, much of it movin
+state: FT-0941 recorded on main (attempt 1)
+posted fact [FT-0941]: Overfishing has pushed roughly a third of the world's monitored fish s
+state: FT-0942 recorded on main (attempt 1)
+posted fact [FT-0942]: Chili peppers, now central to cuisines from Sichuan to Ethiopia to Kor
 done: 5 fact(s) posted
 
