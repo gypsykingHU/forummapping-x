@@ -1,14 +1,3 @@
-done: 3 fact(s) posted
-
-=== 2026-09-18T04:37:37Z  run 821  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 4 fact slots elapsed since the last post
-state: FT-0851 recorded on main (attempt 1)
-posted fact [FT-0851]: Duolingo reports several hundred million registered users worldwide, m
-state: FT-0852 recorded on main (attempt 1)
-posted fact [FT-0852]: Literate adults need to recognize roughly 3,000 to 4,000 Chinese chara
-state: FT-0853 recorded on main (attempt 1)
-posted fact [FT-0853]: Esperanto, invented in 1887 to be a universal second language, is esti
 state: FT-0854 recorded on main (attempt 1)
 posted fact [FT-0854]: Speakers of Spanish, Italian and Portuguese share enough vocabulary th
 done: 4 fact(s) posted
@@ -397,4 +386,15 @@ posted fact [FT-0968]: Spain still garrisons a handful of tiny islets off Morocc
 state: FT-0969 recorded on main (attempt 1)
 posted fact [FT-0969]: Aruba, Curaçao and Sint Maarten are constituent countries of the Kingd
 done: 5 fact(s) posted
+
+=== 2026-09-23T20:16:54Z  run 853  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 3 fact slots elapsed since the last post
+state: FT-0970 recorded on main (attempt 1)
+posted fact [FT-0970]: France's overseas department of French Guiana, on South America's nort
+state: FT-0971 recorded on main (attempt 1)
+posted fact [FT-0971]: Greenland voted to leave the European Communities in 1985, decades bef
+state: FT-0972 recorded on main (attempt 1)
+posted fact [FT-0972]: The Falkland Islands are self-governing under British sovereignty, but
+done: 3 fact(s) posted
 
