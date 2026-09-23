@@ -1,14 +1,3 @@
-state: FT-0854 recorded on main (attempt 1)
-posted fact [FT-0854]: Speakers of Spanish, Italian and Portuguese share enough vocabulary th
-done: 4 fact(s) posted
-
-=== 2026-09-18T09:44:01Z  run 822  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 5 fact slots elapsed since the last post
-state: FT-0855 recorded on main (attempt 1)
-posted fact [FT-0855]: UNESCO estimates more than 40% of the roughly 7,000 languages spoken t
-state: FT-0856 recorded on main (attempt 1)
-posted fact [FT-0856]: Devanagari script and its relatives are used to write dozens of modern
 state: FT-0857 recorded on main (attempt 1)
 posted fact [FT-0857]: Arabic script, adapted for languages from Persian to Urdu to Malay, is
 state: FT-0858 recorded on main (attempt 1)
@@ -396,5 +385,16 @@ state: FT-0971 recorded on main (attempt 1)
 posted fact [FT-0971]: Greenland voted to leave the European Communities in 1985, decades bef
 state: FT-0972 recorded on main (attempt 1)
 posted fact [FT-0972]: The Falkland Islands are self-governing under British sovereignty, but
+done: 3 fact(s) posted
+
+=== 2026-09-23T23:40:03Z  run 854  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 3 fact slots elapsed since the last post
+state: FT-0973 recorded on main (attempt 1)
+posted fact [FT-0973]: Near the Zambezi River, Zambia, Zimbabwe, Botswana and Namibia sit so 
+state: FT-0974 recorded on main (attempt 1)
+posted fact [FT-0974]: The Four Corners Monument in the American Southwest marks the only spo
+state: FT-0975 recorded on main (attempt 1)
+posted fact [FT-0975]: The self-declared Nagorno-Karabakh Republic, known to Armenians as Art
 done: 3 fact(s) posted
 
