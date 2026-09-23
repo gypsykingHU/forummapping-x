@@ -1,18 +1,3 @@
-state: FT-0846 recorded on main (attempt 1)
-posted fact [FT-0846]: There are more than 300 distinct sign languages in use worldwide — the
-state: FT-0847 recorded on main (attempt 1)
-posted fact [FT-0847]: English is estimated to have borrowed roughly 80% of its vocabulary fr
-done: 3 fact(s) posted
-
-=== 2026-09-17T23:33:54Z  run 820  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 3 fact slots elapsed since the last post
-state: FT-0848 recorded on main (attempt 1)
-posted fact [FT-0848]: Louis Braille invented his raised-dot reading system in the 1820s at a
-state: FT-0849 recorded on main (attempt 1)
-posted fact [FT-0849]: Cyrillic script, developed in the 9th century, is now used to write mo
-state: FT-0850 recorded on main (attempt 1)
-posted fact [FT-0850]: Silbo Gomero, a whistled language used on Spain's La Gomera island, ca
 done: 3 fact(s) posted
 
 === 2026-09-18T04:37:37Z  run 821  status=success
@@ -396,5 +381,20 @@ state: FT-0963 recorded on main (attempt 1)
 posted fact [FT-0963]: A railway awarded to Belgium after the First World War sliced through 
 state: FT-0964 recorded on main (attempt 1)
 posted fact [FT-0964]: Llívia has been a Spanish town surrounded by France since 1659, after 
+done: 5 fact(s) posted
+
+=== 2026-09-23T16:54:33Z  run 852  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 5 fact slots elapsed since the last post
+state: FT-0965 recorded on main (attempt 1)
+posted fact [FT-0965]: Oman's Musandam Peninsula, overlooking the Strait of Hormuz, is cut of
+state: FT-0966 recorded on main (attempt 1)
+posted fact [FT-0966]: The small Austrian village of Jungholz has no direct road to the rest 
+state: FT-0967 recorded on main (attempt 1)
+posted fact [FT-0967]: Gibraltar's airport runway crosses its own main road; traffic barriers
+state: FT-0968 recorded on main (attempt 1)
+posted fact [FT-0968]: Spain still garrisons a handful of tiny islets off Morocco's Mediterra
+state: FT-0969 recorded on main (attempt 1)
+posted fact [FT-0969]: Aruba, Curaçao and Sint Maarten are constituent countries of the Kingd
 done: 5 fact(s) posted
 
