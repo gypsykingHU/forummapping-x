@@ -1,18 +1,3 @@
-state: FT-0836 recorded on main (attempt 1)
-posted fact [FT-0836]: Delhi's metro area is growing so fast the UN projects it could become 
-state: FT-0837 recorded on main (attempt 1)
-posted fact [FT-0837]: An estimated 1 billion people worldwide live in informal settlements o
-state: FT-0838 recorded on main (attempt 1)
-posted fact [FT-0838]: Singapore has expanded its land area by roughly a quarter since indepe
-state: FT-0839 recorded on main (attempt 1)
-posted fact [FT-0839]: Residency in Pyongyang is tightly restricted by the North Korean state
-done: 5 fact(s) posted
-
-=== 2026-09-17T16:58:17Z  run 818  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 5 fact slots elapsed since the last post
-state: FT-0840 recorded on main (attempt 1)
-posted fact [FT-0840]: Detroit's population has fallen by more than half since its 1950s peak
 state: FT-0841 recorded on main (attempt 1)
 posted fact [FT-0841]: The number of "megacities" with over 10 million people has grown from 
 state: FT-0842 recorded on main (attempt 1)
@@ -397,4 +382,19 @@ posted fact [FT-0953]: Africa has more registered mobile-money accounts per capi
 state: FT-0954 recorded on main (attempt 1)
 posted fact [FT-0954]: Rwanda pioneered national-scale drone delivery of blood and medical su
 done: 2 fact(s) posted
+
+=== 2026-09-23T05:59:02Z  run 850  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 5 fact slots elapsed since the last post
+state: FT-0955 recorded on main (attempt 1)
+posted fact [FT-0955]: Streaming platforms overtook cable and broadcast television subscripti
+state: FT-0956 recorded on main (attempt 1)
+posted fact [FT-0956]: Telemedicine consultations surged worldwide during the COVID-19 pandem
+state: FT-0957 recorded on main (attempt 1)
+posted fact [FT-0957]: Spain's Ceuta and Melilla, on Morocco's coast, are the European Union'
+state: FT-0958 recorded on main (attempt 1)
+posted fact [FT-0958]: Azerbaijan's Nakhchivan region is cut off from the rest of the country
+state: FT-0959 recorded on main (attempt 1)
+posted fact [FT-0959]: Angola's oil-rich Cabinda province is separated from the rest of Angol
+done: 5 fact(s) posted
 
