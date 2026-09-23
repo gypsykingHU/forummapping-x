@@ -1,12 +1,3 @@
-state: FT-0834 recorded on main (attempt 1)
-posted fact [FT-0834]: Lagos has grown from roughly 1 million people in 1970 to an estimated 
-done: 5 fact(s) posted
-
-=== 2026-09-17T11:40:37Z  run 817  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 5 fact slots elapsed since the last post
-state: FT-0835 recorded on main (attempt 1)
-posted fact [FT-0835]: Shenzhen was a fishing town of about 30,000 people in 1980. Designated
 state: FT-0836 recorded on main (attempt 1)
 posted fact [FT-0836]: Delhi's metro area is growing so fast the UN projects it could become 
 state: FT-0837 recorded on main (attempt 1)
@@ -397,4 +388,13 @@ posted fact [FT-0951]: 5G rollout has moved fastest across East Asia and the Gul
 state: FT-0952 recorded on main (attempt 1)
 posted fact [FT-0952]: Electric vehicles accounted for roughly 1 in 4 new cars sold worldwide
 done: 3 fact(s) posted
+
+=== 2026-09-23T00:23:52Z  run 849  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 2 fact slots elapsed since the last post
+state: FT-0953 recorded on main (attempt 1)
+posted fact [FT-0953]: Africa has more registered mobile-money accounts per capita than any o
+state: FT-0954 recorded on main (attempt 1)
+posted fact [FT-0954]: Rwanda pioneered national-scale drone delivery of blood and medical su
+done: 2 fact(s) posted
 
