@@ -1,9 +1,3 @@
-posted fact [FT-0864]: Sikhism, founded in 15th-century Punjab, now counts an estimated 25-30
-state: FT-0865 recorded on main (attempt 1)
-posted fact [FT-0865]: Jainism has only a few million followers, almost all in India, yet its
-state: FT-0866 recorded on main (attempt 1)
-posted fact [FT-0866]: Japan has more Shinto shrines than convenience stores, tens of thousan
-done: 3 fact(s) posted
 
 === 2026-09-18T21:39:39Z  run 825  status=success
 facts: read 1106 rows from origin/main (authoritative)
@@ -397,4 +391,10 @@ state: FT-0982 recorded on main (attempt 1)
 posted fact [FT-0982]: Palestine is recognized as a state by more than 100 UN member states a
 state: FT-0983 recorded on main (attempt 1)
 X API error 503: {"detail":"Service Unavailable","status":503,"title":"Service Unavailable","type":"about:blank"}
+
+=== 2026-09-24T14:57:00Z  run 857  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-0984 recorded on main (attempt 1)
+posted fact [FT-0984]: Crimea was annexed by Russia in 2014 in a move most of the world's gov
+done: 1 fact(s) posted
 
