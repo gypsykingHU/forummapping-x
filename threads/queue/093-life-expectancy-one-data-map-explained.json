@@ -1,0 +1,27 @@
+{
+  "id": "093-life-expectancy-one-data-map-explained",
+  "posts": [
+    {
+      "text": "One map, one number, and a 30-year gap in how long you can expect to live depending only on where you're born.\n\nData: Our World in Data (CC BY)\n\na thread 🧵🗺️",
+      "image": "owid-life-expectancy.png"
+    },
+    {
+      "text": "1/ The top of the map: Hong Kong and Japan both sit above 84 years, with South Korea close behind. Small, rich, and — not coincidentally — with excellent healthcare access."
+    },
+    {
+      "text": "2/ The bottom: Nigeria, Chad, the Central African Republic, Lesotho and South Sudan all cluster in the mid-to-high 50s. That's roughly a 30-year gap between the longest- and shortest-lived populations on Earth, in the same year."
+    },
+    {
+      "text": "3/ It isn't really about old age. It's mostly decided before age 5 — the countries at the pale end of the map are the same ones with the highest child mortality, and losing children young drags the whole average down hard."
+    },
+    {
+      "text": "4/ Conflict and disease explain much of the rest of southern Africa's gap: Lesotho and its neighbors combine high HIV burdens with, in some cases, recent instability — both of which shorten life expectancy independent of income."
+    },
+    {
+      "text": "5/ It wasn't always this uneven — or this good. Global average life expectancy was only about 32 years in 1900. It has more than doubled since, but that gain landed very unevenly across the map."
+    },
+    {
+      "text": "6/ Same species, same century, 30 years of difference depending on the map coordinates you're born into.\n\nData: Our World in Data (CC BY)\n\nFollow @forummapping for more maps like this."
+    }
+  ]
+}
