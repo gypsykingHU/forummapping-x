@@ -1,16 +1,3 @@
-state: FT-0857 recorded on main (attempt 1)
-posted fact [FT-0857]: Arabic script, adapted for languages from Persian to Urdu to Malay, is
-state: FT-0858 recorded on main (attempt 1)
-posted fact [FT-0858]: Vietnamese was written in Chinese-derived characters for centuries bef
-state: FT-0859 recorded on main (attempt 1)
-posted fact [FT-0859]: Christianity and Islam together account for over half of humanity, wit
-done: 5 fact(s) posted
-
-=== 2026-09-18T14:28:51Z  run 823  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 4 fact slots elapsed since the last post
-state: FT-0860 recorded on main (attempt 1)
-posted fact [FT-0860]: The religiously unaffiliated number over a billion people worldwide, y
 state: FT-0861 recorded on main (attempt 1)
 posted fact [FT-0861]: Mecca's Hajj draws an estimated 1.5 to 2 million Muslims a year, one o
 state: FT-0862 recorded on main (attempt 1)
@@ -397,4 +384,17 @@ posted fact [FT-0974]: The Four Corners Monument in the American Southwest marks
 state: FT-0975 recorded on main (attempt 1)
 posted fact [FT-0975]: The self-declared Nagorno-Karabakh Republic, known to Armenians as Art
 done: 3 fact(s) posted
+
+=== 2026-09-24T04:41:19Z  run 855  status=success
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 4 fact slots elapsed since the last post
+state: FT-0976 recorded on main (attempt 1)
+posted fact [FT-0976]: Northern Cyprus declared independence in 1983 and is recognized by exa
+state: FT-0977 recorded on main (attempt 1)
+posted fact [FT-0977]: Abkhazia and South Ossetia broke from Georgia in the 1990s; Russia rec
+state: FT-0978 recorded on main (attempt 1)
+posted fact [FT-0978]: Egypt and Sudan have disputed the Halaib Triangle, a Red Sea coastal w
+state: FT-0979 recorded on main (attempt 1)
+posted fact [FT-0979]: Taiwan runs its own government, military and elections, but only a sma
+done: 4 fact(s) posted
 
