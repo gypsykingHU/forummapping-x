@@ -5,7 +5,7 @@ Posts the least-recently-used fact from facts.csv. Facts recycle after the
 whole bank rotates (they're evergreen statistics), so the queue never dies;
 the Monday content writer keeps the bank growing so repeats stay rare.
 """
-import csv, datetime, os, random, sys, time
+import csv, datetime, os, sys
 from requests_oauthlib import OAuth1Session
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -15,8 +15,6 @@ REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FACTS = os.path.join(REPO, "facts.csv")
 CREATE_POST = "https://api.x.com/2/tweets"
 COOLDOWN_DAYS = 45        # preferred gap before a fact may reappear
-SPACING_SECONDS = 90      # catch-up gap. Kept short on purpose: a long-running job holds
-                          # the concurrency group and blocks the NEXT hourly trigger.
 HARD_MIN_DAYS = 7         # absolute floor — never relaxed, even if it means skipping
 
 
@@ -65,27 +63,17 @@ def x_post(session, url, **kw):
     if r.status_code == 429:
         print(f"Rate limited (429). Skipping this slot rather than failing the run. {body}")
         raise SystemExit(0)          # exit clean: no failure email for a normal condition
+    if 500 <= r.status_code < 600:
+        # X's own infrastructure, not us -- matches post_to_x.py's x_call().
+        # Run #856 failed the whole job on a bare 503 mid-run; the claim for
+        # that fact had already been recorded (reserve-before-post), so the
+        # fact was marked used without ever going out. Exiting clean here
+        # means a future transient 5xx costs one fact's turn, not a red job.
+        print(f"X server error {r.status_code} — transient, skipping. {body}")
+        raise SystemExit(0)
     print(f"X API error {r.status_code}: {body}")
     raise SystemExit(1)
 
-
-
-def slots_missed(rows, per_day=24, cap=6):
-    """GitHub drops most scheduled runs (observed gaps of 2–13h on an hourly cron),
-    so a run that assumes it is one-of-24 silently loses most of the day's volume.
-    Work out how many posting slots have elapsed since the last post and catch up,
-    capped so a very long outage doesn't dump a wall of posts at once."""
-    stamps = [r["last_posted"] for r in rows if r["last_posted"]]
-    if not stamps:
-        return 1
-    try:
-        last = datetime.datetime.fromisoformat(max(stamps))
-    except ValueError:
-        return 1
-    if last.tzinfo is None:
-        last = last.replace(tzinfo=datetime.timezone.utc)
-    hours = (datetime.datetime.now(datetime.timezone.utc) - last).total_seconds() / 3600
-    return max(1, min(cap, int(hours / (24 / per_day))))
 
 
 def load_facts():
@@ -103,32 +91,27 @@ def load_facts():
 
 
 def main():
-    # pulse runs hourly and every hour is now a fact hour (24/day)
+    # One fact per run, every run -- the workflow's hourly cron is the only
+    # cadence control now (24/day). Previously a missed-slot run would catch
+    # up by posting several facts back-to-back in one job (see slots_missed,
+    # removed); Milan asked for that dropped in favor of a strict 1-per-hour
+    # ceiling, so a gap in the cron just means fewer facts that day, not a
+    # burst later.
     rows, fieldnames = load_facts()
     if not rows:
         print("facts.csv is empty")
         return
 
-    n = 1 if "--dry-run" in sys.argv else slots_missed(rows)
-    if n > 1:
-        print(f"catching up: {n} fact slots elapsed since the last post")
-    posted = skipped_dupes = 0
-    for i in range(n):
-        if i:
-            time.sleep(SPACING_SECONDS)
-        try:
-            if not post_one(rows, fieldnames):
-                break
-        except DuplicatePost:
-            # The claim for that row is already saved (it happened before the X
-            # call), so it won't be picked again this run or any future one.
-            # Move on to the next slot instead of losing the rest of this catch-up
-            # batch to one already-posted fact.
-            skipped_dupes += 1
-            continue
-        posted += 1
-    extra = f", {skipped_dupes} skipped as duplicates" if skipped_dupes else ""
-    print(f"done: {posted} fact(s) posted{extra}")
+    try:
+        posted = post_one(rows, fieldnames)
+    except DuplicatePost:
+        # The claim for that row is already saved (it happened before the X
+        # call), so it won't be picked again. Nothing else to try this run --
+        # the next fact goes out on the next hourly trigger.
+        posted = False
+        print("done: 0 fact(s) posted (duplicate, claim recorded)")
+        return
+    print(f"done: {1 if posted else 0} fact(s) posted")
 
 
 def post_one(rows, fieldnames):
