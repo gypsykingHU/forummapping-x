@@ -1,15 +1,3 @@
-state: FT-0861 recorded on main (attempt 1)
-posted fact [FT-0861]: Mecca's Hajj draws an estimated 1.5 to 2 million Muslims a year, one o
-state: FT-0862 recorded on main (attempt 1)
-posted fact [FT-0862]: The world's Jewish population, estimated at roughly 15-16 million toda
-state: FT-0863 recorded on main (attempt 1)
-posted fact [FT-0863]: Zoroastrianism, once the state religion of the Persian Empire, is esti
-done: 4 fact(s) posted
-
-=== 2026-09-18T18:23:48Z  run 824  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 3 fact slots elapsed since the last post
-state: FT-0864 recorded on main (attempt 1)
 posted fact [FT-0864]: Sikhism, founded in 15th-century Punjab, now counts an estimated 25-30
 state: FT-0865 recorded on main (attempt 1)
 posted fact [FT-0865]: Jainism has only a few million followers, almost all in India, yet its
@@ -397,4 +385,16 @@ posted fact [FT-0978]: Egypt and Sudan have disputed the Halaib Triangle, a Red 
 state: FT-0979 recorded on main (attempt 1)
 posted fact [FT-0979]: Taiwan runs its own government, military and elections, but only a sma
 done: 4 fact(s) posted
+
+=== 2026-09-24T09:59:04Z  run 856  status=failure
+facts: read 1106 rows from origin/main (authoritative)
+catching up: 5 fact slots elapsed since the last post
+state: FT-0980 recorded on main (attempt 1)
+posted fact [FT-0980]: The Sahrawi Arab Democratic Republic has belonged to the African Union
+state: FT-0981 recorded on main (attempt 1)
+posted fact [FT-0981]: Kashmir has been divided between India and Pakistan by a ceasefire lin
+state: FT-0982 recorded on main (attempt 1)
+posted fact [FT-0982]: Palestine is recognized as a state by more than 100 UN member states a
+state: FT-0983 recorded on main (attempt 1)
+X API error 503: {"detail":"Service Unavailable","status":503,"title":"Service Unavailable","type":"about:blank"}
 
