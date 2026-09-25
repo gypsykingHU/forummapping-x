@@ -1,9 +1,3 @@
-=== 2026-09-19T10:54:55Z  run 828  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 4 fact slots elapsed since the last post
-state: FT-0877 recorded on main (attempt 1)
-posted fact [FT-0877]: Panama, Liberia and the Marshall Islands together fly the flags of ove
-state: FT-0878 recorded on main (attempt 1)
 posted fact [FT-0878]: Grameen Bank, founded in Bangladesh in 1983, pioneered microloans of j
 state: FT-0879 recorded on main (attempt 1)
 posted fact [FT-0879]: Roughly 79% of adults worldwide now have a bank or mobile-money accoun
@@ -396,5 +390,11 @@ done: 1 fact(s) posted
 facts: read 1106 rows from origin/main (authoritative)
 state: FT-0990 recorded on main (attempt 1)
 posted fact [FT-0990]: The Cook Islands sign their own international treaties despite not hol
+done: 1 fact(s) posted
+
+=== 2026-09-25T22:14:02Z  run 864  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-0991 recorded on main (attempt 1)
+posted fact [FT-0991]: Monaco, San Marino, Vatican City and Andorra all mint limited runs of 
 done: 1 fact(s) posted
 
