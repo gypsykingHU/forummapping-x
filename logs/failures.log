@@ -1,9 +1,3 @@
-state: FT-0872 recorded on main (attempt 1)
-posted fact [FT-0872]: The Hong Kong dollar has been pegged at roughly 7.8 to the US dollar s
-state: FT-0873 recorded on main (attempt 1)
-posted fact [FT-0873]: Zimbabwe introduced its sixth new currency in 15 years in April 2024, 
-state: FT-0874 recorded on main (attempt 1)
-posted fact [FT-0874]: Fourteen African countries still use the CFA franc, a currency pegged 
 state: FT-0875 recorded on main (attempt 1)
 posted fact [FT-0875]: The United States holds the world's largest official gold reserves, at
 state: FT-0876 recorded on main (attempt 1)
@@ -396,5 +390,11 @@ done: 1 fact(s) posted
 facts: read 1106 rows from origin/main (authoritative)
 state: FT-0988 recorded on main (attempt 1)
 posted fact [FT-0988]: San Marino has no single president — it's led by two Captains Regent, 
+done: 1 fact(s) posted
+
+=== 2026-09-25T13:39:13Z  run 862  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-0989 recorded on main (attempt 1)
+posted fact [FT-0989]: Niue is self-governing in free association with New Zealand and has no
 done: 1 fact(s) posted
 
