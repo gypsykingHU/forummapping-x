@@ -1,9 +1,3 @@
-state: FT-0875 recorded on main (attempt 1)
-posted fact [FT-0875]: The United States holds the world's largest official gold reserves, at
-state: FT-0876 recorded on main (attempt 1)
-posted fact [FT-0876]: Japan's public debt runs to roughly 235% of GDP, among the highest of 
-done: 5 fact(s) posted
-
 === 2026-09-19T10:54:55Z  run 828  status=success
 facts: read 1106 rows from origin/main (authoritative)
 catching up: 4 fact slots elapsed since the last post
@@ -396,5 +390,11 @@ done: 1 fact(s) posted
 facts: read 1106 rows from origin/main (authoritative)
 state: FT-0989 recorded on main (attempt 1)
 posted fact [FT-0989]: Niue is self-governing in free association with New Zealand and has no
+done: 1 fact(s) posted
+
+=== 2026-09-25T18:30:07Z  run 863  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-0990 recorded on main (attempt 1)
+posted fact [FT-0990]: The Cook Islands sign their own international treaties despite not hol
 done: 1 fact(s) posted
 
