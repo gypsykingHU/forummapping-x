@@ -1,9 +1,3 @@
-=== 2026-09-19T00:14:05Z  run 826  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 2 fact slots elapsed since the last post
-state: FT-0870 recorded on main (attempt 1)
-posted fact [FT-0870]: The Amish population in the United States has roughly doubled every 20
-state: FT-0871 recorded on main (attempt 1)
 posted fact [FT-0871]: El Salvador made bitcoin legal tender in 2021, then reversed the manda
 done: 2 fact(s) posted
 
@@ -396,5 +390,11 @@ done: 1 fact(s) posted
 facts: read 1106 rows from origin/main (authoritative)
 state: FT-0986 recorded on main (attempt 1)
 posted fact [FT-0986]: Bougainville voted 98% for independence from Papua New Guinea in a 201
+done: 1 fact(s) posted
+
+=== 2026-09-25T01:24:31Z  run 860  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-0987 recorded on main (attempt 1)
+posted fact [FT-0987]: Andorra's head of state is shared by two people at once: the President
 done: 1 fact(s) posted
 
