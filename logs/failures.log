@@ -1,9 +1,3 @@
-state: FT-0882 recorded on main (attempt 1)
-posted fact [FT-0882]: Nauru briefly became one of the richest countries per capita in the 19
-state: FT-0883 recorded on main (attempt 1)
-posted fact [FT-0883]: Somalia's economy runs heavily on informal remittance networks known a
-done: 3 fact(s) posted
-
 === 2026-09-19T18:00:03Z  run 830  status=success
 facts: read 1106 rows from origin/main (authoritative)
 catching up: 3 fact slots elapsed since the last post
@@ -396,5 +390,11 @@ done: 1 fact(s) posted
 facts: read 1106 rows from origin/main (authoritative)
 state: FT-0993 recorded on main (attempt 1)
 posted fact [FT-0993]: Liechtenstein has used the Swiss franc since 1920 and shares a customs
+done: 1 fact(s) posted
+
+=== 2026-09-26T12:59:53Z  run 867  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-0994 recorded on main (attempt 1)
+posted fact [FT-0994]: Tokelau, a New Zealand territory of about 1,500 people spread across t
 done: 1 fact(s) posted
 
