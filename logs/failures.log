@@ -1,9 +1,3 @@
-=== 2026-09-19T18:00:03Z  run 830  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 3 fact slots elapsed since the last post
-state: FT-0884 recorded on main (attempt 1)
-posted fact [FT-0884]: China produces more than half the world's steel, more than every other
-state: FT-0885 recorded on main (attempt 1)
 posted fact [FT-0885]: Roughly 1.3 million kilometres of undersea fiber-optic cable now carry
 state: FT-0886 recorded on main (attempt 1)
 posted fact [FT-0886]: China's high-speed rail network grew from almost nothing in 2008 to ov
@@ -396,5 +390,11 @@ done: 1 fact(s) posted
 facts: read 1106 rows from origin/main (authoritative)
 state: FT-0994 recorded on main (attempt 1)
 posted fact [FT-0994]: Tokelau, a New Zealand territory of about 1,500 people spread across t
+done: 1 fact(s) posted
+
+=== 2026-09-26T17:05:21Z  run 868  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-0995 recorded on main (attempt 1)
+posted fact [FT-0995]: The Cook Islands and Niue both issue their own collector coins and pos
 done: 1 fact(s) posted
 
