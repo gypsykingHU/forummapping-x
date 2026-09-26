@@ -1,9 +1,3 @@
-
-=== 2026-09-19T14:23:03Z  run 829  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 3 fact slots elapsed since the last post
-state: FT-0881 recorded on main (attempt 1)
-posted fact [FT-0881]: Taiwan's TSMC alone makes an estimated 70% of the world's outsourced a
 state: FT-0882 recorded on main (attempt 1)
 posted fact [FT-0882]: Nauru briefly became one of the richest countries per capita in the 19
 state: FT-0883 recorded on main (attempt 1)
@@ -396,5 +390,11 @@ done: 1 fact(s) posted
 facts: read 1106 rows from origin/main (authoritative)
 state: FT-0992 recorded on main (attempt 1)
 posted fact [FT-0992]: Palau, the Marshall Islands and Micronesia are independent states whos
+done: 1 fact(s) posted
+
+=== 2026-09-26T07:33:30Z  run 866  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-0993 recorded on main (attempt 1)
+posted fact [FT-0993]: Liechtenstein has used the Swiss franc since 1920 and shares a customs
 done: 1 fact(s) posted
 
