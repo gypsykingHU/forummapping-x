@@ -1,9 +1,3 @@
-posted fact [FT-0889]: Rare earth elements essential to electronics and green technology are 
-state: FT-0890 recorded on main (attempt 1)
-posted fact [FT-0890]: The Öresund link between Denmark and Sweden, opened in 2000, was among
-done: 2 fact(s) posted
-
-=== 2026-09-20T01:01:41Z  run 833  status=success
 facts: read 1106 rows from origin/main (authoritative)
 catching up: 2 fact slots elapsed since the last post
 state: FT-0891 recorded on main (attempt 1)
@@ -396,5 +390,11 @@ done: 1 fact(s) posted
 facts: read 1106 rows from origin/main (authoritative)
 state: FT-0998 recorded on main (attempt 1)
 posted fact [FT-0998]: Israel considers Jerusalem its capital, but for decades most foreign e
+done: 1 fact(s) posted
+
+=== 2026-09-27T11:55:08Z  run 872  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-0999 recorded on main (attempt 1)
+posted fact [FT-0999]: Brazil moved its capital from coastal Rio de Janeiro to the purpose-bu
 done: 1 fact(s) posted
 
