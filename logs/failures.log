@@ -1,9 +1,3 @@
-posted fact [FT-0896]: Dubai's Jebel Ali Port grew from empty desert in the 1970s into one of
-state: FT-0897 recorded on main (attempt 1)
-posted fact [FT-0897]: Shanghai's port moved more than 51 million shipping containers in 2024
-done: 5 fact(s) posted
-
-=== 2026-09-20T12:22:27Z  run 835  status=success
 facts: read 1106 rows from origin/main (authoritative)
 catching up: 6 fact slots elapsed since the last post
 state: FT-0898 recorded on main (attempt 1)
@@ -396,5 +390,11 @@ done: 1 fact(s) posted
 facts: read 1106 rows from origin/main (authoritative)
 state: FT-1002 recorded on main (attempt 1)
 posted fact [FT-1002]: Canberra was purpose-built in the early 20th century as a compromise c
+done: 1 fact(s) posted
+
+=== 2026-09-28T01:34:09Z  run 876  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-1003 recorded on main (attempt 1)
+posted fact [FT-1003]: Ottawa became Canada's capital in 1857 partly because Queen Victoria f
 done: 1 fact(s) posted
 
