@@ -1,9 +1,3 @@
-state: FT-0903 recorded on main (attempt 1)
-posted fact [FT-0903]: Container shipping is estimated to move roughly 80% or more of world t
-done: 6 fact(s) posted
-
-=== 2026-09-20T16:50:08Z  run 836  status=success
-facts: read 1106 rows from origin/main (authoritative)
 catching up: 4 fact slots elapsed since the last post
 state: FT-0904 recorded on main (attempt 1)
 posted fact [FT-0904]: The Strait of Hormuz, only about 33 km wide at its narrowest, is the t
@@ -396,5 +390,11 @@ done: 1 fact(s) posted
 facts: read 1106 rows from origin/main (authoritative)
 state: FT-1005 recorded on main (attempt 1)
 posted fact [FT-1005]: Putrajaya functions as Malaysia's administrative capital, built in the
+done: 1 fact(s) posted
+
+=== 2026-09-28T23:12:04Z  run 879  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-1006 recorded on main (attempt 1)
+posted fact [FT-1006]: South Tarawa, capital of Kiribati, ranks among the most densely popula
 done: 1 fact(s) posted
 
