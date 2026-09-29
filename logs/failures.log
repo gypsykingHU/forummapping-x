@@ -1,9 +1,3 @@
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 2 fact slots elapsed since the last post
-state: FT-0908 recorded on main (attempt 1)
-posted fact [FT-0908]: Air cargo carries only a small fraction of world trade by weight but a
-state: FT-0909 recorded on main (attempt 1)
-posted fact [FT-0909]: The world's registered merchant fleet now carries far more total cargo
 done: 2 fact(s) posted
 
 === 2026-09-20T22:24:14Z  run 838  status=success
@@ -396,5 +390,11 @@ done: 1 fact(s) posted
 facts: read 1106 rows from origin/main (authoritative)
 state: FT-1008 recorded on main (attempt 1)
 posted fact [FT-1008]: Paraguay's flag is the only national flag with a different emblem on e
+done: 1 fact(s) posted
+
+=== 2026-09-29T18:34:31Z  run 882  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-1009 recorded on main (attempt 1)
+posted fact [FT-1009]: Denmark's Dannebrog pattern inspired the flags of Sweden, Norway, Finl
 done: 1 fact(s) posted
 
