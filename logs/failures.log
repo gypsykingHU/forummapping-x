@@ -1,9 +1,3 @@
-posted fact [FT-0914]: Women worldwide are estimated to earn on average roughly 20% less than
-state: FT-0915 recorded on main (attempt 1)
-posted fact [FT-0915]: Retirement ages range from under 60 in some countries to 67 or higher 
-state: FT-0916 recorded on main (attempt 1)
-posted fact [FT-0916]: The United States is one of the only wealthy countries with no federal
-state: FT-0917 recorded on main (attempt 1)
 posted fact [FT-0917]: Union membership in Nordic countries can exceed 60-70% of the workforc
 state: FT-0918 recorded on main (attempt 1)
 posted fact [FT-0918]: Youth unemployment has topped 30% in parts of Southern Europe and Nort
@@ -396,5 +390,11 @@ done: 1 fact(s) posted
 facts: read 1106 rows from origin/main (authoritative)
 state: FT-1013 recorded on main (attempt 1)
 posted fact [FT-1013]: Ethiopia's green, yellow and red tricolor, never redesigned under colo
+done: 1 fact(s) posted
+
+=== 2026-09-30T20:45:19Z  run 887  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-1014 recorded on main (attempt 1)
+posted fact [FT-1014]: Somalia's flag carries a single five-pointed star, historically said t
 done: 1 fact(s) posted
 
