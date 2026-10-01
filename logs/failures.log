@@ -1,9 +1,3 @@
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 6 fact slots elapsed since the last post
-state: FT-0919 recorded on main (attempt 1)
-posted fact [FT-0919]: The "kafala" sponsorship system, used across much of the Gulf for deca
-state: FT-0920 recorded on main (attempt 1)
-posted fact [FT-0920]: Informal domestic work, largely performed by women, is estimated to em
 state: FT-0921 recorded on main (attempt 1)
 posted fact [FT-0921]: Smallpox was declared eradicated in 1980 after a global vaccination ca
 state: FT-0922 recorded on main (attempt 1)
@@ -396,5 +390,11 @@ done: 1 fact(s) posted
 facts: read 1106 rows from origin/main (authoritative)
 state: FT-1015 recorded on main (attempt 1)
 posted fact [FT-1015]: The Union Jack combines the crosses of England's St George, Scotland's
+done: 1 fact(s) posted
+
+=== 2026-10-01T07:08:24Z  run 889  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-1016 recorded on main (attempt 1)
+posted fact [FT-1016]: Canada only adopted its maple leaf flag in 1965, replacing the Red Ens
 done: 1 fact(s) posted
 
