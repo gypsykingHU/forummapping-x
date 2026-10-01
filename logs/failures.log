@@ -1,9 +1,3 @@
-state: FT-0921 recorded on main (attempt 1)
-posted fact [FT-0921]: Smallpox was declared eradicated in 1980 after a global vaccination ca
-state: FT-0922 recorded on main (attempt 1)
-posted fact [FT-0922]: Wild poliovirus now survives in only a couple of countries, down from 
-state: FT-0923 recorded on main (attempt 1)
-posted fact [FT-0923]: Nauru has one of the highest smoking rates on Earth, with nearly half 
 state: FT-0924 recorded on main (attempt 1)
 posted fact [FT-0924]: Lesotho has recorded some of the highest suicide rates ever measured, 
 done: 6 fact(s) posted
@@ -396,5 +390,11 @@ done: 1 fact(s) posted
 facts: read 1106 rows from origin/main (authoritative)
 state: FT-1016 recorded on main (attempt 1)
 posted fact [FT-1016]: Canada only adopted its maple leaf flag in 1965, replacing the Red Ens
+done: 1 fact(s) posted
+
+=== 2026-10-01T15:23:12Z  run 890  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-1017 recorded on main (attempt 1)
+posted fact [FT-1017]: Portugal's flag carries an armillary sphere, a navigational instrument
 done: 1 fact(s) posted
 
