@@ -1,9 +1,3 @@
-posted fact [FT-0951]: 5G rollout has moved fastest across East Asia and the Gulf states, whi
-state: FT-0952 recorded on main (attempt 1)
-posted fact [FT-0952]: Electric vehicles accounted for roughly 1 in 4 new cars sold worldwide
-done: 3 fact(s) posted
-
-=== 2026-09-23T00:23:52Z  run 849  status=success
 facts: read 1106 rows from origin/main (authoritative)
 catching up: 2 fact slots elapsed since the last post
 state: FT-0953 recorded on main (attempt 1)
@@ -396,5 +390,11 @@ done: 1 fact(s) posted
 facts: read 1106 rows from origin/main (authoritative)
 state: FT-1032 recorded on main (attempt 1)
 posted fact [FT-1032]: New Zealand's Chatham Islands run 45 minutes ahead of the mainland, on
+done: 1 fact(s) posted
+
+=== 2026-10-04T23:00:56Z  run 906  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-1033 recorded on main (attempt 1)
+posted fact [FT-1033]: India and Sri Lanka both keep a single time zone offset by exactly 30 
 done: 1 fact(s) posted
 
