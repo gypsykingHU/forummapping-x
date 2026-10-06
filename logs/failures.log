@@ -1,9 +1,3 @@
-state: FT-0962 recorded on main (attempt 1)
-posted fact [FT-0962]: Austria's Kleinwalsertal valley can only be reached by road through Ge
-state: FT-0963 recorded on main (attempt 1)
-posted fact [FT-0963]: A railway awarded to Belgium after the First World War sliced through 
-state: FT-0964 recorded on main (attempt 1)
-posted fact [FT-0964]: Llívia has been a Spanish town surrounded by France since 1659, after 
 done: 5 fact(s) posted
 
 === 2026-09-23T16:54:33Z  run 852  status=success
@@ -396,5 +390,11 @@ done: 1 fact(s) posted
 facts: read 1106 rows from origin/main (authoritative)
 state: FT-1038 recorded on main (attempt 1)
 posted fact [FT-1038]: Iran's new year, Nowruz, falls precisely on the spring equinox each ye
+done: 1 fact(s) posted
+
+=== 2026-10-06T15:02:26Z  run 912  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-1039 recorded on main (attempt 1)
+posted fact [FT-1039]: The Hebrew calendar counts years from a traditional creation date arou
 done: 1 fact(s) posted
 
