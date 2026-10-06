@@ -1035,7 +1035,7 @@ FT-1033,"India and Sri Lanka both keep a single time zone offset by exactly 30 m
 FT-1034,"South Australia and the Northern Territory sit 30 minutes off Eastern Australian time, while the settlement of Eucla, near the WA-SA border, unofficially keeps its own zone 45 minutes off Perth time.",1,2026-10-05T01:52:37+00:00
 FT-1035,"North Korea created its own ""Pyongyang Time,"" UTC+8:30, in 2015 to mark 70 years since liberation from Japan, then abandoned it in 2018 to realign with South Korea.",1,2026-10-05T08:52:32+00:00
 FT-1036,"The Eastern Orthodox churches of Russia, Georgia, Serbia and Jerusalem still follow the older Julian calendar for religious holidays, celebrating Christmas on January 7.",1,2026-10-05T18:19:58+00:00
-FT-1037,"Afghanistan's Solar Hijri calendar counts years from the Prophet Muhammad's migration to Medina in 622 CE but tracks the solar year, keeping it roughly 621 years behind the Gregorian count.",0,
+FT-1037,"Afghanistan's Solar Hijri calendar counts years from the Prophet Muhammad's migration to Medina in 622 CE but tracks the solar year, keeping it roughly 621 years behind the Gregorian count.",1,2026-10-06T00:45:36+00:00
 FT-1038,"Iran's new year, Nowruz, falls precisely on the spring equinox each year rather than a fixed calendar date, tying the Persian calendar directly to astronomy.",0,
 FT-1039,"The Hebrew calendar counts years from a traditional creation date around 3761 BCE, keeping its year number more than 3,760 years ahead of the Gregorian calendar's.",0,
 FT-1040,China's Lunar New Year shifts against the fixed Gregorian calendar every year because it follows a lunisolar calendar tied to moon phases rather than the solar year alone.,0,
