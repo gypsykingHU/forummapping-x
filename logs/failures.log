@@ -1,9 +1,3 @@
-posted fact [FT-0975]: The self-declared Nagorno-Karabakh Republic, known to Armenians as Art
-done: 3 fact(s) posted
-
-=== 2026-09-24T04:41:19Z  run 855  status=success
-facts: read 1106 rows from origin/main (authoritative)
-catching up: 4 fact slots elapsed since the last post
 state: FT-0976 recorded on main (attempt 1)
 posted fact [FT-0976]: Northern Cyprus declared independence in 1983 and is recognized by exa
 state: FT-0977 recorded on main (attempt 1)
@@ -396,5 +390,11 @@ done: 1 fact(s) posted
 facts: read 1106 rows from origin/main (authoritative)
 state: FT-1045 recorded on main (attempt 1)
 posted fact [FT-1045]: El Salvador adopted the US dollar as legal tender in 2001, then in 202
+done: 1 fact(s) posted
+
+=== 2026-10-08T08:50:18Z  run 919  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-1046 recorded on main (attempt 1)
+posted fact [FT-1046]: Kiribati and Tuvalu each mint their own coins for national pride, but 
 done: 1 fact(s) posted
 
