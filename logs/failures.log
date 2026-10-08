@@ -1,9 +1,3 @@
-state: FT-0979 recorded on main (attempt 1)
-posted fact [FT-0979]: Taiwan runs its own government, military and elections, but only a sma
-done: 4 fact(s) posted
-
-=== 2026-09-24T09:59:04Z  run 856  status=failure
-facts: read 1106 rows from origin/main (authoritative)
 catching up: 5 fact slots elapsed since the last post
 state: FT-0980 recorded on main (attempt 1)
 posted fact [FT-0980]: The Sahrawi Arab Democratic Republic has belonged to the African Union
@@ -396,5 +390,11 @@ done: 1 fact(s) posted
 facts: read 1106 rows from origin/main (authoritative)
 state: FT-1047 recorded on main (attempt 1)
 posted fact [FT-1047]: Transnistria, unrecognized by any UN member state, mints and prints it
+done: 1 fact(s) posted
+
+=== 2026-10-08T22:00:16Z  run 921  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-1048 recorded on main (attempt 1)
+posted fact [FT-1048]: North Korea runs two parallel currency systems in practice: an ordinar
 done: 1 fact(s) posted
 
