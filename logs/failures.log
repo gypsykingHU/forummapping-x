@@ -1,9 +1,3 @@
-state: FT-0994 recorded on main (attempt 1)
-posted fact [FT-0994]: Tokelau, a New Zealand territory of about 1,500 people spread across t
-done: 1 fact(s) posted
-
-=== 2026-09-26T17:05:21Z  run 868  status=success
-facts: read 1106 rows from origin/main (authoritative)
 state: FT-0995 recorded on main (attempt 1)
 posted fact [FT-0995]: The Cook Islands and Niue both issue their own collector coins and pos
 done: 1 fact(s) posted
@@ -396,5 +390,11 @@ done: 1 fact(s) posted
 facts: read 1106 rows from origin/main (authoritative)
 state: FT-1060 recorded on main (attempt 1)
 posted fact [FT-1060]: Under the 1959 Antarctic Treaty, seven countries maintain formal claim
+done: 1 fact(s) posted
+
+=== 2026-10-11T21:50:11Z  run 934  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-1061 recorded on main (attempt 1)
+posted fact [FT-1061]: A wedge of West Antarctica called Marie Byrd Land, roughly the size of
 done: 1 fact(s) posted
 
