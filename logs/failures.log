@@ -1,9 +1,3 @@
-state: FT-0993 recorded on main (attempt 1)
-posted fact [FT-0993]: Liechtenstein has used the Swiss franc since 1920 and shares a customs
-done: 1 fact(s) posted
-
-=== 2026-09-26T12:59:53Z  run 867  status=success
-facts: read 1106 rows from origin/main (authoritative)
 state: FT-0994 recorded on main (attempt 1)
 posted fact [FT-0994]: Tokelau, a New Zealand territory of about 1,500 people spread across t
 done: 1 fact(s) posted
@@ -396,5 +390,11 @@ done: 1 fact(s) posted
 facts: read 1106 rows from origin/main (authoritative)
 state: FT-1059 recorded on main (attempt 1)
 posted fact [FT-1059]: The Channel Island of Sark remained Europe's last fully feudal territo
+done: 1 fact(s) posted
+
+=== 2026-10-11T18:00:24Z  run 933  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-1060 recorded on main (attempt 1)
+posted fact [FT-1060]: Under the 1959 Antarctic Treaty, seven countries maintain formal claim
 done: 1 fact(s) posted
 
