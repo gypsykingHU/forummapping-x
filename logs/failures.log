@@ -1,9 +1,3 @@
-state: FT-1002 recorded on main (attempt 1)
-posted fact [FT-1002]: Canberra was purpose-built in the early 20th century as a compromise c
-done: 1 fact(s) posted
-
-=== 2026-09-28T01:34:09Z  run 876  status=success
-facts: read 1106 rows from origin/main (authoritative)
 state: FT-1003 recorded on main (attempt 1)
 posted fact [FT-1003]: Ottawa became Canada's capital in 1857 partly because Queen Victoria f
 done: 1 fact(s) posted
@@ -396,5 +390,11 @@ done: 1 fact(s) posted
 facts: read 1106 rows from origin/main (authoritative)
 state: FT-1068 recorded on main (attempt 1)
 posted fact [FT-1068]: Bhutan banned all tobacco sales nationwide from 2004 until pandemic-er
+done: 1 fact(s) posted
+
+=== 2026-10-14T01:48:43Z  run 942  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-1069 recorded on main (attempt 1)
+posted fact [FT-1069]: Portugal's border with Spain has stayed largely unchanged since a 1297
 done: 1 fact(s) posted
 
