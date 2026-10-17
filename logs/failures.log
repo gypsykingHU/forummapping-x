@@ -1,9 +1,3 @@
-state: FT-1021 recorded on main (attempt 1)
-posted fact [FT-1021]: Spain, San Marino, Kosovo and Bosnia and Herzegovina are the only four
-done: 1 fact(s) posted
-
-=== 2026-10-02T19:11:35Z  run 895  status=success
-facts: read 1106 rows from origin/main (authoritative)
 state: FT-1022 recorded on main (attempt 1)
 posted fact [FT-1022]: Uruguay's national anthem runs roughly five to six minutes in full per
 done: 1 fact(s) posted
@@ -396,5 +390,11 @@ done: 1 fact(s) posted
 facts: read 1106 rows from origin/main (authoritative)
 state: FT-1087 recorded on main (attempt 1)
 posted fact [FT-1087]: Chad, Niger and Mali are all named after major rivers or lakes running
+done: 1 fact(s) posted
+
+=== 2026-10-17T17:02:51Z  run 961  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-1088 recorded on main (attempt 1)
+posted fact [FT-1088]: Montenegro's name means "black mountain" in Italian, echoed by the Sla
 done: 1 fact(s) posted
 
