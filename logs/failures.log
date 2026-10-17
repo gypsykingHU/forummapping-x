@@ -1,9 +1,3 @@
-state: FT-1020 recorded on main (attempt 1)
-posted fact [FT-1020]: Japan's anthem, Kimigayo, pairs some of the oldest lyrics of any natio
-done: 1 fact(s) posted
-
-=== 2026-10-02T13:47:39Z  run 894  status=success
-facts: read 1106 rows from origin/main (authoritative)
 state: FT-1021 recorded on main (attempt 1)
 posted fact [FT-1021]: Spain, San Marino, Kosovo and Bosnia and Herzegovina are the only four
 done: 1 fact(s) posted
@@ -396,5 +390,11 @@ done: 1 fact(s) posted
 facts: read 1106 rows from origin/main (authoritative)
 state: FT-1086 recorded on main (attempt 1)
 posted fact [FT-1086]: Ecuador takes its name directly from the equator, which runs through t
+done: 1 fact(s) posted
+
+=== 2026-10-17T13:38:54Z  run 960  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-1087 recorded on main (attempt 1)
+posted fact [FT-1087]: Chad, Niger and Mali are all named after major rivers or lakes running
 done: 1 fact(s) posted
 
