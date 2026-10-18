@@ -102,6 +102,13 @@ def main():
 
     os.makedirs(SENT, exist_ok=True)
     shutil.move(path, os.path.join(SENT, os.path.basename(path)))
+    # keep threads/THREAD_LOG.csv current (exact posted date); never let log
+    # bookkeeping fail a thread that already went out
+    try:
+        import thread_log
+        thread_log.sync(posted_today_id=thread["id"])
+    except Exception as e:
+        print(f"note: thread log not updated ({e}); run thread_log.py sync later")
     print(f"Thread {thread['id']} complete: https://x.com/forummapping")
 
 

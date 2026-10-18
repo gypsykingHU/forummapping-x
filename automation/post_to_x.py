@@ -171,6 +171,28 @@ ROLLING_MIN_SAMPLE = 10   # below this many recent posts, the window is too
                           # thin to trust -- fall back to lifetime totals
 
 
+FRESH_TAG = "src:claude-maps"   # stamped into notes by ingest_approved.py
+FRESH_WINDOW = 6                # look at the last 6 posts (~1 day of map slots)...
+FRESH_MAX_IN_WINDOW = 4         # ...and let new maps take at most 4 of them, so the
+                                # older library always keeps >= 2 of every 6 slots
+
+
+def _is_fresh_src(r):
+    return FRESH_TAG in (r["notes"] or "")
+
+
+def _fresh_unposted(r):
+    return _is_fresh_src(r) and int(r["times_posted"] or 0) == 0
+
+
+def _fresh_lane_post(r):
+    """A new map that has been posted exactly once -- i.e. the post it got from
+    the fresh lane. Excluded from the OWID/original ratio window and the streak
+    check so a day of priority posts doesn't make the rest of the schedule
+    swing toward OWID to 'rebalance' (Milan wants originals favoured, not OWID)."""
+    return _is_fresh_src(r) and int(r["times_posted"] or 0) == 1 and bool(r["last_posted"])
+
+
 def _recent_owid_share(active, window):
     """The OWID fraction of the `window` most-recently-posted active rows.
     Each row's last_posted is that row's own most recent posting, and
@@ -261,6 +283,26 @@ def pick_row(rows):
     if not active:
         sys.exit("No active rows in database.")
 
+    # NEW-MAP LANE (Approved Maps pipeline, 2026-10-18). Maps ingested from
+    # Claude Maps/Approved Maps that have never been posted go out first, oldest
+    # ingest first, so the existing library gets a break. Capped at
+    # FRESH_MAX_IN_WINDOW of the last FRESH_WINDOW posts: a big daily intake
+    # can't starve the old maps completely. Once a new map has had its first
+    # post it joins the normal rotation like any other original.
+    fresh = [r for r in active if _fresh_unposted(r)]
+    if fresh:
+        rest = [r for r in active if not _fresh_unposted(r)]
+        recent = sorted((r for r in active if r["last_posted"]),
+                        key=lambda r: r["last_posted"], reverse=True)[:FRESH_WINDOW]
+        used = sum(1 for r in recent if _fresh_lane_post(r))
+        if used < FRESH_MAX_IN_WINDOW or not rest:
+            return min(fresh, key=lambda r: r["map_id"])
+        # cap reached: this slot belongs to the old library. Take the unposted
+        # new maps out of the pools, or the least-posted tier (times_posted=0)
+        # would hand them the slot anyway.
+        active = rest
+
+    ratio_rows = [r for r in active if not _fresh_lane_post(r)]
     owid_pool = [r for r in active if is_owid(r)]
     orig_pool = [r for r in active if not is_owid(r)]
 
@@ -271,7 +313,7 @@ def pick_row(rows):
             return "owid"
         target_owid_share = len(owid_pool) / len(active)
 
-        recent_share, sample_size = _recent_owid_share(active, ROLLING_WINDOW)
+        recent_share, sample_size = _recent_owid_share(ratio_rows, ROLLING_WINDOW)
         if recent_share is not None and sample_size >= ROLLING_MIN_SAMPLE:
             current_owid_share = recent_share
         else:
@@ -290,7 +332,7 @@ def pick_row(rows):
 
     choice = group_choice()
 
-    streak_len, streak_group = _recent_streak(active)
+    streak_len, streak_group = _recent_streak(ratio_rows)
     if streak_len >= MAX_STREAK and streak_group == choice:
         forced = "original" if choice == "owid" else "owid"
         # only force the switch if the other side can actually post --
