@@ -2,8 +2,9 @@ name: Thread poster
 
 on:
   schedule:
-    # Daily, 17:00 UTC ≈ 1pm US Eastern
-    - cron: '0 17 * * *'
+    # Twice daily = 2 threads/day: 14:17 UTC (~10am ET) and 22:17 UTC (~6pm ET)
+    - cron: '17 14 * * *'
+    - cron: '17 22 * * *'
   workflow_dispatch:
     inputs:
       dry_run:

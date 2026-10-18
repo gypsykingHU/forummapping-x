@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Forummapping hourly fact poster.
+"""Forummapping fact poster (2 facts per run, 5 runs/day).
 
 Posts the least-recently-used fact from facts.csv. Facts recycle after the
 whole bank rotates (they're evergreen statistics), so the queue never dies;
 the Monday content writer keeps the bank growing so repeats stay rare.
 """
-import csv, datetime, os, sys
+import csv, datetime, os, sys, time
 from requests_oauthlib import OAuth1Session
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -90,28 +90,33 @@ def load_facts():
         return list(reader), reader.fieldnames
 
 
+FACTS_PER_RUN = 2          # the workflow fires 5x/day -> 10 facts/day
+SPACING_SECONDS = 20       # gap between the two posts of one run
+
+
 def main():
-    # One fact per run, every run -- the workflow's hourly cron is the only
-    # cadence control now (24/day). Previously a missed-slot run would catch
-    # up by posting several facts back-to-back in one job (see slots_missed,
-    # removed); Milan asked for that dropped in favor of a strict 1-per-hour
-    # ceiling, so a gap in the cron just means fewer facts that day, not a
-    # burst later.
+    # Exactly FACTS_PER_RUN facts per run, no catch-up: a missed cron means
+    # fewer facts that day, never a burst later. The workflow cron (5x/day) is
+    # the only cadence control. post_one() always takes the least-posted,
+    # longest-rested fact, so the bank is used evenly.
     rows, fieldnames = load_facts()
     if not rows:
         print("facts.csv is empty")
         return
 
-    try:
-        posted = post_one(rows, fieldnames)
-    except DuplicatePost:
-        # The claim for that row is already saved (it happened before the X
-        # call), so it won't be picked again. Nothing else to try this run --
-        # the next fact goes out on the next hourly trigger.
-        posted = False
-        print("done: 0 fact(s) posted (duplicate, claim recorded)")
-        return
-    print(f"done: {1 if posted else 0} fact(s) posted")
+    posted = 0
+    for i in range(FACTS_PER_RUN):
+        if i and "--dry-run" not in sys.argv:
+            time.sleep(SPACING_SECONDS)
+        try:
+            if post_one(rows, fieldnames):
+                posted += 1
+            elif "--dry-run" not in sys.argv:
+                break                      # nothing eligible / claim failed: stop, don't retry
+        except DuplicatePost:
+            # claim already saved, so that row won't be picked again; try the next slot
+            print("duplicate refused by X (claim recorded) -- moving on")
+    print(f"done: {posted} fact(s) posted")
 
 
 def post_one(rows, fieldnames):

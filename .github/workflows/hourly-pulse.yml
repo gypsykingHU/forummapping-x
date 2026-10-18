@@ -1,8 +1,9 @@
-name: Facts (hourly)
+name: Facts (5x daily, 2 per run)
 
 on:
   schedule:
-    - cron: '5 * * * *'   # every hour
+    # 5 runs/day x 2 facts = 10 facts/day, spread across the day (UTC), off-peak minute
+    - cron: '37 3,8,13,18,23 * * *'
   workflow_dispatch:
     inputs:
       dry_run:

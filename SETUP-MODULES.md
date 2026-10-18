@@ -8,7 +8,7 @@ You now have 5 automations. The feed poster is already live; here's how to switc
 | Thread poster | Tue + Fri 1pm ET | nothing new |
 | Newsletter | every 3 days | Buttondown API key |
 | Engagement (5 comments / 10 follows) | daily ~10am ET | nothing new |
-| Weekly report | Sunday | nothing new |
+| ~~Weekly report~~ | removed 2026-10-19 | -- |
 
 ## 1. Push the new files
 Open **GitHub Desktop** — it will show all the new files (scripts, workflows, threads, articles).
@@ -27,7 +27,6 @@ Type a summary like "add all modules" → **Commit to main** → **Push origin**
 Repo → **Actions** tab, then for each of **Thread poster**, **Newsletter**, **Engagement**:
 **Run workflow** → tick **Dry run** → Run → wait for the green check and read the log to see what it *would* do.
 
-The **Weekly report** has no dry run (it only reads data) — just run it once to get your first report in the `reports/` folder.
 
 ## 4. Go live
 Nothing else to do — the schedules take over. First real thread goes out next Tuesday or Friday, first newsletter on the next day-of-month divisible by 3, engagement starts tomorrow morning.

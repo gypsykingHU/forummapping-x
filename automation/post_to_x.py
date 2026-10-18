@@ -112,7 +112,7 @@ HARD_MIN_DAYS = 7         # absolute floor — never relaxed, even if it means s
 
 
 
-def slots_missed(rows, per_day=6, cap=2):
+def slots_missed(rows, per_day=12, cap=2):
     """GitHub drops most scheduled runs, so treat each run as responsible for every
     slot since the last successful post rather than exactly one."""
     stamps = [r["last_posted"] for r in rows if r["last_posted"]]
@@ -172,8 +172,8 @@ ROLLING_MIN_SAMPLE = 10   # below this many recent posts, the window is too
 
 
 FRESH_TAG = "src:claude-maps"   # stamped into notes by ingest_approved.py
-FRESH_WINDOW = 6                # look at the last 6 posts (~1 day of map slots)...
-FRESH_MAX_IN_WINDOW = 4         # ...and let new maps take at most 4 of them, so the
+FRESH_WINDOW = 12               # look at the last 12 posts (~1 day of map slots)...
+FRESH_MAX_IN_WINDOW = 8         # ...and let new maps take at most 8 of them, so the
                                 # older library always keeps >= 2 of every 6 slots
 
 
@@ -452,7 +452,7 @@ def main():
     # run's stamps; trusting it is how a "posted" map looks unposted.
     rows, fieldnames = load_database()
 
-    # Spacing is handled by the workflow cron (every 4h), not here. The 7-day
+    # Spacing is handled by the workflow cron (every 2h), not here. The 7-day
     # no-repeat rule in pick_row() still applies and is unrelated to spacing.
     n = 1 if "--dry-run" in sys.argv else slots_missed(rows)
     if n > 1:

@@ -1,9 +1,10 @@
-name: Maps (every 4h)
+name: Maps (every 2h)
 
 on:
   schedule:
-    # Every 4 hours = 6 map posts/day. Spacing is the cron's job, not the code's.
-    - cron: '0 */4 * * *'
+    # Every 2 hours = 12 map posts/day. Spacing is the cron's job, not the code's.
+    # Minute 7, not :00 -- the top of the hour is when GitHub drops the most runs.
+    - cron: '7 */2 * * *'
   workflow_dispatch:
     inputs:
       dry_run:
