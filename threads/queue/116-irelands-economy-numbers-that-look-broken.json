@@ -1,0 +1,31 @@
+{
+  "id": "116-irelands-economy-numbers-that-look-broken",
+  "posts": [
+    {
+      "text": "Ireland's economy grew 12.3% on this map. Germany's grew 0.2%. Same continent, same euro. Why do Ireland's numbers look so strange?\n\na thread 🧵🗺️",
+      "image": "cm-economic_growth_europe.png"
+    },
+    {
+      "text": "1/ The map shows real GDP growth per year. Ireland 12.3%, Poland and Turkey 3.6%, Spain 2.8%, France 0.8%, Germany 0.2%. Data: World Bank (2023-25)."
+    },
+    {
+      "text": "2/ Ireland is famous for odd growth figures. In July 2016 its statistics office revised 2015 growth to 26.3%. Paul Krugman reacted within minutes and the episode became known as 'leprechaun economics'."
+    },
+    {
+      "text": "3/ The jump traced to a single transaction in early 2015, tied to Apple's restructuring, not to a sudden burst of factories or shops."
+    },
+    {
+      "text": "4/ Trade tells the same story. Exports plus imports equal 240% of Irish GDP, against 79% in Germany and 34% in Russia. Data: World Bank (2023-25).",
+      "image": "cm-trade_europe.png"
+    },
+    {
+      "text": "5/ Ireland now publishes a modified measure, GNI*, built to strip out multinational distortions. For 2017, Irish GDP was about 162% of GNI*."
+    },
+    {
+      "text": "6/ So read 12.3% with care: huge growth in a small, multinational-heavy economy does not necessarily mean everyday incomes jumped."
+    },
+    {
+      "text": "Which of these surprised you most? Follow @forummapping for more maps like this."
+    }
+  ]
+}
