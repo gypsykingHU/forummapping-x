@@ -279,7 +279,8 @@ def pick_row(rows):
     samples. MAX_STREAK stays on as a belt-and-suspenders cap -- with the
     rolling window doing the real work, it should now rarely if ever
     trigger."""
-    active = [r for r in rows if r["status"] == "active" and r["caption"].strip()]
+    # OWID maps are retired (Milan, 2026-10-20): never post them, even if a row reappears.
+    active = [r for r in rows if r["status"] == "active" and r["caption"].strip() and not is_owid(r)]
     if not active:
         sys.exit("No active rows in database.")
 
