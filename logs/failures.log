@@ -1,11 +1,3 @@
-=== 2026-10-06T00:45:37Z  run 910  status=success
-facts: read 1106 rows from origin/main (authoritative)
-state: FT-1037 recorded on main (attempt 1)
-posted fact [FT-1037]: Afghanistan's Solar Hijri calendar counts years from the Prophet Muham
-done: 1 fact(s) posted
-
-=== 2026-10-06T07:29:12Z  run 911  status=success
-facts: read 1106 rows from origin/main (authoritative)
 state: FT-1038 recorded on main (attempt 1)
 posted fact [FT-1038]: Iran's new year, Nowruz, falls precisely on the spring equinox each ye
 done: 1 fact(s) posted
@@ -396,5 +388,13 @@ state: FT-1105 recorded on main (attempt 1)
 posted fact [FT-1105]: The 1868 Mannheim Act guarantees landlocked Switzerland free navigatio
 state: FT-1106 recorded on main (attempt 1)
 posted fact [FT-1106]: Basel's main train station includes a French-run sector, Basel SNCF, w
+done: 2 fact(s) posted
+
+=== 2026-10-20T22:13:59Z  run 975  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-0006 recorded on main (attempt 1)
+posted fact [FT-0006]: Monaco is smaller than Central Park in New York (2.1 km² vs 3.4 km²).
+state: FT-0033 recorded on main (attempt 1)
+posted fact [FT-0033]: The Soviet Union covered one-sixth of Earth's land surface.
 done: 2 fact(s) posted
 
