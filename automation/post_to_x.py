@@ -455,7 +455,9 @@ def main():
 
     # Spacing is handled by the workflow cron (every 2h), not here. The 7-day
     # no-repeat rule in pick_row() still applies and is unrelated to spacing.
-    n = 1 if "--dry-run" in sys.argv else slots_missed(rows)
+    # Exactly one map per run, never a catch-up batch (Milan, 2026-10-20): a missed
+    # cron means a missed slot, not two posts later. slots_missed() is kept but unused.
+    n = 1
     if n > 1:
         print(f"catching up: {n} map slots elapsed since the last post")
     posted = skipped_dupes = 0

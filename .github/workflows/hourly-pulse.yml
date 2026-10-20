@@ -1,9 +1,10 @@
-name: Facts (5x daily, 2 per run)
+name: Facts (odd hours, 2 per run)
 
 on:
   schedule:
-    # 5 runs/day x 2 facts = 10 facts/day, spread across the day (UTC), off-peak minute
-    - cron: '37 3,8,13,18,23 * * *'
+    # Odd UTC hours (01,03,...,23) = 12 runs/day x 2 facts = 24 facts/day.
+    # Alternates with the map poster (even hours) so every post has a 1-hour recharge.
+    - cron: '7 1-23/2 * * *'
   workflow_dispatch:
     inputs:
       dry_run:

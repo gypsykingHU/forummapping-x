@@ -2,9 +2,9 @@ name: Maps (every 2h)
 
 on:
   schedule:
-    # Every 2 hours = 12 map posts/day. Spacing is the cron's job, not the code's.
-    # Minute 7, not :00 -- the top of the hour is when GitHub drops the most runs.
-    - cron: '7 */2 * * *'
+    # Even UTC hours (00,02,...,22) = 12 map posts/day, exactly 1 per run (no batching).
+    # Alternates with the fact poster (odd hours): facts, map, facts, map...
+    - cron: '7 0-22/2 * * *'
   workflow_dispatch:
     inputs:
       dry_run:

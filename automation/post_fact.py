@@ -90,7 +90,7 @@ def load_facts():
         return list(reader), reader.fieldnames
 
 
-FACTS_PER_RUN = 2          # the workflow fires 5x/day -> 10 facts/day
+FACTS_PER_RUN = 2          # the workflow fires on odd hours, 12x/day -> 24 facts/day
 SPACING_SECONDS = 20       # gap between the two posts of one run
 
 

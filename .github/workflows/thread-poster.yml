@@ -2,9 +2,11 @@ name: Thread poster
 
 on:
   schedule:
-    # Twice daily = 2 threads/day: 14:17 UTC (~10am ET) and 22:17 UTC (~6pm ET)
-    - cron: '17 14 * * *'
-    - cron: '17 22 * * *'
+    # 2 threads/day, CET: morning 07:30 UTC (08:30 CET / 09:30 CEST),
+    # evening 18:30 UTC (19:30 CET / 20:30 CEST). GitHub cron is UTC-only, so the
+    # local time moves by 1h when daylight saving changes.
+    - cron: '30 7 * * *'
+    - cron: '30 18 * * *'
   workflow_dispatch:
     inputs:
       dry_run:
