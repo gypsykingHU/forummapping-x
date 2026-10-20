@@ -1,11 +1,3 @@
-done: 1 fact(s) posted
-
-=== 2026-10-05T18:20:01Z  run 909  status=success
-facts: read 1106 rows from origin/main (authoritative)
-state: FT-1036 recorded on main (attempt 1)
-posted fact [FT-1036]: The Eastern Orthodox churches of Russia, Georgia, Serbia and Jerusalem
-done: 1 fact(s) posted
-
 === 2026-10-06T00:45:37Z  run 910  status=success
 facts: read 1106 rows from origin/main (authoritative)
 state: FT-1037 recorded on main (attempt 1)
@@ -396,5 +388,13 @@ state: FT-1103 recorded on main (attempt 1)
 posted fact [FT-1103]: Argentina, Brazil and Paraguay meet at a single tripoint near Iguazu F
 state: FT-1104 recorded on main (attempt 1)
 posted fact [FT-1104]: The Russia-Norway border runs just under 200 km, one of the shortest f
+done: 2 fact(s) posted
+
+=== 2026-10-20T08:51:54Z  run 974  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-1105 recorded on main (attempt 1)
+posted fact [FT-1105]: The 1868 Mannheim Act guarantees landlocked Switzerland free navigatio
+state: FT-1106 recorded on main (attempt 1)
+posted fact [FT-1106]: Basel's main train station includes a French-run sector, Basel SNCF, w
 done: 2 fact(s) posted
 
