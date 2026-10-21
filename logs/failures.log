@@ -1,11 +1,3 @@
-state: FT-1038 recorded on main (attempt 1)
-posted fact [FT-1038]: Iran's new year, Nowruz, falls precisely on the spring equinox each ye
-done: 1 fact(s) posted
-
-=== 2026-10-06T15:02:26Z  run 912  status=success
-facts: read 1106 rows from origin/main (authoritative)
-state: FT-1039 recorded on main (attempt 1)
-posted fact [FT-1039]: The Hebrew calendar counts years from a traditional creation date arou
 done: 1 fact(s) posted
 
 === 2026-10-06T20:12:46Z  run 913  status=success
@@ -396,5 +388,13 @@ state: FT-0006 recorded on main (attempt 1)
 posted fact [FT-0006]: Monaco is smaller than Central Park in New York (2.1 km² vs 3.4 km²).
 state: FT-0033 recorded on main (attempt 1)
 posted fact [FT-0033]: The Soviet Union covered one-sixth of Earth's land surface.
+done: 2 fact(s) posted
+
+=== 2026-10-21T01:27:47Z  run 976  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-0025 recorded on main (attempt 1)
+posted fact [FT-0025]: The Berlin Wall stood for 10,316 days. As of 2018, it has been gone lo
+state: FT-0021 recorded on main (attempt 1)
+posted fact [FT-0021]: The Danube flows through or borders 10 countries — more than any other
 done: 2 fact(s) posted
 
