@@ -1,11 +1,3 @@
-=== 2026-10-07T00:36:38Z  run 914  status=success
-facts: read 1106 rows from origin/main (authoritative)
-state: FT-1041 recorded on main (attempt 1)
-posted fact [FT-1041]: Myanmar uses a 30-minute offset, UTC+6:30, one of just a handful of co
-done: 1 fact(s) posted
-
-=== 2026-10-07T07:09:25Z  run 915  status=success
-facts: read 1106 rows from origin/main (authoritative)
 state: FT-1042 recorded on main (attempt 1)
 posted fact [FT-1042]: Fourteen African countries use the CFA franc, split into two currencie
 done: 1 fact(s) posted
@@ -396,5 +388,13 @@ state: FT-0104 recorded on main (attempt 1)
 posted fact [FT-0104]: Harvard was founded before calculus existed. The university opened in 
 state: FT-0215 recorded on main (attempt 1)
 posted fact [FT-0215]: Nepal has the only national flag that isn't a rectangle — two stacked 
+done: 2 fact(s) posted
+
+=== 2026-10-21T14:27:46Z  run 978  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-0055 recorded on main (attempt 1)
+posted fact [FT-0055]: The Great Emu War of 1932: Australia deployed soldiers with machine gu
+state: FT-0153 recorded on main (attempt 1)
+posted fact [FT-0153]: The US 'Ghost Army' of WW2 was ~1,100 artists and engineers with infla
 done: 2 fact(s) posted
 
