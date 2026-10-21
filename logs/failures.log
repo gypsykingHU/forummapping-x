@@ -1,11 +1,3 @@
-state: FT-1042 recorded on main (attempt 1)
-posted fact [FT-1042]: Fourteen African countries use the CFA franc, split into two currencie
-done: 1 fact(s) posted
-
-=== 2026-10-07T15:29:47Z  run 916  status=success
-facts: read 1106 rows from origin/main (authoritative)
-state: FT-1043 recorded on main (attempt 1)
-posted fact [FT-1043]: Bhutan's ngultrum is pegged one-to-one with the Indian rupee, and Indi
 done: 1 fact(s) posted
 
 === 2026-10-07T21:13:36Z  run 917  status=success
@@ -396,5 +388,13 @@ state: FT-0055 recorded on main (attempt 1)
 posted fact [FT-0055]: The Great Emu War of 1932: Australia deployed soldiers with machine gu
 state: FT-0153 recorded on main (attempt 1)
 posted fact [FT-0153]: The US 'Ghost Army' of WW2 was ~1,100 artists and engineers with infla
+done: 2 fact(s) posted
+
+=== 2026-10-21T19:13:50Z  run 979  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-0131 recorded on main (attempt 1)
+posted fact [FT-0131]: In 2007, ~170 Swiss soldiers accidentally invaded Liechtenstein after 
+state: FT-0202 recorded on main (attempt 1)
+posted fact [FT-0202]: Bahrain, Kuwait, Monaco and Singapore are effectively 100% urban. Much
 done: 2 fact(s) posted
 
