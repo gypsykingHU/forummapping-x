@@ -1,11 +1,3 @@
-done: 1 fact(s) posted
-
-=== 2026-10-08T22:00:16Z  run 921  status=success
-facts: read 1106 rows from origin/main (authoritative)
-state: FT-1048 recorded on main (attempt 1)
-posted fact [FT-1048]: North Korea runs two parallel currency systems in practice: an ordinar
-done: 1 fact(s) posted
-
 === 2026-10-09T02:02:22Z  run 922  status=success
 facts: read 1106 rows from origin/main (authoritative)
 state: FT-1049 recorded on main (attempt 1)
@@ -396,5 +388,13 @@ state: FT-0111 recorded on main (attempt 1)
 posted fact [FT-0111]: The Hundred Years' War actually lasted 116 years (1337-1453). The name
 state: FT-0045 recorded on main (attempt 1)
 posted fact [FT-0045]: The Netherlands is the world's #2 agricultural exporter by value — fro
+done: 2 fact(s) posted
+
+=== 2026-10-22T17:56:07Z  run 983  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-0049 recorded on main (attempt 1)
+posted fact [FT-0049]: Greenland is the world's largest island — 80% of it lies under an ice 
+state: FT-0017 recorded on main (attempt 1)
+posted fact [FT-0017]: Germany made its final WWI reparations payment in October 2010 — 92 ye
 done: 2 fact(s) posted
 
