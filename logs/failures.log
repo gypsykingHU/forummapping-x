@@ -1,59 +1,3 @@
-=== 2026-10-06T00:45:37Z  run 910  status=success
-facts: read 1106 rows from origin/main (authoritative)
-state: FT-1037 recorded on main (attempt 1)
-posted fact [FT-1037]: Afghanistan's Solar Hijri calendar counts years from the Prophet Muham
-done: 1 fact(s) posted
-
-=== 2026-10-06T07:29:12Z  run 911  status=success
-facts: read 1106 rows from origin/main (authoritative)
-state: FT-1038 recorded on main (attempt 1)
-posted fact [FT-1038]: Iran's new year, Nowruz, falls precisely on the spring equinox each ye
-done: 1 fact(s) posted
-
-=== 2026-10-06T15:02:26Z  run 912  status=success
-facts: read 1106 rows from origin/main (authoritative)
-state: FT-1039 recorded on main (attempt 1)
-posted fact [FT-1039]: The Hebrew calendar counts years from a traditional creation date arou
-done: 1 fact(s) posted
-
-=== 2026-10-06T20:12:46Z  run 913  status=success
-facts: read 1106 rows from origin/main (authoritative)
-state: FT-1040 recorded on main (attempt 1)
-posted fact [FT-1040]: China's Lunar New Year shifts against the fixed Gregorian calendar eve
-done: 1 fact(s) posted
-
-=== 2026-10-07T00:36:38Z  run 914  status=success
-facts: read 1106 rows from origin/main (authoritative)
-state: FT-1041 recorded on main (attempt 1)
-posted fact [FT-1041]: Myanmar uses a 30-minute offset, UTC+6:30, one of just a handful of co
-done: 1 fact(s) posted
-
-=== 2026-10-07T07:09:25Z  run 915  status=success
-facts: read 1106 rows from origin/main (authoritative)
-state: FT-1042 recorded on main (attempt 1)
-posted fact [FT-1042]: Fourteen African countries use the CFA franc, split into two currencie
-done: 1 fact(s) posted
-
-=== 2026-10-07T15:29:47Z  run 916  status=success
-facts: read 1106 rows from origin/main (authoritative)
-state: FT-1043 recorded on main (attempt 1)
-posted fact [FT-1043]: Bhutan's ngultrum is pegged one-to-one with the Indian rupee, and Indi
-done: 1 fact(s) posted
-
-=== 2026-10-07T21:13:36Z  run 917  status=success
-facts: read 1106 rows from origin/main (authoritative)
-state: FT-1044 recorded on main (attempt 1)
-posted fact [FT-1044]: The East Caribbean dollar is shared by eight island states and territo
-done: 1 fact(s) posted
-
-=== 2026-10-08T01:50:04Z  run 918  status=success
-facts: read 1106 rows from origin/main (authoritative)
-state: FT-1045 recorded on main (attempt 1)
-posted fact [FT-1045]: El Salvador adopted the US dollar as legal tender in 2001, then in 202
-done: 1 fact(s) posted
-
-=== 2026-10-08T08:50:18Z  run 919  status=success
-facts: read 1106 rows from origin/main (authoritative)
 state: FT-1046 recorded on main (attempt 1)
 posted fact [FT-1046]: Kiribati and Tuvalu each mint their own coins for national pride, but 
 done: 1 fact(s) posted
@@ -396,5 +340,61 @@ state: FT-1105 recorded on main (attempt 1)
 posted fact [FT-1105]: The 1868 Mannheim Act guarantees landlocked Switzerland free navigatio
 state: FT-1106 recorded on main (attempt 1)
 posted fact [FT-1106]: Basel's main train station includes a French-run sector, Basel SNCF, w
+done: 2 fact(s) posted
+
+=== 2026-10-20T22:13:59Z  run 975  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-0006 recorded on main (attempt 1)
+posted fact [FT-0006]: Monaco is smaller than Central Park in New York (2.1 km² vs 3.4 km²).
+state: FT-0033 recorded on main (attempt 1)
+posted fact [FT-0033]: The Soviet Union covered one-sixth of Earth's land surface.
+done: 2 fact(s) posted
+
+=== 2026-10-21T01:27:47Z  run 976  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-0025 recorded on main (attempt 1)
+posted fact [FT-0025]: The Berlin Wall stood for 10,316 days. As of 2018, it has been gone lo
+state: FT-0021 recorded on main (attempt 1)
+posted fact [FT-0021]: The Danube flows through or borders 10 countries — more than any other
+done: 2 fact(s) posted
+
+=== 2026-10-21T08:28:36Z  run 977  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-0104 recorded on main (attempt 1)
+posted fact [FT-0104]: Harvard was founded before calculus existed. The university opened in 
+state: FT-0215 recorded on main (attempt 1)
+posted fact [FT-0215]: Nepal has the only national flag that isn't a rectangle — two stacked 
+done: 2 fact(s) posted
+
+=== 2026-10-21T14:27:46Z  run 978  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-0055 recorded on main (attempt 1)
+posted fact [FT-0055]: The Great Emu War of 1932: Australia deployed soldiers with machine gu
+state: FT-0153 recorded on main (attempt 1)
+posted fact [FT-0153]: The US 'Ghost Army' of WW2 was ~1,100 artists and engineers with infla
+done: 2 fact(s) posted
+
+=== 2026-10-21T19:13:50Z  run 979  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-0131 recorded on main (attempt 1)
+posted fact [FT-0131]: In 2007, ~170 Swiss soldiers accidentally invaded Liechtenstein after 
+state: FT-0202 recorded on main (attempt 1)
+posted fact [FT-0202]: Bahrain, Kuwait, Monaco and Singapore are effectively 100% urban. Much
+done: 2 fact(s) posted
+
+=== 2026-10-21T23:58:55Z  run 980  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-0008 recorded on main (attempt 1)
+posted fact [FT-0008]: The Trans-Siberian Railway runs 9,289 km from Moscow to Vladivostok — 
+state: FT-0224 recorded on main (attempt 1)
+posted fact [FT-0224]: Fortune cookies were invented in California, most likely by Japanese i
+done: 2 fact(s) posted
+
+=== 2026-10-22T05:59:27Z  run 981  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-0043 recorded on main (attempt 1)
+posted fact [FT-0043]: There are over 7,000 languages on Earth — but half of humanity speaks 
+state: FT-0074 recorded on main (attempt 1)
+posted fact [FT-0074]: Russia and the US are less than 4 km apart. Between the Diomede Island
 done: 2 fact(s) posted
 

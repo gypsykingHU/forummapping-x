@@ -4,9 +4,9 @@ FT-0002,"The Mongol Empire covered ~23 million km² at its peak — the largest 
 FT-0003,More than half of the Netherlands sits less than 1 metre above sea level — and about a quarter is below it.,1,2026-08-16T15:30:59+00:00
 FT-0004,Canada has more lakes than the rest of the world combined.,1,2026-08-07T19:09:51+00:00
 FT-0005,The British Empire at its 1920 peak covered about 24% of Earth's land area. 'The empire on which the sun never sets' was not a metaphor.,1,2026-08-14T15:02:27+00:00
-FT-0006,Monaco is smaller than Central Park in New York (2.1 km² vs 3.4 km²).,1,2026-07-04T22:07:46+00:00
+FT-0006,Monaco is smaller than Central Park in New York (2.1 km² vs 3.4 km²).,2,2026-10-20T22:13:35+00:00
 FT-0007,"Africa is bigger than China, India, the USA and most of Europe combined — Mercator maps just refuse to show it.",1,2026-08-18T15:40:36+00:00
-FT-0008,"The Trans-Siberian Railway runs 9,289 km from Moscow to Vladivostok — the longest railway line on Earth.",1,2026-07-08T00:09:00+00:00
+FT-0008,"The Trans-Siberian Railway runs 9,289 km from Moscow to Vladivostok — the longest railway line on Earth.",2,2026-10-21T23:58:31+00:00
 FT-0009,"Istanbul is the only major city that sits on two continents — and it served as an imperial capital for over 1,500 years.",2,2026-08-25T10:43:55+00:00
 FT-0010,"In 1900, roughly 25% of the world's population lived in Europe. Today it's under 10%.",2,2026-08-24T18:54:03+00:00
 FT-0011,"Vatican City is the smallest country on Earth (0.44 km²) — and its Swiss Guard, founded in 1506, is older than most modern states.",1,2026-08-22T03:03:29+00:00
@@ -19,11 +19,11 @@ FT-0017,Germany made its final WWI reparations payment in October 2010 — 92 ye
 FT-0018,About 90% of the world's population lives in the Northern Hemisphere.,2,2026-08-25T04:48:50+00:00
 FT-0019,"The Sahara is roughly the size of the United States — and it was green savanna with lakes and hippos just 6,000 years ago.",2,2026-08-24T07:15:01+00:00
 FT-0020,"Indonesia is made up of over 17,000 islands and stretches wider than the continental United States.",1,2026-07-27T12:35:06+00:00
-FT-0021,The Danube flows through or borders 10 countries — more than any other river on Earth.,1,2026-07-06T04:23:58+00:00
+FT-0021,The Danube flows through or borders 10 countries — more than any other river on Earth.,2,2026-10-21T01:27:45+00:00
 FT-0022,Mount Everest grows about 4 mm taller every year as the Indian plate keeps pushing into Asia.,1,2026-08-04T23:14:23+00:00
 FT-0023,The Dead Sea shore sits about 430 m below sea level — the lowest dry land on Earth — and keeps dropping every year.,1,2026-08-02T00:06:42+00:00
 FT-0024,44 countries have no coastline. Two are double-landlocked (you must cross TWO countries to reach the sea): Liechtenstein and Uzbekistan.,1,2026-07-22T20:18:26+00:00
-FT-0025,"The Berlin Wall stood for 10,316 days. As of 2018, it has been gone longer than it ever stood.",1,2026-07-05T14:02:12+00:00
+FT-0025,"The Berlin Wall stood for 10,316 days. As of 2018, it has been gone longer than it ever stood.",2,2026-10-21T01:27:23+00:00
 FT-0026,China used more cement in 2011–2013 than the United States used in the entire 20th century.,2,2026-08-28T05:18:51+00:00
 FT-0027,"All the walls built across Chinese dynasties total roughly 21,000 km — about half the Earth's circumference.",2,2026-08-26T10:46:48+00:00
 FT-0028,"At the Cold War's peak in 1986, the world held ~70,000 nuclear warheads. Today: ~12,000.",1,2026-07-15T00:01:27+00:00
@@ -31,7 +31,7 @@ FT-0029,The 1918 flu pandemic killed more people in 6 months than WWI did in 4 y
 FT-0030,"Roman harbor concrete has survived 2,000 years of seawater. Modern marine concrete is designed to last decades.",1,2026-07-19T22:05:37+00:00
 FT-0031,The Mongol conquests may have depopulated so much farmland that regrowing forests measurably cooled the planet.,1,2026-08-02T22:05:09+00:00
 FT-0032,"When the Spanish arrived in 1519, Tenochtitlan was larger than almost any city in Europe — built on a lake, connected by causeways.",2,2026-08-26T14:57:00+00:00
-FT-0033,The Soviet Union covered one-sixth of Earth's land surface.,1,2026-07-05T00:10:39+00:00
+FT-0033,The Soviet Union covered one-sixth of Earth's land surface.,2,2026-10-20T22:13:57+00:00
 FT-0034,Brazil borders every country in South America except Chile and Ecuador.,2,2026-08-25T23:33:24+00:00
 FT-0035,Africa has 54 countries — more than a quarter of all UN member states — and a median age of just 19.,2,2026-08-25T20:39:24+00:00
 FT-0036,More than a third of humanity lives in just two countries: India and China.,1,2026-08-19T06:59:55+00:00
@@ -41,7 +41,7 @@ FT-0039,"When the Great Pyramid of Giza was built, woolly mammoths still lived o
 FT-0040,Oxford University is older than the Aztec Empire. Teaching began at Oxford around 1096; Tenochtitlan was founded in 1325.,1,2026-07-11T10:23:04+00:00
 FT-0041,World population reached 1 billion around 1804. It took 123 years to add the second billion — and just 12 years to add the eighth.,1,2026-08-13T02:39:59+00:00
 FT-0042,Sweden has not fought a war since 1814 — over two centuries of unbroken peace.,2,2026-08-24T23:30:25+00:00
-FT-0043,"There are over 7,000 languages on Earth — but half of humanity speaks just 23 of them.",1,2026-07-08T12:49:06+00:00
+FT-0043,"There are over 7,000 languages on Earth — but half of humanity speaks just 23 of them.",2,2026-10-22T05:59:04+00:00
 FT-0044,You can ski on the equator: the Cayambe volcano in Ecuador carries glaciers right on the line.,1,2026-08-09T13:10:31+00:00
 FT-0045,The Netherlands is the world's #2 agricultural exporter by value — from a country you can drive across in 3 hours.,1,2026-07-09T16:08:17+00:00
 FT-0046,Historians estimate Mansa Musa of Mali may have been the richest person in history — his gold spending on one pilgrimage disrupted Cairo's economy for years (1324).,1,2026-07-22T14:18:28+00:00
@@ -53,7 +53,7 @@ FT-0051,"The Inca Empire ran ~40,000 km of roads through the Andes — without w
 FT-0052,"The 1815 eruption of Mount Tambora caused the 'Year Without a Summer' — snow fell on New England in June 1816, and harvests failed across Europe.",1,2026-08-21T23:33:38+00:00
 FT-0053,Antarctica is the largest desert on Earth — far bigger than the Sahara.,1,2026-07-31T20:34:32+00:00
 FT-0054,"In 1914, one US dollar bought 4.2 German marks. By November 1923, it bought 4.2 trillion.",1,2026-07-20T04:46:14+00:00
-FT-0055,The Great Emu War of 1932: Australia deployed soldiers with machine guns against emus. The emus won.,1,2026-07-07T08:36:13+00:00
+FT-0055,The Great Emu War of 1932: Australia deployed soldiers with machine guns against emus. The emus won.,2,2026-10-21T14:27:19+00:00
 FT-0056,Portugal and England have the world's oldest active alliance — signed in 1373 and still in force.,1,2026-08-15T23:29:29+00:00
 FT-0057,Ethiopia follows a calendar roughly 7 years behind the rest of the world — and clocks that start counting from dawn.,1,2026-08-22T23:30:16+00:00
 FT-0058,About 71% of Earth is ocean — but humans have mapped the surface of Mars in more detail than the ocean floor.,2,2026-08-27T20:20:13+00:00
@@ -72,7 +72,7 @@ FT-0070,Alaska is both the westernmost AND easternmost US state: the Aleutian Is
 FT-0071,"The closest US state to Africa isn't Florida — it's Maine, whose eastern tip sits nearer to Morocco than Miami does.",2,2026-08-23T22:32:58+00:00
 FT-0072,"Reno, Nevada is farther west than Los Angeles, California. Check a map — the coastline bends hard.",1,2026-07-31T08:06:49+00:00
 FT-0073,"At the Strait of Gibraltar, Africa and Europe are only about 14 km apart — on a clear day you can see one continent from the other.",1,2026-08-19T04:47:09+00:00
-FT-0074,"Russia and the US are less than 4 km apart. Between the Diomede Islands in the Bering Strait, the date line makes them ~21 hours apart — locals call them Tomorrow Island and Yesterday Isle.",1,2026-07-09T04:08:11+00:00
+FT-0074,"Russia and the US are less than 4 km apart. Between the Diomede Islands in the Bering Strait, the date line makes them ~21 hours apart — locals call them Tomorrow Island and Yesterday Isle.",2,2026-10-22T05:59:25+00:00
 FT-0075,"Finland has an estimated 188,000 lakes — roughly one for every 30 Finns.",1,2026-08-22T11:30:25+00:00
 FT-0076,The Sargasso Sea is the only sea on Earth with no coastline — it's bounded entirely by ocean currents.,1,2026-08-15T08:40:11+00:00
 FT-0077,Landlocked Bolivia still maintains a navy of several thousand personnel — patrolling Lake Titicaca and waiting to reclaim the coastline it lost to Chile in 1884.,1,2026-07-23T10:33:00+00:00
@@ -102,7 +102,7 @@ FT-0100,"The Andes are the longest mountain range on land: ~7,000 km through 7 c
 FT-0101,"Damascus and Jericho both claim to be the oldest continuously inhabited city on Earth — each with evidence stretching back roughly 10,000 years.",1,2026-07-20T22:09:41+00:00
 FT-0102,The Sahara isn't the biggest desert on Earth — both Antarctica and the Arctic are larger. It's just the biggest HOT one.,2,2026-08-24T20:42:19+00:00
 FT-0103,"Cleopatra lived closer in time to the Moon landing than to the building of the Great Pyramid — the pyramid was already ~2,500 years old when she was born.",1,2026-07-11T08:56:20+00:00
-FT-0104,Harvard was founded before calculus existed. The university opened in 1636; Newton and Leibniz published calculus decades later.,1,2026-07-06T20:10:34+00:00
+FT-0104,Harvard was founded before calculus existed. The university opened in 1636; Newton and Leibniz published calculus decades later.,2,2026-10-21T08:28:12+00:00
 FT-0105,Nintendo was founded in 1889 — while the Ottoman Empire still ruled the Middle East and the Eiffel Tower was brand new. It made playing cards.,1,2026-07-25T22:07:45+00:00
 FT-0106,"The fax machine was patented in 1843 — 33 years before the telephone, while wagon trains were still crossing the Oregon Trail.",1,2026-07-26T16:11:27+00:00
 FT-0107,The London Underground opened in 1863 — before Germany or Italy existed as unified countries.,1,2026-07-20T16:41:32+00:00
@@ -129,7 +129,7 @@ FT-0127,Vikings reached North America around the year 1000 — nearly five centu
 FT-0128,"Iceland's parliament, the Althing, first met in 930 AD — making it arguably the oldest surviving parliament on Earth.",1,2026-08-04T18:00:20+00:00
 FT-0129,"San Marino, founded (by tradition) in 301 AD, claims to be the world's oldest republic — and it made Abraham Lincoln an honorary citizen in 1861. He wrote back thanking them.",1,2026-07-25T00:12:22+00:00
 FT-0130,"At the 1936 Olympics, Liechtenstein and Haiti discovered they had identical flags. Liechtenstein added a crown the next year.",1,2026-07-24T18:40:12+00:00
-FT-0131,"In 2007, ~170 Swiss soldiers accidentally invaded Liechtenstein after getting lost in the dark. Liechtenstein, which has no army, didn't notice.",1,2026-07-07T20:55:55+00:00
+FT-0131,"In 2007, ~170 Swiss soldiers accidentally invaded Liechtenstein after getting lost in the dark. Liechtenstein, which has no army, didn't notice.",2,2026-10-21T19:13:27+00:00
 FT-0132,Lady Jane Grey ruled England for just nine days in 1553 — probably the shortest confirmed reign in the country's history.,2,2026-08-26T07:55:33+00:00
 FT-0133,"In September 1914, the French army rushed ~5,000 soldiers to the Battle of the Marne in commandeered Paris taxis.",1,2026-07-22T22:13:33+00:00
 FT-0134,"On Christmas 1914, German and British soldiers climbed out of the trenches, exchanged gifts, sang carols and played football in no-man's-land. Commanders made sure it never happened again.",1,2026-07-27T08:41:53+00:00
@@ -151,7 +151,7 @@ FT-0149,The Apollo 11 guidance computer had less processing power than a modern 
 FT-0150,The Soviet Union lost roughly 27 million people in WW2 — about 1 in 7 of its entire population.,1,2026-07-11T06:23:24+00:00
 FT-0151,"The Zimmermann Telegram — Germany secretly offering Mexico the return of Texas, New Mexico and Arizona — was intercepted by the British and helped push the US into WWI in 1917.",1,2026-08-09T22:43:35+00:00
 FT-0152,"In 1943, British intelligence dressed a corpse as a Royal Marines officer, gave it fake invasion plans, and floated it to a Spanish beach. Hitler moved divisions to Greece; the Allies landed in Sicily.",1,2026-07-22T18:18:00+00:00
-FT-0153,"The US 'Ghost Army' of WW2 was ~1,100 artists and engineers with inflatable tanks and sound trucks — they impersonated entire divisions and fooled German intelligence repeatedly.",1,2026-07-07T18:11:24+00:00
+FT-0153,"The US 'Ghost Army' of WW2 was ~1,100 artists and engineers with inflatable tanks and sound trucks — they impersonated entire divisions and fooled German intelligence repeatedly.",2,2026-10-21T14:27:42+00:00
 FT-0154,"Witold Pilecki volunteered to be imprisoned in Auschwitz. He spent 2.5 years inside organizing resistance and smuggling out the first reports of the Holocaust, then escaped.",1,2026-08-21T14:47:46+00:00
 FT-0155,Japanese officer Hiroo Onoda kept fighting WW2 in the Philippine jungle until 1974 — 29 years after the surrender. He gave up only when his long-retired former commander flew out to order him home.,2,2026-08-24T08:59:17+00:00
 FT-0156,"At the peak of the Berlin Airlift, an Allied supply plane landed in West Berlin roughly every 45 seconds — for over a year, an entire city of 2 million fed entirely by air.",1,2026-07-14T16:24:09+00:00
@@ -200,7 +200,7 @@ FT-0198,"Malaria still kills hundreds of thousands of people a year — and the 
 FT-0199,"Japan has nearly one retiree for every two working-age people. In much of Africa the ratio is closer to one per twenty, per Our World in Data.",1,2026-07-14T14:07:37+00:00
 FT-0200,"Nature's constant: about 105 boys are born for every 100 girls, almost everywhere on Earth. Countries far above that line have a story to explain, per Our World in Data.",1,2026-07-27T04:47:48+00:00
 FT-0201,"In some Pacific island nations, more than half of all adults are obese — the highest rates on Earth, per Our World in Data.",1,2026-07-16T14:15:53+00:00
-FT-0202,"Bahrain, Kuwait, Monaco and Singapore are effectively 100% urban. Much of East Africa is still mostly rural, per Our World in Data.",1,2026-07-07T22:19:40+00:00
+FT-0202,"Bahrain, Kuwait, Monaco and Singapore are effectively 100% urban. Much of East Africa is still mostly rural, per Our World in Data.",2,2026-10-21T19:13:48+00:00
 FT-0203,"Papua New Guinea has roughly 840 living languages — more than any other country, in a population smaller than London's.",1,2026-07-14T06:21:10+00:00
 FT-0204,"Basque, spoken in the Pyrenees, has no known living relatives — it likely predates the arrival of Indo-European languages in Europe by thousands of years.",1,2026-08-15T17:30:07+00:00
 FT-0205,English is an official or primary language in ~60 sovereign states — more than any other language. The UK itself has no law making it official.,2,2026-08-23T18:43:30+00:00
@@ -213,7 +213,7 @@ FT-0211,The Hawaiian alphabet has just 13 letters. The Khmer script of Cambodia 
 FT-0212,The Rotokas language of Papua New Guinea uses an alphabet of only 12 letters — the world's shortest.,1,2026-07-17T00:09:19+00:00
 FT-0213,"The British pound is the world's oldest currency still in use — its origins go back roughly 1,200 years.",1,2026-08-14T06:22:52+00:00
 FT-0214,"The word 'salary' may come from Roman soldiers' salt allowance — 'salarium.' Even Pliny the Elder repeated the story, though historians still argue about it.",1,2026-08-17T19:35:55+00:00
-FT-0215,"Nepal has the only national flag that isn't a rectangle — two stacked pennants, representing the Himalaya.",1,2026-07-07T00:17:23+00:00
+FT-0215,"Nepal has the only national flag that isn't a rectangle — two stacked pennants, representing the Himalaya.",2,2026-10-21T08:28:34+00:00
 FT-0216,Only two countries have square flags: Switzerland and the Vatican.,1,2026-07-26T14:42:49+00:00
 FT-0217,"Denmark's flag, by legend falling from the sky in 1219, is the oldest continuously used national flag on Earth.",2,2026-08-25T17:40:05+00:00
 FT-0218,"Tyrian purple, the dye of Roman emperors, was extracted from sea snails — thousands of snails per gram, making it worth more than gold.",2,2026-08-24T04:56:16+00:00
@@ -222,7 +222,7 @@ FT-0220,"The Cherokee syllabary was invented in the 1820s by Sequoyah, who could
 FT-0221,"There are more possible chess games than atoms in the observable universe — chess arrived in Europe ~1,000 years ago via Persia and the Arab world, from India.",1,2026-07-26T22:08:40+00:00
 FT-0222,Oktoberfest mostly takes place in September.,1,2026-07-21T00:05:51+00:00
 FT-0223,"The croissant isn't French — it descends from the Austrian kipferl, brought to Paris in the 1830s by a Viennese baker.",1,2026-07-26T12:11:49+00:00
-FT-0224,"Fortune cookies were invented in California, most likely by Japanese immigrants. They're almost unknown in China.",1,2026-07-08T04:25:42+00:00
+FT-0224,"Fortune cookies were invented in California, most likely by Japanese immigrants. They're almost unknown in China.",2,2026-10-21T23:58:53+00:00
 FT-0225,Vanilla is native to Mexico — for 300 years the Aztecs' secret ingredient in chocolate. Most 'vanilla' flavor today is synthetic.,1,2026-08-07T05:47:44+00:00
 FT-0226,"The Ottoman Empire had a state department of tulips — the flower that triggered Dutch 'tulip mania' came to Europe from Istanbul, not Amsterdam.",1,2026-08-15T20:33:59+00:00
 FT-0227,"The Congo River plunges to depths of over 220 metres in places, making it the deepest river on Earth — deep enough that some fish species there evolved without eyes.",1,2026-08-22T15:30:49+00:00
