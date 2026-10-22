@@ -1,11 +1,3 @@
-=== 2026-10-09T02:02:22Z  run 922  status=success
-facts: read 1106 rows from origin/main (authoritative)
-state: FT-1049 recorded on main (attempt 1)
-posted fact [FT-1049]: The euro replaced twelve separate national currencies simultaneously i
-done: 1 fact(s) posted
-
-=== 2026-10-09T08:56:02Z  run 923  status=success
-facts: read 1106 rows from origin/main (authoritative)
 state: FT-1050 recorded on main (attempt 1)
 posted fact [FT-1050]: Turkey dropped six zeros from its lira in 2005, turning one million ol
 done: 1 fact(s) posted
@@ -396,5 +388,13 @@ state: FT-0049 recorded on main (attempt 1)
 posted fact [FT-0049]: Greenland is the world's largest island — 80% of it lies under an ice 
 state: FT-0017 recorded on main (attempt 1)
 posted fact [FT-0017]: Germany made its final WWI reparations payment in October 2010 — 92 ye
+done: 2 fact(s) posted
+
+=== 2026-10-22T22:15:08Z  run 984  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-0191 recorded on main (attempt 1)
+posted fact [FT-0191]: In 1950 the average woman worldwide had about 5 children. Today it's r
+state: FT-0184 recorded on main (attempt 1)
+posted fact [FT-0184]: Japan and South Korea have 10+ hospital beds per 1,000 people — severa
 done: 2 fact(s) posted
 
