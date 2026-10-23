@@ -1,11 +1,3 @@
-done: 1 fact(s) posted
-
-=== 2026-10-09T21:36:30Z  run 925  status=success
-facts: read 1106 rows from origin/main (authoritative)
-state: FT-1052 recorded on main (attempt 1)
-posted fact [FT-1052]: Djibouti has kept its franc pegged to the US dollar since 1949, one of
-done: 1 fact(s) posted
-
 === 2026-10-10T01:41:35Z  run 926  status=success
 facts: read 1106 rows from origin/main (authoritative)
 state: FT-1053 recorded on main (attempt 1)
@@ -396,5 +388,13 @@ state: FT-0168 recorded on main (attempt 1)
 posted fact [FT-0168]: Venice's Republic lasted 1,100 years (697-1797) — longer than the Roma
 state: FT-0140 recorded on main (attempt 1)
 posted fact [FT-0140]: The Aztec Empire was younger than Oxford University — it lasted less t
+done: 2 fact(s) posted
+
+=== 2026-10-23T08:27:14Z  run 986  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-0150 recorded on main (attempt 1)
+posted fact [FT-0150]: The Soviet Union lost roughly 27 million people in WW2 — about 1 in 7 
+state: FT-0103 recorded on main (attempt 1)
+posted fact [FT-0103]: Cleopatra lived closer in time to the Moon landing than to the buildin
 done: 2 fact(s) posted
 
