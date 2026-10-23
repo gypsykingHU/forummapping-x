@@ -1,11 +1,3 @@
-state: FT-1050 recorded on main (attempt 1)
-posted fact [FT-1050]: Turkey dropped six zeros from its lira in 2005, turning one million ol
-done: 1 fact(s) posted
-
-=== 2026-10-09T16:07:02Z  run 924  status=success
-facts: read 1106 rows from origin/main (authoritative)
-state: FT-1051 recorded on main (attempt 1)
-posted fact [FT-1051]: North Korea's 2009 currency redenomination wiped out much of the popul
 done: 1 fact(s) posted
 
 === 2026-10-09T21:36:30Z  run 925  status=success
@@ -396,5 +388,13 @@ state: FT-0191 recorded on main (attempt 1)
 posted fact [FT-0191]: In 1950 the average woman worldwide had about 5 children. Today it's r
 state: FT-0184 recorded on main (attempt 1)
 posted fact [FT-0184]: Japan and South Korea have 10+ hospital beds per 1,000 people — severa
+done: 2 fact(s) posted
+
+=== 2026-10-23T01:24:52Z  run 985  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-0168 recorded on main (attempt 1)
+posted fact [FT-0168]: Venice's Republic lasted 1,100 years (697-1797) — longer than the Roma
+state: FT-0140 recorded on main (attempt 1)
+posted fact [FT-0140]: The Aztec Empire was younger than Oxford University — it lasted less t
 done: 2 fact(s) posted
 
