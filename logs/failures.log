@@ -1,11 +1,3 @@
-=== 2026-10-10T01:41:35Z  run 926  status=success
-facts: read 1106 rows from origin/main (authoritative)
-state: FT-1053 recorded on main (attempt 1)
-posted fact [FT-1053]: Ecuador's currency, the sucre, collapsed so badly in a 1999-2000 crisi
-done: 1 fact(s) posted
-
-=== 2026-10-10T08:24:23Z  run 927  status=success
-facts: read 1106 rows from origin/main (authoritative)
 state: FT-1054 recorded on main (attempt 1)
 posted fact [FT-1054]: Many Swiss men keep a government-issued rifle at home after completing
 done: 1 fact(s) posted
@@ -396,5 +388,13 @@ state: FT-0150 recorded on main (attempt 1)
 posted fact [FT-0150]: The Soviet Union lost roughly 27 million people in WW2 — about 1 in 7 
 state: FT-0103 recorded on main (attempt 1)
 posted fact [FT-0103]: Cleopatra lived closer in time to the Moon landing than to the buildin
+done: 2 fact(s) posted
+
+=== 2026-10-23T14:12:07Z  run 987  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-0040 recorded on main (attempt 1)
+posted fact [FT-0040]: Oxford University is older than the Aztec Empire. Teaching began at Ox
+state: FT-0100 recorded on main (attempt 1)
+posted fact [FT-0100]: The Andes are the longest mountain range on land: ~7,000 km through 7 
 done: 2 fact(s) posted
 
