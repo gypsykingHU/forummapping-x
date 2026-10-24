@@ -1,11 +1,3 @@
-=== 2026-10-11T21:50:11Z  run 934  status=success
-facts: read 1106 rows from origin/main (authoritative)
-state: FT-1061 recorded on main (attempt 1)
-posted fact [FT-1061]: A wedge of West Antarctica called Marie Byrd Land, roughly the size of
-done: 1 fact(s) posted
-
-=== 2026-10-12T01:13:40Z  run 935  status=success
-facts: read 1106 rows from origin/main (authoritative)
 state: FT-1062 recorded on main (attempt 1)
 posted fact [FT-1062]: Several Antarctic claimant territories issue their own postage stamps,
 done: 1 fact(s) posted
@@ -396,5 +388,13 @@ state: FT-0080 recorded on main (attempt 1)
 posted fact [FT-0080]: Every point in Lesotho lies above 1,400 m — the highest 'low point' of
 state: FT-0028 recorded on main (attempt 1)
 posted fact [FT-0028]: At the Cold War's peak in 1986, the world held ~70,000 nuclear warhead
+done: 2 fact(s) posted
+
+=== 2026-10-24T18:03:13Z  run 993  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-0062 recorded on main (attempt 1)
+posted fact [FT-0062]: The Caspian Sea is the world's largest lake — bigger than Germany.
+state: FT-0060 recorded on main (attempt 1)
+posted fact [FT-0060]: Australia is wider than the Moon — about 4,000 km across, versus the M
 done: 2 fact(s) posted
 
