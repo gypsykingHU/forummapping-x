@@ -1,11 +1,3 @@
-state: FT-1058 recorded on main (attempt 1)
-posted fact [FT-1058]: Longyearbyen's cemetery in Norway's Svalbard archipelago has accepted 
-done: 1 fact(s) posted
-
-=== 2026-10-11T12:39:35Z  run 932  status=success
-facts: read 1106 rows from origin/main (authoritative)
-state: FT-1059 recorded on main (attempt 1)
-posted fact [FT-1059]: The Channel Island of Sark remained Europe's last fully feudal territo
 done: 1 fact(s) posted
 
 === 2026-10-11T18:00:24Z  run 933  status=success
@@ -396,5 +388,13 @@ state: FT-0211 recorded on main (attempt 1)
 posted fact [FT-0211]: The Hawaiian alphabet has just 13 letters. The Khmer script of Cambodi
 state: FT-0203 recorded on main (attempt 1)
 posted fact [FT-0203]: Papua New Guinea has roughly 840 living languages — more than any othe
+done: 2 fact(s) posted
+
+=== 2026-10-24T08:02:06Z  run 991  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-0199 recorded on main (attempt 1)
+posted fact [FT-0199]: Japan has nearly one retiree for every two working-age people. In much
+state: FT-0156 recorded on main (attempt 1)
+posted fact [FT-0156]: At the peak of the Berlin Airlift, an Allied supply plane landed in We
 done: 2 fact(s) posted
 
