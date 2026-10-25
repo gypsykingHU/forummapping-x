@@ -1,11 +1,3 @@
-=== 2026-10-13T01:15:55Z  run 938  status=success
-facts: read 1106 rows from origin/main (authoritative)
-state: FT-1065 recorded on main (attempt 1)
-posted fact [FT-1065]: Ladonia, a self-declared micronation inside a Swedish nature reserve, 
-done: 1 fact(s) posted
-
-=== 2026-10-13T09:18:44Z  run 939  status=success
-facts: read 1106 rows from origin/main (authoritative)
 state: FT-1066 recorded on main (attempt 1)
 posted fact [FT-1066]: Copenhagen's Freetown Christiania has operated under its own informall
 done: 1 fact(s) posted
@@ -396,5 +388,13 @@ state: FT-0220 recorded on main (attempt 1)
 posted fact [FT-0220]: The Cherokee syllabary was invented in the 1820s by Sequoyah, who coul
 state: FT-0063 recorded on main (attempt 1)
 posted fact [FT-0063]: Lake Baikal in Siberia holds roughly 20% of the world's unfrozen fresh
+done: 2 fact(s) posted
+
+=== 2026-10-25T05:55:24Z  run 996  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-0136 recorded on main (attempt 1)
+posted fact [FT-0136]: For over 200 years (1639-1853), Japan sealed itself off almost complet
+state: FT-0169 recorded on main (attempt 1)
+posted fact [FT-0169]: The Pony Express, icon of the American West, operated for just 18 mont
 done: 2 fact(s) posted
 
