@@ -1,11 +1,3 @@
-state: FT-1070 recorded on main (attempt 1)
-posted fact [FT-1070]: The Democratic Republic of the Congo and the Republic of the Congo are
-done: 1 fact(s) posted
-
-=== 2026-10-14T13:37:19Z  run 944  status=success
-facts: read 1106 rows from origin/main (authoritative)
-state: FT-1071 recorded on main (attempt 1)
-posted fact [FT-1071]: Niger and Nigeria are two distinct countries named after the same rive
 done: 1 fact(s) posted
 
 === 2026-10-14T18:30:54Z  run 945  status=success
@@ -396,5 +388,13 @@ state: FT-0088 recorded on main (attempt 1)
 posted fact [FT-0088]: Antarctica holds an estimated 60-70% of all the fresh water on Earth —
 state: FT-0068 recorded on main (attempt 1)
 posted fact [FT-0068]: Africa is the only continent that sits in all four hemispheres: north,
+done: 2 fact(s) posted
+
+=== 2026-10-25T23:09:45Z  run 1000  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-0081 recorded on main (attempt 1)
+posted fact [FT-0081]: The highest natural point of the Maldives is about 2.4 m above sea lev
+state: FT-0162 recorded on main (attempt 1)
+posted fact [FT-0162]: Legend has it Russia's shooting team missed the 1908 London Olympics b
 done: 2 fact(s) posted
 
