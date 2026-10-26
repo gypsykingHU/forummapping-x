@@ -1,11 +1,3 @@
-state: FT-1074 recorded on main (attempt 1)
-posted fact [FT-1074]: Sri Lanka was known internationally as Ceylon until 1972, when the new
-done: 1 fact(s) posted
-
-=== 2026-10-15T07:19:40Z  run 948  status=success
-facts: read 1106 rows from origin/main (authoritative)
-state: FT-1075 recorded on main (attempt 1)
-posted fact [FT-1075]: Bangkok's full ceremonial name runs to 169 characters in Thai; most Th
 done: 1 fact(s) posted
 
 === 2026-10-15T13:20:16Z  run 949  status=success
@@ -396,5 +388,13 @@ state: FT-0195 recorded on main (attempt 1)
 posted fact [FT-0195]: A century ago, about 1 in 4 children worldwide died before their fifth
 state: FT-0142 recorded on main (attempt 1)
 posted fact [FT-0142]: Timbuktu's families and libraries preserved an estimated 350,000+ medi
+done: 2 fact(s) posted
+
+=== 2026-10-26T20:25:21Z  run 1003  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-0112 recorded on main (attempt 1)
+posted fact [FT-0112]: The Netherlands and the Isles of Scilly were technically at war for 33
+state: FT-0030 recorded on main (attempt 1)
+posted fact [FT-0030]: Roman harbor concrete has survived 2,000 years of seawater. Modern mar
 done: 2 fact(s) posted
 
