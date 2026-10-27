@@ -1,0 +1,31 @@
+{
+  "id": "134-who-lives-where-they-were-not-born",
+  "posts": [
+    {
+      "text": "In Qatar, 76.7% of residents were born abroad. In China, 0.1%. Where do the world's migrants actually live?\n\na thread 🧵🗺️",
+      "image": "cm-migrants_share_world.png"
+    },
+    {
+      "text": "1/ On the world map, the top is Qatar (76.7%), the UAE (74%) and Kuwait (67.3%). Saudi Arabia 40.3%, Australia 30.4%, Canada 22.2%, the US 15.2%. India 0.3%, Japan 2.8%. Data: UN DESA via World Bank (2024)."
+    },
+    {
+      "text": "2/ In Europe the highest shares are tiny states: Monaco 70.2%, Liechtenstein 69.4%, Andorra 59.1%, Luxembourg 51.2%. Among big countries: Switzerland 31.1%, Sweden 21.4%, Germany 19.8%, the UK 17.1%, France 13.8%. Poland: 4.5%. Data: UN DESA via World Bank (2024).",
+      "image": "cm-migrants_share_europe.png"
+    },
+    {
+      "text": "3/ A note on definitions: 'foreign-born' counts where someone was born, not their citizenship. It measures how many residents moved, not how many hold a foreign passport."
+    },
+    {
+      "text": "4/ Refugees are a different map. Lebanon hosts 91 refugees per 1,000 inhabitants, Libya 74, Chad 72, Moldova 63. Germany 32, Turkey 28, Poland 27, the US 1.3. Data: UNHCR, end of 2025, excluding asylum seekers.",
+      "image": "cm-refugees_hosted_world.png"
+    },
+    {
+      "text": "5/ In the US and Canada the foreign-born share runs from 30% in Ontario and 29% in BC to under 3% in West Virginia, Montana and Newfoundland and Labrador. Data: US Census ACS (2020-24), StatCan (2021).",
+      "image": "cm-foreign_born_share_us_canada.png"
+    },
+    {
+      "text": "Mexico is the largest immigrant origin in 32 US states. Cuba leads in Florida, India in Ontario, China in BC. Which origin surprises you most? Follow @forummapping for more maps like this.",
+      "image": "cm-top_immigrant_origin_us_canada.png"
+    }
+  ]
+}
