@@ -1,11 +1,3 @@
-done: 1 fact(s) posted
-
-=== 2026-10-16T23:29:28Z  run 957  status=success
-facts: read 1106 rows from origin/main (authoritative)
-state: FT-1084 recorded on main (attempt 1)
-posted fact [FT-1084]: Argentina's name derives from the Latin word for silver, argentum, ref
-done: 1 fact(s) posted
-
 === 2026-10-17T04:14:08Z  run 958  status=success
 facts: read 1106 rows from origin/main (authoritative)
 state: FT-1085 recorded on main (attempt 1)
@@ -396,5 +388,13 @@ state: FT-0114 recorded on main (attempt 1)
 posted fact [FT-0114]: Genetic studies suggest roughly 1 in 200 men alive today may descend f
 state: FT-0182 recorded on main (attempt 1)
 posted fact [FT-0182]: Suriname is about 97% forest — the most forested country on Earth. Ice
+done: 2 fact(s) posted
+
+=== 2026-10-28T13:58:04Z  run 1010  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-0046 recorded on main (attempt 1)
+posted fact [FT-0046]: Historians estimate Mansa Musa of Mali may have been the richest perso
+state: FT-0012 recorded on main (attempt 1)
+posted fact [FT-0012]: Russia sold Alaska to the US in 1867 for $7.2 million — about 2 cents 
 done: 2 fact(s) posted
 
