@@ -1,11 +1,3 @@
-=== 2026-10-17T04:14:08Z  run 958  status=success
-facts: read 1106 rows from origin/main (authoritative)
-state: FT-1085 recorded on main (attempt 1)
-posted fact [FT-1085]: Brazil is named after pau-brasil, a reddish dyewood tree that was once
-done: 1 fact(s) posted
-
-=== 2026-10-17T09:13:04Z  run 959  status=success
-facts: read 1106 rows from origin/main (authoritative)
 state: FT-1086 recorded on main (attempt 1)
 posted fact [FT-1086]: Ecuador takes its name directly from the equator, which runs through t
 done: 1 fact(s) posted
@@ -396,5 +388,13 @@ state: FT-0046 recorded on main (attempt 1)
 posted fact [FT-0046]: Historians estimate Mansa Musa of Mali may have been the richest perso
 state: FT-0012 recorded on main (attempt 1)
 posted fact [FT-0012]: Russia sold Alaska to the US in 1867 for $7.2 million — about 2 cents 
+done: 2 fact(s) posted
+
+=== 2026-10-28T20:12:56Z  run 1011  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-0152 recorded on main (attempt 1)
+posted fact [FT-0152]: In 1943, British intelligence dressed a corpse as a Royal Marines offi
+state: FT-0024 recorded on main (attempt 1)
+posted fact [FT-0024]: 44 countries have no coastline. Two are double-landlocked (you must cr
 done: 2 fact(s) posted
 
