@@ -1,11 +1,3 @@
-state: FT-1082 recorded on main (attempt 1)
-posted fact [FT-1082]: The Philippines is named after King Philip II of Spain, chosen by a Sp
-done: 1 fact(s) posted
-
-=== 2026-10-16T20:58:18Z  run 956  status=success
-facts: read 1106 rows from origin/main (authoritative)
-state: FT-1083 recorded on main (attempt 1)
-posted fact [FT-1083]: Venezuela's name means "little Venice," reportedly because early explo
 done: 1 fact(s) posted
 
 === 2026-10-16T23:29:28Z  run 957  status=success
@@ -396,5 +388,13 @@ state: FT-0001 recorded on main (attempt 1)
 posted fact [FT-0001]: Russia spans 11 time zones — when it's 9am in Kaliningrad, it's alread
 state: FT-0078 recorded on main (attempt 1)
 posted fact [FT-0078]: Everest is the highest point above sea level, but the summit of Ecuado
+done: 2 fact(s) posted
+
+=== 2026-10-28T06:48:05Z  run 1009  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-0114 recorded on main (attempt 1)
+posted fact [FT-0114]: Genetic studies suggest roughly 1 in 200 men alive today may descend f
+state: FT-0182 recorded on main (attempt 1)
+posted fact [FT-0182]: Suriname is about 97% forest — the most forested country on Earth. Ice
 done: 2 fact(s) posted
 
