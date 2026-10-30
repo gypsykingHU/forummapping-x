@@ -1,11 +1,3 @@
-done: 1 fact(s) posted
-
-=== 2026-10-18T20:34:00Z  run 969  status=success
-facts: read 1106 rows from origin/main (authoritative)
-state: FT-1096 recorded on main (attempt 1)
-posted fact [FT-1096]: Australia is the only country on Earth that is also an entire continen
-done: 1 fact(s) posted
-
 === 2026-10-19T01:37:32Z  run 970  status=success
 facts: read 1106 rows from origin/main (authoritative)
 state: FT-1097 recorded on main (attempt 1)
@@ -396,5 +388,13 @@ state: FT-0105 recorded on main (attempt 1)
 posted fact [FT-0105]: Nintendo was founded in 1889 — while the Ottoman Empire still ruled th
 state: FT-0139 recorded on main (attempt 1)
 posted fact [FT-0139]: The Library of Alexandria wasn't destroyed in one great fire — it decl
+done: 2 fact(s) posted
+
+=== 2026-10-30T19:54:43Z  run 1019  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-0067 recorded on main (attempt 1)
+posted fact [FT-0067]: Counting its fjords and islands, Norway's coastline runs roughly 100,0
+state: FT-0223 recorded on main (attempt 1)
+posted fact [FT-0223]: The croissant isn't French — it descends from the Austrian kipferl, br
 done: 2 fact(s) posted
 
