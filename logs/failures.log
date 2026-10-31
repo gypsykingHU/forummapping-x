@@ -1,11 +1,3 @@
-=== 2026-10-19T01:37:32Z  run 970  status=success
-facts: read 1106 rows from origin/main (authoritative)
-state: FT-1097 recorded on main (attempt 1)
-posted fact [FT-1097]: Indonesia, spread across more than 17,000 islands, shares land borders
-state: FT-1098 recorded on main (attempt 1)
-posted fact [FT-1098]: Tuvalu and Nauru, each with roughly 10,000 to 12,000 residents, rank a
-done: 2 fact(s) posted
-
 === 2026-10-19T09:17:02Z  run 971  status=success
 facts: read 1106 rows from origin/main (authoritative)
 state: FT-1099 recorded on main (attempt 1)
@@ -396,5 +388,13 @@ state: FT-0067 recorded on main (attempt 1)
 posted fact [FT-0067]: Counting its fjords and islands, Norway's coastline runs roughly 100,0
 state: FT-0223 recorded on main (attempt 1)
 posted fact [FT-0223]: The croissant isn't French — it descends from the Austrian kipferl, br
+done: 2 fact(s) posted
+
+=== 2026-10-31T00:41:11Z  run 1020  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-0216 recorded on main (attempt 1)
+posted fact [FT-0216]: Only two countries have square flags: Switzerland and the Vatican.
+state: FT-0106 recorded on main (attempt 1)
+posted fact [FT-0106]: The fax machine was patented in 1843 — 33 years before the telephone, 
 done: 2 fact(s) posted
 
