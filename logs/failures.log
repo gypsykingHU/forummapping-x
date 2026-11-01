@@ -1,11 +1,3 @@
-=== 2026-10-22T05:59:27Z  run 981  status=success
-facts: read 1106 rows from origin/main (authoritative)
-state: FT-0043 recorded on main (attempt 1)
-posted fact [FT-0043]: There are over 7,000 languages on Earth — but half of humanity speaks 
-state: FT-0074 recorded on main (attempt 1)
-posted fact [FT-0074]: Russia and the US are less than 4 km apart. Between the Diomede Island
-done: 2 fact(s) posted
-
 === 2026-10-22T12:55:29Z  run 982  status=success
 facts: read 1106 rows from origin/main (authoritative)
 state: FT-0111 recorded on main (attempt 1)
@@ -396,5 +388,13 @@ state: FT-0337 recorded on main (attempt 1)
 posted fact [FT-0337]: Greater Buenos Aires holds roughly a third of Argentina's entire popul
 state: FT-0186 recorded on main (attempt 1)
 posted fact [FT-0186]: Extreme poverty (under $2.15/day) is now concentrated almost entirely 
+done: 2 fact(s) posted
+
+=== 2026-11-01T22:07:55Z  run 1031  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-0072 recorded on main (attempt 1)
+posted fact [FT-0072]: Reno, Nevada is farther west than Los Angeles, California. Check a map
+state: FT-0284 recorded on main (attempt 1)
+posted fact [FT-0284]: In the Six-Day War of 1967, Israel took control of several times as mu
 done: 2 fact(s) posted
 
