@@ -1,11 +1,3 @@
-=== 2026-10-20T08:51:54Z  run 974  status=success
-facts: read 1106 rows from origin/main (authoritative)
-state: FT-1105 recorded on main (attempt 1)
-posted fact [FT-1105]: The 1868 Mannheim Act guarantees landlocked Switzerland free navigatio
-state: FT-1106 recorded on main (attempt 1)
-posted fact [FT-1106]: Basel's main train station includes a French-run sector, Basel SNCF, w
-done: 2 fact(s) posted
-
 === 2026-10-20T22:13:59Z  run 975  status=success
 facts: read 1106 rows from origin/main (authoritative)
 state: FT-0006 recorded on main (attempt 1)
@@ -396,5 +388,13 @@ state: FT-0134 recorded on main (attempt 1)
 posted fact [FT-0134]: On Christmas 1914, German and British soldiers climbed out of the tren
 state: FT-0020 recorded on main (attempt 1)
 posted fact [FT-0020]: Indonesia is made up of over 17,000 islands and stretches wider than t
+done: 2 fact(s) posted
+
+=== 2026-11-01T00:00:55Z  run 1024  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-0171 recorded on main (attempt 1)
+posted fact [FT-0171]: Roman gladiators rarely fought to the death — they were expensive inve
+state: FT-0095 recorded on main (attempt 1)
+posted fact [FT-0095]: Lake Titicaca, at ~3,800 m, is the highest lake in the world with larg
 done: 2 fact(s) posted
 
