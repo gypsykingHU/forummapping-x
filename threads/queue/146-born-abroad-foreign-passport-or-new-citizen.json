@@ -1,0 +1,30 @@
+{
+  "id": "146-born-abroad-foreign-passport-or-new-citizen",
+  "posts": [
+    {
+      "text": "Being born abroad and holding a foreign passport are different things. Four maps show how Europe and the world measure migration.\n\na thread 🧵🗺️",
+      "image": "cm-foreign_citizens_europe.png"
+    },
+    {
+      "text": "1/ Foreign citizens as a share of the population, 2025: Monaco 75.9%, Luxembourg 47.0%, Liechtenstein 35.1%, Switzerland 27.4%. Germany 14.8%, Spain 14.1%, France 9.4%, Italy 9.1%. Poland 1.2%. Data: Eurostat. Citizenship, not birthplace."
+    },
+    {
+      "text": "2/ Estonia (17.9%) and Latvia (12.3%) include 'non-citizens' as well as foreign citizens, so their figures aren't directly comparable with a passport-only count."
+    },
+    {
+      "text": "3/ How many foreigners become citizens? Sweden had 7.5 naturalisations per 100 foreign residents in 2024. Norway 4.3, Italy 4.1, Spain and the Netherlands 3.9, Germany 2.4, France 1.7, Lithuania 0.1. Data: Eurostat, own calculation.",
+      "image": "cm-naturalisation_rate_europe.png"
+    },
+    {
+      "text": "4/ Net migration per 1,000 people in 2024: Liechtenstein +20.6, Portugal +19.2, Malta +18.7, Spain +12.8. Moldova lost 13.4 per 1,000 and Albania 12.1. Data: Eurostat (2024).",
+      "image": "cm-net_migration_europe.png"
+    },
+    {
+      "text": "5/ Refugees abroad by origin, per 1,000 of the home population: Venezuela 268, South Sudan 206, Syria 196, Eritrea 187, Ukraine 135, Afghanistan 91. Data: UNHCR (end-2025), World Bank.",
+      "image": "cm-refugees_origin_world.png"
+    },
+    {
+      "text": "Four maps, four different ways to count migration: passport, naturalisation, net flows, displacement. Which one tells you most? Follow @forummapping for more maps like this."
+    }
+  ]
+}
