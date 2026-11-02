@@ -35,7 +35,7 @@ Common to all jobs (Advanced tab):
 That is 3 jobs (threads is one job with two hours). Use "Test run" on each once; expect 204, then check the Actions tab.
 Because cron-job.org has a timezone option, you can instead set the account timezone to Europe/Budapest and enter threads as 08:30 and 19:30 so daylight saving is followed automatically (shift the other hours accordingly).
 
-## Step 4: after the first on-time runs succeed, tell Claude
+## Step 4 (DONE 2026-11-02): GitHub schedule lines removed from the 3 workflows
 Claude then removes the `schedule:` lines from the three workflows. Leaving both on would double-post at random extra times
 (the repeat-protection stops the same map twice in a row, but not extra posts), so GitHub's own cron should not run in parallel.
 

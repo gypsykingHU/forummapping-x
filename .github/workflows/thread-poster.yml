@@ -1,12 +1,8 @@
 name: Thread poster
 
 on:
-  schedule:
-    # 2 threads/day, CET: morning 07:30 UTC (08:30 CET / 09:30 CEST),
-    # evening 18:30 UTC (19:30 CET / 20:30 CEST). GitHub cron is UTC-only, so the
-    # local time moves by 1h when daylight saving changes.
-    - cron: '30 7 * * *'
-    - cron: '30 18 * * *'
+  # No GitHub schedule: threads are triggered on time by cron-job.org (see CRON-JOB-SETUP.md),
+  # which calls this workflow through workflow_dispatch. GitHub's own cron was unreliable and duplicated runs.
   workflow_dispatch:
     inputs:
       dry_run:

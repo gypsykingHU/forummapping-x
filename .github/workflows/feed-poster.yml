@@ -1,10 +1,8 @@
 name: Maps (every 2h)
 
 on:
-  schedule:
-    # Even UTC hours (00,02,...,22) = 12 map posts/day, exactly 1 per run (no batching).
-    # Alternates with the fact poster (odd hours): facts, map, facts, map...
-    - cron: '7 0-22/2 * * *'
+  # No GitHub schedule: maps are triggered on time by cron-job.org (see CRON-JOB-SETUP.md),
+  # which calls this workflow through workflow_dispatch. GitHub's own cron was unreliable and duplicated runs.
   workflow_dispatch:
     inputs:
       dry_run:
