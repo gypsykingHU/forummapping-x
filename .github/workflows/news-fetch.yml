@@ -1,9 +1,8 @@
 name: News fetch
 
 on:
-  schedule:
-    # 05:30 UTC on days divisible by 3 — hours before the digest writer runs
-    - cron: '30 5 * * 1'      # Monday early — feeds that day's newsletter research
+  # No GitHub schedule: triggered Mondays 06:30 Brussels time by cron-job.org (see CRON-JOB-SETUP.md)
+  # via workflow_dispatch, so the news digest always has fresh data. GitHub's cron dropped/delayed runs.
   workflow_dispatch:
 
 permissions:

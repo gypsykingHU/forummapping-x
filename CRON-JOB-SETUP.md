@@ -48,3 +48,8 @@ Three jobs exist, timezone **Europe/Brussels** (follows CET/CEST automatically):
 
 Remaining manual step: in each of the 3 jobs, Advanced tab > Headers > Authorization, replace
 `Bearer PASTE_YOUR_GITHUB_TOKEN_HERE` with `Bearer <your token>`, Save, then Test run (expect HTTP 204).
+
+## News fetch (added 2026-11-02)
+4th job: "Forummapping News fetch", `30 6 * * 1` (Mondays 06:30 Brussels) -> news-fetch.yml. GitHub schedule removed from that workflow.
+The news digest task (Mondays 08:11) needs news_raw/latest.json < 3 days old; this guarantees it. newsletter.yml (Mon 15:00 UTC) and
+newsletter-thread.yml (Wed 03:00 UTC) still use GitHub's schedule; move them to cron-job.org the same way if they ever get dropped.
