@@ -1,11 +1,3 @@
-=== 2026-10-23T01:24:52Z  run 985  status=success
-facts: read 1106 rows from origin/main (authoritative)
-state: FT-0168 recorded on main (attempt 1)
-posted fact [FT-0168]: Venice's Republic lasted 1,100 years (697-1797) — longer than the Roma
-state: FT-0140 recorded on main (attempt 1)
-posted fact [FT-0140]: The Aztec Empire was younger than Oxford University — it lasted less t
-done: 2 fact(s) posted
-
 === 2026-10-23T08:27:14Z  run 986  status=success
 facts: read 1106 rows from origin/main (authoritative)
 state: FT-0150 recorded on main (attempt 1)
@@ -396,5 +388,13 @@ state: FT-0047 recorded on main (attempt 1)
 posted fact [FT-0047]: The Suez Canal cuts ~7,000 km off the Europe–Asia sea route. Roughly 1
 state: FT-0500 recorded on main (attempt 1)
 posted fact [FT-0500]: Vilnius's bohemian Užupis district declared itself an independent repu
+done: 2 fact(s) posted
+
+=== 2026-11-02T04:07:58Z  run 1035  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-0310 recorded on main (attempt 1)
+posted fact [FT-0310]: Roald Amundsen's team reached the South Pole in December 1911, about a
+state: FT-0437 recorded on main (attempt 1)
+posted fact [FT-0437]: Edward Jenner tested the first vaccine in rural England in 1796, using
 done: 2 fact(s) posted
 
