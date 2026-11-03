@@ -1,11 +1,3 @@
-=== 2026-10-26T14:07:31Z  run 1002  status=success
-facts: read 1106 rows from origin/main (authoritative)
-state: FT-0195 recorded on main (attempt 1)
-posted fact [FT-0195]: A century ago, about 1 in 4 children worldwide died before their fifth
-state: FT-0142 recorded on main (attempt 1)
-posted fact [FT-0142]: Timbuktu's families and libraries preserved an estimated 350,000+ medi
-done: 2 fact(s) posted
-
 === 2026-10-26T20:25:21Z  run 1003  status=success
 facts: read 1106 rows from origin/main (authoritative)
 state: FT-0112 recorded on main (attempt 1)
@@ -397,4 +389,12 @@ posted fact [FT-0124]: 'Big Ben' is the bell, not the tower. The tower is offici
 state: FT-0389 recorded on main (attempt 1)
 posted fact [FT-0389]: Tuberculosis, curable for 70 years, still kills more than a million pe
 done: 2 fact(s) posted
+
+=== 2026-11-03T12:07:26Z  run 1052  status=success
+facts: read 1106 rows from origin/main (authoritative)
+fact bank: 1106/1106 used at least once (100.0%), 0 never posted
+LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
+state: FT-0425 recorded on main (attempt 1)
+posted fact [FT-0425]: The piñata's path runs through several countries: it likely began in C
+done: 1 fact(s) posted
 
