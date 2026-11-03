@@ -1,11 +1,3 @@
-=== 2026-10-27T06:10:04Z  run 1005  status=success
-facts: read 1106 rows from origin/main (authoritative)
-state: FT-0127 recorded on main (attempt 1)
-posted fact [FT-0127]: Vikings reached North America around the year 1000 — nearly five centu
-state: FT-0180 recorded on main (attempt 1)
-posted fact [FT-0180]: The US spends about 17% of its GDP on healthcare — a larger share than
-done: 2 fact(s) posted
-
 === 2026-10-27T13:08:08Z  run 1006  status=success
 facts: read 1106 rows from origin/main (authoritative)
 state: FT-0107 recorded on main (attempt 1)
@@ -396,5 +388,13 @@ fact bank: 1106/1106 used at least once (100.0%), 0 never posted
 LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
 state: FT-0475 recorded on main (attempt 1)
 posted fact [FT-0475]: Under a 1920 treaty, citizens of many countries can live and work in N
+done: 1 fact(s) posted
+
+=== 2026-11-03T18:07:57Z  run 1055  status=success
+facts: read 1106 rows from origin/main (authoritative)
+fact bank: 1106/1106 used at least once (100.0%), 0 never posted
+LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
+state: FT-0378 recorded on main (attempt 1)
+posted fact [FT-0378]: China grows roughly half the world's apples, per Our World in Data.
 done: 1 fact(s) posted
 
