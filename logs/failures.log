@@ -1,11 +1,3 @@
-=== 2026-10-25T12:30:28Z  run 997  status=success
-facts: read 1106 rows from origin/main (authoritative)
-state: FT-0212 recorded on main (attempt 1)
-posted fact [FT-0212]: The Rotokas language of Papua New Guinea uses an alphabet of only 12 l
-state: FT-0164 recorded on main (attempt 1)
-posted fact [FT-0164]: When Genghis Khan died in 1227, the escort reportedly killed everyone 
-done: 2 fact(s) posted
-
 === 2026-10-25T17:02:02Z  run 998  status=success
 facts: read 1106 rows from origin/main (authoritative)
 state: FT-0050 recorded on main (attempt 1)
@@ -396,5 +388,13 @@ state: FT-0462 recorded on main (attempt 1)
 posted fact [FT-0462]: Thomas More coined "utopia" in 1516 as a Greek pun that can mean eithe
 state: FT-0269 recorded on main (attempt 1)
 posted fact [FT-0269]: Newfoundland governed itself as a separate dominion of the British Emp
+done: 2 fact(s) posted
+
+=== 2026-11-03T02:07:52Z  run 1047  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-0259 recorded on main (attempt 1)
+posted fact [FT-0259]: Canada's Bay of Fundy has the highest tidal range on Earth. The differ
+state: FT-0440 recorded on main (attempt 1)
+posted fact [FT-0440]: GPS satellites experience time differently under relativity — without 
 done: 2 fact(s) posted
 
