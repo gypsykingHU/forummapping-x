@@ -1,4 +1,4 @@
-name: Facts (odd hours, 2 per run)
+name: Facts (every 2h, 1 per run)
 
 on:
   # No GitHub schedule: facts are triggered on time by cron-job.org (see CRON-JOB-SETUP.md),

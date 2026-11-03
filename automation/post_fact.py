@@ -90,8 +90,38 @@ def load_facts():
         return list(reader), reader.fieldnames
 
 
-FACTS_PER_RUN = 2          # the workflow fires on odd hours, 12x/day -> 24 facts/day
-SPACING_SECONDS = 20       # gap between the two posts of one run
+FACTS_PER_RUN = 1          # cron-job.org fires on odd hours (every 2h): 12 facts/day
+SPACING_SECONDS = 20       # only matters if FACTS_PER_RUN is raised again
+
+# NEW-FACT LANE (Milan, 2026-11-03): facts that have never been posted go out first
+# (lowest fact_id first), but never more than FRESH_MAX_IN_WINDOW of the last
+# FRESH_WINDOW fact posts -- the rest of the time the normal rotation (least-posted,
+# longest-rested) continues, so old facts keep circulating.
+FRESH_WINDOW = 4
+FRESH_MAX_IN_WINDOW = 3
+LOW_STOCK_USED_PCT = 90    # at/above this share of the bank used at least once, more facts must be written
+
+
+def bank_status(rows):
+    n = len(rows)
+    used = sum(1 for r in rows if int(r["times_posted"] or 0) > 0)
+    pct = 100.0 * used / n if n else 100.0
+    return n, used, pct
+
+
+def _fresh_pick(rows):
+    """Return the next never-posted fact if the new-fact lane has room, else None."""
+    fresh = [r for r in rows if int(r["times_posted"] or 0) == 0]
+    if not fresh:
+        return None
+    recent = sorted((r for r in rows if r["last_posted"]), key=lambda r: r["last_posted"],
+                    reverse=True)[:FRESH_WINDOW]
+    # a fact whose times_posted is exactly 1 and was posted recently went out as its
+    # first-ever post, i.e. through this lane
+    used = sum(1 for r in recent if int(r["times_posted"] or 0) == 1)
+    if used >= FRESH_MAX_IN_WINDOW and len(fresh) < len(rows):
+        return None
+    return min(fresh, key=lambda r: r.get("fact_id") or "")
 
 
 def main():
@@ -103,6 +133,18 @@ def main():
     if not rows:
         print("facts.csv is empty")
         return
+
+    if "--status" in sys.argv:                 # used by the content tasks: no posting
+        n, used, pct = bank_status(rows)
+        print(f"fact bank: {used}/{n} used at least once ({pct:.1f}%), {n - used} never posted; "
+              f"{'LOW STOCK -- write new facts' if pct >= LOW_STOCK_USED_PCT else 'ok'}")
+        return
+
+    n, used, pct = bank_status(rows)
+    print(f"fact bank: {used}/{n} used at least once ({pct:.1f}%), {n - used} never posted")
+    if pct >= LOW_STOCK_USED_PCT:
+        print(f"LOW STOCK: {pct:.0f}% of the bank has been used (threshold {LOW_STOCK_USED_PCT}%) "
+              f"-- the daily intake/content-writer task should write new facts.")
 
     posted = 0
     for i in range(FACTS_PER_RUN):
@@ -127,8 +169,15 @@ def post_one(rows, fieldnames):
     def last_posted(r):
         return r["last_posted"] or ""          # never-posted sorts first (empty string)
 
-    min_used = min(int(r["times_posted"] or 0) for r in rows)
-    pool = [r for r in rows if int(r["times_posted"] or 0) == min_used]
+    fresh_row = _fresh_pick(rows)
+    if fresh_row is not None:
+        pool = [fresh_row]
+    else:
+        # new-fact lane full (or empty): normal rotation, newest facts excluded so the
+        # lane's own ordering is not undone
+        base = [r for r in rows if int(r["times_posted"] or 0) > 0] or rows
+        min_used = min(int(r["times_posted"] or 0) for r in base)
+        pool = [r for r in base if int(r["times_posted"] or 0) == min_used]
 
     # Hard cooldown: never repeat anything seen in the last COOLDOWN_DAYS, even if
     # it is technically "least posted". Only relaxed if the whole bank is too small.
