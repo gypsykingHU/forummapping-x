@@ -1,11 +1,3 @@
-=== 2026-10-26T05:59:16Z  run 1001  status=success
-facts: read 1106 rows from origin/main (authoritative)
-state: FT-0038 recorded on main (attempt 1)
-posted fact [FT-0038]: Rome's road network reached ~80,000 km of paved highways — enough to c
-state: FT-0122 recorded on main (attempt 1)
-posted fact [FT-0122]: The Eiffel Tower grows roughly 15 cm taller on hot summer days as the 
-done: 2 fact(s) posted
-
 === 2026-10-26T14:07:31Z  run 1002  status=success
 facts: read 1106 rows from origin/main (authoritative)
 state: FT-0195 recorded on main (attempt 1)
@@ -396,5 +388,13 @@ state: FT-0426 recorded on main (attempt 1)
 posted fact [FT-0426]: Flamenco grew out of centuries of coexistence in Andalusia, blending R
 state: FT-0022 recorded on main (attempt 1)
 posted fact [FT-0022]: Mount Everest grows about 4 mm taller every year as the Indian plate k
+done: 2 fact(s) posted
+
+=== 2026-11-03T10:07:51Z  run 1051  status=success
+facts: read 1106 rows from origin/main (authoritative)
+state: FT-0124 recorded on main (attempt 1)
+posted fact [FT-0124]: 'Big Ben' is the bell, not the tower. The tower is officially the Eliz
+state: FT-0389 recorded on main (attempt 1)
+posted fact [FT-0389]: Tuberculosis, curable for 70 years, still kills more than a million pe
 done: 2 fact(s) posted
 
