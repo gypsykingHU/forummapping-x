@@ -1,11 +1,3 @@
-=== 2026-10-29T20:12:11Z  run 1015  status=success
-facts: read 1106 rows from origin/main (authoritative)
-state: FT-0166 recorded on main (attempt 1)
-posted fact [FT-0166]: Spain's Council of the Indies governed an empire on which the sun lite
-state: FT-0130 recorded on main (attempt 1)
-posted fact [FT-0130]: At the 1936 Olympics, Liechtenstein and Haiti discovered they had iden
-done: 2 fact(s) posted
-
 === 2026-10-30T00:47:59Z  run 1016  status=success
 facts: read 1106 rows from origin/main (authoritative)
 state: FT-0091 recorded on main (attempt 1)
@@ -396,5 +388,13 @@ fact bank: 1106/1106 used at least once (100.0%), 0 never posted
 LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
 state: FT-0225 recorded on main (attempt 1)
 posted fact [FT-0225]: Vanilla is native to Mexico — for 300 years the Aztecs' secret ingredi
+done: 1 fact(s) posted
+
+=== 2026-11-04T14:07:27Z  run 1065  status=success
+facts: read 1106 rows from origin/main (authoritative)
+fact bank: 1106/1106 used at least once (100.0%), 0 never posted
+LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
+state: FT-0359 recorded on main (attempt 1)
+posted fact [FT-0359]: Scandinavian governments collect more than 40% of GDP in taxes; some A
 done: 1 fact(s) posted
 
