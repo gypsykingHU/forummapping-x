@@ -1,11 +1,3 @@
-=== 2026-10-29T06:57:23Z  run 1013  status=success
-facts: read 1106 rows from origin/main (authoritative)
-state: FT-0082 recorded on main (attempt 1)
-posted fact [FT-0082]: Bir Tawil, a patch of desert between Egypt and Sudan, is claimed by ne
-state: FT-0077 recorded on main (attempt 1)
-posted fact [FT-0077]: Landlocked Bolivia still maintains a navy of several thousand personne
-done: 2 fact(s) posted
-
 === 2026-10-29T14:07:43Z  run 1014  status=success
 facts: read 1106 rows from origin/main (authoritative)
 state: FT-0172 recorded on main (attempt 1)
@@ -396,5 +388,13 @@ fact bank: 1106/1106 used at least once (100.0%), 0 never posted
 LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
 state: FT-0243 recorded on main (attempt 1)
 posted fact [FT-0243]: Tristan da Cunha is the most remote inhabited archipelago on Earth — i
+done: 1 fact(s) posted
+
+=== 2026-11-04T10:07:29Z  run 1063  status=success
+facts: read 1106 rows from origin/main (authoritative)
+fact bank: 1106/1106 used at least once (100.0%), 0 never posted
+LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
+state: FT-0096 recorded on main (attempt 1)
+posted fact [FT-0096]: The Kaliningrad region — home to a million Russians — has no land conn
 done: 1 fact(s) posted
 
