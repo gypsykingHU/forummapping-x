@@ -1,11 +1,3 @@
-=== 2026-10-28T13:58:04Z  run 1010  status=success
-facts: read 1106 rows from origin/main (authoritative)
-state: FT-0046 recorded on main (attempt 1)
-posted fact [FT-0046]: Historians estimate Mansa Musa of Mali may have been the richest perso
-state: FT-0012 recorded on main (attempt 1)
-posted fact [FT-0012]: Russia sold Alaska to the US in 1867 for $7.2 million — about 2 cents 
-done: 2 fact(s) posted
-
 === 2026-10-28T20:12:56Z  run 1011  status=success
 facts: read 1106 rows from origin/main (authoritative)
 state: FT-0152 recorded on main (attempt 1)
@@ -396,5 +388,13 @@ fact bank: 1106/1106 used at least once (100.0%), 0 never posted
 LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
 state: FT-0271 recorded on main (attempt 1)
 posted fact [FT-0271]: The Free City of Danzig existed as its own League of Nations city-stat
+done: 1 fact(s) posted
+
+=== 2026-11-04T04:07:27Z  run 1060  status=success
+facts: read 1106 rows from origin/main (authoritative)
+fact bank: 1106/1106 used at least once (100.0%), 0 never posted
+LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
+state: FT-0293 recorded on main (attempt 1)
+posted fact [FT-0293]: Historians often cite the Frankish victory at the Battle of Tours in 7
 done: 1 fact(s) posted
 
