@@ -1,11 +1,3 @@
-=== 2026-11-01T00:00:55Z  run 1024  status=success
-facts: read 1106 rows from origin/main (authoritative)
-state: FT-0171 recorded on main (attempt 1)
-posted fact [FT-0171]: Roman gladiators rarely fought to the death — they were expensive inve
-state: FT-0095 recorded on main (attempt 1)
-posted fact [FT-0095]: Lake Titicaca, at ~3,800 m, is the highest lake in the world with larg
-done: 2 fact(s) posted
-
 === 2026-11-01T07:23:04Z  run 1025  status=success
 facts: read 1106 rows from origin/main (authoritative)
 state: FT-0061 recorded on main (attempt 1)
@@ -396,5 +388,13 @@ fact bank: 1106/1106 used at least once (100.0%), 0 never posted
 LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
 state: FT-0250 recorded on main (attempt 1)
 posted fact [FT-0250]: Kazakhstan's capital has changed names four times since 1998 alone: Ak
+done: 1 fact(s) posted
+
+=== 2026-11-05T08:07:34Z  run 1074  status=success
+facts: read 1106 rows from origin/main (authoritative)
+fact bank: 1106/1106 used at least once (100.0%), 0 never posted
+LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
+state: FT-0488 recorded on main (attempt 1)
+posted fact [FT-0488]: The flags of Kiribati and Tuvalu both depict a rising sun over ocean w
 done: 1 fact(s) posted
 
