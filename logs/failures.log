@@ -1,11 +1,3 @@
-=== 2026-11-02T14:07:50Z  run 1041  status=success
-facts: read 1106 rows from origin/main (authoritative)
-state: FT-0421 recorded on main (attempt 1)
-posted fact [FT-0421]: The Olympic marathon's odd distance, 42.195 km, wasn't fixed until the
-state: FT-0308 recorded on main (attempt 1)
-posted fact [FT-0308]: The Moroccan-born traveler Ibn Battuta covered an estimated 120,000 km
-done: 2 fact(s) posted
-
 === 2026-11-02T16:07:54Z  run 1042  status=success
 facts: read 1106 rows from origin/main (authoritative)
 state: FT-0332 recorded on main (attempt 1)
@@ -396,5 +388,13 @@ fact bank: 1106/1106 used at least once (100.0%), 0 never posted
 LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
 state: FT-0397 recorded on main (attempt 1)
 posted fact [FT-0397]: Fixed broadband is nearly universal across East Asia and Europe but st
+done: 1 fact(s) posted
+
+=== 2026-11-06T18:07:24Z  run 1091  status=success
+facts: read 1106 rows from origin/main (authoritative)
+fact bank: 1106/1106 used at least once (100.0%), 0 never posted
+LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
+state: FT-0242 recorded on main (attempt 1)
+posted fact [FT-0242]: Pitcairn Island has one of the smallest populations of any territory o
 done: 1 fact(s) posted
 
