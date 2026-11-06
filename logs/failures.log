@@ -1,11 +1,3 @@
-=== 2026-11-02T16:07:54Z  run 1042  status=success
-facts: read 1106 rows from origin/main (authoritative)
-state: FT-0332 recorded on main (attempt 1)
-posted fact [FT-0332]: Just over half of humanity now lives in cities; a century ago, fewer t
-state: FT-0031 recorded on main (attempt 1)
-posted fact [FT-0031]: The Mongol conquests may have depopulated so much farmland that regrow
-done: 2 fact(s) posted
-
 === 2026-11-02T18:08:08Z  run 1043  status=success
 facts: read 1106 rows from origin/main (authoritative)
 state: FT-0445 recorded on main (attempt 1)
@@ -396,5 +388,13 @@ fact bank: 1106/1106 used at least once (100.0%), 0 never posted
 LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
 state: FT-0242 recorded on main (attempt 1)
 posted fact [FT-0242]: Pitcairn Island has one of the smallest populations of any territory o
+done: 1 fact(s) posted
+
+=== 2026-11-06T20:07:36Z  run 1092  status=success
+facts: read 1106 rows from origin/main (authoritative)
+fact bank: 1106/1106 used at least once (100.0%), 0 never posted
+LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
+state: FT-0460 recorded on main (attempt 1)
+posted fact [FT-0460]: Vandal" comes from the Germanic Vandals, who sacked Rome in 455, thoug
 done: 1 fact(s) posted
 
