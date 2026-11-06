@@ -1,11 +1,3 @@
-=== 2026-11-02T00:36:48Z  run 1033  status=success
-facts: read 1106 rows from origin/main (authoritative)
-state: FT-0053 recorded on main (attempt 1)
-posted fact [FT-0053]: Antarctica is the largest desert on Earth — far bigger than the Sahara
-state: FT-0347 recorded on main (attempt 1)
-posted fact [FT-0347]: Welsh is now a compulsory school subject across Wales, part of a natio
-done: 2 fact(s) posted
-
 === 2026-11-02T02:07:55Z  run 1034  status=success
 facts: read 1106 rows from origin/main (authoritative)
 state: FT-0047 recorded on main (attempt 1)
@@ -396,5 +388,13 @@ fact bank: 1106/1106 used at least once (100.0%), 0 never posted
 LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
 state: FT-0335 recorded on main (attempt 1)
 posted fact [FT-0335]: Seoul's metropolitan area holds roughly half of all South Koreans.
+done: 1 fact(s) posted
+
+=== 2026-11-06T02:07:24Z  run 1083  status=success
+facts: read 1106 rows from origin/main (authoritative)
+fact bank: 1106/1106 used at least once (100.0%), 0 never posted
+LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
+state: FT-0371 recorded on main (attempt 1)
+posted fact [FT-0371]: An average person in Iceland uses roughly 100 times more energy per ye
 done: 1 fact(s) posted
 
