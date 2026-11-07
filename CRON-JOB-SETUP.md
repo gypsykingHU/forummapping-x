@@ -53,3 +53,11 @@ Remaining manual step: in each of the 3 jobs, Advanced tab > Headers > Authoriza
 4th job: "Forummapping News fetch", `30 6 * * 1` (Mondays 06:30 Brussels) -> news-fetch.yml. GitHub schedule removed from that workflow.
 The news digest task (Mondays 08:11) needs news_raw/latest.json < 3 days old; this guarantees it. newsletter.yml (Mon 15:00 UTC) and
 newsletter-thread.yml (Wed 03:00 UTC) still use GitHub's schedule; move them to cron-job.org the same way if they ever get dropped.
+
+## Schedule v2 (2026-11-07, from reports/ANALYSIS-2026-11-07.md) -- Europe/Brussels
+- Maps `7 */3 * * *` (00:07, 03:07 ... 21:07) = 8/day -> feed-poster.yml; new Claude Maps capped at 3 of 8
+- Facts `37 10,13,16,22 * * *` = 4/day -> hourly-pulse.yml (1 fact per run, new facts first)
+- Threads `37 7,19 * * *` = 2/day -> thread-poster.yml (4-5 posts each)
+- News fetch `30 6 * * 1` -> news-fetch.yml
+Every post is >= 90 minutes from its neighbours. Review after 2+ weeks: median impressions per type vs baselines
+(historical map ~1,600; Claude data map ~450; fact ~410; thread opener ~890). Re-run the Analytics pull workflow to measure.
