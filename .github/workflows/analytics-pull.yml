@@ -1,0 +1,38 @@
+name: Analytics pull (one-off, manual)
+
+on:
+  workflow_dispatch:
+    inputs:
+      start:
+        description: 'Start date (YYYY-MM-DD)'
+        default: '2026-10-01'
+
+permissions:
+  contents: write
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Pull post metrics
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_KEY_SECRET: ${{ secrets.X_API_KEY_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+        run: python automation/analytics_pull.py --start "${{ inputs.start }}"
+      - name: Save report
+        run: |
+          git config user.name "forummapping-bot"
+          git config user.email "forummapping-bot@users.noreply.github.com"
+          git add reports/
+          git commit -m "analytics pull $(date -u +%F)" || echo "nothing to commit"
+          for attempt in 1 2 3; do
+            if git fetch origin main && git rebase origin/main && git push; then break; fi
+            git rebase --abort 2>/dev/null || true; sleep 5
+          done
