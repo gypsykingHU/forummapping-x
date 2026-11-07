@@ -172,9 +172,10 @@ ROLLING_MIN_SAMPLE = 10   # below this many recent posts, the window is too
 
 
 FRESH_TAG = "src:claude-maps"   # stamped into notes by ingest_approved.py
-FRESH_WINDOW = 12               # look at the last 12 posts (~1 day of map slots)...
-FRESH_MAX_IN_WINDOW = 8         # ...and let new maps take at most 8 of them, so the
-                                # older library always keeps >= 2 of every 6 slots
+FRESH_WINDOW = 8                # look at the last 8 posts (~1 day of map slots)...
+FRESH_MAX_IN_WINDOW = 3         # ...and let new maps take at most 3 of them (analysis 2026-11-07:
+                                # new data maps median ~450 impressions vs ~1,600 for historical originals)
+                                # so the rest of the library keeps at least 5 of every 8 slots
 
 
 def _is_fresh_src(r):
