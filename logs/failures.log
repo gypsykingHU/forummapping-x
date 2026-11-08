@@ -1,11 +1,3 @@
-=== 2026-11-03T22:07:37Z  run 1057  status=success
-facts: read 1106 rows from origin/main (authoritative)
-fact bank: 1106/1106 used at least once (100.0%), 0 never posted
-LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
-state: FT-0274 recorded on main (attempt 1)
-posted fact [FT-0274]: Macau was a Portuguese territory from 1557 until 1999, making it the o
-done: 1 fact(s) posted
-
 === 2026-11-04T00:07:29Z  run 1058  status=success
 facts: read 1106 rows from origin/main (authoritative)
 fact bank: 1106/1106 used at least once (100.0%), 0 never posted
@@ -396,5 +388,13 @@ fact bank: 1106/1106 used at least once (100.0%), 0 never posted
 LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
 state: FT-0313 recorded on main (attempt 1)
 posted fact [FT-0313]: Europeans searched for a Northwest Passage through the Arctic for cent
+done: 1 fact(s) posted
+
+=== 2026-11-08T12:37:24Z  run 1107  status=success
+facts: read 1106 rows from origin/main (authoritative)
+fact bank: 1106/1106 used at least once (100.0%), 0 never posted
+LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
+state: FT-0014 recorded on main (attempt 1)
+posted fact [FT-0014]: The Ottoman Empire lasted 623 years (1299–1922) — longer than the enti
 done: 1 fact(s) posted
 
