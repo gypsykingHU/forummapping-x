@@ -1,11 +1,3 @@
-=== 2026-11-04T18:07:42Z  run 1067  status=success
-facts: read 1106 rows from origin/main (authoritative)
-fact bank: 1106/1106 used at least once (100.0%), 0 never posted
-LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
-state: FT-0173 recorded on main (attempt 1)
-posted fact [FT-0173]: Ukraine now spends roughly 40% of its GDP on defense, per Our World in
-done: 1 fact(s) posted
-
 === 2026-11-04T20:07:24Z  run 1068  status=success
 facts: read 1106 rows from origin/main (authoritative)
 fact bank: 1106/1106 used at least once (100.0%), 0 never posted
@@ -396,5 +388,13 @@ fact bank: 1106/1106 used at least once (100.0%), 0 never posted
 LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
 state: FT-0264 recorded on main (attempt 1)
 posted fact [FT-0264]: The 1883 eruption of Krakatoa was reportedly heard some 4,800 km away 
+done: 1 fact(s) posted
+
+=== 2026-11-10T21:37:30Z  run 1117  status=success
+facts: read 1106 rows from origin/main (authoritative)
+fact bank: 1106/1106 used at least once (100.0%), 0 never posted
+LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
+state: FT-0324 recorded on main (attempt 1)
+posted fact [FT-0324]: More people who identify as Puerto Rican now live on the US mainland t
 done: 1 fact(s) posted
 
