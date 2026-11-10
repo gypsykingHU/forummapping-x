@@ -1,11 +1,3 @@
-=== 2026-11-04T16:07:24Z  run 1066  status=success
-facts: read 1106 rows from origin/main (authoritative)
-fact bank: 1106/1106 used at least once (100.0%), 0 never posted
-LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
-state: FT-0306 recorded on main (attempt 1)
-posted fact [FT-0306]: Vesuvius buried Pompeii and Herculaneum so completely in 79 AD that ar
-done: 1 fact(s) posted
-
 === 2026-11-04T18:07:42Z  run 1067  status=success
 facts: read 1106 rows from origin/main (authoritative)
 fact bank: 1106/1106 used at least once (100.0%), 0 never posted
@@ -396,5 +388,13 @@ fact bank: 1106/1106 used at least once (100.0%), 0 never posted
 LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
 state: FT-0348 recorded on main (attempt 1)
 posted fact [FT-0348]: Linguists estimate that somewhere in the world, a language falls silen
+done: 1 fact(s) posted
+
+=== 2026-11-10T15:37:32Z  run 1116  status=success
+facts: read 1106 rows from origin/main (authoritative)
+fact bank: 1106/1106 used at least once (100.0%), 0 never posted
+LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
+state: FT-0264 recorded on main (attempt 1)
+posted fact [FT-0264]: The 1883 eruption of Krakatoa was reportedly heard some 4,800 km away 
 done: 1 fact(s) posted
 
