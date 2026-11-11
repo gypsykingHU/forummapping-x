@@ -1,11 +1,3 @@
-=== 2026-11-04T22:07:28Z  run 1069  status=success
-facts: read 1106 rows from origin/main (authoritative)
-fact bank: 1106/1106 used at least once (100.0%), 0 never posted
-LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
-state: FT-0454 recorded on main (attempt 1)
-posted fact [FT-0454]: English speakers call the bird "turkey" because it reached Europe thro
-done: 1 fact(s) posted
-
 === 2026-11-05T00:07:27Z  run 1070  status=success
 facts: read 1106 rows from origin/main (authoritative)
 fact bank: 1106/1106 used at least once (100.0%), 0 never posted
@@ -396,5 +388,13 @@ fact bank: 1106/1106 used at least once (100.0%), 0 never posted
 LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
 state: FT-0304 recorded on main (attempt 1)
 posted fact [FT-0304]: William the Conqueror's 1086 survey of England, the Domesday Book, was
+done: 1 fact(s) posted
+
+=== 2026-11-11T12:37:24Z  run 1119  status=success
+facts: read 1106 rows from origin/main (authoritative)
+fact bank: 1106/1106 used at least once (100.0%), 0 never posted
+LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
+state: FT-0424 recorded on main (attempt 1)
+posted fact [FT-0424]: Finland is estimated to have roughly one sauna for every two people — 
 done: 1 fact(s) posted
 
