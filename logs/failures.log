@@ -1,11 +1,3 @@
-=== 2026-11-05T12:07:33Z  run 1076  status=success
-facts: read 1106 rows from origin/main (authoritative)
-fact bank: 1106/1106 used at least once (100.0%), 0 never posted
-LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
-state: FT-0496 recorded on main (attempt 1)
-posted fact [FT-0496]: Sepak takraw, a sport resembling volleyball played almost entirely wit
-done: 1 fact(s) posted
-
 === 2026-11-05T14:07:24Z  run 1077  status=success
 facts: read 1106 rows from origin/main (authoritative)
 fact bank: 1106/1106 used at least once (100.0%), 0 never posted
@@ -396,5 +388,13 @@ fact bank: 1106/1106 used at least once (100.0%), 0 never posted
 LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
 state: FT-0419 recorded on main (attempt 1)
 posted fact [FT-0419]: Ketchup started as a fermented fish sauce called ke-tsiap in southern 
+done: 1 fact(s) posted
+
+=== 2026-11-13T09:37:24Z  run 1126  status=success
+facts: read 1106 rows from origin/main (authoritative)
+fact bank: 1106/1106 used at least once (100.0%), 0 never posted
+LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
+state: FT-0268 recorded on main (attempt 1)
+posted fact [FT-0268]: Vermont operated as an independent republic with its own currency from
 done: 1 fact(s) posted
 
