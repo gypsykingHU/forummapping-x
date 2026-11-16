@@ -1,11 +1,3 @@
-=== 2026-11-06T12:07:27Z  run 1088  status=success
-facts: read 1106 rows from origin/main (authoritative)
-fact bank: 1106/1106 used at least once (100.0%), 0 never posted
-LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
-state: FT-0383 recorded on main (attempt 1)
-posted fact [FT-0383]: There are an estimated 1.5 billion cattle alive on Earth right now, wi
-done: 1 fact(s) posted
-
 === 2026-11-06T14:07:29Z  run 1089  status=success
 facts: read 1106 rows from origin/main (authoritative)
 fact bank: 1106/1106 used at least once (100.0%), 0 never posted
@@ -396,5 +388,13 @@ fact bank: 1106/1106 used at least once (100.0%), 0 never posted
 LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
 state: FT-0178 recorded on main (attempt 1)
 posted fact [FT-0178]: Half of Niger's population is younger than 15. Half of Japan's is olde
+done: 1 fact(s) posted
+
+=== 2026-11-16T09:37:29Z  run 1138  status=success
+facts: read 1106 rows from origin/main (authoritative)
+fact bank: 1106/1106 used at least once (100.0%), 0 never posted
+LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
+state: FT-0501 recorded on main (attempt 1)
+posted fact [FT-0501]: Key West, Florida briefly "seceded" from the United States in 1982 as 
 done: 1 fact(s) posted
 
