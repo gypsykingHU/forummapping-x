@@ -1,11 +1,3 @@
-=== 2026-11-06T16:07:24Z  run 1090  status=success
-facts: read 1106 rows from origin/main (authoritative)
-fact bank: 1106/1106 used at least once (100.0%), 0 never posted
-LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
-state: FT-0397 recorded on main (attempt 1)
-posted fact [FT-0397]: Fixed broadband is nearly universal across East Asia and Europe but st
-done: 1 fact(s) posted
-
 === 2026-11-06T18:07:24Z  run 1091  status=success
 facts: read 1106 rows from origin/main (authoritative)
 fact bank: 1106/1106 used at least once (100.0%), 0 never posted
@@ -396,5 +388,13 @@ fact bank: 1106/1106 used at least once (100.0%), 0 never posted
 LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
 state: FT-0249 recorded on main (attempt 1)
 posted fact [FT-0249]: South Africa splits its capital three ways: Pretoria for the executive
+done: 1 fact(s) posted
+
+=== 2026-11-16T15:37:31Z  run 1140  status=success
+facts: read 1106 rows from origin/main (authoritative)
+fact bank: 1106/1106 used at least once (100.0%), 0 never posted
+LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
+state: FT-0237 recorded on main (attempt 1)
+posted fact [FT-0237]: Kilimanjaro is the world's tallest freestanding mountain — not part of
 done: 1 fact(s) posted
 
