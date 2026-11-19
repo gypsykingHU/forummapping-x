@@ -1,11 +1,3 @@
-=== 2026-11-07T14:07:23Z  run 1101  status=success
-facts: read 1106 rows from origin/main (authoritative)
-fact bank: 1106/1106 used at least once (100.0%), 0 never posted
-LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
-state: FT-0159 recorded on main (attempt 1)
-posted fact [FT-0159]: Tsar Peter the Great taxed beards — Russian nobles had to carry a toke
-done: 1 fact(s) posted
-
 === 2026-11-07T16:07:22Z  run 1102  status=success
 facts: read 1106 rows from origin/main (authoritative)
 fact bank: 1106/1106 used at least once (100.0%), 0 never posted
@@ -396,5 +388,13 @@ fact bank: 1106/1106 used at least once (100.0%), 0 never posted
 LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
 state: FT-0466 recorded on main (attempt 1)
 posted fact [FT-0466]: Taxi" comes from the taximeter, a fare-calculating device fitted to ho
+done: 1 fact(s) posted
+
+=== 2026-11-19T12:38:02Z  run 1151  status=success
+facts: read 1106 rows from origin/main (authoritative)
+fact bank: 1106/1106 used at least once (100.0%), 0 never posted
+LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
+state: FT-0503 recorded on main (attempt 1)
+posted fact [FT-0503]: Australia's Cocos (Keeling) Islands were privately ruled by one family
 done: 1 fact(s) posted
 
