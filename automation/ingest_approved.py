@@ -30,6 +30,8 @@ Every move is appended to state/approved_ingest_log.csv.
 Flags: --dry-run (show only), --src DIR (override the Approved Maps folder).
 """
 import csv, datetime, hashlib, json, os, re, shutil, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import jpeg_util
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DB = os.path.join(REPO, "content_database.csv")
@@ -99,6 +101,12 @@ def ingest(src, dry):
         p = os.path.join(POSTS, fn)
         if os.path.isfile(p) and fn.lower().endswith(IMG_EXT):
             known[sha(p)] = fn
+    log_path = os.path.join(REPO, "state", "approved_ingest_log.csv")
+    if os.path.exists(log_path):          # source hashes of everything ever ingested (survives PNG->JPEG)
+        with open(log_path, newline="", encoding="utf-8") as lf:
+            for lr in csv.DictReader(lf):
+                if lr.get("sha256"):
+                    known.setdefault(lr["sha256"], lr.get("filename", ""))
     today = datetime.date.today().isoformat()
     n = next_id(rows)
     entries, added = [], 0
@@ -110,7 +118,8 @@ def ingest(src, dry):
             if not dry:
                 os.remove(path)
             continue
-        dest_name = PREFIX + name
+        # New maps are stored ONLY as JPEG (used by both X and Instagram); a JPEG source is copied as is.
+        dest_name = PREFIX + (name if jpeg_util.is_jpeg(name) else os.path.splitext(name)[0] + ".jpg")
         base, ext = os.path.splitext(dest_name)
         k = 2
         while os.path.exists(os.path.join(POSTS, dest_name)):
@@ -120,10 +129,23 @@ def ingest(src, dry):
             print(f"WOULD INGEST {name} -> Posts/{dest_name} as {mid}")
             n += 1
             continue
-        shutil.copy2(path, os.path.join(POSTS, dest_name))
-        if sha(os.path.join(POSTS, dest_name)) != digest:
-            os.remove(os.path.join(POSTS, dest_name))
-            print(f"copy verification failed for {name}; left it in Approved Maps")
+        dest_path = os.path.join(POSTS, dest_name)
+        try:
+            if jpeg_util.is_jpeg(name):
+                shutil.copy2(path, dest_path)
+                ok = sha(dest_path) == digest
+            else:
+                w, h = jpeg_util.to_jpeg(path, dest_path)
+                from PIL import Image
+                with Image.open(dest_path) as chk:
+                    ok = chk.format == "JPEG" and chk.size == (w, h) and os.path.getsize(dest_path) > 0
+        except Exception as e:
+            print(f"conversion failed for {name}: {e}")
+            ok = False
+        if not ok:
+            if os.path.exists(dest_path):
+                os.remove(dest_path)
+            print(f"copy/conversion verification failed for {name}; left it in Approved Maps")
             continue
         os.remove(path)                      # only after the verified copy exists
         rows.append({
