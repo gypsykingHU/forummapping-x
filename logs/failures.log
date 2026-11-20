@@ -1,11 +1,3 @@
-=== 2026-11-08T09:37:22Z  run 1106  status=success
-facts: read 1106 rows from origin/main (authoritative)
-fact bank: 1106/1106 used at least once (100.0%), 0 never posted
-LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
-state: FT-0313 recorded on main (attempt 1)
-posted fact [FT-0313]: Europeans searched for a Northwest Passage through the Arctic for cent
-done: 1 fact(s) posted
-
 === 2026-11-08T12:37:24Z  run 1107  status=success
 facts: read 1106 rows from origin/main (authoritative)
 fact bank: 1106/1106 used at least once (100.0%), 0 never posted
@@ -396,5 +388,13 @@ fact bank: 1106/1106 used at least once (100.0%), 0 never posted
 LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
 state: FT-0239 recorded on main (attempt 1)
 posted fact [FT-0239]: Madagascar split from mainland Africa roughly 160 million years ago. I
+done: 1 fact(s) posted
+
+=== 2026-11-20T15:37:34Z  run 1156  status=success
+facts: read 1106 rows from origin/main (authoritative)
+fact bank: 1106/1106 used at least once (100.0%), 0 never posted
+LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
+state: FT-0362 recorded on main (attempt 1)
+posted fact [FT-0362]: Small, trade-heavy economies can see trade flows worth 3 to 4 times th
 done: 1 fact(s) posted
 
