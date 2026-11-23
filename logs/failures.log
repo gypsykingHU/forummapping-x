@@ -1,11 +1,3 @@
-=== 2026-11-10T21:37:30Z  run 1117  status=success
-facts: read 1106 rows from origin/main (authoritative)
-fact bank: 1106/1106 used at least once (100.0%), 0 never posted
-LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
-state: FT-0324 recorded on main (attempt 1)
-posted fact [FT-0324]: More people who identify as Puerto Rican now live on the US mainland t
-done: 1 fact(s) posted
-
 === 2026-11-11T09:37:29Z  run 1118  status=success
 facts: read 1106 rows from origin/main (authoritative)
 fact bank: 1106/1106 used at least once (100.0%), 0 never posted
@@ -396,5 +388,13 @@ fact bank: 1106/1106 used at least once (100.0%), 0 never posted
 LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
 state: FT-0499 recorded on main (attempt 1)
 posted fact [FT-0499]: Test cricket, the sport's oldest format, can run for five full days an
+done: 1 fact(s) posted
+
+=== 2026-11-23T12:37:32Z  run 1167  status=success
+facts: read 1106 rows from origin/main (authoritative)
+fact bank: 1106/1106 used at least once (100.0%), 0 never posted
+LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
+state: FT-0340 recorded on main (attempt 1)
+posted fact [FT-0340]: An estimated one million Poles are thought to live and work in the UK 
 done: 1 fact(s) posted
 
