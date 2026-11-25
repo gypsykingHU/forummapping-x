@@ -1,11 +1,3 @@
-=== 2026-11-12T15:37:34Z  run 1124  status=success
-facts: read 1106 rows from origin/main (authoritative)
-fact bank: 1106/1106 used at least once (100.0%), 0 never posted
-LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
-state: FT-0295 recorded on main (attempt 1)
-posted fact [FT-0295]: The Congress of Vienna in 1815 redrew the map of Europe after Napoleon
-done: 1 fact(s) posted
-
 === 2026-11-12T21:37:24Z  run 1125  status=success
 facts: read 1106 rows from origin/main (authoritative)
 fact bank: 1106/1106 used at least once (100.0%), 0 never posted
@@ -396,5 +388,13 @@ fact bank: 1106/1106 used at least once (100.0%), 0 never posted
 LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
 state: FT-0432 recorded on main (attempt 1)
 posted fact [FT-0432]: Karate's postwar global spread owes a lot to American servicemen stati
+done: 1 fact(s) posted
+
+=== 2026-11-25T09:37:32Z  run 1174  status=success
+facts: read 1106 rows from origin/main (authoritative)
+fact bank: 1106/1106 used at least once (100.0%), 0 never posted
+LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
+state: FT-0444 recorded on main (attempt 1)
+posted fact [FT-0444]: When Alfred Wegener proposed continental drift in 1912, pointing to th
 done: 1 fact(s) posted
 
