@@ -1,11 +1,3 @@
-=== 2026-11-14T09:37:23Z  run 1130  status=success
-facts: read 1106 rows from origin/main (authoritative)
-fact bank: 1106/1106 used at least once (100.0%), 0 never posted
-LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
-state: FT-0483 recorded on main (attempt 1)
-posted fact [FT-0483]: Panama and Ecuador both use the US dollar as their official currency, 
-done: 1 fact(s) posted
-
 === 2026-11-14T12:37:32Z  run 1131  status=success
 facts: read 1106 rows from origin/main (authoritative)
 fact bank: 1106/1106 used at least once (100.0%), 0 never posted
@@ -396,5 +388,13 @@ fact bank: 1106/1106 used at least once (100.0%), 0 never posted
 LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
 state: FT-0244 recorded on main (attempt 1)
 posted fact [FT-0244]: In 2022, Canada and Denmark finally ended their decades-long "Whisky W
+done: 1 fact(s) posted
+
+=== 2026-11-26T15:37:30Z  run 1180  status=success
+facts: read 1106 rows from origin/main (authoritative)
+fact bank: 1106/1106 used at least once (100.0%), 0 never posted
+LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
+state: FT-0085 recorded on main (attempt 1)
+posted fact [FT-0085]: Sailors' trivia: the longest straight-line ocean voyage on Earth runs 
 done: 1 fact(s) posted
 
