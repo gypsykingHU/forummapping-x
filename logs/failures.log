@@ -1,11 +1,3 @@
-=== 2026-11-15T09:37:21Z  run 1134  status=success
-facts: read 1106 rows from origin/main (authoritative)
-fact bank: 1106/1106 used at least once (100.0%), 0 never posted
-LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
-state: FT-0346 recorded on main (attempt 1)
-posted fact [FT-0346]: Hindi and Urdu are close enough in speech that speakers understand eac
-done: 1 fact(s) posted
-
 === 2026-11-15T12:37:28Z  run 1135  status=success
 facts: read 1106 rows from origin/main (authoritative)
 fact bank: 1106/1106 used at least once (100.0%), 0 never posted
@@ -396,5 +388,13 @@ fact bank: 1106/1106 used at least once (100.0%), 0 never posted
 LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
 state: FT-0204 recorded on main (attempt 1)
 posted fact [FT-0204]: Basque, spoken in the Pyrenees, has no known living relatives — it lik
+done: 1 fact(s) posted
+
+=== 2026-11-27T15:37:30Z  run 1184  status=success
+facts: read 1106 rows from origin/main (authoritative)
+fact bank: 1106/1106 used at least once (100.0%), 0 never posted
+LOW STOCK: 100% of the bank has been used (threshold 90%) -- the daily intake/content-writer task should write new facts.
+state: FT-0480 recorded on main (attempt 1)
+posted fact [FT-0480]: Most residents of the Pitcairn Islands descend from the HMS Bounty mut
 done: 1 fact(s) posted
 
